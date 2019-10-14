@@ -1,0 +1,285 @@
+body {
+	width: 100vw;
+}
+#lifeheader {
+lenght: 100%;
+ background-color: gray;
+ padding: 5px; 
+ text-align: center;
+}
+#headername {
+padding: 10px;
+padding-left: 50px;
+padding-right: 5px;
+background: yellow;
+margin-left: 10px;
+position: fixed;
+}
+#headerpic {
+
+}
+#all {
+lenght: 100%; 
+background: black;
+ padding: 10px; 
+ background-size: 100%;
+}
+#most {
+lenght: 100%; 
+background-color: white; 
+border: 5px solid red; 
+padding: 20px;
+}
+#mostgospel {
+leanght: 100%; 
+background-color: yellow; 
+border: 5px solid red; 
+padding: 20px;
+}
+ p {
+ font-family: arial;
+ font-size: 20px;
+ }
+  h1 {
+ font-family: arial;
+ }
+ footer {
+ font-family: arial;
+ font-size: 20px;
+ }
+ div {
+ font-family: arial;
+  font-size: 20px;
+ }
+ #GospelLink {
+ font-family: arial;
+ font-size: 20px;
+ color: black; 
+ font-size: 20px; 
+ text-decoration: none;
+ border: 2px solid black;
+ margin-left: 10px;
+ margin-right: 10px;
+ padding: 5px;
+ }
+  #LifeNav {
+	  border-top: 5px solid black;
+  text-align: center;
+ width: 100%;
+ position: fixed; 
+ background-color: gold; 
+ bottom: 1px;
+ padding: 10px;
+ padding-bottom: 40px;
+ }
+ #lifeofjesusshare {
+ background-color: lightgreen;
+ leanght: 100%; 
+ padding: 15px;
+ border: 5px solid black;
+ }
+ footer {
+font-size: 20px; 
+background-color: gold;
+ text-align: center; 
+ padding: 5px; margin: 10px;
+ margin-bottom: 100px;
+ }
+  #ChapterNumber {
+ font-size: 40px;
+ }
+    #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+ #sunsitebox {
+ width: 25%;
+ background-color: lightgreen;
+ border: 5px dotted blue;
+ float: left;
+ padding: 10px;
+ margin: 10px;
+ }
+ 
+ 
+ .ChapterLinks {
+  background-color: lightyellow;
+  padding: 5px;
+  border: 5px solid black;
+  width: 120px;
+  float: left;
+  margin: 20px;
+ }
+ 
+ 
+ 
+ 
+    #Chapter {
+ font-size: 20px;
+ padding: 5px;
+  background-color: white;
+	}
+	#Chapter1 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter2 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter3 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter4 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter5 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter6 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter7 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter8 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter9 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter10 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter11 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter12 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter13 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter14 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter15 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter16 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter17 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter18 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter19 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter20 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter21 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter22 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter23 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter24 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter25 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter26 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	   #Chapter27 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+	#Chapter28 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter29 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}
+		#Chapter30 {
+ font-size: 20px;
+ padding: 10px;
+  background-color: white;
+	}

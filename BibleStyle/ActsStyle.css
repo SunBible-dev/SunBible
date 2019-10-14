@@ -1,0 +1,54 @@
+header {
+background-color: lightgray;
+border-bottom: 5px solid yellow;
+padding: 20px;
+margin-bottom: 10px;
+text-align: center;
+font-family: arial;
+font-size: 20px;
+position: fixed;
+top: 0px;
+right: 0px;
+width: 50%;
+z-index: 2;
+}
+body {
+background-color: black;
+}
+#allchapters {
+background-color: white;
+border-left: 5px solid purple;
+margin-left: 150px;
+padding: 20px;
+padding-left: 30px;
+padding-top: 100px;
+font-family: arial;
+font-size: 20px;
+}
+
+footer {
+background-color: grey;
+text-align: center;
+font-family: arial;
+font-size: 35px;
+padding: 20px;
+margin-top: 30px;
+}
+ .RedLetters {
+color: red
+ }
+ #Contents {
+	 position: fixed;
+	 background-color: lightgray;
+	 border-right: 5px solid gold;
+	 padding: 10px;
+	 left: 0px;
+z-index: 3;
+ }
+  #share {
+  padding: 50px;
+ background-color: yellow;
+ margin: 20px;
+ border: 5px solid black;
+ }
+ 

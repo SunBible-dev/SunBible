@@ -1,0 +1,41 @@
+div {
+ font-size: 20px;
+font-family: 'Coming Soon', cursive;
+ background-color: yellow;
+ padding: 10px;
+ text-align: center;
+ margin: 10px;
+ }
+  header {
+  font-size: 20px;
+ font-family: arial;
+ background-color: yellow;
+ padding: 10px;
+ text-align: center;
+ margin: 10px;
+ border: 5px solid green;
+  }
+  footer {
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  }
+  #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+  #BibleMemorizationGuide{
+  background-color: white;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+ }

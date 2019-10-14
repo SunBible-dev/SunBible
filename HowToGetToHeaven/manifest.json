@@ -1,0 +1,17 @@
+{
+"name": "How To Get To Heaven",
+"description" : "Find out how to get to heaven, even offline.",
+"version": "1.0",
+"manifest_version": 2,
+"author": "The SunShining",
+
+"icons": { "16": "Htgth.png",
+           "48": "Htgth.png",
+          "128": "Htgth.png" },
+
+"browser_action": {
+      "default_icon": "Htgth.png",
+      "default_popup": "index.html"
+    },
+	"offline_enabled": true
+}

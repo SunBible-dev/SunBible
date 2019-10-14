@@ -1,0 +1,25 @@
+body {
+background-image: linear-gradient(white, yellow);
+padding-left: 50px;
+padding-right: 50px;
+font-size: 20px;
+font-family: 'Josefin Sans', sans-serif;
+}
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.Shadow {
+    text-shadow: 5px 10px 2px #93968f,
+    -3px 6px 5px #e9fa00;
+}
+#SunOnJamesPic{
+    width: 200px;
+float: left;
+}
+
+footer {
+    text-align: center;
+    
+}

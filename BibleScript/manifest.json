@@ -1,0 +1,20 @@
+{
+  "short_name": "SunBible",
+  "name": "The SunShining/NCR Study Bible",
+  "icons": [
+    {
+      "src": "../Photos/SNBible.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../Photos/SNBible.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "../index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}

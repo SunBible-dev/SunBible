@@ -1,0 +1,209 @@
+body {
+	font-size: 20px;
+background-color: white;
+}
+.WhiteText {
+	color: white;
+}
+#HeaderAndNavBox {
+top: 0px;
+position: fixed;
+width: 100vw;
+height: 50px;
+background-color: rgb(255, 255, 180);
+padding: 10px;
+border-bottom: 5px solid black;
+}
+.headertext {
+	position: absolute;
+	top: 0px;
+}
+#IntroBox {
+	padding: 50px;
+	max-width: 100%;
+	height: 100vh;
+background-color: rgb(255, 255, 0);	
+	
+}
+.IntroVerse {
+	max-width: 100%;
+	position: absolute;
+	border: 5px solid black;
+	margin: 10px;
+	left: 30%;
+	right: 30%;
+	top: 60%;
+	text-align: center;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+.SpacerBox {
+	padding: 100px;
+	margin: 100px;
+	height; 500px;
+}
+#OnThisPageBox {
+	float: right;
+	width: 45%;
+	background-color: white;
+	padding: 20px;
+	
+}
+#DifferenceBox {
+	padding: 50px;
+	max-width: 100%;
+	min-height: 100vh;
+background-color: rgb(255, 0, 0);
+}
+#Positive {
+	background-color: white;
+	padding: 20px;
+	float: left;
+	width: 45%;
+}
+#Negative {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: right;
+	width: 45%;
+
+}
+#DiffCon {
+	background-color: rgb(140, 0, 0);
+	padding: 20px;
+	clear: both;
+	margin-top: 20px;
+	max-width: 100%;
+	color: white
+}
+#Psalm119Box {
+	padding: 50px;
+	max-width: 100%;
+	height: 100vh;
+background-color: rgb(0, 255, 0);
+}
+.Psalm119Iframe {
+	width: 100%;
+	height: 75vh;
+}
+#TheLawBox {
+	padding: 50px;
+		max-width: 100%;
+			min-height: 100vh;
+background-color: rgb(0, 0, 0);
+}
+#IntroToTheLawBox {
+	float: left;
+	width: 30%
+}
+#The10Box {
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	padding: 50px;
+	margin: 10px;
+		width: 45%;
+		float: right;
+background-color: lightgray;
+border: 5px solid gold;
+}
+#TheTorahBox {
+	padding: 20px;
+	margin: 10px;
+		width: 30%;
+		float: left;
+	max-height: 100%;
+background-color: rgb(255, 255, 255);
+}
+#Matthew5-17-20Box {
+	font-family: arial;
+	padding: 50px;
+	max-width: 100%;
+	height: 100vh;
+background-color: rgb(255, 0, 255);
+}
+.ClosingBoxLightPurple {
+	margin-top: 150px;
+	background-color: rgb(238, 130, 238);
+	padding: 20px;
+	
+}
+#ItsAllAboutLoveBox {
+	padding: 50px;
+	max-width: 100%;
+	height: 100vh;
+background-color: rgb(255, 206, 0);
+}
+#BlessingsBox {
+		padding: 50px;
+	max-width: 100%;
+	height: 100vh;
+background-color: rgb(0, 0, 255);
+}
+#Psalm1Box {
+	background-color: white;
+	padding: 20px;
+	float: right;
+	width: 45%;
+	margin-left: 20px;
+}
+.TextAlignCenter {
+	text-align: center;
+}
+.Matthew7-21-27 {
+	width: 45%;
+	max-width: 100%;
+	background-color: rgb(0, 255, 255);
+	padding: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 20px;
+}
+.NCRnote {
+	background-color: lightgray;
+	border: 5px solid gray;
+	padding: 10px;
+	float: right;
+	width: 50%;
+	margin-left: 20px;
+}
+.RedLetters {
+	color: red;
+}
+.DefaltImg {
+	max-width: 100%;
+}
+#HeyRomansBox {
+	background-color: rgb(213, 255, 0);
+	padding: 50px;
+		max-width: 100%;
+			min-height: 100vh;
+}
+#Acts15Box {
+	background-color: rgb(255, 82, 79);
+	padding: 50px;
+		max-width: 100%;
+			min-height: 100vh;
+}
+.Acts15-22-29 {
+	background-color: white;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: "arial";
+}
+#OtherResourcesBox {
+	padding: 50px;
+	max-width: 100%;
+	min-height: 100vh;
+background-color: rgb(255, 206, 0);
+}
+footer {
+	max-width: 100vw;
+	background-color: lightgray;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	padding: 30px;
+	
+}

@@ -1,0 +1,58 @@
+body {
+	background-image: url('https://i.imgur.com/U038n1L.jpg');
+	background-repeat: repeat;
+	background-size: 200px;
+font-size: 20px;
+font-family: arial;
+}
+header {
+background-color: gold; 
+padding: 20px; 
+lenght: 100%; 
+border-bottom: solid black 5px;
+float: center;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 0px;
+}
+#HeaderPic {
+
+}
+nav {
+lenght: 100%;
+ text-align: center;
+ background-color: white;
+ padding: 10px;
+}
+#pagelink {
+color: black;
+ text-decoration: none; 
+ font-size: 20px;
+ background-color: yellow;
+ font-size: 25px;
+ font-family: arial;
+}
+#pagelink:hover {
+	font-size: 35px;
+}
+#MainContentBox {
+background-color: yellow;
+ border: solid black; 
+ padding: 20px;
+float: center;
+margin-left: 5%;
+margin-right: 5%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+footer {
+	margin-top: 10px;
+background-color: lightgreen;
+ padding: 10px; 
+ font-size: 20px;
+font-family: arial;
+float: center;
+left: 10%;
+right: 10%;
+bottom: 0%;
+}
