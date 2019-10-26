@@ -1,4 +1,4 @@
-<div id="share">
+ <div class="SunBibleShareBox">
 Please share The SunShining Study Bible and NCR Study Bible with your friends:<br/>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
 

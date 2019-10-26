@@ -26,6 +26,12 @@ nav {
     background-color: lightyellow;
     border: 5px solid lightsalmon;
 }
+.SunBibleShareBox {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+}
 #SunOnJamesPic{
     width: 200px;
 float: left;
