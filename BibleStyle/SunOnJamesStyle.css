@@ -10,9 +10,21 @@ header {
     text-align: center;
     font-size: 35px;
 }
+nav {
+    float: right;
+    width: 300px;
+    background-color: yellow;
+    border: 5px solid black;
+    padding: 20px;
+}
 .Shadow {
     text-shadow: 5px 10px 2px #93968f,
     -3px 6px 5px #e9fa00;
+}
+.NCRnote {
+    float: right;
+    background-color: lightyellow;
+    border: 5px solid lightsalmon;
 }
 #SunOnJamesPic{
     width: 200px;
