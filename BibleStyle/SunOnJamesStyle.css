@@ -17,6 +17,16 @@ nav {
     border: 5px solid black;
     padding: 20px;
 }
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 25px;
+}
+a:visited {
+    color: purple;
+}
 .Shadow {
     text-shadow: 5px 10px 2px #93968f,
     -3px 6px 5px #e9fa00;
@@ -25,6 +35,11 @@ nav {
     float: right;
     background-color: lightyellow;
     border: 5px solid lightsalmon;
+    padding: 20px;
+}
+.BibleMemorizationGuide {
+    background-color: #f7c497;
+    border: 2px solid rgb(0, 255, 0);
     padding: 20px;
 }
 .SunBibleShareBox {
