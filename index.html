@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="BibleStyle/StudyBibleInStyle.css">
  <link rel="shortcut icon" type="image/x-icon" href="Photos/SNBible.png" />
  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
- <script type="text/javascript" src="BibleScript/BibleScript.js"></script>
+ <script src="BibleScript/SHOWorHIDEbookCHAPTERS.js"></script>
 </head>
 <body>
 <header>
@@ -42,8 +42,6 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
 <div class="SunBibleShareBox">
 		Please share The SunShining Study Bible and NCR Study Bible with your friends:<br/>
-		<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
-		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c83314c915d5275"></script>
 		</div>
 
 
@@ -55,9 +53,9 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 <h1>Old Testament:</h1><br/>
  <div class="HomeBookLinkBox">
  <a id="booklink" href="Genesis.html">Genesis</a>
-<h6 onclick="ShowGenesisChapterSelection()">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowGenesisChapterSelection">Click Here to Show Chapter Selectin</h6>
 <div id="GenesisChapterSelection">
-<p onclick="Hide1()">Hide</p>
+<p id="Hide1">Hide</p>
 <a href="Genesis.html#Genesis1">Genesis 1</a> <br/>
 <a href="Genesis.html#Genesis2">Genesis 2</a> <br/>
 <a href="Genesis.html#Genesis3">Genesis 3</a> <br/>
@@ -109,22 +107,14 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 <a href="Genesis.html#Genesis49">Genesis 49</a> <br/>
 <a href="Genesis.html#Genesis50">Genesis 50</a> <br/>
 </div>
-<script>
-function ShowGenesisChapterSelection() {
-	document.getElementById("GenesisChapterSelection").style.display = "block";
-}
-function Hide1(){
-	document.getElementById("GenesisChapterSelection").style.display = "none";
-}
-</script>
  </div>
  
  
   <div class="HomeBookLinkBox">
  <a id="booklink" href="Exodus.html">Exodus</a> 
-<h6 onclick="ShowExodusChapterSelection()">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowExodusChapterSelection">Click Here to Show Chapter Selectin</h6>
 <div id="ExodusChapterSelection">
-<p onclick="Hide2()">Hide</p>
+<p id="Hide2">Hide</p>
 <a href="Exodus.html#Exodus1">Exodus 1</a> <br/>
 <a href="Exodus.html#Exodus2">Exodus 2</a> <br/>
 <a href="Exodus.html#Exodus3">Exodus 3</a> <br/>
@@ -166,21 +156,13 @@ function Hide1(){
 <a href="Exodus.html#Exodus39">Exodus 39</a> <br/>
 <a href="Exodus.html#Exodus40">Exodus 40</a> <br/>
 </div>
-<script>
-function ShowExodusChapterSelection() {
-	document.getElementById("ExodusChapterSelection").style.display = "block";
-}
-function Hide2(){
-	document.getElementById("ExodusChapterSelection").style.display = "none";
-}
-</script>
  </div>
  
    <div class="HomeBookLinkBox">
  <a id="booklink" href="Leviticus.html">Leviticus</a> 
-<h6 onclick="ShowLeviticusChapterSelection()">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowLeviticusChapterSelection">Click Here to Show Chapter Selectin</h6>
 <div id="LeviticusChapterSelection">
-<p onclick="Hide3()">Hide</p>
+<p id="Hide3">Hide</p>
 <a href="Leviticus.html#Leviticus1">Leviticus 1</a> <br/>
 <a href="Leviticus.html#Leviticus">Leviticus 2</a> <br/>
 <a href="Leviticus.html#Leviticus3">Leviticus 3</a> <br/>
@@ -220,9 +202,9 @@ function Hide3(){
  
    <div class="HomeBookLinkBox">
  <a id="booklink" href="Numbers.html">Numbers</a> 
-<h6 onclick="ShowNumbersChapterSelection()">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowNumbersChapterSelection">Click Here to Show Chapter Selectin</h6>
 <div id="NumbersChapterSelection">
-<p onclick="Hide4()">Hide</p>
+<p id="Hide4">Hide</p>
 <a href="Numbers.html#Numbers1">Numbers 1</a> <br/>
 <a href="Numbers.html#Numbers2">Numbers 2</a> <br/>
 <a href="Numbers.html#Numbers3">Numbers 3</a> <br/>
