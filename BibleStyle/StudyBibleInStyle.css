@@ -108,6 +108,24 @@ float: left;
 width: 200px;
 text-align: left;
 }
+#NCRnoteINTRO {
+	background-color: lightgray;
+	border: 5px solid gold;
+	padding: 20px;
+	margin: 10px;
+   float: left;
+   width: 40%;
+   text-align: left;
+	}
+	#BibleMemorizationGuideINTRO{
+	 background-color: lightgreen;
+	border: 5px dotted green;
+	padding: 20px;
+	margin: 10px;
+   float: right;
+   width: 40%;
+   text-align: left;
+   }
  #share {
   padding: 50px;
  background-color: yellow;
