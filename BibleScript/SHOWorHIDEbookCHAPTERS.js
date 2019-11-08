@@ -1,20 +1,42 @@
 // Java Script for SunBible Home Page Showing/Hiding of Book Chapters
-window.onload  = function() {
-    var Show1 = document.getElementById("ShowGenesisChapterSelection").addEventListener("click", function ShowGenesisChapterSelection() {document.getElementById("GenesisChapterSelection").style.display = "block";});
-    var Hide1 = document.getElementById("Hide1").addEventListener("click", function Hide1(){document.getElementById("GenesisChapterSelection").style.display = "none";});
-    var Show2 = document.getElementById("ShowExodusChapterSelection").addEventListener("click", function ShowExodusChapterSelection() {document.getElementById("ExodusChapterSelection").style.display = "block";});
-    var Hide2 = document.getElementById("Hide2").addEventListener("click", function Hide2(){document.getElementById("ExodusChapterSelection").style.display = "none";});
-    var Show3 = document.getElementById("ShowLeviticusChapterSelection").addEventListener("click", function ShowLeviticusChapterSelection() {document.getElementById("LeviticusChapterSelection").style.display = "block";});
-    var Hide3 = document.getElementById("Hide3").addEventListener("click", function Hide3(){document.getElementById("LeviticusChapterSelection").style.display = "none";});
-    var Show4 = document.getElementById("ShowNumbersChapterSelection").addEventListener("click", function ShowNumbersChapterSelection() {document.getElementById("NumbersChapterSelection").style.display = "block";});
-    var Hide4 = document.getElementById("Hide4").addEventListener("click", function Hide4(){document.getElementById("NumbersChapterSelection").style.display = "none";});
-    var Show1 = document.getElementById("ShowGenesisChapterSelection").addEventListener("click", function ShowGenesisChapterSelection() {document.getElementById("GenesisChapterSelection").style.display = "block";});
-    var Hide1 = document.getElementById("Hide1").addEventListener("click", function Hide1(){document.getElementById("GenesisChapterSelection").style.display = "none";});
-    var Show2 = document.getElementById("ShowExodusChapterSelection").addEventListener("click", function ShowExodusChapterSelection() {document.getElementById("ExodusChapterSelection").style.display = "block";});
-    var Hide2 = document.getElementById("Hide2").addEventListener("click", function Hide2(){document.getElementById("ExodusChapterSelection").style.display = "none";});
-    var Show3 = document.getElementById("ShowLeviticusChapterSelection").addEventListener("click", function ShowLeviticusChapterSelection() {document.getElementById("LeviticusChapterSelection").style.display = "block";});
-    var Hide3 = document.getElementById("Hide3").addEventListener("click", function Hide3(){document.getElementById("LeviticusChapterSelection").style.display = "none";});
-    var Show4 = document.getElementById("ShowNumbersChapterSelection").addEventListener("click", function ShowNumbersChapterSelection() {document.getElementById("NumbersChapterSelection").style.display = "block";});
-    var Hide4 = document.getElementById("Hide4").addEventListener("click", function Hide4(){document.getElementById("NumbersChapterSelection").style.display = "none";});
-   
-};
+$(document).ready(function(){
+$("#ShowGenesisChapterSelection").click(function(){$("#GenesisChapterSelection").toggle();});
+$("#ShowExodusChapterSelection").click(function(){$("#ExodusChapterSelection").toggle();});
+$("#ShowLeviticusChapterSelection").click(function(){$("#LeviticusChapterSelection").toggle();});
+$("#ShowNumbersChapterSelection").click(function(){$("#NumbersChapterSelection").toggle();});
+$("#ShowDeuteronomyChapterSelection").click(function(){$("#DeuteronomyChapterSelection").toggle();});
+$("#ShowJoshuaChapterSelection").click(function(){$("#JoshuaChapterSelection").toggle();});
+$("#ShowJudgesChapterSelection").click(function(){$("#JudgesChapterSelection").toggle();});
+$("#ShowRuthChapterSelection").click(function(){$("#RuthChapterSelection").toggle();});
+$("#ShowFSamuelChapterSelection").click(function(){$("#FSamuelChapterSelection").toggle();});
+$("#ShowSSamuelChapterSelection").click(function(){$("#SSamuelChapterSelection").toggle();});
+$("#ShowFKingsChapterSelection").click(function(){$("#FKingsChapterSelection").toggle();});
+$("#ShowSKingsChapterSelection").click(function(){$("#SKingsChapterSelection").toggle();});
+$("#ShowFChroniclesChapterSelection").click(function(){$("#FChroniclesChapterSelection").toggle();});
+$("#ShowSChroniclesChapterSelection").click(function(){$("#SChroniclesChapterSelection").toggle();});
+$("#ShowEzraChapterSelection").click(function(){$("#EzraChapterSelection").toggle();});
+$("#ShowNehemiahChapterSelection").click(function(){$("#NehemiahChapterSelection").toggle();});
+$("#ShowEstherChapterSelection").click(function(){$("#EstherChapterSelection").toggle();});
+$("#ShowJobChapterSelection").click(function(){$("#JobChapterSelection").toggle();});
+$("#ShowProverbsChapterSelection").click(function(){$("#ProverbsChapterSelection").toggle();});
+$("#ShowEcclesiastiesChapterSelection").click(function(){$("#EcclesiastiesChapterSelection").toggle();});
+$("#ShowSongofSolomonChapterSelection").click(function(){$("#SongofSolomonChapterSelection").toggle();});
+$("#ShowIsaiahChapterSelection").click(function(){$("#IsaiahChapterSelection").toggle();});
+$("#ShowJeremiahChapterSelection").click(function(){$("#JeremiahChapterSelection").toggle();});
+$("#ShowLamentationsChapterSelection").click(function(){$("#LamentationsChapterSelection").toggle();});
+$("#ShowEzekielChapterSelection").click(function(){$("#EzekielChapterSelection").toggle();});
+$("#ShowDanielChapterSelection").click(function(){$("#DanielChapterSelection").toggle();});
+$("#ShowHoseaChapterSelection").click(function(){$("#HoseaChapterSelection").toggle();});
+$("#ShowJoelChapterSelection").click(function(){$("#JoelChapterSelection").toggle();});
+$("#ShowAmosChapterSelection").click(function(){$("#AmosChapterSelection").toggle();});
+$("#ShowObadiahChapterSelection").click(function(){$("#ObadiahChapterSelection").toggle();});
+$("#ShowJonahChapterSelection").click(function(){$("#JonahChapterSelection").toggle();});
+$("#ShowMicahChapterSelection").click(function(){$("#MicahChapterSelection").toggle();});
+$("#ShowNahumChapterSelection").click(function(){$("#NahumChapterSelection").toggle();});
+$("#ShowHabakkukChapterSelection").click(function(){$("#HabakkukChapterSelection").toggle();});
+$("#ShowZephaniahChapterSelection").click(function(){$("#ZephaniahChapterSelection").toggle();});
+$("#ShowHaggaiChapterSelection").click(function(){$("#HaggaiChapterSelection").toggle();});
+$("#ShowZechariahChapterSelection").click(function(){$("#ZechariahChapterSelection").toggle();});
+$("#ShowMalachiChapterSelection").click(function(){$("#MalachiChapterSelection").toggle();});
+
+});

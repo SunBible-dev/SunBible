@@ -2,20 +2,24 @@
 <html>
 <head>
 <title>The SunShining Bible/The NCR Study Bible</title>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109138114-11"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-109138114-11');
 </script>
-<link rel="manifest" href="BibleScript/manifest.json">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="BibleScript/jquery-3.4.1.js"></script>
+<script src="BibleScript/SHOWorHIDEbookCHAPTERS.js"></script>
+
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" type="text/css" href="BibleStyle/StudyBibleInStyle.css">
  <link rel="shortcut icon" type="image/x-icon" href="Photos/SNBible.png" />
  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
- <script src="BibleScript/SHOWorHIDEbookCHAPTERS.js"></script>
 </head>
 <body>
 <header>
@@ -53,9 +57,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 <h1>Old Testament:</h1><br/>
  <div class="HomeBookLinkBox">
  <a id="booklink" href="Genesis.html">Genesis</a>
-<h6 id="ShowGenesisChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowGenesisChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="GenesisChapterSelection">
-<p id="Hide1">Hide</p>
 <a href="Genesis.html#Genesis1">Genesis 1</a> <br/>
 <a href="Genesis.html#Genesis2">Genesis 2</a> <br/>
 <a href="Genesis.html#Genesis3">Genesis 3</a> <br/>
@@ -112,9 +115,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
   <div class="HomeBookLinkBox">
  <a id="booklink" href="Exodus.html">Exodus</a> 
-<h6 id="ShowExodusChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowExodusChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="ExodusChapterSelection">
-<p id="Hide2">Hide</p>
 <a href="Exodus.html#Exodus1">Exodus 1</a> <br/>
 <a href="Exodus.html#Exodus2">Exodus 2</a> <br/>
 <a href="Exodus.html#Exodus3">Exodus 3</a> <br/>
@@ -160,9 +162,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
  <a id="booklink" href="Leviticus.html">Leviticus</a> 
-<h6 id="ShowLeviticusChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowLeviticusChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="LeviticusChapterSelection">
-<p id="Hide3">Hide</p>
 <a href="Leviticus.html#Leviticus1">Leviticus 1</a> <br/>
 <a href="Leviticus.html#Leviticus">Leviticus 2</a> <br/>
 <a href="Leviticus.html#Leviticus3">Leviticus 3</a> <br/>
@@ -194,7 +195,7 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
  <a id="booklink" href="Numbers.html">Numbers</a> 
-<h6 id="ShowNumbersChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowNumbersChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="NumbersChapterSelection">
 <p id="Hide4">Hide</p>
 <a href="Numbers.html#Numbers1">Numbers 1</a> <br/>
@@ -238,9 +239,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
  <a id="booklink" href="Deuteronomy.html">Deuteronomy</a>
-<h6 id="ShowDeuteronomyChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowDeuteronomyChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="DeuteronomyChapterSelection">
-<p id="Hide5">Hide</p>
 <a href="Deuteronomy.html#Deuteronomy1">Deuteronomy 1</a> <br/>
 <a href="Deuteronomy.html#Deuteronomy2">Deuteronomy 2</a> <br/>
 <a href="Deuteronomy.html#Deuteronomy3">Deuteronomy 3</a> <br/>
@@ -280,9 +280,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Joshua.html">Joshua</a>
-<h6 id="ShowJoshuaChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJoshuaChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JoshuaChapterSelection">
-<p id="Hide6">Hide</p>
 <a href="Joshua.html#Joshua1">Joshua 1</a> <br/>
 <a href="Joshua.html#Joshua2">Joshua 2</a> <br/>
 <a href="Joshua.html#Joshua3">Joshua 3</a> <br/>
@@ -312,9 +311,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
     <div class="HomeBookLinkBox">
 <a id="booklink" href="Judges.html">Judges</a>
-<h6 id="ShowJudgesChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJudgesChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JudgesChapterSelection">
-<p id="Hide7">Hide</p>
 <a href="Judges.html#Judges1">Judges 1</a> <br/>
 <a href="Judges.html#Judges2">Judges 2</a> <br/>
 <a href="Judges.html#Judges3">Judges 3</a> <br/>
@@ -341,9 +339,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Ruth.html">Ruth</a>
-<h6 id="ShowRuthChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowRuthChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="RuthChapterSelection">
-<p id="HideRuth">Hide</p>
 <a href="Ruth.html#Ruth1">Ruth 1</a> <br/>
 <a href="Ruth.html#Ruth2">Ruth 2</a> <br/>
 <a href="Ruth.html#Ruth3">Ruth 3</a> <br/>
@@ -353,9 +350,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="1Samuel.html">1 Samuel</a>
-<h6 id="ShowFSamuelChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowFSamuelChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="FSamuelChapterSelection">
-<p id="Hide8">Hide</p>
 <a href="1Samuel.html#1Samuel1">1Samuel 1</a> <br/>
 <a href="1Samuel.html#1Samuel2">1 Samuel 2</a> <br/>
 <a href="1Samuel.html#1Samuel3">1 Samuel 3</a> <br/>
@@ -392,9 +388,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a  id="booklink" href="2Samuel.html">2 Samuel</a>
-<h6 id="ShowSSamuelChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowSSamuelChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="SSamuelChapterSelection">
-<p id="Hide9">Hide</p>
 <a href="2Samuel.html#2Samuel1">2 Samuel 1</a> <br/>
 <a href="2Samuel.html#2Samuel2">2 Samuel 2</a> <br/>
 <a href="2Samuel.html#2Samuel3">2 Samuel 3</a> <br/>
@@ -425,9 +420,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="1Kings.html">1 Kings</a>
-<h6 id="ShowFKingsChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowFKingsChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="FKingsChapterSelection">
-<p id="Hide10">Hide</p>
 <a href="1Kings.html#1Kings1">1 Kings 1</a> <br/>
 <a href="1Kings.html#1Kings2">1 Kings 2</a> <br/>
 <a href="1Kings.html#1Kings3">1 Kings 3</a> <br/>
@@ -455,9 +449,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="2Kings.html">2 Kings</a>
-<h6 id="ShowSKingsChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowSKingsChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="SKingsChapterSelection">
-<p id="Hide11">Hide</p>
 <a href="2Kings.html#2Kings1">2 Kings 1</a> <br/>
 <a href="2Kings.html#2Kings2">2 Kings 2</a> <br/>
 <a href="2Kings.html#2Kings3">2 Kings 3</a> <br/>
@@ -488,9 +481,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="1Chronicles.html">1 Chronicles</a>
-<h6 id="ShowFChroniclesChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowFChroniclesChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="FChroniclesChapterSelection">
-<p id="Hide12">Hide</p>
 <a href="1Chronicles.html#1Chronicles1">1 Chronicles 1</a> <br/>
 <a href="1Chronicles.html#1Chronicles2">1 Chronicles 2</a> <br/>
 <a href="1Chronicles.html#1Chronicles3">1 Chronicles 3</a> <br/>
@@ -526,9 +518,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
 <a id="booklink" href="2Chronicles.html">2 Chronicles</a>
-<h6 id="ShowSChroniclesChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowSChroniclesChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="SChroniclesChapterSelection">
-<p id="Hide13">Hide</p>
 <a href="2Chronicles.html#2Chronicles1">2 Chronicles 1</a> <br/>
 <a href="2Chronicles.html#2Chronicles2">2 Chronicles 2</a> <br/>
 <a href="2Chronicles.html#2Chronicles3">2 Chronicles 3</a> <br/>
@@ -569,9 +560,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Ezra.html">Ezra</a>
-<h6 id="ShowEzraChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowEzraChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="EzraChapterSelection">
-<p id="Hide14">Hide</p>
 <a href="Ezra.html#Ezra1">Ezra 1</a> <br/>
 <a href="Ezra.html#Ezra2">Ezra 2</a> <br/>
 <a href="Ezra.html#Ezra3">Ezra 3</a> <br/>
@@ -588,9 +578,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Nehemiah.html">Nehemiah</a>
-<h6 id="ShowNehemiahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowNehemiahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="NehemiahChapterSelection">
-<p id="Hide15">Hide</p>
 <a href="Nehemiah.html#Nehemiah1">Nehemiah 1</a> <br/>
 <a href="Nehemiah.html#Nehemiah2">Nehemiah 2</a> <br/>
 <a href="Nehemiah.html#Nehemiah3">Nehemiah 3</a> <br/>
@@ -610,9 +599,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Esther.html">Esther</a>
-<h6 id="ShowEstherChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowEstherChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="EstherChapterSelection">
-<p id="Hide16">Hide</p>
 <a href="Esther.html#Esther1">Esther 1</a> <br/>
 <a href="Esther.html#Esther2">Esther 2</a> <br/>
 <a href="Esther.html#Esther3">Esther 3</a> <br/>
@@ -629,9 +617,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Job.html">Job</a>
-<h6 id="ShowJobChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJobChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JobChapterSelection">
-<p id="Hide17">Hide</p>
 <a href="Job.html#Job1">Job 1</a> <br/>
 <a href="Job.html#Job2">Job 2</a> <br/>
 <a href="Job.html#Job3">Job 3</a> <br/>
@@ -687,9 +674,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Proverbs.html">Proverbs</a>
-<h6 id="ShowProverbsChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowProverbsChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="ProverbsChapterSelection">
-<p id="Hide18">Hide</p>
 <a href="Proverbs.html#Proverbs1">Proverbs 1</a> <br/>
 <a href="Proverbs.html#Proverbs2">Proverbs 2</a> <br/>
 <a href="Proverbs.html#Proverbs3">Proverbs 3</a> <br/>
@@ -726,9 +712,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Ecclesiasties.html">Ecclesiasties</a>
-<h6 id="ShowEcclesiastiesChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowEcclesiastiesChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="EcclesiastiesChapterSelection">
-<p id="Hide19">Hide</p>
 <a href="Ecclesiasties.html#Ecclesiasties1">Ecclesiasties 1</a> <br/>
 <a href="Ecclesiasties.html#Ecclesiasties2">Ecclesiasties 2</a> <br/>
 <a href="Ecclesiasties.html#Ecclesiasties3">Ecclesiasties 3</a> <br/>
@@ -746,9 +731,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="SongofSolomon.html">Song of Solomon</a>
-<h6 id="ShowSongofSolomonChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowSongofSolomonChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="SongofSolomonChapterSelection">
-<p id="Hide20">Hide</p>
 <a href="SongofSolomon.html#SongofSolomon1">Song of Solomon 1</a> <br/>
 <a href="SongofSolomon.html#SongofSolomon2">Song of Solomon 2</a> <br/>
 <a href="SongofSolomon.html#SongofSolomon3">Song of Solomon 3</a> <br/>
@@ -763,9 +747,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Isaiah.html">Isaiah</a>
-<h6 id="ShowIsaiahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowIsaiahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="IsaiahChapterSelection">
-<p id="Hide21">Hide</p>
 <a href="Isaiah.html#Isaiah1">Isaiah 1</a> <br/>
 <a href="Isaiah.html#Isaiah2">Isaiah 2</a> <br/>
 <a href="Isaiah.html#Isaiah3">Isaiah 3</a> <br/>
@@ -837,9 +820,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Jeremiah.html">Jeremiah</a>
-<h6 id="ShowJeremiahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJeremiahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JeremiahChapterSelection">
-<p id="Hide22">Hide</p>
 <a href="Jeremiah.html#Jeremiah1">Jeremiah 1</a> <br/>
 <a href="Jeremiah.html#Jeremiah2">Jeremiah 2</a> <br/>
 <a href="Jeremiah.html#Jeremiah3">Jeremiah 3</a> <br/>
@@ -897,9 +879,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Lamentations.html">Lamentations</a>
-<h6 id="ShowLamentationsChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowLamentationsChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="LamentationsChapterSelection">
-<p id="Hide23">Hide</p>
 <a href="Lamentations.html#Lamentations1">Lamentations 1</a> <br/>
 <a href="Lamentations.html#Lamentations2">Lamentations 2</a> <br/>
 <a href="Lamentations.html#Lamentations3">Lamentations 3</a> <br/>
@@ -911,9 +892,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Ezekiel.html">Ezekiel</a>
-<h6 id="ShowEzekielChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowEzekielChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="EzekielChapterSelection">
-<p id="Hide24">Hide</p>
 <a href="Ezekiel.html#Ezekiel1">Ezekiel 1</a> <br/>
 <a href="Ezekiel.html#Ezekiel2">Ezekiel 2</a> <br/>
 <a href="Ezekiel.html#Ezekiel3">Ezekiel 3</a> <br/>
@@ -968,9 +948,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Daniel.html">Daniel</a>
-<h6 id="ShowDanielChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowDanielChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="DanielChapterSelection">
-<p id="Hide25">Hide</p>
 <a href="Daniel.html#Daniel1">Daniel 1</a> <br/>
 <a href="Daniel.html#Daniel2">Daniel 2</a> <br/>
 <a href="Daniel.html#Daniel3">Daniel 3</a> <br/>
@@ -989,9 +968,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Hosea.html">Hosea</a>
-<h6 id="ShowHoseaChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowHoseaChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="HoseaChapterSelection">
-<p id="Hide26">Hide</p>
 <a href="Hosea.html#Hosea1">Hosea 1</a> <br/>
 <a href="Hosea.html#Hosea2">Hosea 2</a> <br/>
 <a href="Hosea.html#Hosea3">Hosea 3</a> <br/>
@@ -1011,9 +989,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Joel.html">Joel</a>
-<h6 id="ShowJoelChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJoelChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JoelChapterSelection">
-<p id="Hide27">Hide</p>
 <a href="Joel.html#Joel1">Joel 1</a> <br/>
 <a href="Joel.html#Joel2">Joel 2</a> <br/>
 <a href="Joel.html#Joel3">Joel 3</a> <br/>
@@ -1022,7 +999,7 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Amos.html">Amos</a>
-<h6 id="ShowAmosChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowAmosChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="AmosChapterSelection">
 <p id="Hide28">Hide</p>
 <a href="Amos.html#Amos1">Amos 1</a> <br/>
@@ -1040,18 +1017,16 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Obadiah.html">Obadiah</a>
-<h6 id="ShowObadiahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowObadiahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="ObadiahChapterSelection">
-<p id="Hide29">Hide</p>
 <a href="Obadiah.html#Obadiah1">Obadiah 1</a> <br/>
 </div>
  </div>
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Jonah.html">Jonah</a>
-<h6 id="ShowJonahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowJonahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="JonahChapterSelection">
-<p id="Hide30">Hide</p>
 <a href="Jonah.html#Jonah1">Jonah 1</a> <br/>
 <a href="Jonah.html#Jonah2">Jonah 2</a> <br/>
 <a href="Jonah.html#Jonah3">Jonah 3</a> <br/>
@@ -1061,9 +1036,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Micah.html">Micah</a>
-<h6 id="ShowMicahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowMicahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="MicahChapterSelection">
-<p id="Hide31">Hide</p>
 <a href="Micah.html#Micah1">Micah 1</a> <br/>
 <a href="Micah.html#Micah2">Micah 2</a> <br/>
 <a href="Micah.html#Micah3">Micah 3</a> <br/>
@@ -1078,9 +1052,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Nahum.html">Nahum</a>
-<h6 id="ShowNahumChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowNahumChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="NahumChapterSelection">
-<p id="Hide32">Hide</p>
 <a href="Nahum.html#Nahum1">Nahum 1</a> <br/>
 <a href="Nahum.html#Nahum2">Nahum 2</a> <br/>
 <a href="Nahum.html#Nahum3">Nahum 3</a> <br/>
@@ -1089,9 +1062,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Habakkuk.html">Habakkuk</a>
-<h6 id="ShowHabakkukChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowHabakkukChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="HabakkukChapterSelection">
-<p id="Hide33">Hide</p>
 <a href="Habakkuk.html#Habakkuk1">Habakkuk 1</a> <br/>
 <a href="Habakkuk.html#Habakkuk2">Habakkuk 2</a> <br/>
 <a href="Habakkuk.html#Habakkuk3">Habakkuk 3</a> <br/>
@@ -1100,9 +1072,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Zephaniah.html">Zephaniah</a>
-<h6 id="ShowZephaniahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowZephaniahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="ZephaniahChapterSelection">
-<p id="Hide34">Hide</p>
 <a href="Zephaniah.html#Zephaniah1">Zephaniah 1</a> <br/>
 <a href="Zephaniah.html#Zephaniah2">Zephaniah 2</a> <br/>
 <a href="Zephaniah.html#Zephaniah3">Zephaniah 3</a> <br/>
@@ -1112,9 +1083,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
  
    <div class="HomeBookLinkBox">
 <a id="booklink" href="Haggai.html">Haggai</a>
-<h6 id="ShowHaggaiChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowHaggaiChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="HaggaiChapterSelection">
-<p id="Hide35">Hide</p>
 <a href="Haggai.html#Haggai1">Haggai 1</a> <br/>
 <a href="Haggai.html#Haggai2">Haggai 2</a> <br/>
 </div>
@@ -1122,9 +1092,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink"href="Zechariah.html">Zechariah</a>
-<h6 id="ShowZechariahChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowZechariahChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="ZechariahChapterSelection">
-<p id="Hide36">Hide</p>
 <a href="Zechariah.html#Zechariah1">Zechariah 1</a> <br/>
 <a href="Zechariah.html#Zechariah2">Zechariah 2</a> <br/>
 <a href="Zechariah.html#Zechariah3">Zechariah 3</a> <br/>
@@ -1145,9 +1114,8 @@ The Bible is the greatest godly resource, and I am pleased to share it with you!
 
    <div class="HomeBookLinkBox">
 <a id="booklink"href="Malachi.html">Malachi</a>
-<h6 id="ShowMalachiChapterSelection">Click Here to Show Chapter Selectin</h6>
+<h6 id="ShowMalachiChapterSelection">Click Here to Show/Hide Chapter Selectin</h6>
 <div id="MalachiChapterSelection">
-<p id="Hide37">Hide</p>
 <a href="Malachi.html#Malachi1">Malachi 1</a> <br/>
 <a href="Malachi.html#Malachi2">Malachi 2</a> <br/>
 <a href="Malachi.html#Malachi3">Malachi 3</a> <br/>
