@@ -1,0 +1,24 @@
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px 10px 2px #f76666, -3px 6px 5px #e9fa00;
+}
+nav {
+    float: right;
+    width: 300px;
+    background-color: yellow;
+    border: 5px solid black;
+    padding: 20px;
+}
+span {
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+span:hover {
+	font-size: 25px;
+}
+#MemoryLogo{
+    float: left;
+    max-width: 200px;
+}
