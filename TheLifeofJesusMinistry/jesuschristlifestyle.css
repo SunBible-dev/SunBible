@@ -2,7 +2,7 @@ body {
 	width: 100vw;
 }
 #lifeheader {
-lenght: 100%;
+length: 100%;
  background-color: gray;
  padding: 5px; 
  text-align: center;
@@ -15,11 +15,8 @@ background: yellow;
 margin-left: 10px;
 position: fixed;
 }
-#headerpic {
-
-}
 #all {
-lenght: 100%; 
+length: 100%; 
 background: black;
  padding: 10px; 
  background-size: 100%;
@@ -31,7 +28,7 @@ border: 5px solid red;
 padding: 20px;
 }
 #mostgospel {
-leanght: 100%; 
+length: 100%; 
 background-color: yellow; 
 border: 5px solid red; 
 padding: 20px;
@@ -74,7 +71,7 @@ padding: 20px;
  }
  #lifeofjesusshare {
  background-color: lightgreen;
- leanght: 100%; 
+ length: 100%; 
  padding: 15px;
  border: 5px solid black;
  }
