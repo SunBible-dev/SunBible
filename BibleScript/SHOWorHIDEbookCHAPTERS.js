@@ -38,5 +38,4 @@ $("#ShowZephaniahChapterSelection").click(function(){$("#ZephaniahChapterSelecti
 $("#ShowHaggaiChapterSelection").click(function(){$("#HaggaiChapterSelection").toggle();});
 $("#ShowZechariahChapterSelection").click(function(){$("#ZechariahChapterSelection").toggle();});
 $("#ShowMalachiChapterSelection").click(function(){$("#MalachiChapterSelection").toggle();});
-
 });

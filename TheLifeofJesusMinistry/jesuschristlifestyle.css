@@ -88,6 +88,9 @@ background-color: gold;
   #ChapterNumber {
  font-size: 40px;
  }
+ .ChapterNumber {
+	font-size: 40px;
+	}
     #NCRnote {
  background-color: lightgray;
  border: 5px solid gold;
@@ -124,7 +127,9 @@ text-align: left;
   float: left;
   margin: 20px;
  }
- 
+ .red{
+	 color: red;
+ }
  
  
  
