@@ -27,6 +27,14 @@ a:hover {
 a:visited {
     color: purple;
 }
+button {
+    margin: 5px;
+    border-radius: 12px;
+    border: 5px solid red;
+}
+button:hover {
+    background-color: white;
+}
 .Shadow {
     text-shadow: 5px 10px 2px #93968f,
     -3px 6px 5px #e9fa00;
@@ -52,7 +60,14 @@ a:visited {
     width: 200px;
 float: left;
 }
-
+#TestYourMemoryBox {
+    float: right;
+    width: 100px;
+    background-color: #e9fa00;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+}
 footer {
     text-align: center;
     
