@@ -2,25 +2,45 @@ body {
     background-color: silver;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
-background-color: greenyellow;
-width: 100%;
-padding-left: 20px;
-position: sticky;
-top: 0;
-z-index: 2;
+.OTlogo {
+  width: 200px;
 }
 .WTB {
   text-decoration: underline;
   font-weight: bold;
 }
 .Woman {
-  color: pink;
+  color: pink;  
+font-weight: bold;
 }
 * {
   box-sizing: border-box;
 }
-
+/* This is the Table Style from here to here */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: lightyellow;
+}
+tr:nth-child(odd) {
+  background-color: rgb(255, 224, 224);
+}
+tr:hover {
+  background-color: red;
+}
+th {
+  background-color: yellow;
+  color: black;
+}
+/* This is the Table Style from here to here */
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
