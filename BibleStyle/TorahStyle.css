@@ -1,0 +1,151 @@
+/* Torah Style */
+  body {
+	width: 99%;
+max-width: 100%;
+height: 100vh;
+}
+header {
+background-color: gray;
+border: 5px solid yellow;
+padding: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+body {
+background-color: red;
+font-family: arial;
+
+}
+img{
+	max-width: 100%;
+}
+#all {
+background-color: white;
+border: 5px solid purple;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+font-family: arial;
+font-size: 20px;
+}
+footer {
+background-color: grey;
+text-align: center;
+font-family: arial;
+font-size: 20px;
+padding: 20px;
+}
+ a {
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+ }
+ a:hover {
+	font-size: 25px;
+}
+   .HomeBookLinkBox {
+ padding: 50px;
+ background-color: yellow;
+ float: left;
+ margin: 20px;
+ border: 5px solid black;
+ }
+   #newbooklink {
+ padding: 50px;
+ background-color: yellow;
+ float: left;
+ margin: 20px;
+ border: 5px solid black;
+ width: 25%;
+ }
+ #col {
+ background-color: yellow;
+ padding: 5px;
+ margin-top: 2px;
+ margin-bottom: 2px;
+ color: black;
+ text-decoration: none;
+ float: left;
+ clear: both;
+ }
+   #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+#NCRnoteINTRO {
+	background-color: lightgray;
+	border: 5px solid gold;
+	padding: 20px;
+	margin: 10px;
+   float: left;
+   width: 40%;
+   text-align: left;
+	}
+	#BibleMemorizationGuideINTRO{
+	 background-color: lightgreen;
+	border: 5px dotted green;
+	padding: 20px;
+	margin: 10px;
+   float: right;
+   width: 40%;
+   text-align: left;
+   }
+   .NCRnoteLOGO{
+	   width: 100px;
+   }
+ #share {
+  padding: 50px;
+ background-color: yellow;
+ margin: 20px;
+ border: 5px solid black;
+ }
+ .SunBibleShareBox {
+	padding: 50px;
+   background-color: yellow;
+   margin: 20px;
+   border: 5px solid black;
+   }
+ #sunadd {
+ width: 25%;
+ background-color: lightgreen;
+ border: 5px dotted blue;
+ float: left;
+ padding: 10px;
+ margin: 10px;
+ }
+
+ /* Book Link Style */
+  .BookLinkBox {
+ padding: 50px;
+ background-color: yellow;
+ margin: 20px;
+ border: 5px solid black;
+ }
+ #GenesisChapterSelection {
+	 display: none;
+ }
+  #ExodusChapterSelection {
+	 display: none;
+ }
+ #LeviticusChapterSelection  {
+	 display: none;
+ }
+   #NumbersChapterSelection {
+	 display: none;
+ }
+ #DeuteronomyChapterSelection  {
+	 display: none;
+ }
