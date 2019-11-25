@@ -3,6 +3,8 @@
 	width: 99%;
 max-width: 100%;
 height: 100vh;
+background-color: red;
+font-family: arial;
 }
 header {
 background-color: gray;
@@ -11,15 +13,17 @@ padding: 20px;
 margin-bottom: 10px;
 text-align: center;
 }
-body {
-background-color: red;
-font-family: arial;
-
-}
 img{
 	max-width: 100%;
 }
+.Tlogo {
+    width: 300px;
+    float: left;
+    border: 5px solid black;
+    margin: 20px;
+}
 #all {
+    float: center;
 background-color: white;
 border: 5px solid purple;
 margin-left: 5%;
@@ -29,11 +33,13 @@ font-family: arial;
 font-size: 20px;
 }
 footer {
+max-width: 100%;
 background-color: grey;
 text-align: center;
 font-family: arial;
 font-size: 20px;
 padding: 20px;
+margin: 20px;
 }
  a {
 text-decoration: none;
@@ -42,21 +48,6 @@ font-family: 'Oswald', sans-serif;
  a:hover {
 	font-size: 25px;
 }
-   .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
-   #newbooklink {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- width: 25%;
- }
  #col {
  background-color: yellow;
  padding: 5px;
@@ -129,6 +120,8 @@ text-align: left;
 
  /* Book Link Style */
   .BookLinkBox {
+      max-width: 100%;
+float: left;
  padding: 50px;
  background-color: yellow;
  margin: 20px;
