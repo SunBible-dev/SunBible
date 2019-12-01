@@ -77,6 +77,15 @@ float: right;
 width: 200px;
 text-align: left;
  }
+   .NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
  #BibleMemorizationGuide{
   background-color: lightgreen;
  border: 5px dotted green;
