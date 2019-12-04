@@ -81,26 +81,28 @@ background-color: rgb(250, 229, 114);
  border: 2px solid black;
  margin: 10px;
  padding: 5px;
+  border-radius: 25px;
+  background-color: white;
  }
   #GospelLink:hover {
 	  background-color: rgb(142, 142, 241);
   }
    .GospelLinkInLineNav {
 	   float: left;
-	max-width: 20%;
  font-family: arial;
  font-size: 50px;
  color: black;  
  border: 2px solid black;
- padding: 5px;
-  margin-bottom: 1px;
- margin-top: 1px;
+ padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+background-color: rgb(241, 142, 142);
  }
  .GLILN {
  text-decoration: none;
  }
   .GospelLinkInLineNav:hover {
-	  background-color: rgb(241, 142, 142);
+	  background-color: rgb(248, 56, 56);
   }
   #LifeNav {
 	  border-top: 5px solid black;
