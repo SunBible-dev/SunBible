@@ -1,5 +1,7 @@
 header {
-
+background-color: crimson;
+text-align: center;
+padding: 20px;
 }
 body {
 background-color: rgb(255, 241, 187);
@@ -7,6 +9,10 @@ font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 }
 footer {
+background-color: darkgoldenrod;
+position: fixed;
+bottom: 0%;
+right: 0%;
 
 }
 /*Jesus' Family Tree Style from here to here. all other comments added by someone else I copied this code!*/
