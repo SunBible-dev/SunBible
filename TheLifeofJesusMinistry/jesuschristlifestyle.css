@@ -147,6 +147,22 @@ float: left;
 width: 200px;
 text-align: left;
 }
+.MemJes {
+	  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+max-width: 99%;
+text-align: left;
+}
+.button {
+    margin: 5px;
+    border-radius: 12px;
+    border: 5px solid red;
+}
+.button:hover {
+    background-color: white;
+}
 .IAMphoto {
  border: 5px solid black;
  margin: 10px;

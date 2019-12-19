@@ -39,6 +39,20 @@ button:hover {
     text-shadow: 5px 10px 2px #93968f,
     -3px 6px 5px #e9fa00;
 }
+.JamesVersePic {
+    width: 30%;
+    float: left;
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
+.JamesVersePic2 {
+    width: 45%;
+    float: left;
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
 .NCRnote {
     float: right;
     background-color: lightyellow;
