@@ -174,7 +174,9 @@ text-align: left;
  }
  
  
- 
+  .ChapterSelection {
+	display: none;  
+  }
  #GenesisChapterSelection {
 	 display: none;
  }
