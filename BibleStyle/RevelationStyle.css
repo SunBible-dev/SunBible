@@ -75,3 +75,18 @@ text-align: left;
  .red {
 	 color: red;
  }
+ .OvercomePicBox {
+   display: none;
+   background-color: rgba(255, 230, 0, 0.5);
+padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+position: fixed;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+ }
+ .OveromerP {
+   background-color: yellow;
+ }
