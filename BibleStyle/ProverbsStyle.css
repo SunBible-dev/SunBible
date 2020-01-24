@@ -10,11 +10,10 @@ img{
 	max-width: 100%;
 }
 nav {
-    position: absolute;
     right: 5%;
     top: 0px;
-    width: 150px;
-background-color: gray;
+    width: 500px;
+background-color: rgb(241, 157, 157);
 border-left: 5px solid yellow;
 padding: 20px;
 margin: 10px;
@@ -39,6 +38,9 @@ padding: 20px;
     z-index: -1;
 }
 footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 5px solid black;
 background-color: grey;
 text-align: center;
 font-family: arial;
@@ -80,3 +82,20 @@ text-align: left;
    margin: 20px;
    border: 5px solid black;
    }
+
+
+   /* Special text: -Text that can be used
+font-family: 'Oswald', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Playfair Display', serif;
+   */
+   
