@@ -35,7 +35,7 @@ padding: 20px;
 .ChapterNumber {
     background-color: white;
     position: sticky;
-    z-index: -1;
+    top: 0px;
 }
 footer {
     margin-top: 50px;
@@ -99,3 +99,9 @@ font-family: 'Slabo 27px', serif;
 font-family: 'Playfair Display', serif;
    */
    
+.TheFearOfTheLord{
+font-family: 'Patua One', cursive;
+}
+.MySon {
+font-family: 'Bangers', cursive;
+}
