@@ -33,7 +33,8 @@ padding: 20px;
    padding: 20px;
 }
 .ChapterNumber {
-    background-color: white;
+    background-color: rgb(254, 255, 184);
+    border-bottom: 1px solid yellow;
     position: sticky;
     top: 0px;
 }
@@ -74,10 +75,9 @@ font-family: 'Caveat', cursive;
 font-family: 'Patua One', cursive;
 font-family: 'Abril Fatface', cursive;
 font-family: 'Anton', sans-serif;
-font-family: 'Source Code Pro', monospace;
+font-family: 'Playfair Display', serif;
 font-family: 'Bowlby One SC', cursive;
 font-family: 'Slabo 27px', serif;
-font-family: 'Playfair Display', serif;
    */
    
 .TheFearOfTheLord{
@@ -92,4 +92,9 @@ font-family: 'Oswald', sans-serif;
 }
 .SUN {
 font-family: 'Bowlby One SC', cursive;
+}
+.love {
+font-family: 'Caveat', cursive; 
+font-size: 40px;
+font-weight: bold;
 }
