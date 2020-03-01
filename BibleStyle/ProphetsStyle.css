@@ -1,0 +1,112 @@
+body {
+	width: 99%;
+max-width: 100%;
+height: 100vh;
+}
+img{
+	max-width: 100%;
+}
+header {
+background-color: gray;
+border: 5px solid yellow;
+padding: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+body {
+background-color: red;
+font-family: arial;
+
+}
+#all {
+background-color: white;
+border: 5px solid purple;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+font-family: arial;
+font-size: 20px;
+}
+footer {
+background-color: grey;
+text-align: center;
+font-family: arial;
+font-size: 20px;
+padding: 20px;
+}
+ a {
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+ }
+ a:hover {
+color: blue;
+}
+ 
+ .SunBibleShareBox {
+	padding: 50px;
+   background-color: yellow;
+   margin: 20px;
+   border: 5px solid black;
+   }
+ 
+  .HomeBookLinkBox {
+ padding: 50px;
+ background-color: yellow;
+ float: left;
+ margin: 20px;
+ border: 5px solid black;
+ }
+  .ChapterSelection {
+	display: none;  
+  }
+ #IsaiahChapterSelection {
+	display: none;
+}
+#JeremiahChapterSelection  {
+	display: none;
+}
+  #LamentationsChapterSelection {
+	display: none;
+}
+#EzekielChapterSelection  {
+	display: none;
+}
+ #DanielChapterSelection {
+	display: none;
+}
+ #HoseaChapterSelection {
+	display: none;
+}
+#JoelChapterSelection  {
+	display: none;
+}
+  #AmosChapterSelection {
+	display: none;
+}
+#ObadiahChapterSelection  {
+	display: none;
+}
+ #JonahChapterSelection {
+	display: none;
+}
+ #MicahChapterSelection {
+	display: none;
+}
+#NahumChapterSelection  {
+	display: none;
+}
+  #HabakkukChapterSelection {
+	display: none;
+}
+#ZephaniahChapterSelection  {
+	display: none;
+}
+ #HaggaiChapterSelection {
+	display: none;
+}
+ #ZechariahChapterSelection {
+	display: none;
+}
+#MalachiChapterSelection  {
+	display: none;
+}
