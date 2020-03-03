@@ -7,20 +7,20 @@ img{
 	max-width: 100%;
 }
 header {
-background-color: gray;
-border: 5px solid yellow;
+background-color: rgb(255, 232, 232);
+border-bottom: 5px solid yellow;
 padding: 20px;
-margin-bottom: 10px;
 text-align: center;
 }
 body {
-background-color: red;
+background-color: rgb(177, 3, 3);
 font-family: arial;
 
 }
 #all {
 background-color: white;
-border: 5px solid purple;
+border-left: 5px solid purple;
+border-right: 5px solid purple;
 margin-left: 5%;
 margin-right: 5%;
 padding: 20px;
