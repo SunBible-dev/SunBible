@@ -41,7 +41,11 @@ font-family: 'Oswald', sans-serif;
  a:hover {
 color: blue;
 }
- 
+ .highlightblack {
+	 padding: 10px;;
+	background-color: black;
+	color: white;
+ }
  .SunBibleShareBox {
 	padding: 50px;
    background-color: yellow;
