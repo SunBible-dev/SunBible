@@ -4,6 +4,7 @@ Speacial home stuff
 .HomeHeader {
 	background-color: white;
 	padding: 0px;
+	margin-bottom: 0px;
 }
 .HomeBody {
 	background-image: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dsc00112.jpg);
@@ -17,6 +18,12 @@ margin-right: 5%;
 padding: 20px;
 font-family: arial;
 font-size: 20px;
+}
+#OldLinkCollection {
+	display: none;
+}
+#NewLinkCollection {
+	display: none;
 }
 /* Speacial home stuff */
 
