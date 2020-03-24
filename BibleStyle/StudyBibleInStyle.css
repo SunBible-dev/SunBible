@@ -19,12 +19,57 @@ padding: 20px;
 font-family: arial;
 font-size: 20px;
 }
+#QtoRead {
+	padding: 10px;
+	 border-radius: 25px;
+	border: 5px dotted green;
+	background-color: lightgreen;
+	float: right;
+	width: 30%;
+}
+#WholeBibleCollection {
+	background-color: gray;
+	padding: 10px;
+}
+#WholeOldCollection {
+	border: 5px solid red;
+	background-color: white;
+}
+#WholeNewCollection {
+	border: 5px solid red;
+	background-color: white;
+}
+#ShowOldTestament {
+	padding: 10px;
+	margin: 10px;
+	background-color: yellow;
+	 border-radius: 25px;
+	border: 5px solid black;
+	width: 40%;
+	float: left;
+}
+#ShowNewTestament {
+	padding: 10px;
+	margin: 10px;
+	background-color: yellow;
+	 border-radius: 25px;
+	border: 5px solid black;
+	width: 40%;
+	float: left;
+}
 #OldLinkCollection {
 	display: none;
 }
 #NewLinkCollection {
 	display: none;
 }
+ .HomeBookLinkBox {
+ padding: 50px;
+ background-color: yellow;
+ float: left;
+ margin: 20px;
+ border: 5px solid black;
+ }
 /* Speacial home stuff */
 
 body { 
@@ -94,24 +139,7 @@ padding: 20px;
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
  }
- a:hover {
-	font-size: 25px;
-}
-   .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
-   #newbooklink {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- width: 25%;
- }
+ 
  #col {
  background-color: yellow;
  padding: 5px;
@@ -188,7 +216,7 @@ text-align: left;
  padding: 20px;
  background-color: lightyellow;
  border: 5px solid black;
- length: 100%
+ width: 100%;
  }
   #pagelink {
  background-color: yellow;
