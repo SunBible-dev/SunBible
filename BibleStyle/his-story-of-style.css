@@ -126,7 +126,13 @@ text-align: left;
 	 color: red;
  }
  
- 
+ .HomeBookLinkBox {
+ padding: 50px;
+ background-color: yellow;
+ float: left;
+ margin: 20px;
+ border: 5px solid black;
+ }
   .ChapterSelection {
 	display: none;  
   }
@@ -166,3 +172,25 @@ text-align: left;
   #EstherChapterSelection {
 	 display: none;
  }
+
+
+ /* Speacial Ruth and Esther Stuff */
+  #RuthBody, #EstherBody {
+background-color: pink;
+font-family: arial;
+}
+
+#Ruthall, #Estherall {
+background-color: white;
+border: 5px solid purple;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+font-family: arial;
+font-size: 20px;
+}
+
+#Ruth1, #Ruth2, #Ruth3, #Ruth4 {
+  column-count: 3;
+  column-rule-style: solid;
+}
