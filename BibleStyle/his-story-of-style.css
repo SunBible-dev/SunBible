@@ -178,9 +178,37 @@ text-align: left;
   #RuthBody, #EstherBody {
 background-color: pink;
 font-family: arial;
+max-height: 100vh;
 }
-
-#Ruthall, #Estherall {
+#RuthHeader {
+  background-color: rgb(241, 214, 214);
+border-bottom: 5px solid yellow;
+padding: 5px;
+width: 600%;
+height: 55px;
+position: absolute;
+top: 0;
+}
+#TheStoryOfRuth {
+  position: fixed;
+}
+#Ruthall {
+  margin-top: 75px;
+background-color: white;
+border: 5px solid purple;
+padding: 20px;
+font-family: arial;
+font-size: 20px;
+height: 70%;
+width: 600%
+}
+#RuthChapters {
+  column-count: 10;
+  column-rule-style: solid;
+  height: 100%;
+  width: 5000px;
+}
+#Estherall {
 background-color: white;
 border: 5px solid purple;
 margin-left: 5%;
@@ -189,8 +217,11 @@ padding: 20px;
 font-family: arial;
 font-size: 20px;
 }
-
-#Ruth1, #Ruth2, #Ruth3, #Ruth4 {
-  column-count: 3;
-  column-rule-style: solid;
+#RuthFooter {
+  position: fixed;
+  bottom: 0;
+}
+#RuthNav {
+  background-color: lightgreen;
+  padding: 10px;
 }
