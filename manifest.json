@@ -1,21 +1,12 @@
-{
-"name": "Sun Bible",
-"short_name": "Sun Bible",
-"description" : "Access to the entire SunShining Study Bible offline.",
-"version": "2.5",
-"manifest_version": 2,
-"author": "The SunShining",
-
-"icons": { "16": "Photos/SNBible.png",
-           "48": "Photos/SNBible.png",
-          "128": "Photos/SNBible.png" },
-
-          "app": {
-            "urls": [
-            "https://sunbible.000webhostapp.com/"
-            ],
-            "launch": {
-            "web_url": "https://sunbible.000webhostapp.com/"
-            }
-}
+{"name":"The SunShining Study Bible",
+  "short_name":"SunBible",
+  "background_color":"#FFFFFF",
+  "display":"standalone",
+  "start_url":"/web/",
+  "scope":"/web/",
+  "icons":[{"src":"https://thesunshining.weebly.com/uploads/3/9/5/8/39587203/948333696_orig.png.png",
+  "sizes":"96x96","type":"image/png"},
+  {"src":"https://thesunshining.weebly.com/uploads/3/9/5/8/39587203/948333696_orig.png",
+  "sizes":"192x192","type":"image/png"}],
+  "theme_color":"#F1F3F4"
 }
