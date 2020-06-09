@@ -1,6 +1,6 @@
 {
 "name": "Sun Bible",
-"short_name": "Bible",
+"short_name": "Sun Bible",
 "description" : "Access to the entire SunShining Study Bible offline.",
 "version": "2.5",
 "manifest_version": 2,
@@ -10,9 +10,12 @@
            "48": "Photos/SNBible.png",
           "128": "Photos/SNBible.png" },
 
-"browser_action": {
-      "default_icon": "Photos/SNBible.png",
-      "default_popup": "index.html"
-    },
-	"offline_enabled": true
+          "app": {
+            "urls": [
+            "https://sunbible.000webhostapp.com/"
+            ],
+            "launch": {
+            "web_url": "https://sunbible.000webhostapp.com/"
+            }
+}
 }
