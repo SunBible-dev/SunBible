@@ -1,19 +1,33 @@
 // Java Script for SUNBIBLE Memorization Guide
 $(document).ready(function(){
-$(".M").click(function(){$( this ).css("background-color", "black");});
-$("#Level1").click(function(){$(".R1").css("background-color", "black");});
-$("#Level2").click(function(){$(".R2").css("background-color", "black");});
-$("#Level3").click(function(){$(".R3").css("background-color", "black");});
-$("#Level4").click(function(){$(".R4").css("background-color", "black");});
-$("#Level5").click(function(){$(".R5").css("background-color", "black");});
-$("#TryAgain1").click(function(){$(".R5").css("background-color", "transparent");});
-$(".MM").click(function(){$( this ).css("background-color", "black");});
-$("#LLevel1").click(function(){$(".RR1").css("background-color", "black");});
-$("#LLevel2").click(function(){$(".RR2").css("background-color", "black");});
-$("#LLevel3").click(function(){$(".RR3").css("background-color", "black");});
-$("#LLevel4").click(function(){$(".RR4").css("background-color", "black");});
-$("#LLevel5").click(function(){$(".RR5").css("background-color", "black");});
-$("#TryAgain2").click(function(){$(".RR5").css("background-color", "transparent");});
+
+$(".M, .MM, .MMM, .MMMM, .MMMMM").click(function(){
+    $( this ).css("background-color", "black");
+});
+
+$("#Level1, #LLevel1").click(function(){
+    $(".R2, .RR2").css("background-color", "white");
+    $(".R1, .RR1").css("background-color", "black");
+});
+$("#Level2, #LLevel2").click(function(){
+    $(".R3, .RR3").css("background-color", "white");
+    $(".R2, .RR2").css("background-color", "black");
+});
+$("#Level3, #LLevel3").click(function(){
+    $(".R4, .RR4").css("background-color", "white");
+    $(".R3, .RR3").css("background-color", "black");
+});
+$("#Level4, #LLevel4").click(function(){
+    $(".R5, .RR5").css("background-color", "white");
+    $(".R4, .RR4").css("background-color", "black");
+});
+$("#Level5, #LLevel5").click(function(){
+    $(".R5, .RR5").css("background-color", "black");
+});
+$("#TryAgain1, #TryAgain2").click(function(){
+    $(".R5, .RR5").css("background-color", "transparent");
+});
+
 $(".MMM").click(function(){$( this ).css("background-color", "black");});
 $("#LLLevel1").click(function(){$(".RRR1").css("background-color", "black");});
 $("#LLLevel2").click(function(){$(".RRR2").css("background-color", "black");});
