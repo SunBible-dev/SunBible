@@ -1,12 +1,6 @@
 // Java Script for SUNBIBLE Memorization Guide for James
 $(document).ready(function(){
 
-    
-$(".M, .MM, .MMM, .MMMM, .MMMMM").click(function(){
-    $( this ).toggleClass("Black");
-});
-
-
 
 // Java Script for SUNBIBLE Memorization Guide for James chapter 1 and 5
 $("#Level1, #LLevel1, #LLLevel1, #LLLLevel1, #LLLLLevel1").click(function(){
