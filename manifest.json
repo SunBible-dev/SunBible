@@ -1,12 +1,15 @@
 {"name":"The SunShining Study Bible",
+  "description": "Access to the entire KJV SunShining Study Bible offline",
   "short_name":"SunBible",
-  "background_color":"#FFFFFF",
-  "display":"standalone",
-  "start_url":"/web/",
-  "scope":"/web/",
-  "icons":[{"src":"https://thesunshining.weebly.com/uploads/3/9/5/8/39587203/948333696_orig.png.png",
-  "sizes":"96x96","type":"image/png"},
-  {"src":"https://thesunshining.weebly.com/uploads/3/9/5/8/39587203/948333696_orig.png",
-  "sizes":"192x192","type":"image/png"}],
-  "theme_color":"#F1F3F4"
+  "manifest_version": 2,
+  "version": "1.5",
+  "app": {
+    "launch": {
+     "local_path": "index.html"
+      }
+     },
+  "icons": { "16": "/Photos/SunBibleLogoCollection/logo.png",
+    "48": "/Photos/SunBibleLogoCollection/logo.png",
+   "128": "/Photos/SunBibleLogoCollection/logo.png" },
+  "offline_enabled": true
 }
