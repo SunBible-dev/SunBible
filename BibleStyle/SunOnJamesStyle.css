@@ -2,7 +2,7 @@ body {
 background-image: linear-gradient(white, yellow);
 padding-left: 50px;
 padding-right: 50px;
-font-size: 20px;
+font-size: 25px;
 font-family: 'Josefin Sans', sans-serif;
 }
 header {
@@ -10,23 +10,33 @@ header {
     text-align: center;
     font-size: 35px;
 }
+.BibleMemorizationGuideJames {
+    background-color: #f7c497;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    width: 60%;
+}
 nav {
-    float: right;
-    width: 300px;
+    position: absolute;
+    right: 0px;
+    width: 20%;
     background-color: yellow;
-    border: 5px solid black;
+    border-left: 5px solid black;
     padding: 20px;
 }
+
+
 a {
     color: red;
     text-decoration: none;
 }
 a:hover {
-    font-size: 25px;
+    font-size: 26px;
 }
 a:visited {
     color: purple;
 }
+
 button {
     margin: 5px;
     border-radius: 12px;
@@ -35,10 +45,13 @@ button {
 button:hover {
     background-color: white;
 }
+
 .Shadow {
     text-shadow: 5px 10px 2px #93968f,
     -3px 6px 5px #e9fa00;
 }
+
+
 .JamesVersePic {
     width: 30%;
     float: left;
@@ -53,28 +66,23 @@ button:hover {
     padding: 10px;
     margin: 10px;
 }
+
+
 .NCRnote {
     float: right;
     background-color: lightyellow;
     border: 5px solid lightsalmon;
     padding: 20px;
 }
-.BibleMemorizationGuide {
-    background-color: #f7c497;
-    border: 2px solid rgb(0, 255, 0);
-    padding: 20px;
-}
-.SunBibleShareBox {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid red;
-}
+
+
 #SunOnJamesPic{
     width: 200px;
 float: left;
 }
-#TestYourMemoryBox {
+
+
+#TestYourMemoryBox, .TestYourMemoryBox {
     float: right;
     width: 100px;
     background-color: #e9fa00;
@@ -82,7 +90,13 @@ float: left;
     margin: 20px;
     border: 5px solid black;
 }
+.Black {
+    background-color: Black;
+}
+
 footer {
     text-align: center;
-    
+    background-color: #f7c497;
+    padding: 20px;
+    border-radius: 25px;
 }
