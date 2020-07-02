@@ -1,40 +1,26 @@
 /* Torah Style */
   body {
-	width: 99%;
-max-width: 100%;
-height: 100vh;
-background-color: red;
+background-color: rgb(0, 0, 255);
 font-family: arial;
 }
-header {
-background-color: gray;
-border: 5px solid yellow;
-padding: 20px;
-margin-bottom: 10px;
-text-align: center;
-}
+
 img{
 	max-width: 100%;
 }
-.Tlogo {
-    width: 300px;
-    float: left;
-    border: 5px solid black;
-    margin: 20px;
-}
 #all {
-    float: center;
+  margin-top: 100px;
 background-color: white;
-border: 5px solid purple;
-margin-left: 5%;
-margin-right: 5%;
+border-left: 5px solid purple;
+border-right: 5px solid purple;
+margin-left: 10px;
+margin-right: 50px;
 padding: 20px;
 font-family: arial;
 font-size: 20px;
 }
 footer {
 max-width: 100%;
-background-color: grey;
+background-color: rgb(177, 108, 108);
 text-align: center;
 font-family: arial;
 font-size: 20px;
@@ -45,19 +31,8 @@ margin: 20px;
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
  }
- a:hover {
-	font-size: 25px;
-}
- #col {
- background-color: yellow;
- padding: 5px;
- margin-top: 2px;
- margin-bottom: 2px;
- color: black;
- text-decoration: none;
- float: left;
- clear: both;
- }
+ 
+ 
    #NCRnote {
  background-color: lightgray;
  border: 5px solid gold;
@@ -67,56 +42,9 @@ float: right;
 width: 200px;
 text-align: left;
  }
- #BibleMemorizationGuide{
-  background-color: lightgreen;
- border: 5px dotted green;
- padding: 20px;
- margin: 10px;
-float: left;
-width: 200px;
-text-align: left;
-}
-#NCRnoteINTRO {
-	background-color: lightgray;
-	border: 5px solid gold;
-	padding: 20px;
-	margin: 10px;
-   float: left;
-   width: 40%;
-   text-align: left;
-	}
-	#BibleMemorizationGuideINTRO{
-	 background-color: lightgreen;
-	border: 5px dotted green;
-	padding: 20px;
-	margin: 10px;
-   float: right;
-   width: 40%;
-   text-align: left;
-   }
-   .NCRnoteLOGO{
-	   width: 100px;
-   }
- #share {
-  padding: 50px;
- background-color: yellow;
- margin: 20px;
- border: 5px solid black;
- }
- .SunBibleShareBox {
-	padding: 50px;
-   background-color: yellow;
-   margin: 20px;
-   border: 5px solid black;
-   }
- #sunadd {
- width: 25%;
- background-color: lightgreen;
- border: 5px dotted blue;
- float: left;
- padding: 10px;
- margin: 10px;
- }
+
+
+
 
  /* Book Link Style */
   .BookLinkBox {
@@ -142,3 +70,29 @@ float: left;
  #DeuteronomyChapterSelection  {
 	 display: none;
  }
+
+
+
+  /* The 10 Plague Notes Exodus */
+
+  .The10Pintro {
+    background-color: #ff65c3;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 5px;
+  }
+  .A10Pnote {
+    border: 4px solid pink;
+    background-color: #ff65c3;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 5px;
+  }
+  .E234 {
+    width: 25%;
+float: left;
+  }
+  .N567 {
+    width: 25%;
+float: left;
+  }

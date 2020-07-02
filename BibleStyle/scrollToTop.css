@@ -1,0 +1,18 @@
+.scrollToTop{
+    padding: 10px; 
+    text-align:center; 
+    background: lightgoldenrodyellow;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom: 50px;
+    right:5px;
+    display:none;
+    border-radius: 25px;
+    border: 2px solid red;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    background: lightpink;
+}
