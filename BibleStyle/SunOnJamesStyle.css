@@ -90,6 +90,13 @@ float: left;
     margin: 20px;
     border: 5px solid black;
 }
+
+.TestYourMemoryInputDiv {
+    background-color: white;
+    border-radius: 25px;
+    border: 5px dotted red;
+    padding: 20px;
+}
 .Black {
     background-color: Black;
 }
