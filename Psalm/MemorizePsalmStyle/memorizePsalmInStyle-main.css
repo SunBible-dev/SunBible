@@ -35,12 +35,10 @@ footer {
     font-size: 30px;
 }
 .footerDIV {
-    float: left;
-    padding-left: 100px;
-    margin-left: 100px;
-    padding-right: 100px;
-    margin-right: 100px;
-}
+  float: left;
+  width: 20%;
+  padding: 50px;
+   }
 .indexMain {
     overflow: hidden;
     margin: 50px;
