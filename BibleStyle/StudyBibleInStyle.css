@@ -30,14 +30,13 @@ font-size: 20px;
 #WholeBibleCollection {
 	background-color: gray;
 	padding: 10px;
+	overflow: hidden;
 }
 #WholeOldCollection {
-	border: 5px solid red;
-	background-color: white;
+	overflow: hidden;
 }
 #WholeNewCollection {
-	border: 5px solid red;
-	background-color: white;
+	overflow: hidden;
 }
 #ShowOldTestament {
 	padding: 10px;
@@ -47,6 +46,7 @@ font-size: 20px;
 	border: 5px solid black;
 	width: 40%;
 	float: left;
+	overflow: hidden;
 }
 #ShowNewTestament {
 	padding: 10px;

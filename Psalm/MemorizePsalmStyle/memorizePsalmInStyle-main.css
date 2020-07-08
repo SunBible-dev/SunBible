@@ -1,90 +1,127 @@
+/*General*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient( yellow, green);
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding-top: 0px;
+    max-width: 100vw;
+    background-color: white;
+    background-image: linear-gradient(yellow, white 20%);
 }
 header {
-    background-color: rgb(255, 255, 210);
-    padding: 10px; 
-    margin-bottom: 20px;
-    border-radius: 25px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 0);
 }
-div {
-    background-color: rgb(255, 255, 210);
-    padding: 10px;
-    border-radius: 25px;
-    margin: 10px;
+.SiteName {
+ margin-left: 20px;
+ font-size: 25px;
+ line-height: 0.9;
+}
+.Psalm11911{
+    font-size: 50px;
+    width: 40%;
+    margin-left: 20px;
+}
+.IntroHowTo {
+    width: 50%;
+    float: right;
+}
+.ButtonBox {
+    margin-left: 20px;
 }
 footer {
-    background-color: rgb(255, 255, 210);
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 25px;
+    background-color: #97971e;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.footerDIV {
+    float: left;
+    padding-left: 100px;
+    margin-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.indexMain {
+    overflow: hidden;
+    margin: 50px;
 }
 .PsalmPageLink {
     background-color: rgb(255, 255, 210);
-    padding: 20px;
+    padding: 50px;
   float: left;
-  width: 25%;
   margin: 5px;
+  border-radius: 10px;
+  font-size: 25px;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 
 
 
 /* Psalm Pages */
-.MemoryBox {
-    position: fixed;
-    right: 0px;
-    width: 75px;
-    margin-left: 20px;
-}
+/* Buttons For Levels */
 button {
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
     margin: 5px;
     border-radius: 12px;
-    border: 5px solid red;
+    border: 5px solid rgb(255, 130, 130);
 }
 button:hover {
-    background-color: white;
+    background-color: rgb(0, 174, 255);
 }
+
 .PsalmBox {
-    font-size: 20px;
-    margin-right: 70px;
+    font-size: 40px;
+    margin: 100px;
 }
 
 
 
 
 
-
-
-
-
-
-/* Dashed border */
-hr.dashed {
-    border-top: 3px dashed #bbb;
+/* Waves */
+.wave-top {
+    margin: 20px 0;
+    background-image: url("../../Photos/wave-top.png");
+    height: 166px;
+    display: block;
+    background-position: center;
   }
-  
-  /* Dotted border */
-  hr.dotted {
-    border-top: 3px dotted #bbb;
+  .wave-bottom {
+    margin: 20px 0;
+    background-image: url("../../Photos/wave-bottom.png");
+    height: 189px;
+    display: block;
+    background-position: center;
   }
-  
+
   /* Solid border */
-  hr.solid {
-    border-top: 3px solid #bbb;
+hr.solid {
+    width: 98vw;
+    max-width: 100vw;
+    border-style: hidden;
+    border-top: 3px dotted transparent;
   }
-  
-  /* Rounded border */
-  hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
-    width: 100%;
+
+
+  /* Scrollbar */
+:root {
+    --shadow: #860404;
+    --scrollbarBG: rgb(245, 241, 10);
+    --thumbBG: #fb0202;
   }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
+  }
+ /* Scrollbar */
