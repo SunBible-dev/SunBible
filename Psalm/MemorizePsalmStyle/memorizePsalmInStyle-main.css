@@ -50,6 +50,11 @@ footer {
   margin: 5px;
   border-radius: 10px;
   font-size: 25px;
+  border: 1px solid red;
+}
+.PsalmPageLink:hover {
+  border: 1px solid blue;
+  background-color: rgb(88, 88, 88);
 }
 a {
     text-decoration: none;
@@ -75,7 +80,7 @@ button:hover {
 .PsalmBox {
     font-size: 40px;
     margin: 100px;
-}
+  }
 
 
 
