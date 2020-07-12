@@ -83,8 +83,8 @@ var URLS = [
     // Cache resources
     self.addEventListener('install', function (e) {
       e.waitUntil(
-        caches.open(CACHE_NAME).then(function (cache) {
-          console.log('installing cache : ' + CACHE_NAME)
+        caches.open(SunBible_01).then(function (cache) {
+          console.log('installing cache : ' + SunBible_01)
           return cache.addAll(URLS)
         })
       )
@@ -100,7 +100,7 @@ var URLS = [
             return key.indexOf(APP_PREFIX)
           })
           // add current cache name to white list
-          cacheWhitelist.push(CACHE_NAME)
+          cacheWhitelist.push(SunBible_01)
     
           return Promise.all(keyList.map(function (key, i) {
             if (cacheWhitelist.indexOf(key) === -1) {
