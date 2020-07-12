@@ -21,6 +21,6 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/",
+    "start_url": "/SunBible/",
     "display": "standalone"
 }
