@@ -16,7 +16,7 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/SunBible/index.html",
+    "start_url": "/SunBible/",
     "scope": "/SunBible/",
     "display": "standalone"
 
