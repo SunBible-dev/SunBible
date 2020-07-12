@@ -3,6 +3,7 @@ self.addEventListener('install', function(event) {
     var CACHE_NAME = 'my-site-cache-v1';
     var urlsToCache = [
       '/',
+      'index.html',
       'BibleStyle/StudyBibleInStyle.css'
     ];
     
@@ -69,7 +70,7 @@ self.addEventListener('install', function(event) {
 
 
 
-  
+
   self.addEventListener('activate', function(event) {
 
     var cacheWhitelist = ['pages-cache-v1', 'blog-posts-cache-v1'];
