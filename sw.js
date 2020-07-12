@@ -1,6 +1,6 @@
 var APP_PREFIX = 'SunBible'     // Identifier for this app (this needs to be consistent across every cache update)
 var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
-var CACHE_NAME = APP_PREFIX + VERSION
+var CACHE_NAME = 'SunBible_01'
 var URLS = [ 
         '/SunBible/',
         '/SunBible/index.html',
