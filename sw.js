@@ -23,12 +23,12 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '/',
-        'index.html',
-        'BibleStyle/StudyBibleInStyle.css',
-        'BibleScript/SunBibleScript-main.js',
-        'Genesis.html',
-        'Exodus.html'
+        '/SunBible/',
+        '/SunBible/index.html',
+        '/SunBible/BibleStyle/StudyBibleInStyle.css',
+        '/SunBible/BibleScript/SunBibleScript-main.js',
+        '/SunBible/Genesis.html',
+        '/SunBible/Exodus.html'
       ])
           .then(() => self.skipWaiting());
     })
