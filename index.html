@@ -1635,9 +1635,11 @@ For more great resources visit: <br/><a href="https://thesunshining.weebly.com/"
 
 
 <script>
-   if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('sw.js', {scope: '/SunBible/'})
-  }
+   if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js');
+  });
+}
    </script>
 
 </body>
