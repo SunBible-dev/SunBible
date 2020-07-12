@@ -4,11 +4,6 @@
   "short_name":"SunBible",
   "manifest_version": 2,
   "version": "1.5",
-  "app": {
-    "launch": {
-     "local_path": "index.html"
-      }
-     },
      "icons": [
       {
         "src": "Photos/SunBibleLogoCollection/logo.png",
@@ -21,8 +16,8 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/SunBible/",
-    "display": "standalone",
-    "offline_enabled": true
+    "start_url": "/SunBible/index.html",
+    "scope": "/SunBible/",
+    "display": "standalone"
 
 }
