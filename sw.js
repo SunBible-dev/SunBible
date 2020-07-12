@@ -1,9 +1,5 @@
-const version = "0.1.10";
-const cacheName = 'SunBible-${version}';
-self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(cacheName).then(cache => {
-      return cache.addAll([
+var CACHE_NAME = 'SunBible-v1';
+var urlsToCache = [
         '/SunBible/',
         '/SunBible/index.html',
         '/SunBible/Photos/',
@@ -61,23 +57,73 @@ self.addEventListener('install', e => {
         '/SunBible/BibleStyle/PaulStyle.css',
         '/SunBible/Romans.html',
         '/SunBible/Revelation.html'
-    ])
-    .then(() => self.skipWaiting());
-})
-);
-});
+    ];
+
+    self.addEventListener('install', function(event) {
+      // Perform install steps
+      event.waitUntil(
+        caches.open(CACHE_NAME)
+          .then(function(cache) {
+            console.log('Opened cache');
+            return cache.addAll(urlsToCache);
+          })
+      );
+    });
 
 
-self.addEventListener('activate', event => {
-event.waitUntil(self.clients.claim());
-});
 
-self.addEventListener('fetch', event => {
-event.respondWith(
-caches.open(cacheName)
-.then(cache => cache.match(event.request, {ignoreSearch: true}))
-.then(response => {
-return response || fetch(event.request);
-})
-);
-});
+
+
+    self.addEventListener('fetch', function(event) {
+        event.respondWith(
+          caches.match(event.request)
+            .then(function(response) {
+              // Cache hit - return response
+              if (response) {
+                return response;
+              }
+      
+              return fetch(event.request).then(
+                function(response) {
+                  // Check if we received a valid response
+                  if(!response || response.status !== 200 || response.type !== 'basic') {
+                    return response;
+                  }
+      
+                  // IMPORTANT: Clone the response. A response is a stream
+                  // and because we want the browser to consume the response
+                  // as well as the cache consuming the response, we need
+                  // to clone it so we have two streams.
+                  var responseToCache = response.clone();
+      
+                  caches.open(CACHE_NAME)
+                    .then(function(cache) {
+                      cache.put(event.request, responseToCache);
+                    });
+      
+                  return response;
+                }
+              );
+            })
+          );
+      });
+
+
+
+      
+      self.addEventListener('activate', function(event) {
+
+        var cacheWhitelist = ['SunBible-v1'];
+      
+        event.waitUntil(
+          caches.keys().then(function(cacheNames) {
+            return Promise.all(
+              cacheNames.map(function(cacheName) {
+                if (cacheWhitelist.indexOf(cacheName) === -1) {
+                  return caches.delete(cacheName);
+                }
+              })
+            );
+          })
+        );
+      });
