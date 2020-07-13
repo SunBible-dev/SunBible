@@ -28,7 +28,7 @@ self.addEventListener('install', e => {
         '/SunBible/BibleStyle',
         '/SunBible/BibleStyle/StudyBibleInStyle.css.css',
         '/SunBible/Photos/',
-        '/SunBible/Photos/SNBible.png',
+        '/SunBible/Photos/SNBible.png'
 ])
           .then(() => self.skipWaiting());
     })
