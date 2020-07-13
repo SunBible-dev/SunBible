@@ -17,7 +17,7 @@
  *
  */
 
-const version = "0.1.40";
+const version = "0.1.50";
 const cacheName = 'SunBible-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -29,18 +29,7 @@ self.addEventListener('install', e => {
         '/SunBible/BibleStyle/StudyBibleInStyle.css.css',
         '/SunBible/Photos/',
         '/SunBible/Photos/SNBible.png',
-
-        '/SunBible/BibleScript',
-        '/SunBible/BibleScript/SunBibleScript-main.js',
-        '/SunBible/BibleScript/jquery-3.4.1.js',
-        '/SunBible/BibleScript/MoreHomeScript.js',
-        '/SunBible/BibleScript/NEWtestamentBOOKchapters.js',
-        '/SunBible/BibleScript/RevOvercomerScript.js',
-        '/SunBible/BibleScript/SHOWorHIDEbookCHAPTERS.js',
-        '/SunBible/BibleScript/scrollToTop.js',
-        '/SunBible/BibleScript/SunBibleMemorization',
-        '/SunBible/BibleScript/SunBibleMemorization/SunOnJamesMemoryScript.js',
-      ])
+])
           .then(() => self.skipWaiting());
     })
   );
