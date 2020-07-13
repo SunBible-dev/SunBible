@@ -7,7 +7,7 @@ Speacial home stuff
 	margin-bottom: 0px;
 }
 .HomeBody {
-	background-image: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dsc00112.jpg);
+	background-image: linear-gradient(white, red);
 }
 #HomeAll {
 	background-color: white;
@@ -32,23 +32,8 @@ font-size: 20px;
 	padding: 10px;
 	overflow: hidden;
 }
-#WholeOldCollection {
+#WholeOldCollection, #WholeNewCollection {
 	overflow: hidden;
-}
-#WholeNewCollection {
-	overflow: hidden;
-}
-#ShowOldTestament {
-	padding: 10px;
-	margin: 10px;
-	background-color: yellow;
-	 border-radius: 25px;
-	border: 5px solid black;
-	width: 40%;
-	float: left;
-	overflow: hidden;
-}
-#ShowNewTestament {
 	padding: 10px;
 	margin: 10px;
 	background-color: yellow;
@@ -57,12 +42,18 @@ font-size: 20px;
 	width: 40%;
 	float: left;
 }
-#OldLinkCollection {
-	display: none;
+
+#ShowOldTestament:hover, #ShowNewTestament:hover {
+background-color: rgb(181, 245, 172);
 }
-#NewLinkCollection {
+
+#OldLinkCollection, #NewLinkCollection {
 	display: none;
+	background-color: white;
+	overflow: hidden;
 }
+
+
  .HomeBookLinkBox {
  padding: 50px;
  background-color: yellow;
@@ -70,6 +61,10 @@ font-size: 20px;
  margin: 20px;
  border: 5px solid black;
  }
+.HomeBookLinkBox:hover {
+	background-color: rgb(248, 248, 178);
+}
+
  #OnMountPlan {
 	width: 20%;
 	background-color: rgb(4, 247, 247);
@@ -98,6 +93,17 @@ font-size: 20px;
 	margin: 10px;
 }
 /* Speacial home stuff */
+
+
+
+
+
+
+
+
+
+
+
 
 body { 
 	width: 99%;
@@ -165,27 +171,6 @@ float: left;
 width: 200px;
 text-align: left;
 }
-#NCRnoteINTRO {
-	background-color: lightgray;
-	border: 5px solid gold;
-	padding: 20px;
-	margin: 10px;
-   float: left;
-   width: 40%;
-   text-align: left;
-	}
-	#BibleMemorizationGuideINTRO{
-	 background-color: lightgreen;
-	border: 5px dotted green;
-	padding: 20px;
-	margin: 10px;
-   float: right;
-   width: 40%;
-   text-align: left;
-   }
-   .NCRnoteLOGO{
-	   width: 100px;
-   }
  #share {
   padding: 50px;
  background-color: yellow;
@@ -199,7 +184,7 @@ text-align: left;
    border: 5px solid black;
    }
  #sunadd {
- width: 25%;
+ width: 20%;
  background-color: lightgreen;
  border: 5px dotted blue;
  float: left;
@@ -228,6 +213,17 @@ text-align: left;
  }
  
  
+
+
+
+
+
+
+
+
+
+
+
   .ChapterSelection {
 	display: none;  
   }
