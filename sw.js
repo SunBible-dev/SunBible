@@ -18,7 +18,7 @@
  */
 
 const version = "0.1.50";
-const cacheName = 'SunBible-${version}';
+const cacheName = 'SunBible-v1.50';
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
