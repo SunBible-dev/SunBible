@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient( rgb(0, 255, 0), rgb(0, 255, 242));
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+header {
+    padding: 25px;
+    background-color: rgb(255, 255, 0);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.GenesisTextBox {
+    background-color: white;
+    padding: 25px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+    background-color: rgb(255, 255, 0);
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 2.0;
+}
+footer:hover {
+    background-color: rgb(255, 255, 200);
+}
+.ByFa {
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 2px;
+}
+.ByFa:hover {
+ background-color: rgb(163, 163, 0);
+ border: 1px solid blue;
+}
+
+
+
+ /* Scrollbar */
+ :root {
+    /*--shadow: #860404;*/
+    --scrollbarBG: rgb(245, 241, 10);
+    --thumbBG: #fb0202;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    /* box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);*/
+  }
+ /* Scrollbar */
