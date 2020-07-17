@@ -1,3 +1,6 @@
+body {
+    background-color: orange;
+}
 div {
  font-size: 20px;
 font-family: 'Coming Soon', cursive;
@@ -39,3 +42,28 @@ float: left;
 width: 200px;
 text-align: left;
  }
+
+ 
+ .TheFearOfTheLord{
+    font-family: 'Patua One', cursive;
+    }
+    .MySon {
+    font-family: 'Bangers', cursive;
+    }
+    .Wisdom {
+    font-family: 'Oswald', sans-serif; 
+     text-transform: uppercase;
+    }
+    .SUN {
+    font-family: 'Bowlby One SC', cursive;
+    }
+    .love {
+    font-family: 'Caveat', cursive; 
+    font-size: 40px;
+    font-weight: bold;
+    }
+    .bet-ter {
+      font-family: 'Slabo 27px', serif;  
+      font-size: 40px;
+    font-weight: bold;
+    }
