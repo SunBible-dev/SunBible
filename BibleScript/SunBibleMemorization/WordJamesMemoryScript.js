@@ -4,8 +4,9 @@ $(document).ready(function(){
 
 
     $(".M, .MM, .MMM, .MMMM, .MMMMM").toggle(
-      function(){$( this).css({"background-color": "white"});},
-      function(){$( this).css({"background-color": "black"});}
+      function(){$( this).css({"background-color": "yellow"});},
+      function(){$( this).css({"background-color": "black"});},
+      function(){$( this).css({"background-color": "transparent"});}
     );
 
 
