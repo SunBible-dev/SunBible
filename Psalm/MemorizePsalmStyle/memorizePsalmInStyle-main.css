@@ -44,6 +44,7 @@ footer {
     background-color: #97971e;
     padding-bottom: 20px;
     font-size: 30px;
+    min-height: 700px;
 }
 .footerDIV {
   float: left;
@@ -51,8 +52,8 @@ footer {
   padding: 50px;
    }
 .indexMain {
-    overflow: hidden;
     margin: 50px;
+    padding: 20px;
 }
 .PsalmPageLink {
     background-color: rgb(255, 255, 210);
@@ -121,18 +122,11 @@ button:hover {
     background-position: center;
   }
 
-  /* Solid border */
-hr.solid {
-    min-width: 98vw;
-    max-width: 100vw;
-    border-style: hidden;
-    border-top: 3px dotted transparent;
-  }
 
 
   /* Scrollbar */
 :root {
-    --shadow: #860404;
+    /* --shadow: #860404; */
     --scrollbarBG: rgb(245, 241, 10);
     --thumbBG: #fb0202;
   }
@@ -144,7 +138,8 @@ hr.solid {
   }
   ::-webkit-scrollbar-thumb {
     background-color: var(--thumbBG);
-    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
+    border-radius: 20px;
+    /* box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255); */
   }
  /* Scrollbar */
 
