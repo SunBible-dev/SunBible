@@ -1,50 +1,58 @@
 body {
 	background-image: url('https://i.imgur.com/U038n1L.jpg');
 	background-repeat: repeat;
-	background-size: 200px;
+	background-size: 500px;
 font-size: 20px;
 font-family: arial;
 }
+#MainContentBox {
+	background-color: yellow;
+	 border: solid black; 
+	 padding: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 overflow: hidden;
+	}
 header {
 background-color: gold; 
-padding: 20px; 
-lenght: 100%; 
+padding: 20px;  
 border-bottom: solid black 5px;
-float: center;
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 0px;
+margin: 5px;
 }
 #HeaderPic {
-
+	float: center;
+	width: 100%
 }
 nav {
-lenght: 100%;
+width: 100%;
  text-align: center;
  background-color: white;
  padding: 10px;
 }
+nav:hover {
+	background-color: gold;
+}
+
+
+
 #pagelink {
 color: black;
  text-decoration: none; 
  font-size: 20px;
- background-color: yellow;
+ background-color: gold;
  font-size: 25px;
  font-family: arial;
+ padding: 10px;
+ border-radius: 20px;
+ margin: 10px;
 }
 #pagelink:hover {
-	font-size: 35px;
+	background-color: yellow;
 }
-#MainContentBox {
-background-color: yellow;
- border: solid black; 
- padding: 20px;
-float: center;
-margin-left: 5%;
-margin-right: 5%;
- margin-top: 10px;
- margin-bottom: 10px;
-}
+
+
 footer {
 	margin-top: 10px;
 background-color: lightgreen;
@@ -55,4 +63,13 @@ float: center;
 left: 10%;
 right: 10%;
 bottom: 0%;
+overflow: hidden;
 }
+.footerDIV {
+	float: left;
+	width: 20%;
+	padding: 50px;
+	 }
+	 .pagelinks {
+line-height: 2;
+	 }

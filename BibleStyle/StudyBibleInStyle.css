@@ -18,6 +18,7 @@ margin-right: 5%;
 padding: 20px;
 font-family: arial;
 font-size: 20px;
+overflow: hidden;
 }
 #QtoRead {
 	padding: 10px;
@@ -83,15 +84,6 @@ background-color: rgb(181, 245, 172);
 	float: left;
 	margin: 10px;
 }
-#SunOnJames {
-	width: 20%;
-	background-color: rgb(255, 251, 0);
-	color: black;
-	padding: 20px;
-	border: 10px dotted red;
-	float: left;
-	margin: 10px;
-}
 /* Speacial home stuff */
 
 
@@ -137,6 +129,7 @@ text-align: center;
 font-family: arial;
 font-size: 20px;
 padding: 20px;
+margin-top: 20px;
 }
  a {
 text-decoration: none;
@@ -185,12 +178,20 @@ text-align: left;
    }
  #sunadd {
  width: 20%;
- background-color: lightgreen;
- border: 5px dotted blue;
+ background-color: lightyellow;
+ border: 5px dotted green;
  float: left;
  padding: 10px;
  margin: 10px;
  }
+ .LinkToMemoryPage {
+	width: 20%;
+	background-color: lightgreen;
+	border: 5px dotted blue;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	}
   #PsalmLogo {
  width: 100px;
  }
