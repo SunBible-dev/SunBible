@@ -15,26 +15,30 @@ header {
     border: 2px solid rgb(0, 255, 0);
     padding: 20px;
     width: 60%;
+    position: absolute;
+    right: 10px;
 }
 nav {
-    position: absolute;
-    right: 0px;
     width: 20%;
     background-color: yellow;
     border-left: 5px solid black;
     padding: 20px;
+    line-height: 2;
+}
+nav:hover {
+    background-color: wheat;
 }
 
-
-a {
+#pagelink {
     color: red;
     text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
 }
-a:hover {
-    font-size: 26px;
-}
-a:visited {
-    color: purple;
+#pagelink:hover {
+    background-color: black;
 }
 
 button {
@@ -106,4 +110,18 @@ footer {
     background-color: #f7c497;
     padding: 20px;
     border-radius: 25px;
+    line-height: 2;
+}
+footer:hover {
+    background-color: #f7c49791;
+}
+.Fa {
+    background-color: #f7c497;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    text-decoration: none;
+}
+.Fa:hover {
+    background-color: black;
 }
