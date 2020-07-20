@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
     $(".M").toggle(
-        function(){$( this).css({"background-color": "blue"});},
-        function(){$( this).css({"background-color": "black"});}
+        function(){$( this).css({"background-color": "RGB(92, 254, 59)"});},
+        function(){$( this).css({"background-color": "black"});},
+        function(){$( this).css({"background-color": "transparent"});}
       );
 
     $("#LevelStart").click(function(){
