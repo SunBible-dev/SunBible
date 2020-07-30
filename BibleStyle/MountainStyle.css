@@ -1,33 +1,49 @@
 body {
 background-color: gray;
 font-family: arial;
+font-size: 25px;
 }
 p { 
    text-indent: 30px;
 }
-#ShowTable {
-background-color: lightgrey;
-position: fixed;
+
+.ShowTable {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+
+}
+.ShowTable:hover {
+    background-color: black;
 }
 #TabeOfContens {
 display: none;
-position: fixed;
 background-color: lightgrey;
 border-right: 5px solid yellow;
-width: 400px;
-height: 100vh;
 padding: 20px;
+overflow: hidden;
 }
-.TitleLink {
+.TitleLink, .OA {
 text-decoration: none;
-
+background-color: burlywood;
+padding: 20px;
+border-radius: 10px;
+line-height: 3.5;
+}
+.TitleLink:hover, .OA:hover {
+background-color: darkblue;
+color: wheat;
 }
 header {
 color: white;
 text-align: center;
 background-color: blue;
 padding: 20px;
-margin-left: 40px;
 }
 #NewIntroNote {
 background-color: rgb(255, 255, 152);
@@ -50,8 +66,9 @@ border: 5px solid black;
 background-color: white;
 padding: 25px;
 margin: 10px;
-margin-left: 40px;
+overflow: hidden;
 }
+
 .RedLetters {
 color: red;
 }

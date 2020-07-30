@@ -6,45 +6,22 @@
  <link rel="shortcut icon" type="image/x-icon" href="../Photos/SNBible.png" />
  <link rel="stylesheet" type="text/css" href="../BibleStyle/MountainStyle.css">
  <link rel="stylesheet" type="text/css" href="../BibleStyle/DivStyle.css">
+ <link rel="stylesheet" type="text/css" href="../BibleStyle/ScrollBarStyleONE.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="../BibleScript/jquery-3.4.1.js"></script>
+ <script>
+$(document).ready(function(){
+  $(".AshowTable").click(function(){
+    $("#TabeOfContens").toggle();
+  });
+});
+</script>
 
 </head>
 <body>
 
-<div id="ShowTable">
-<a href="javascript:;" onClick="document.getElementById('TabeOfContens').style.display='block';">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" style="width: 30px;">
-</a>
-</div>
 
-<div id="TabeOfContens">
-<a href="javascript:;" onClick="document.getElementById('TabeOfContens').style.display='none';">Hide Table Of Contents</a>
-<h4>Table Of Contents<h4>
-<a href="#Introduction" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Introduction: Jesus went up into a Mountain</a><br/>
-<a href="#TheBeatitudes" class="TitleLink"  onClick="document.getElementById('TabeOfContens').style.display='none';">The Beatitudes</a><br/>
-<a href="#LightsforJesus" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Lights for Jesus</a><br/>
-<a href="#TheLaw" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">The Law</a><br/>
-<a href="#More1" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 1: Thou Shalt Not Kill</a><br/>
-<a href="#More2" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 2: Thou Shalt Not Commit Adultery</a><br/>
-<a href="#More3" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 3: Thou shalt not forswear thyself</a><br/>
-<a href="#More4" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 4: An eye for an eye</a><br/>
-<a href="#More5" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 5: Thou Shalt Love thy Neighbour</a><br/>
-<a href="#HowToDoGood" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to do Good</a><br/>
-<a href="#HowToPray" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to Pray</a><br/>
-<a href="#HowToFast" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to Fast</a><br/>
-<a href="#WealthInAChristianPerspective" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Wealth In A Christian Perspective</a><br/>
-<a href="#JudgeNot" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Judge Not</a><br/>
-<a href="#Ask" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Ask</a><br/>
-<a href="#TheGoldenRule" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">The Golden Rule</a><br/>
-<a href="#NarrowRoadToHeaven" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Narrow Road To Heaven</a><br/>
-<a href="#Fruit" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">EveryThing Is Known By It's Fruit</a><br/>
-<a href="#JesusName" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Many Will Call On Jesus Name</a><br/>
-<a href="#BuildOnTheRock" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Build On The Rock</a><br/>
-<a href="#Conclusion" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Conclusion: More Than Astonisted</a><br/>
-<h4>Other Links:</h4>
-<a href="../index.html">SunBible Home</a>
-<br/>
-<a href="https://thesunshining.weebly.com/">The SunShining Home</a>
-</div>
 
 
 
@@ -59,8 +36,74 @@
 <p>----------</p>
 <p>By: N.C.R.</p>
 </header>
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="Book">
-<a href="javascript:;" onClick="document.getElementById('TabeOfContens').style.display='block';">Show Table Of Contents</a>
+
+<a class="AshowTable">
+ <div class="ShowTable">
+  Show/Hide Table Of Contents
+ </div>
+</a>
+
+
+
+
+
+
+<div id="TabeOfContens">
+  <h4>Table Of Contents<h4>
+  <a href="#Introduction" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Introduction: Jesus went up into a Mountain</a><br/>
+  <a href="#TheBeatitudes" class="TitleLink"  onClick="document.getElementById('TabeOfContens').style.display='none';">The Beatitudes</a><br/>
+  <a href="#LightsforJesus" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Lights for Jesus</a><br/>
+  <a href="#TheLaw" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">The Law</a><br/>
+  <a href="#More1" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 1: Thou Shalt Not Kill</a><br/>
+  <a href="#More2" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 2: Thou Shalt Not Commit Adultery</a><br/>
+  <a href="#More3" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 3: Thou shalt not forswear thyself</a><br/>
+  <a href="#More4" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 4: An eye for an eye</a><br/>
+  <a href="#More5" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">More Than The Law - Part 5: Thou Shalt Love thy Neighbour</a><br/>
+  <a href="#HowToDoGood" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to do Good</a><br/>
+  <a href="#HowToPray" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to Pray</a><br/>
+  <a href="#HowToFast" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">How to Fast</a><br/>
+  <a href="#WealthInAChristianPerspective" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Wealth In A Christian Perspective</a><br/>
+  <a href="#JudgeNot" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Judge Not</a><br/>
+  <a href="#Ask" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Ask</a><br/>
+  <a href="#TheGoldenRule" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">The Golden Rule</a><br/>
+  <a href="#NarrowRoadToHeaven" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Narrow Road To Heaven</a><br/>
+  <a href="#Fruit" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">EveryThing Is Known By It's Fruit</a><br/>
+  <a href="#JesusName" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Many Will Call On Jesus Name</a><br/>
+  <a href="#BuildOnTheRock" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Build On The Rock</a><br/>
+  <a href="#Conclusion" class="TitleLink" onClick="document.getElementById('TabeOfContens').style.display='none';">Conclusion: More Than Astonisted</a><br/>
+  <h4>Other Links:</h4>
+  <a class="OA" href="../index.html">SunBible Home</a>
+  <br/>
+  <a class="OA" href="https://thesunshining.weebly.com/">The SunShining Home</a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <hr class="rounded">
 <div id="CopyrightStuff" style="float: left; width: 35%; margin-right: 80px;">
