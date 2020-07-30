@@ -12,27 +12,26 @@ $(document).ready(function(){
 
     $("#Level1").click(function(){
         $(".L2").css("background-color", "blue"); 
-        $(".L1").css("background-color", "black");
-        $(".Red").css("color", "black");
+        $(".L1").css("background-color", "red");
     });
 
     $("#Level2").click(function(){
         $(".L3").css("background-color", "blue");
-        $(".L2").css("background-color", "black");
+        $(".L2").css("background-color", "red");
     });
 
     $("#Level3").click(function(){
         $(".L4").css("background-color", "blue");
-        $(".L3").css("background-color", "black");
+        $(".L3").css("background-color", "red");
     });
 
     $("#Level4").click(function(){
         $(".L5").css("background-color", "blue");
-        $(".L4").css("background-color", "black");
+        $(".L4").css("background-color", "red");
     });
 
     $("#Level5").click(function(){
-        $(".L5").css("background-color", "black");
+        $(".L5").css("background-color", "red");
     });
 
     $("#ReStart").click(function(){

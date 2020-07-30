@@ -53,6 +53,7 @@ background-color: white;
 h1 {
     color: black;
 }
+
 .Red {
     color: red;
 }
@@ -64,6 +65,9 @@ h1 {
 }
 .Black:hover {
     background-color: tomato;
+}
+.W:hover {
+    background-color: yellow;
 }
 
 
