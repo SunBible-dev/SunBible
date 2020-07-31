@@ -7,7 +7,7 @@ p {
    text-indent: 30px;
 }
 
-.ShowTable {
+.ShowTable, .MemLink {
     background-color: blue;
     padding: 20px;
     border-radius: 20px;
@@ -18,7 +18,8 @@ p {
     width: 300px;
 
 }
-.ShowTable:hover {
+
+.ShowTable:hover, .MemLink:hover {
     background-color: black;
 }
 #TabeOfContens {
