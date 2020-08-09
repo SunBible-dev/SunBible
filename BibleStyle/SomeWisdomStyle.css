@@ -31,6 +31,7 @@ padding: 20px;
    background-color: white; 
    font-size: 30px;
    padding: 20px;
+   overflow: hidden;
 }
 .ChapterNumber {
     background-color: rgb(254, 255, 184);
@@ -102,4 +103,35 @@ font-weight: bold;
   font-family: 'Slabo 27px', serif;  
   font-size: 40px;
 font-weight: bold;
+}
+
+
+
+/* Notes */
+
+.NCRnoteBox {
+    width: 300px;
+  margin: 50px auto;
+  background: #a3a3a1;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+ bottom: 50px;
+  float: right;
+}
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+
 }
