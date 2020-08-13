@@ -67,6 +67,42 @@ padding: 1px;
    }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Anton|Bangers|Bowlby+One+SC|Caveat|Patua+One|Playfair+Display|Righteous|Slabo+27px|Source+Code+Pro&display=swap');
+
+
+
+
+
    /* Special text: -Text that can be used
 font-family: 'Oswald', sans-serif;
 font-family: 'Bangers', cursive;
@@ -104,6 +140,42 @@ font-weight: bold;
   font-size: 40px;
 font-weight: bold;
 }
+.path, .way {
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+}
+.TheFearOfTheLord:hover, .MySon:hover, .Wisdom:hover, .SUN:hover, .love:hover, .bet-ter:hover, .path:hover, .way:hover {
+background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
