@@ -209,9 +209,22 @@ background-color: yellow;
 }
 
 
+/*Fear verses*/
+.fear_verse {
+  float: right;
+  width: 20%;
+margin: 20px;
+}
+.fear_verse:hover {
+  animation-name: fearVerses;
+  animation-duration: 2.5s;
+  width: 50%;
+}
 
-
-
+@keyframes fearVerses{
+  from {width: 20%}
+  to {width: 50%}
+}
 
 
 
