@@ -140,11 +140,11 @@ font-weight: bold;
   font-size: 40px;
 font-weight: bold;
 }
-.path, .way {
+.path, .way, .li-fe {
     font-family: 'Playfair Display', serif;
     text-decoration: underline;
 }
-.TheFearOfTheLord:hover, .MySon:hover, .Wisdom:hover, .SUN:hover, .love:hover, .bet-ter:hover, .path:hover, .way:hover {
+.TheFearOfTheLord:hover, .MySon:hover, .Wisdom:hover, .SUN:hover, .love:hover, .bet-ter:hover, .path:hover, .way:hover, .li-fe:hover {
 background-color: yellow;
 }
 
