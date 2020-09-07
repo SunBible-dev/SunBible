@@ -4,7 +4,7 @@
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
-  "license": "LICENSE.md",
+  "license": "MIT",
   "maintainers": [
     "NCR",
     "The SunShining"
@@ -22,6 +22,10 @@
     "Bible",
     "SunBible"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-sunshining/SunBible.git"
+  },
   "devDependencies": {
     "electron": "^10.1.1",
     "electron-builder": "^22.8.0"
