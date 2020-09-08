@@ -3,21 +3,11 @@
   "description": "Access to the entire KJV SunShining Study Bible offline",
   "short_name":"SunBible",
   "manifest_version": 2,
-  "version": "1.5",
-     "icons": [
-      {
-        "src": "Photos/SunBibleLogoCollection/logo.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "Photos/SunBibleLogoCollection/logo.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "start_url": "/SunBible/",
-    "scope": "/SunBible/",
-    "display": "standalone"
+  "version": "3.1",
+  "author": "The SunShining",
+  "browser_action": {
+     "default_icon": "Photos/SNBible.png",
+     "default_popup": "shortcut.html"
+  }
 
 }
