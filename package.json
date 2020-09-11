@@ -1,6 +1,5 @@
 {
   "name": "sunbible",
-  
   "version": "0.0.3",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
@@ -11,14 +10,6 @@
     "The SunShining"
   ],
   "author": "The SunShining <thesunshining@gmail.com> (www.thesunshining.weebly.com)",
-  "scripts": {
-    "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder",
-    "deb": "electron-builder --linux deb",
-    "AppImage": "electron-builder --linux AppImage",
-    "snap": "electron-builder --linux snap"
-  },
   "keywords": [
     "Bible",
     "SunBible"
@@ -30,5 +21,13 @@
   "devDependencies": {
     "electron": "^10.1.1",
     "electron-builder": "^22.8.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "deb": "electron-builder --linux deb",
+    "AppImage": "electron-builder --linux AppImage",
+    "snap": "electron-builder --linux snap"
   }
 }

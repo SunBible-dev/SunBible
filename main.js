@@ -31,18 +31,16 @@ app.on('ready', async () => {
   })
 
   mainWindow.loadFile('docs/index.html')
-
-
-  // SunBuble Chrome Ex
-  //await session.defaultSession.loadExtension(path.join(__dirname, 'docs'))
-
-
-
 })
 
 
 
-
+  // SunBuble Chrome Ex
+  //await session.defaultSession.loadExtension(path.join(__dirname, 'docs'))
+  // or ?
+//  session.loadExtension('docs').then(({ id }) => {
+    // ...
+//  })
 
 
 
@@ -57,14 +55,7 @@ const template = [
   {
     label: 'SunBible',
     submenu: [
-    // {
-    //    label: 'SunBible App Home',
-    //    click: async () => {
-    //      const { shell } = require('electron')
-    //      await shell.BrowserWindow.loadFile('docs/index.html')
-    //    }
-    //  },
-    { role: 'copy' },
+    { label: 'Copy Bible Verses', role: 'copy' },
       { type: 'separator' },
       {
         label: 'View SunBible Online',
