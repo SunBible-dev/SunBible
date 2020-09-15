@@ -12,6 +12,7 @@ const { app, BrowserWindow, Menu, session } = require('electron')
 
 const path = require('path')
 
+
 app.on('ready', async () => {
   // We cannot require the screen module until the
   // app is ready
@@ -48,8 +49,6 @@ app.on('ready', async () => {
 
 
 // SunBible menu
-
-
 const template = [
 
   {
@@ -65,13 +64,11 @@ const template = [
         }
       }
     ]
-  },
-
-  
-
+  }
 ]
-
 const menu = Menu.buildFromTemplate(template)
 Menu.setApplicationMenu(menu)
 
-
+// Right Click Menu
+const POPmenu = Menu.buildFromTemplate(template)
+menu.popup(POPmenu)
