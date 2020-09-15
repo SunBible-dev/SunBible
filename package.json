@@ -29,5 +29,8 @@
     "deb": "electron-builder --linux deb",
     "AppImage": "electron-builder --linux AppImage",
     "snap": "electron-builder --linux snap"
+  },
+  "dependencies": {
+    "electron-context-menu": "^2.3.0"
   }
 }
