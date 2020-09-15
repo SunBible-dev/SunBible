@@ -1,16 +1,11 @@
 //I have no idea what most of this does!!! - NCR
 
-
-
-
 // Retrieve information about screen size, displays, cursor position, etc.
 //
 // For more info, see:
 // https://electronjs.org/docs/api/screen
 
 const { app, BrowserWindow, Menu, session } = require('electron')
-
-const path = require('path')
 
 
 app.on('ready', async () => {
@@ -34,14 +29,6 @@ app.on('ready', async () => {
   mainWindow.loadFile('docs/index.html')
 })
 
-
-
-  // SunBuble Chrome Ex
-  //await session.defaultSession.loadExtension(path.join(__dirname, 'docs'))
-  // or ?
-//  session.loadExtension('docs').then(({ id }) => {
-    // ...
-//  })
 
 
 
@@ -69,6 +56,20 @@ const template = [
 const menu = Menu.buildFromTemplate(template)
 Menu.setApplicationMenu(menu)
 
-// Right Click Menu
-const POPmenu = Menu.buildFromTemplate(template)
-menu.popup(POPmenu)
+
+
+// Right Click Menu using - "electron-context-menu": "^2.3.0"
+const contextMenu = require('electron-context-menu');
+contextMenu({
+	menu: (actions, props, browserWindow) => [
+		{ type: 'separator' },
+		{ label: 'SunBible' },
+		{ type: 'separator' },
+   { label: 'Copy Bible Verses', role: 'copy' }
+		
+	]
+});
+
+
+
+ // SunBuble Chrome Ex
