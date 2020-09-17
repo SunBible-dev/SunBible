@@ -36,8 +36,8 @@ app.on('ready', async () => {
 
 
 // SunBible menu
+const isMac = process.platform === 'darwin'
 const template = [
-
   {
     label: 'SunBible',
     submenu: [
@@ -49,7 +49,9 @@ const template = [
           const { shell } = require('electron')
           await shell.openExternal('https://the-sunshining.github.io/SunBible/')
         }
-      }
+      },
+      { type: 'separator' },
+      isMac ? { role: 'close' } : { role: 'quit' }
     ]
   }
 ]
@@ -62,10 +64,13 @@ Menu.setApplicationMenu(menu)
 const contextMenu = require('electron-context-menu');
 contextMenu({
 	menu: (actions, props, browserWindow) => [
-		{ type: 'separator' },
-		{ label: 'SunBible' },
-		{ type: 'separator' },
-   { label: 'Copy Bible Verses', role: 'copy' }
+    {
+      label: 'SunBible',
+      submenu: [
+      { label: 'Copy Bible Verses', role: 'copy' },
+        { type: 'separator' }
+      ]
+    }
 		
 	]
 });
