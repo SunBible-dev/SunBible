@@ -1,4 +1,15 @@
 {
+
+  "build": {
+    "appId": "com.sunbible.app",
+    "productName": "SunBible",
+    "files": [
+      {
+        "filter": ["Opera_manifest", "Chrome_manifest", "*/manifest.json"]
+      }
+    ]
+  },
+
   "name": "sunbible",
   "version": "0.0.4",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
