@@ -2,12 +2,7 @@
 
   "build": {
     "appId": "com.sunbible.app",
-    "productName": "SunBible",
-    "files": [
-      {
-        "filter": ["Opera_manifest", "Chrome_manifest", "*/manifest.json"]
-      }
-    ]
+    "productName": "SunBible"
   },
 
   "name": "sunbible",
