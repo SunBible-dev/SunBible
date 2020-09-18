@@ -1,9 +1,9 @@
 {
   "name":"The SunShining Study Bible",
-  "description": "Access to the entire KJV SunShining Study Bible offline",
+  "description": "A beautiful way to read, study, and memorize the Bible",
   "short_name":"SunBible",
   "manifest_version": 2,
-  "version": "3.1",
+  "version": "3.1.0",
   "author": "The SunShining",
   "browser_action": {
      "default_icon": "Photos/SNBible.png",

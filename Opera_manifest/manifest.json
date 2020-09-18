@@ -1,0 +1,24 @@
+{
+
+	"name": "SunBible",
+	"version": "1.0.0",
+	"manifest_version": 2,
+
+
+	"description": "A beautiful way to read, study, and memorize the Bible",
+	"developer": {
+        "name": "The SunShining",
+        "url": "https://thesunshining.weebly.com/"
+     },
+
+	"default_locale": "en",
+
+	"sidebar_action": {
+		"default_icon": "",
+		"default_title" : "SunBible",
+		"default_panel": "index.html"
+	},
+
+	
+	"homepage_url": "https://the-sunshining.github.io/SunBible/"
+}
