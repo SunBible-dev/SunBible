@@ -1,24 +1,13 @@
 {
+  "name":"The SunShining Study Bible",
+  "description": "A beautiful way to read, study, and memorize the Bible",
+  "short_name":"SunBible",
+  "manifest_version": 2,
+  "version": "3.2.0",
+  "author": "The SunShining",
+  "browser_action": {
+     "default_icon": "Photos/SNBible.png",
+     "default_popup": "shortcut.html"
+  }
 
-	"name": "SunBible",
-	"version": "1.0.0",
-	"manifest_version": 2,
-
-
-	"description": "A beautiful way to read, study, and memorize the Bible",
-	"developer": {
-        "name": "The SunShining",
-        "url": "https://thesunshining.weebly.com/"
-     },
-
-	"default_locale": "en",
-
-	"sidebar_action": {
-		"default_icon": "Photos/SNBible.png",
-		"default_title" : "SunBible",
-		"default_panel": "index.html"
-	},
-
-	
-	"homepage_url": "https://the-sunshining.github.io/SunBible/"
 }
