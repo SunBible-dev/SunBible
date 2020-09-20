@@ -34,7 +34,9 @@
     "dist": "electron-builder",
     "deb": "electron-builder --linux deb",
     "AppImage": "electron-builder --linux AppImage",
-    "snap": "electron-builder --linux snap"
+    "snap": "electron-builder --linux snap",
+    "appx": "electron-builder --windows appx",
+    "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
     "electron-context-menu": "^2.3.0"
