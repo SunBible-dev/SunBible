@@ -1,10 +1,8 @@
 {
-
   "build": {
     "appId": "com.sunbible.app",
     "productName": "SunBible"
   },
-
   "name": "sunbible",
   "version": "0.0.4",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
@@ -39,6 +37,7 @@
     "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0"
+    "electron-context-menu": "^2.3.0",
+    "electron-tabs": "^0.15.0"
   }
 }

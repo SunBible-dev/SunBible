@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- For app tabs -->
+<link rel="stylesheet" href="node_modules/electron-tabs/electron-tabs.css">
+    </head>
+    <body>
+        <div class="etabs-tabgroup">
+            <div class="etabs-tabs"></div>
+            <div class="etabs-buttons"></div>
+          </div>
+          <div class="etabs-views"></div>
+      <script>
+         const TabGroup = require("electron-tabs");
+           
+           let tabGroup = new TabGroup();
+           let tab = tabGroup.addTab({
+             title: "SunBible",
+             src: "https://the-sunshining.github.io/SunBible/",
+             visible: true
+           });
+      </script>
+    </body>
+</html>
