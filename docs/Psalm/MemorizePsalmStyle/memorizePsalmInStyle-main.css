@@ -28,6 +28,9 @@ header {
   border: 10px solid;
     border-image: linear-gradient(to right, red 50%, yellow 50%) 19;
     box-shadow: 10px 10px 10px black;
+    animation-name: PSALMheaderIMG;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
 }
 .Psalm11911{
   float: right;
@@ -84,7 +87,7 @@ a {
   padding: 20px;
   border: 2px solid green;
   overflow: hidden;
-  
+
 }
 button {
     padding: 20px;
@@ -151,7 +154,7 @@ button:hover {
 
 
 
- 
+
 
  /* a a.button next psalm */
  a.button {
@@ -182,4 +185,17 @@ a.button:hover {
   audio {
     background-color: aqua;
     width: 500px;
+  }
+
+
+
+  /* Animations */
+
+  @keyframes PSALMheaderIMG {
+    0% {border: 10px solid red;}
+    25% {border: 10px solid green;}
+    50% {border: 10px solid blue;}
+    75% {border: 10px solid yellow;}
+    100% {border: 10px solid red;}
+
   }

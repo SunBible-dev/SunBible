@@ -1,0 +1,176 @@
+/* Theme */
+:root {
+    --mainColor1: #ffff00;
+    --mainColor2:  lightgreen;
+    --mainColor3: #ffffff;
+    --mainColor4: red;
+    --mainColor5: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+
+/* Main */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    background-color: var(--mainColor4);
+    animation-name: bodyback;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  margin-top: 0px;
+    min-height: 100vh;
+    text-align: center;
+    min-width: 95vw;
+    background-color: rgb(255, 77, 77);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header_h1 {
+position: absolute;
+top: 20%;
+left:25%;
+right: 25%;
+padding: 30px;
+animation: headerAN;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+
+
+button {
+font-size: 20px;
+padding: 10px;
+border-radius: 20px;
+}
+button:hover {
+  animation-name: buttonAN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+/* Main Layout */
+section {
+  position: relative;
+    min-height: 100vh;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: var(--mainColor3);
+    border: 5px solid black;
+}
+div {
+  padding: 20px;
+}
+.left_half {
+    float: left;
+    width: 45%;
+  }
+  .right_half {
+    float: right;
+    width: 45%;
+  }
+
+
+
+footer {
+  background-color: var(--mainColor5);
+  position: relative;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  color: var(--mainColor3);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes bodyback {
+    0% {background-color: var(--mainColor1);}
+    25% {background-color: var(--mainColor4);}
+    50% {background-color: var(--mainColor3)}
+    75% {background-color: var(--mainColor4);}
+    100% {background-color: var(--mainColor1);}
+    }
+    @keyframes headerAN {
+        0% {border: 5px solid var(--mainColor2); color: var(--mainColor1);}
+        25% {border: 5px solid greenyellow; color: brown;}
+        50% {border: 5px solid green; color: orange;}
+        75% {border: 5px solid red; color: purple;}
+        100% {border: 5px solid var(--mainColor2); color: var(--mainColor1);}
+      }
+
+      @keyframes buttonAN {
+        0% {background-color: var(--mainColor1);}
+        25% {background-color: var(--mainColor4);}
+        50% {background-color: var(--mainColor1);}
+        75% {background-color: var(--mainColor4);}
+        100% {background-color: var(--mainColor1);}
+        }
+
+
+
+
+
+        /* Special wallpaper css and and animations */
+
+      .WallpaperIMG {
+        width: 30%;
+        float: left;
+        border: 5px solid yellow;
+        margin: 10px;
+      }
+
+/* James wallpaper */
+      .JamesVersePic {
+          width: 30%;
+          float: left;
+          background-color: green;
+          padding: 10px;
+          margin: 10px;
+      }
+      .JamesVersePic2 {
+          width: 45%;
+          float: left;
+          background-color: green;
+          padding: 10px;
+          margin: 10px;
+      }
