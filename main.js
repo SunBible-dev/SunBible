@@ -84,4 +84,9 @@ contextMenu({
 
 
 
- // SunBuble Chrome Ex
+ // SunBuble Chrome Ex - for future
+
+
+ 
+ // Removed from package json:
+ // "electron-tabs": "^0.15.0"

@@ -37,7 +37,6 @@
     "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0",
-    "electron-tabs": "^0.15.0"
+    "electron-context-menu": "^2.3.0"
   }
 }
