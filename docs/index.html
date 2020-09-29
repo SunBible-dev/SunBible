@@ -20,7 +20,10 @@
 <script src="BibleScript/NEWtestamentBOOKchapters.js"></script>
 <script src="BibleScript/MoreHomeScript.js"></script>
 
+<!-- Web app manifest - needs to be changed when packageing for chrome or opera -->
 <link rel="manifest" href="manifest.json">
+
+<!-- Style -->
 <link rel="stylesheet" type="text/css" href="BibleStyle/StudyBibleInStyle.css">
 <link rel="stylesheet" type="text/css" href="BibleStyle/index_theme.css">
 <link rel="stylesheet" type="text/css" href="BibleStyle/ScrollBarStyleONE.css">
@@ -498,8 +501,14 @@ background-color: white;
 
 
 
-
- 
+<!-- Service worker for web app -->
+<script>
+   if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('sw.js', { scope: '/SunBible/' })
+             .then(function() { console.log("Service Worker Registered"); });
+  }
+     </script>
 
 </body>
 </html>
