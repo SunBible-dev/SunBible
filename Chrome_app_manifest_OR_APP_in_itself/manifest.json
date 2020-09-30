@@ -1,0 +1,12 @@
+{
+  "name": "SunBible",
+  "description": "Beautiful KJV Chrome App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {  
+    "urls": [ "https://the-sunshining.github.io/SunBible/" ],  
+    "launch": { "web_url": "https://the-sunshining.github.io/SunBible/" }  
+  },  
+
+  "icons": { "16": "logo.png", "128": "logo.png" }
+}

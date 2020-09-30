@@ -11,6 +11,6 @@
 	"sidebar_action": {
 		"default_icon": "SNBible.png",
 		"default_title" : "SunBible",
-		"default_panel": "shortcut.html"
+		"default_panel": "panel.html"
 	}
 }
