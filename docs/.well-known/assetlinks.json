@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.sunshining.sunbible",
+    "sha256_cert_fingerprints":
+    ["4A:1C:4C:4A:07:43:2F:E3:75:FB:6A:71:B3:FA:28:A4:53:1B:39:1D:30:96:FA:F0:E4:E8:E7:A1:C1:F7:6F:4C"]
+  }
+}]
