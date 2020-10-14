@@ -9,3 +9,8 @@ I started SunBible about 2 years ago in the winter of 2018, I started it to put 
 I never dreamed that it would become what it is today.
 A beautiful way to read, study and memorize the Bible.
 Of course it still needs a lot of work.
+
+# File Stucture of this repository
+
+- The appx and build folders contain files to build my app for desktop.
+- The docs folder contains all the html, css, and js that makes the SunBible website.
