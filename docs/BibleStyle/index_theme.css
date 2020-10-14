@@ -4,7 +4,7 @@
     --mainColor2:  lightgreen;
     --mainColor3: #ffffff;
     --mainColor4: red;
-    --mainColor5: blue;
+    --mainColor5: rgb(59, 59, 255);
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
@@ -99,16 +99,18 @@ div {
   
 footer {
   background-color: var(--mainColor5);
-  position: relative;
-  min-height: 100vh;
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 0px;
-  margin-right: 0px;
-  overflow: hidden;
   color: var(--mainColor3);
   text-align: center;
+
+  position: relative;
+    min-height: 100px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 5px solid black;
 }
 
 
