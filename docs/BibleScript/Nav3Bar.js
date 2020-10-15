@@ -1,3 +1,4 @@
+// Not this!
 $(document).ready(function(){
 
 $(".NavBarContainer").click(function(){
