@@ -62,6 +62,7 @@ top: 20%;
 left:25%;
 right: 25%;
 padding: 30px;
+border-radius: 50%;
 animation: headerAN;
 animation-iteration-count: infinite;
 animation-duration: 5s;
@@ -135,10 +136,10 @@ footer {
 .Save_Some {
     display: none;
 }
-.G_S_B, .S_S_B {
+.G_S_B, .S_S_B, button {
     box-shadow: 5px 10px #888888;
 }
-.G_S_B:hover, .S_S_B:hover {
+.G_S_B:hover, .S_S_B:hover, button:hover {
     box-shadow: 5px 10px #ff0000;
 }
 
