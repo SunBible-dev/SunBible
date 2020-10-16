@@ -23,27 +23,21 @@
     "url": "https://github.com/the-sunshining/SunBible.git"
   },
   "devDependencies": {
-    "electron": "^10.1.1",
-    "electron-builder": "^22.8.0"
+    "electron": "^11.0.0-beta.13",
+    "electron-builder": "^22.9.1"
   },
   "scripts": {
     "start": "electron .",
-
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-
     "deb": "electron-builder --linux deb",
     "AppImage": "electron-builder --linux AppImage",
     "snap": "electron-builder --linux snap",
-
     "apk": "electron-builder --linux apk",
-
     "appx": "electron-builder --windows appx",
     "portable": "electron-builder --win portable",
     "nsis": "electron-builder --win nsis",
     "nsis-web": "electron-builder --win nsis-web",
-
-    
     "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
