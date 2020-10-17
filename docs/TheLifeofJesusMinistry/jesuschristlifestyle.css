@@ -15,6 +15,7 @@ background: yellow;
 margin-left: 10px;
 position: fixed;
 }
+/*
 #all { 
 background: black;
  padding: 10px; 
@@ -26,16 +27,20 @@ background-color: white;
 border: 5px solid red; 
 padding: 20px;
 }
+*/
 #mostgospel {
 max-width: 100%; 
 background-color: yellow; 
 border: 5px solid red; 
 padding: 20px;
 }
+
 #Luke2verse16 {
 	width: 45%;
 	float: right;
 }
+
+
  footer {
 font-size: 20px; 
 background-color: rgb(250, 229, 114);
@@ -43,6 +48,8 @@ background-color: rgb(250, 229, 114);
  padding: 20px; 
  margin: 10px;
   font-family: arial;
+  border-radius: 25px;
+  margin-bottom: 150px;
  }
  p {
  font-family: arial;
@@ -55,7 +62,9 @@ background-color: rgb(250, 229, 114);
  font-family: arial;
   font-size: 20px;
  }
- 	/* PhotoGoespelLink*/
+
+
+ 	/* PhotoGoespelLink  no longer used so commented this out Oct. 16, 2020!!
  .GoespelPhotoLinkContainer {
 	 max-width: 100%;
 	 background-color: black;
@@ -72,7 +81,9 @@ background-color: rgb(250, 229, 114);
 	 .GoespelPhotoLink:hover { 
  border: 5px solid blue;
 	 }
-	/* PhotoGoespelLink*/
+	 PhotoGoespelLink*/
+
+
 	/* Nav */
  #GospelLink {
  font-family: arial;
@@ -108,25 +119,33 @@ background-color: rgb(241, 142, 142);
 	  border-top: 5px solid black;
   text-align: center;
  width: 100%;
+ height: 40px;
  position: fixed; 
  background-color: gold; 
  bottom: 1px;
  padding: 10px;
  padding-bottom: 40px;
+ z-index: 1;
  }
- 	/* Nav */
+	 /* Nav */
+	 
+
  #lifeofjesusshare {
 	 max-width: 100%;
  background-color: lightgreen;
  padding: 15px;
  border: 5px solid black;
  }
+
+
   #ChapterNumber {
  font-size: 40px;
  }
  .ChapterNumber {
 	font-size: 40px;
 	}
+
+
 	/* Ncr notes -I am pic div boxes*/
     #NCRnote {
  background-color: lightgray;
@@ -187,6 +206,8 @@ img {
 	max-width: 100%;
 }
 /*-I am pic div boxes */
+
+
  .IAMquicklinksbox {
 	 width: 45%;
 	 float: right;
@@ -204,6 +225,9 @@ img {
   float: left;
   margin: 20px;
  }
+
+
+/* For Jesus' words!!!! */
  .red{
 	 color: red;
  }
@@ -213,6 +237,11 @@ img {
  
  
  
+
+
+
+
+
     #Chapter {
  font-size: 20px;
  padding: 5px;
@@ -395,3 +424,32 @@ img {
     box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
   }
  /* Scrollbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Added Oct. 2020 */
+ /* Main Layout */
+section {
+	position: relative;
+	  min-height: 100vh;
+	  padding: 20px;
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  margin: 20px;
+	  overflow: hidden;
+	  border-radius: 25px;
+	  background-color: var(--mainColor3);
+	  border: 5px solid black;
+  }
