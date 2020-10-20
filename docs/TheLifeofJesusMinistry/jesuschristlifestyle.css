@@ -84,13 +84,68 @@ background-color: rgb(250, 229, 114);
 	 PhotoGoespelLink*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer {
+	height: 20px;
+	width: 100%;
+}
+
+
 	/* Nav */
  #GospelLink {
  font-family: arial;
+ font-size: 50px;
  color: black; 
  text-decoration: none;
  border: 2px solid black;
- margin: 10px;
+ margin: 20px;
  padding: 5px;
   border-radius: 25px;
   background-color: white;
@@ -116,19 +171,88 @@ background-color: rgb(241, 142, 142);
 	  background-color: rgb(248, 56, 56);
   }
   #LifeNav {
-	  border-top: 5px solid black;
+	  border-left: 5px solid black;
   text-align: center;
- width: 100%;
- height: 40px;
+ width: 20%;
+ height: 100%;
  position: fixed; 
- background-color: gold; 
- bottom: 1px;
+ background-color: rgba(255, 217, 0, 0.589); 
+ bottom: 0px;
+ top: 0px;
+ right: 0px;
  padding: 10px;
  padding-bottom: 40px;
  z-index: 1;
+ display: none;
+
  }
 	 /* Nav */
-	 
+.Nav_C {
+	position: absolute;
+		right: 50px;
+		top: 50px;
+}
+	 .Nav_b {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 6px 0;
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  #lifeofjesusshare {
 	 max-width: 100%;
@@ -237,6 +361,34 @@ img {
  
  
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
