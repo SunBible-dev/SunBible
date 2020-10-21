@@ -195,6 +195,10 @@ background-color: rgb(241, 142, 142);
 		right: 50px;
 		top: 50px;
 }
+.Nav_b:hover {
+	width: 40px;
+	height: 7px;
+}
 	 .Nav_b {
 		width: 35px;
 		height: 5px;
