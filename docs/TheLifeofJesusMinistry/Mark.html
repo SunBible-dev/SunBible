@@ -102,17 +102,70 @@ Mark
 
 <img src="../Photos/DivPic.gif" style="width: 100%;"/>
 
-<div class="MemJes">
-  <img src="../Photos/SUNBIBLEmemoryGuide/logo.png" style="width: 200px; float: left; margin: 20px;"/>
-  Hi, my name is N.C.R. <br/>
-  And I am here with another bible memory note: <br/>
-  Memorize the words of Jesus.<br/>
-To do that I have spent a lot of time codeing this page to make bible memorization easy.<br/>
-Want to know what I did. Click on a word of Jeusus' and see what happens.<br/>
-Note: This is still in beta mode. Please leave your feedback.<br/>
-If you turned to many things red you can:<br/>
-<button id="Undo" class="button">Undo</button><br/>
-</div>
+
+<section>
+  <div class="MemJes right_half">
+    <h1>Jesus's words</h1>
+   <p>
+    Jesus' word are amazing words. So I have done some things to make them stand out on this page.
+    If you want to read only Jesus' words, guess what you can!!
+    <br/>
+    (it also looks cool if you try to switch directly from white them to black theme or vice versa, to reset click normal theme or reload!)
+    </p>
+    <!-- This needs readJesus.js -->
+   <button id="JW_light" class="button">Jesus' words only (white theme)</button>
+   <button id="JW_dark" class="button">Jesus' words only (black theme)</button>
+   <button id="AllWords" class="button">All the words (normal theme)</button>
+   <!-- 
+  Here is what the above buttons do:
+  They turn everything white/black so you see jesus words only!
+  Also I make the other text smaller.
+  and hid all img/header/footer!
+  see script file for more
+   -->
+  
+   <p>
+     Another thing you may notice is that when you hover over the words of Jesus they get highlighted black.
+     If you click on the words they are highlighted black. If you click them again they are highlighted red. 
+     And you click them one more time they are back to normal with no highlight!
+     Also you can click the button to:
+     <!-- This needs mem/Jesus.js -->
+  <button id="Undo" class="button">Un-highlight all Jesus' words!</button><br/>
+  </p>
+  <p>
+    Also what size do you want to Jesus' words?
+    <!-- This needs JESUS_word_size.js -->
+    <button id="20px" class="button">20px</button>
+    <button id="25px" class="button">25px</button>
+    <button id="30px" class="button">30px</button>
+    <button id="35px" class="button">35px</button>
+    <button id="40px" class="button">40px</button>
+    <button id="45px" class="button">45px</button>
+    <button id="50px" class="button">50px</button>
+    <button id="60px" class="button">60px</button>
+    <button id="70px" class="button">70px</button>
+    <button id="80px" class="button">80px</button>
+    <button id="90px" class="button">90px</button>
+    <button id="100px" class="button">100px</button>
+    <button id="200px" class="button">200px</button>
+  </p>
+  </div>
+  <!-- Vl test --> <div class="vl"></div>
+  <div id="lifeofjesusshare left_half">
+      <h1>Please share the Good News with your friends:</h1>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <div class="addthis_inline_share_toolbox"></div>
+      <p>Tips for sharing:</p>
+      <p>
+        1. Share a verse or phrase that hit you!
+        <br/>
+        2. Please tag @TheSunShiningNCR on instagram and @TheSunShining on twitter and facebook.
+      </p>
+     </div>
+  
+  
+  
+  </section>
 
 <img src="../Photos/DivPic.gif" style="width: 100%;"/>
 
@@ -829,12 +882,20 @@ A sub-divition of TheSunShining Study Bible/NCR Study Bible
 
 </div>
 
+
+<!-- Jquery v1.8.3 needed-->
 <script type="text/javascript" src="../BibleScript/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="../BibleScript/jquery-migrate-3.3.1.min.js"></script>
+<script type="text/javascript" src="../BibleScript/jquery-1.8.3.min.js"></script>
+<!-- My Script -->
 <script type="text/javascript" src="js/nav.js"></script>
 <script type="text/javascript" src="MemorizeJesus/MemJes.js"></script>
+<!--Read Jesus Words -->
+<script type="text/javascript" src="js/readJESUS.js"></script>
+<!-- Jesus word size!!! -->
+<script type="text/javascript" src="js/JESUS_word_size.js"></script>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bf5f9f3996a6ab9"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bf5f9f3996a6ab9"></script>
 </body>
 </html>

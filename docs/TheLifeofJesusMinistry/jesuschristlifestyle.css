@@ -1,6 +1,9 @@
+/* body has no style
 body {
 	max-width: 100vw;
 }
+but jesus does!!!
+*/
 #lifeheader {
 	max-width: 100%;
  background-color: gray;
@@ -253,6 +256,7 @@ background-color: rgb(241, 142, 142);
 
 
 
+	  /*
 
  #lifeofjesusshare {
 	 max-width: 100%;
@@ -260,7 +264,7 @@ background-color: rgb(241, 142, 142);
  padding: 15px;
  border: 5px solid black;
  }
-
+*/
 
   #ChapterNumber {
  font-size: 40px;
@@ -290,6 +294,7 @@ float: left;
 width: 200px;
 text-align: left;
 }
+/*
 .MemJes {
 	  background-color: lightgreen;
  border: 5px dotted green;
@@ -298,6 +303,7 @@ text-align: left;
 max-width: 99%;
 text-align: left;
 }
+*/
 .button {
     margin: 5px;
     border-radius: 12px;
@@ -595,13 +601,27 @@ img {
  /* Main Layout */
 section {
 	position: relative;
-	  min-height: 100vh;
 	  padding: 20px;
 	  padding-left: 50px;
 	  padding-right: 50px;
 	  margin: 20px;
 	  overflow: hidden;
 	  border-radius: 25px;
-	  background-color: var(--mainColor3);
+	  background-color: white;
 	  border: 5px solid black;
+  }
+  .left_half, #left_half {
+    float: left;
+    max-width: 20%;
+  }
+  .right_half {
+    float: right;
+    width: 65%;
+  }
+  /* VL = L as in loaf or line*/
+  .vl {
+	  border-left: 6px solid black;
+	  min-height: 500px;
+	  float: right;
+	  margin-right: 10px;
   }
