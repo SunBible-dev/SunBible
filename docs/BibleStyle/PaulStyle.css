@@ -29,13 +29,17 @@ margin-right: 5%;
 padding: 20px;
 font-family: arial;
 font-size: 20px;
+border-radius: 20px;
 }
 .PaulBookChapter {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.719);
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
+}
+.PaulBookChapter:hover {
+  background-color: rgb(255, 255, 255);
 }
 footer {
     margin-top: 100px;
