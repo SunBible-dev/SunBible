@@ -1,7 +1,51 @@
 {
   "build": {
     "appId": "app.the-sunshining.sunbible",
-    "productName": "SunBible"
+    "productName": "SunBible",
+
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+
+    "linux": {
+      "target": [
+        {
+          "target": "deb",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        },
+        {
+          "target": "snap",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    }
+
   },
   "name": "sunbible",
   "version": "0.0.6-test",
