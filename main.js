@@ -2,9 +2,11 @@
 
 const { app, BrowserWindow, Menu, session } = require('electron')
 
-//Auto update 
+//Auto update ??? I hope this works
 const { autoUpdater } = require("electron-updater")
-
+app.on('ready', function()  {
+  autoUpdater.checkForUpdatesAndNotify();
+});
 
 // Main SunBible App Activity: 
 app.on('ready', async () => {
