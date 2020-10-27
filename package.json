@@ -4,6 +4,7 @@
     "productName": "SunBible",
 
     "win": {
+      "publish": ["github"],
       "target": [
         {
           "target": "appx",
@@ -35,6 +36,7 @@
     },
 
     "linux": {
+      "publish": ["github"],
       "target": [
         {
           "target": "deb",
