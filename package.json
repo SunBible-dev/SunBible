@@ -6,6 +6,13 @@
     "win": {
       "target": [
         {
+          "target": "appx",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        },
+        {
           "target": "nsis",
           "arch": [
             "x64",
