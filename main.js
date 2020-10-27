@@ -2,7 +2,8 @@
 
 const { app, BrowserWindow, Menu, session } = require('electron')
 
-
+//Auto update 
+const { autoUpdater } = require("electron-updater")
 
 
 // Main SunBible App Activity: 

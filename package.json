@@ -2,9 +2,10 @@
   "build": {
     "appId": "app.the-sunshining.sunbible",
     "productName": "SunBible",
-
     "win": {
-      "publish": ["github"],
+      "publish": [
+        "github"
+      ],
       "target": [
         {
           "target": "appx",
@@ -22,7 +23,6 @@
         }
       ]
     },
-
     "mac": {
       "target": [
         {
@@ -34,9 +34,10 @@
         }
       ]
     },
-
     "linux": {
-      "publish": ["github"],
+      "publish": [
+        "github"
+      ],
       "target": [
         {
           "target": "deb",
@@ -54,7 +55,6 @@
         }
       ]
     }
-
   },
   "name": "sunbible",
   "version": "0.0.6-test",
@@ -89,10 +89,10 @@
     "apk": "electron-builder --linux apk",
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
-
     "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0"
+    "electron-context-menu": "^2.3.0",
+    "electron-updater": "^4.3.5"
   }
 }
