@@ -8,13 +8,6 @@
       ],
       "target": [
         {
-          "target": "appx",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        },
-        {
           "target": "nsis",
           "arch": [
             "x64",
@@ -35,19 +28,9 @@
       ]
     },
     "linux": {
-      "publish": [
-        "github"
-      ],
       "target": [
         {
           "target": "deb",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        },
-        {
-          "target": "snap",
           "arch": [
             "x64",
             "ia32"
@@ -57,7 +40,7 @@
     }
   },
   "name": "sunbible",
-  "version": "0.0.6-test",
+  "version": "0.0.6",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
@@ -89,7 +72,8 @@
     "apk": "electron-builder --linux apk",
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
-    "dmg": "electron-builder --mac dmg"
+    "dmg": "electron-builder --mac dmg",
+    "ebPublish": "electron-builder --publish onTagOrDraft"
   },
   "dependencies": {
     "electron-context-menu": "^2.3.0",
