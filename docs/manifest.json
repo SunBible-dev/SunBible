@@ -18,7 +18,7 @@
     }
   ],
 
-  "start_url": "/SunBible/",
+  "start_url": "/SunBible/index.html",
   "background_color": "#ff4d4d",
   "display": "standalone",
   "scope": "/SunBible/",
