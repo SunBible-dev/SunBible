@@ -79,5 +79,4 @@
     "electron-context-menu": "^2.3.0",
     "electron-updater": "^4.3.5"
   }
-  
 }
