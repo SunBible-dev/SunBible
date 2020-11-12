@@ -1,9 +1,11 @@
 body {
 background-image: linear-gradient(white, yellow);
-padding-left: 50px;
-padding-right: 50px;
+padding: 0px;
 font-size: 25px;
 font-family: 'Josefin Sans', sans-serif;
+}
+#James1, #James2, #James3, #James4, #James5 {
+    margin: 50px;
 }
 header {
     font-family: 'Josefin Sans', sans-serif;
@@ -88,10 +90,15 @@ float: left;
 
 #TestYourMemoryBox, .TestYourMemoryBox {
     float: right;
-    width: 100px;
-    background-color: #e9fa00;
+    width: 150px;
+    background-color: hsla(64, 100%, 49%, 0.548);
     padding: 20px;
     margin: 20px;
+    margin-right: 0px;
+    border: 5px solid rgba(0, 0, 0, 0.568);
+}
+#TestYourMemoryBox:hover, .TestYourMemoryBox:hover {
+    background-color: #e9fa00;
     border: 5px solid black;
 }
 
