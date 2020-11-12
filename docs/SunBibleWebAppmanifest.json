@@ -33,6 +33,45 @@
       "icons": [{ "src": "HowToGetToHeaven/Htgth.png", "sizes": "192x192" }]
     }
   ],
+  "screenshots" : [
+    {
+      "src": "Photos/screenshots/1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "Photos/screenshots/2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "Photos/screenshots/3.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ,
+  {
+    "src": "Photos/screenshots/4.png",
+    "sizes": "1280x720",
+    "type": "image/png"
+  }
+,
+{
+  "src": "Photos/screenshots/5.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+},
+{
+  "src": "Photos/screenshots/6.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+},
+{
+  "src": "Photos/screenshots/7.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+}
+  ],
 
   "start_url": "/SunBible/index.html",
   "background_color": "#ff4d4d",
