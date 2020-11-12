@@ -10,11 +10,11 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '../MemorizePsalm-index.html',
-        '../../Photos/Psalm/Psalm_Logo_White.png',
-        '../../Photos/Psalm/Psalm_Logo_Y.png',
-        '../MemorizePsalmStyle',
-        '...MemorizePsalmScript/MemorizePsalmScript-main.js'
+        'MemorizePsalm-index.html',
+        '../Photos/Psalm/Psalm_Logo_White.png',
+        '../Photos/Psalm/Psalm_Logo_Y.png',
+        'MemorizePsalmStyle/memorizePsalmInStyle-main.css',
+        'MemorizePsalmScript/MemorizePsalmScript-main.js'
 ])
           .then(() => self.skipWaiting());
     })
