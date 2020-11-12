@@ -2,11 +2,18 @@
 <html>
 <head>
 <title>Memorize Psalm</title>
-
-<link rel="stylesheet" type="text/css" href="MemorizePsalmStyle/memorizePsalmInStyle-main.css"/>
-<link rel="stylesheet" type="text/css" href="../BibleStyle/DivStyle.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<!--  manifest - needs to be changed when packageing for chrome or opera -->
+<link rel="manifest" href="SunBibleWebAppmanifest.json">
+<!-- shortcut icon or favicon? -->
 <link rel="shortcut icon" type="image/x-icon" href="../Photos/TheSunLogo.png" />
+
+<style>
+    @import url('MemorizePsalmStyle/memorizePsalmInStyle-main.css');
+    @import url('../BibleStyle/DivStyle.css');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+</style>
+
 </head>
 <body>
 
@@ -1126,5 +1133,15 @@ Psalm 20
         <img src="../Photos/TheSunLogo.png" style="width: 100%;"/>
     </div>
 </footer>
+
+<!-- Service worker for web app -->
+<script>
+    if('serviceWorker' in navigator) {
+     navigator.serviceWorker
+              .register('sw/index-sw.js', { scope: '/SunBible/Psalm/' })
+              .then(function() { console.log("Service Worker Registered"); });
+   }
+      </script>
+
 </body>
 </html>
