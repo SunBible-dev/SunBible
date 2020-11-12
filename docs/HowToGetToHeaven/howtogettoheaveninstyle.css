@@ -1,32 +1,33 @@
 body {
-	background-image: url('https://i.imgur.com/U038n1L.jpg');
-	background-repeat: repeat;
-	background-size: 500px;
+	background-color: rgb(107, 107, 255);
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 font-size: 20px;
 font-family: arial;
 }
 #MainContentBox {
-	background-color: yellow;
-	 border: solid black; 
+	background-color: rgba(255, 255, 0, 0.733);
 	 padding: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
 	 margin-top: 10px;
 	 margin-bottom: 10px;
+	 border-radius: 20px;
 	 overflow: hidden;
 	}
 header {
-background-color: gold; 
+background-color: rgba(255, 217, 0, 0.658); 
 padding: 20px;  
-border-bottom: solid black 5px;
-margin: 5px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 20px;
 }
 #HeaderPic {
 	float: center;
 	width: 100%
 }
 nav {
-width: 100%;
  text-align: center;
  background-color: white;
  padding: 10px;
@@ -55,14 +56,10 @@ color: black;
 
 footer {
 	margin-top: 10px;
-background-color: lightgreen;
+background-color: rgba(144, 238, 144, 0.74);
  padding: 10px; 
  font-size: 20px;
 font-family: arial;
-float: center;
-left: 10%;
-right: 10%;
-bottom: 0%;
 overflow: hidden;
 }
 .footerDIV {
