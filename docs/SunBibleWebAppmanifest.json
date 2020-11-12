@@ -31,6 +31,13 @@
       "description": "A collection of verses and more that tell how to get to heaven.",
       "url": "HowToGetToHeaven/index.html",
       "icons": [{ "src": "HowToGetToHeaven/Htgth.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Memorize Psalm",
+      "short_name": "Psalm",
+      "description": "Read, study, and memorize the Psalms",
+      "url": "Psalm/MemorizePsalm-index.html",
+      "icons": [{ "src": "Photos/Psalm/Psalm_Logo_Y.png", "sizes": "192x192" }]
     }
   ],
   "screenshots" : [
