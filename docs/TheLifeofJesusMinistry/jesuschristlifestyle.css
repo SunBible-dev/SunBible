@@ -2,6 +2,9 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: black;
 }
 
 #lifeheader {
@@ -50,6 +53,24 @@ background-color: rgb(250, 229, 114);
   border-radius: 25px;
   overflow: hidden;
  }
+ footer a, .IAMquicklinksbox a, .Quick_Links a {
+	 text-decoration: none;
+	 color: red;
+	 background-color: yellow;
+	 padding: 10px;
+	 border-radius: 10px;
+ }
+ footer a:hover, .IAMquicklinksbox a:hover, .Quick_Links a:hover {
+	 color: blue;
+	 background-color: crimson;
+ }
+
+
+
+
+
+
+
  p {
  font-family: arial;
  font-size: 20px;
@@ -338,21 +359,25 @@ img {
 
 
  .IAMquicklinksbox {
-	 width: 45%;
+	 width: 250px;
 	 float: right;
 	 background-color: chocolate;
 	 padding: 20px;
 	 margin: 20px;
+	 border-radius: 10px;
  }
  
  
  .ChapterLinksBOX {
   background-color: lightyellow;
   padding: 5px;
-  border: 5px solid black;
-  width: 120px;
+  width: 150px;
   float: left;
   margin: 20px;
+  border-radius: 20px;
+ }
+ .ChapterLinksBOX a:hover {
+	 position: absolute;
  }
 
 
@@ -618,6 +643,10 @@ section {
     float: right;
 	max-width: 50%;
 	width: 45%;
+  }
+  .one_third {
+	  float: left;
+	  width: 30%;
   }
   /* VL = L as in loaf or line*/
   .vl {
