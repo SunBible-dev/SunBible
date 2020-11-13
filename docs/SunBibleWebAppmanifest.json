@@ -19,11 +19,11 @@
   ],
   "shortcuts": [
     {
-      "name": "The Life of Jesus Ministry",
+      "name": "The Life of Jesus",
       "short_name": "Life of Jesus",
       "description": "Jesus may have just lived 33 years on this earth, and He may have live over 2000 years ago. But His life still has a big impact on ours. Find out all about his life by reading through the Gosples: Matthew, Mark, Luke, and John.",
       "url": "TheLifeofJesusMinistry/index.html",
-      "icons": [{ "src": "TheLifeofJesusMinistry/tlojmlogo.png", "sizes": "192x192" }]
+      "icons": [{ "src": "TheLifeofJesusMinistry/img/LifeActsLogo.png", "sizes": "192x192" }]
     },
     {
       "name": "How To Get To Heaven",
