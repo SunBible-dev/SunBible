@@ -19,8 +19,6 @@ font-family: 'Open Sans', sans-serif;
 
 /* Main */
 body {
-    padding: 0px;
-    margin: 0px;
     font-size: 20px;
     background-color: var(--mainColor4);
     animation-name: bodyback;
@@ -38,7 +36,6 @@ header {
   margin-top: 0px;
     min-height: 100vh;
     text-align: center;
-    min-width: 95vw;
     background-color: rgb(255, 77, 77);
     background-position: center;
     background-size: cover;

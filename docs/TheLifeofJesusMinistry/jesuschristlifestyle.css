@@ -4,7 +4,7 @@ body {
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	background-color: black;
+	background-color: blue;
 }
 
 #lifeheader {
@@ -470,6 +470,9 @@ section {
   .one_third {
 	  float: left;
 	  width: 30%;
+  }
+  .text_center {
+	  text-align: center;
   }
   /* VL = L as in loaf or line*/
   .vl {
