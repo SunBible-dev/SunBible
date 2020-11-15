@@ -404,6 +404,19 @@ img {
   margin: 30px;
   border-radius: 20px;
 	}
+
+	#Acts, #Acts1, #Acts2, #Acts3, #Acts4, #Acts5,
+	#Acts6, #Acts7, #Acts8, #Acts9, #Acts10,
+	#Acts11, #Acts12, #Acts13, #Acts14, #Acts15,
+	#Acts16, #Acts17, #Acts18, #Acts19, #Acts20,
+	#Acts21, #Acts22, #Acts23, #Acts24, #Acts25,
+	#Acts26, #Acts27, #Acts28, #Acts29, #Acts30 {
+ font-size: 20px;
+ padding: 20px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+	}
 	  
 
 
