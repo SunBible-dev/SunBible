@@ -31,17 +31,6 @@ app.on('ready', async () => {
 })
 
 
-//App tabs:
-//
-//     const TabGroup = require("electron-tabs");
-//     
-//     let tabGroup = new TabGroup();
-//     let tab = tabGroup.addTab({
-//       title: "SunBible",
-//       src: "https://the-sunshining.github.io/SunBible/",
-//       visible: true
-//     });
-
 
 
 
