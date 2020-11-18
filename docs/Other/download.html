@@ -2,79 +2,110 @@
 <html>
 <head>
 <title>Download</title>
-<link rel="manifest" href="SunBibleWebAppmanifest.json">
+<link rel="shortcut icon" type="image/x-icon" href="../Photos/SNBible.png" />
+<link rel="manifest" href="../SunBibleWebAppmanifest.json">
 <style>
 body {
-    padding: 20px;
+    margin-top: 0px;
+    padding: 100px;
+    padding-top: 0px;
+    background-color: salmon;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-button {
+header {
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
     font-size: 20px;
     padding: 10px;
     background-color: rgb(255, 255, 132);
     border-radius: 10px;
+    margin: 5px;
 }
-button:hover {
+a:hover {
     background-color: tomato;
 }
+img {
+    max-width: 100%;
+}
+section img {
+    max-width: 206px;
+}
+/*
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid salmon;
+    border-radius: 20px;
+}
+*/
 </style>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@latest/dist/pwa-install.min.js"></script>
 </head>
 <body>
 
+<header>
+    <img src="../Photos/SunBibleLogoCollection/Long.png"/>
+</header>
+<section>
 
-<h1>Download!!!</h1>
-<p>SunBible is now availbe as a desktop app!!!!</p>
+<h1>Get SunBible on all your devices!!!</h1>
 <p>
 SunBible started out as a website and it will continue to be a website.
-But it will also be availble as a desktop app!!
-I hope to soon bring SunBible to more platforms!!!
+Availble at <a href="https://the-sunshining.github.io/SunBible/">Sun Bible Home</a>
+</p>
+<p>
+    <pwa-install>Install the Progressive Wep App!</pwa-install>
+</p>
+<p>
+But it is also availble as an app you can install on your devices!
 </p>
 
+<h4>Linux:</h4>
 <p>
 <a href="https://snapcraft.io/sunbible" target="blank">
-    <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+    Get it from the Snap Store
 </a>
+<a href="https://github.com/the-sunshining/SunBible/releases/download/0.0.7/sunbible_0.0.7_amd64.deb">
+    sunbible_0.0.7.deb
+</a>
+</p>
+
+<h4>Google:</h4>
+<p>
 <a href="https://chrome.google.com/webstore/detail/the-sunshining-study-bibl/gmkkjgengfhnnmiaiaiammcbmcfjbped" target="blank">
-<img src="../Photos/ChromeWebStore_BadgeWBorder_v2_206x58.png"/>
+Get it from the Chrome Web Store
 </a>
 <a href='https://play.google.com/store/apps/details?id=com.sunshining.sunbible' target="blank">
-    <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
-    style="width: 206px;"/>
+    Get it on Google Play
 </a>
 </p>
 
 
-<h1>Other Downloads:</h1>
-<p>
-    These will not auto update so check back here for updates!!!
-</p>
-<p>
-    <a href="https://github.com/the-sunshining/SunBible/releases/download/0.0.7/sunbible_0.0.7_amd64.deb">
-        <button>sunbible_0.0.7.deb</button>
-    </a>
-    <br/>
-    Works great on Chrombook and other linux operating systems!
-</p>
-<p>
-    <a href="https://github.com/the-sunshining/SunBible/releases/download/0.0.5/Opera_sidebar_manifest_test.crx">
-        <button>Opera_sidebar_manifest_test.crx</button>
-    </a>
-    <br/>
-    Test Sidebar Extention for Opera. - Download and open with Opera!
-</p>
+
+
+<h4>Windows:</h4>
 <p>
     <a href="https://github.com/the-sunshining/SunBible/releases/download/0.0.7/SunBible.Setup.0.0.7.exe">
-        <button>SunBible_Setup_0.0.7.exe</button>
+        SunBible_Setup_0.0.7.exe
     </a>
-    <br/>
-    Tested on Windows 7 and 10!
 </p>
 
 
 <p>
     For more about SunBible, the lastest downloadable version, or to leave feedback:
-    <br/>
+</p>
+<p>
      <a href="https://github.com/the-sunshining/SunBible">https://github.com/the-sunshining/SunBible</a>
-     </p>
+</p>
+
+
+</section>
 
 
 
