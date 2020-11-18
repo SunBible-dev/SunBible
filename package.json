@@ -15,32 +15,11 @@
           ]
         }
       ]
-    },
-    "mac": {
-      "target": [
-        {
-          "target": "dmg",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        }
-      ]
-    },
-    "linux": {
-      "target": [
-        {
-          "target": "deb",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        }
-      ]
     }
+   
   },
   "name": "sunbible",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
