@@ -1,38 +1,41 @@
 body {
-	width: 99%;
-max-width: 100%;
-height: 100vh;
+margin: 0px;
+background-image: url('https://the-sunshining.github.io/sunshining-photography/img/sun_25.jpg');
+font-family: Arial, Helvetica, sans-serif;
 }
-img{
-	max-width: 100%;
-}
+
 header {
 background-color: rgb(255, 232, 232);
 border-bottom: 5px solid yellow;
 padding: 20px;
 text-align: center;
+margin-bottom: 10px;
 }
-body {
-background-color: rgb(177, 3, 3);
-font-family: arial;
 
-}
-#all {
+#all, .all {
 background-color: white;
 border-left: 5px solid purple;
 border-right: 5px solid purple;
 margin-left: 5%;
 margin-right: 5%;
 padding: 20px;
-font-family: arial;
 font-size: 20px;
+overflow: hidden;
 }
 footer {
+	margin-top: 5px;
 background-color: grey;
 text-align: center;
-font-family: arial;
 font-size: 20px;
 padding: 20px;
+}
+
+
+/*
+General
+*/
+img{
+	max-width: 100%;
 }
  a {
 text-decoration: none;
@@ -41,11 +44,7 @@ font-family: 'Oswald', sans-serif;
  a:hover {
 color: blue;
 }
- .highlightblack {
-	 padding: 10px;;
-	background-color: black;
-	color: white;
- }
+
  .SunBibleShareBox {
 	padding: 50px;
    background-color: yellow;
@@ -53,64 +52,18 @@ color: blue;
    border: 5px solid black;
    }
  
-  .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
-  .ChapterSelection {
-	display: none;  
-  }
- #IsaiahChapterSelection {
-	display: none;
-}
-#JeremiahChapterSelection  {
-	display: none;
-}
-  #LamentationsChapterSelection {
-	display: none;
-}
-#EzekielChapterSelection  {
-	display: none;
-}
- #DanielChapterSelection {
-	display: none;
-}
- #HoseaChapterSelection {
-	display: none;
-}
-#JoelChapterSelection  {
-	display: none;
-}
-  #AmosChapterSelection {
-	display: none;
-}
-#ObadiahChapterSelection  {
-	display: none;
-}
- #JonahChapterSelection {
-	display: none;
-}
- #MicahChapterSelection {
-	display: none;
-}
-#NahumChapterSelection  {
-	display: none;
-}
-  #HabakkukChapterSelection {
-	display: none;
-}
-#ZephaniahChapterSelection  {
-	display: none;
-}
- #HaggaiChapterSelection {
-	display: none;
-}
- #ZechariahChapterSelection {
-	display: none;
-}
-#MalachiChapterSelection  {
-	display: none;
-}
+
+
+
+
+   /* Home Stuff */
+   .img_gal {
+	   text-align: center;
+   }
+   .img_gal img {
+	   border: 5px solid rgba(0, 0, 255, 0.61);
+	   border-radius: 10px;
+   }
+   .img_gal img:hover {
+	border: 5px solid blue;
+   }
