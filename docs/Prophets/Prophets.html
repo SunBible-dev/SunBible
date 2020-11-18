@@ -6,16 +6,18 @@
 <link rel="manifest" href="SunBibleWebAppmanifest.json">
 <style>
     @import url('css/ProphetsStyle.css');
+    @import url('../BibleStyle/DivStyle.css');
+    @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Roboto&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 </style>
 </head>
-<body>
+<body class="home">
 
 <header>
-<h1>Prophets</h1>
+<h1>The Books of the Prophets</h1>
 </header>
 
-<div class="all homeALL">
+<div class="all">
 <p>
 The book of the prophets contains prophesy that has been fulfilled, and some that is yet to be fulfilled.
  Some of the prophesy was about Jesus.
@@ -85,18 +87,70 @@ The book of the prophets contains prophesy that has been fulfilled, and some tha
 </div>
 
 <footer>
-The SunShining Bible / The NCR Study Bible<br/>
-<a href="../index.html">BIBLE HOME</a><br/>
-Copyright&copy: 2019-2020 by: The SunShining<br/>
-For more great resources visit: <br/><a href="https://thesunshining.weebly.com/">The SunShining</a>
+<div class="one_two">
+<h3>Prophets:</h3>
+        <p>
+        <a href="Isaiah.html">Isaiah</a>
+        <a href="Jeremiah.html">Jeremiah</a>
+        <a href="Lamentations.html">Lamentations</a>
+        </p>
+        <p>
+        <a href="Ezekiel.html">Ezekiel</a>
+        <a href="Daniel.html">Daniel</a>
+        <a href="Hosea.html">Hosea</a>
+    </p>
+    <p>
+        <a href="Joel.html">Joel</a>
+        <a href="Amos.html">Amos</a>
+        <a href="Obadiah.html">Obadiah</a>
+    </p>
+    <p>
+        <a href="Jonah.html">Jonah</a>
+        <a href="Micah.html">Micah</a>
+        <a href="Nahum.html">Nahum</a>
+    </p>
+    <p>
+        <a href="Habakkuk.html">Habakkuk</a>
+        <a href="Zephaniah.html">Zephaniah</a>
+        <a href="Haggai.html">Haggai</a>
+    </p>
+    <p>
+        <a href="Zechariah.html">Zechariah</a>
+        <a href="Malachi.html">Malachi</a>
+    </p>
+</div>
+<div class="one_two">
+<h3>SunBible:</h3>
+<p>
+    <a href="../index.html">SunBible Home</a>
+    <a href="../TheLifeofJesusMinistry/index.html">Life of Jesus and Acts</a>
+    <a href="../HowToGetToHeaven/index.html">How to get to Heaven</a>
+</p>
+<p>
+    <a href="../Psalm/MemorizePsalm-index.html">Psalm</a>
+    <a href="../Other/download.html">Download</a>
+    <a href="https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html">SunBible WallPaper</a>
+</p>
+</div>
+<hr class="rounded"/>
+  <p>
+    Copyright&copy: 2019-2021 by: <a href="https://thesunshining.weebly.com">The SunShining</a>
+  </p>
 </footer>
 
 
 <!-- Script -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-<script src="BibleScript/jquery-3.4.1.js"></script>
-<script src="BibleScript/SHOWorHIDEbookCHAPTERS.js"></script>
+<script src="../BibleScript/jquery-1.8.3.min.js"></script>
+<script src="../BibleScript/jquery-3.4.1.js"></script>
+
+<!-- Service worker for web app -->
+<script>
+    if('serviceWorker' in navigator) {
+     navigator.serviceWorker
+              .register('sw.js', { scope: '/SunBible/Prophets/' })
+              .then(function() { console.log("Service Worker Registered"); });
+   }
+      </script>
 
 </body>
 </html>

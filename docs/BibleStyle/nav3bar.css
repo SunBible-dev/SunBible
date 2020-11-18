@@ -1,4 +1,11 @@
-.NavBarContainer {
+/*
+How To menu icon from w3
+https://www.w3schools.com/howto/howto_css_menu_icon.asp
+
+*/
+/* I use for prophets */
+
+.container, .NavBarContainer, .NavLink {
   display: inline-block;
   cursor: pointer;
 }
@@ -11,14 +18,46 @@
   transition: 0.4s;
 }
 
+/* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.change .bar2 {opacity: 0;}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
 
+/* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+/*
+Script
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+*/
+
+/*
+on pr
+
+as
+*/
+
+/*
+<div class="NavLink" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+<script>
+            function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+      </div>
+
+      */

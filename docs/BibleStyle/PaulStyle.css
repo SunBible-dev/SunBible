@@ -1,5 +1,6 @@
 body {
-   background-image: url("https://i.imgur.com/p8EtNGk.jpg");
+   background: url(https://i.imgur.com/p8EtNGk.jpg) no-repeat center center fixed; 
+background-size: cover;
 font-family: arial;
 	width: 99%;
 max-width: 100%;
