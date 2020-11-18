@@ -19,7 +19,17 @@ self.addEventListener('install', e => {
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Ezekiel.png',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Daniel.png',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Hosea.png',
-        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Joel.png'
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Joel.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Amos.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Obadiah.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Jonah.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Micah.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Nahum.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Habakkuk.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Zephaniah.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Haggai.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Zechariah.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Malachi.png'
 ])
           .then(() => self.skipWaiting());
     })
