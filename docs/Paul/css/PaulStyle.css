@@ -206,3 +206,14 @@ font-family: 'Roboto', sans-serif;
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Acme', sans-serif;
 }
+
+.Paul_img_gal {
+  text-align: center;
+}
+.Paul_img_gal img {
+  border: 3px solid rgba(0, 0, 255, 0.555);
+  border-radius: 15px;
+}
+.Paul_img_gal img:hover {
+  border: 3px solid blue;
+}
