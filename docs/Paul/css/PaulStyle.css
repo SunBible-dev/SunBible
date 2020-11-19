@@ -1,13 +1,14 @@
 body {
    background: url(https://i.imgur.com/p8EtNGk.jpg) no-repeat center center fixed; 
 background-size: cover;
-font-family: arial;
+font-family: 'Roboto', sans-serif;
 	width: 99%;
 max-width: 100%;
 height: 100vh;
 }
 
 header {
+  font-family: 'Acme', sans-serif;
 background-color: rgba(255, 0, 0, 0.644);
 border-bottom: 5px solid yellow;
 padding: 20px;
@@ -28,7 +29,7 @@ background: rgba(255, 255, 255, 0.5);
 margin-left: 5%;
 margin-right: 5%;
 padding: 20px;
-font-family: arial;
+font-family: 'Roboto', sans-serif;
 font-size: 20px;
 border-radius: 20px;
 }
@@ -38,6 +39,7 @@ border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .PaulBookChapter:hover {
   background-color: rgb(255, 255, 255);
@@ -47,7 +49,7 @@ footer {
     margin-bottom: 100px;
 background-color: rgba(255, 230, 0, 0.63);
 text-align: center;
-font-family: arial;
+font-family: 'Roboto', sans-serif;
 font-size: 20px;
 padding: 20px;
 border-radius: 20px;
@@ -56,35 +58,9 @@ img{
 	max-width: 100%;
 }
 
-/* Home page stuff
-#OnMountPlan {
-	width: 20%;
-	background-color: rgb(4, 247, 247);
-	color: black;
-	padding: 20px;
-	border: 5px solid black;
-	float: left;
-	margin: 10px;
-}
-#LongestPlan {
-	width: 20%;
-	background-color: rgb(229, 255, 0);
-	color: black;
-	padding: 20px;
-	border: 5px solid black;
-	float: left;
-	margin: 10px;
-}
-#SunOnJames {
-	width: 20%;
-	background-color: rgb(255, 251, 0);
-	color: black;
-	padding: 20px;
-	border: 10px dotted red;
-	float: left;
-	margin: 10px;
-}
-*/
+
+
+
    .HomeBookLinkBox {
  padding: 50px;
  background-color: yellow;
@@ -154,7 +130,7 @@ text-align: left;
 
   /* This is the Table Style from here to here */
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -213,4 +189,20 @@ th {
 }
 .b_fruit:hover {
   background-color: #645656;
+}
+
+
+/* Fonts:
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&display=swap');
+</style>
+
+font-family: 'Acme', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Acme', sans-serif;
 }
