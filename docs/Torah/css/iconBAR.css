@@ -1,4 +1,8 @@
 .icon-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%; /* Full-width */
   background-color: rgb(167, 103, 103); /* Dark-grey background */
   overflow: auto; /* Overflow due to float */

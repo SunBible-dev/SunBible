@@ -1,28 +1,41 @@
 /* Torah Style */
   body {
-background-color: rgb(0, 0, 255);
-font-family: arial;
+background: url(https://the-sunshining.github.io/sunshining-photography/img/bear_in_the_distance.jpg) no-repeat center center fixed; 
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 80px;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+}
+header img {
+    border: 3px solid black;
+  border-radius: 20px;
 }
 
 img{
 	max-width: 100%;
 }
 #all {
-  margin-top: 100px;
-background-color: white;
+  
+background-color: rgba(255, 255, 255, 0.500);
 border-left: 5px solid purple;
 border-right: 5px solid purple;
-margin-left: 10px;
-margin-right: 50px;
+margin: 10px;
 padding: 20px;
-font-family: arial;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
+}
+.Chapter:hover {
+  background-color: white;
 }
 footer {
 max-width: 100%;
 background-color: rgb(177, 108, 108);
 text-align: center;
-font-family: arial;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 padding: 20px;
 margin: 20px;
