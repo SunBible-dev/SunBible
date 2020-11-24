@@ -21,12 +21,11 @@ text-align: center;
 margin-bottom: 10px;
 }
 
-.all, #all {
-background-color: white;
+.all {
+background-color: rgba(255, 255, 255, 0.555);
 border-left: 5px solid purple;
 border-right: 5px solid purple;
-margin-left: 5%;
-margin-right: 5%;
+margin: 10px;
 padding: 20px;
 font-size: 20px;
 overflow: hidden;
@@ -90,25 +89,7 @@ footer a, nav p a {
 .img_gal img:hover {
 border: 5px solid blue;
 }
-.home header {
-   background-image: url('https://the-sunshining.github.io/sunshining-photography/img/fall_leaves_trees_10.jpg');
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   min-height: 500px;
-   text-align: center;
-   position: relative;
-}
-.home header h1 {
-   font-size: 50px;
-   color: black;
-   mix-blend-mode: screen;
-   background-color: white;
-   padding: 20px;
-   width: auto;
-   margin: auto;
-   margin-top: 200px;
-}
+
 
 
 /* Books */
@@ -129,22 +110,4 @@ top: 0px;
 }
 .Chapter:hover {
    background-color: white;
-}
-nav {
-   position: fixed;
-   top: 0px;
-   bottom: 0px;
-   background-color: rgba(255, 0, 0, 0.777);
-   overflow-y: scroll;
-   padding-left: 50px;
-   display: none;
-   z-index: 1;
-}
-
-
-
-.NavLink {
-   position: fixed;
-   right: 50px;
-   z-index: 2;
 }
