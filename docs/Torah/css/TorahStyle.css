@@ -28,6 +28,10 @@ padding: 20px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 }
+.Chapter {
+    border-radius: 10px;
+  padding: 10px;
+}
 .Chapter:hover {
   background-color: white;
 }
