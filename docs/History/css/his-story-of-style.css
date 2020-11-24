@@ -1,227 +1,150 @@
-body { 
-	width: 99%;
-max-width: 100%;
-height: 100vh;
-background-color: red;
-font-family: arial;
+body {
+margin: 0px;
+background: url(https://the-sunshining.github.io/sunshining-photography/img/wheat_10.jpg) no-repeat center center fixed; 
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
 }
+/*
+font-family: 'Amaranth', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Amaranth', sans-serif;
+}
+
+header {
+background-color: rgb(255, 232, 232);
+border-bottom: 5px solid yellow;
+padding: 20px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.all, #all {
+background-color: white;
+border-left: 5px solid purple;
+border-right: 5px solid purple;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+font-size: 20px;
+overflow: hidden;
+}
+footer {
+   border-top: 5px solid yellow;
+	margin-top: 5px;
+background-color: rgba(255, 130, 130, 0.777);
+text-align: center;
+font-size: 20px;
+padding: 20px;
+}
+
+
+/*
+General
+*/
 img{
 	max-width: 100%;
 }
-header {
-background-color: gray;
-border: 5px solid yellow;
-padding: 20px;
-margin-bottom: 10px;
-text-align: center;
-}
-#all {
-background-color: white;
-border: 5px solid purple;
-margin-left: 5%;
-margin-right: 5%;
-padding: 20px;
-font-family: arial;
-font-size: 20px;
-}
-footer {
-background-color: grey;
-text-align: center;
-font-family: arial;
-font-size: 20px;
-padding: 20px;
-}
- a {
-text-decoration: none;
-font-family: 'Oswald', sans-serif;
- }
- 
- #col {
- background-color: yellow;
- padding: 5px;
- margin-top: 2px;
- margin-bottom: 2px;
- color: black;
- text-decoration: none;
- float: left;
- clear: both;
- }
-   #NCRnote {
- background-color: lightgray;
- border: 5px solid gold;
- padding: 20px;
- margin: 10px;
-float: right;
-width: 200px;
-text-align: left;
- }
- #BibleMemorizationGuide{
-  background-color: lightgreen;
- border: 5px dotted green;
- padding: 20px;
- margin: 10px;
+
+.one_3 {
 float: left;
-width: 200px;
-text-align: left;
+width: 30%;
 }
-#NCRnoteINTRO {
-	background-color: lightgray;
-	border: 5px solid gold;
-	padding: 20px;
-	margin: 10px;
+.one_two {
    float: left;
-   width: 40%;
+   width: 45%;
    text-align: left;
-	}
-	#BibleMemorizationGuideINTRO{
-	 background-color: lightgreen;
-	border: 5px dotted green;
-	padding: 20px;
-	margin: 10px;
-   float: right;
-   width: 40%;
-   text-align: left;
+}
+
+
+/* a link */
+a {
+   text-decoration: none;
+   font-family: 'Oswald', sans-serif;
+    }
+a:hover {
+   color: blue;
    }
-   .NCRnoteLOGO{
-	   width: 100px;
-   }
- #share {
-  padding: 50px;
- background-color: yellow;
- margin: 20px;
- border: 5px solid black;
- }
- .SunBibleShareBox {
-	padding: 50px;
-   background-color: yellow;
-   margin: 20px;
-   border: 5px solid black;
-   }
- #sunadd {
- width: 25%;
- background-color: lightgreen;
- border: 5px dotted blue;
- float: left;
- padding: 10px;
- margin: 10px;
- }
-  #PsalmLogo {
- width: 100px;
- }
-   #verses {
- padding: 20px;
- background-color: lightyellow;
- border: 5px solid black;
- width: 100%;
- }
-  #pagelink {
- background-color: yellow;
- padding: 5px;
- margin-top: 2px;
- margin-bottom: 2px;
- color: black;
- text-decoration: none;
- }
- .red {
+footer a, nav p a {
+   text-decoration: none;
 	 color: red;
- }
- 
- .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
-  .ChapterSelection {
-	display: none;  
-  }
-  #JoshuaChapterSelection {
-	 display: none;
- }
-  #JudgesChapterSelection {
-	 display: none;
- }
- #RuthChapterSelection  {
-	 display: none;
- }
-   #FSamuelChapterSelection {
-	 display: none;
- }
- #SSamuelChapterSelection  {
-	 display: none;
- }
-  #FKingsChapterSelection {
-	 display: none;
- }
-  #SKingsChapterSelection {
-	 display: none;
- }
- #FChroniclesChapterSelection  {
-	 display: none;
- }
-   #SChroniclesChapterSelection {
-	 display: none;
- }
- #EzraChapterSelection  {
-	 display: none;
- }
-  #NehemiahChapterSelection {
-	 display: none;
- }
-  #EstherChapterSelection {
-	 display: none;
- }
+	 background-color: yellow;
+	 padding: 5px;
+	 border-radius: 10px;
+}
 
 
- /* Speacial Ruth and Esther Stuff */
-  #RuthBody, #EstherBody {
-background-color: pink;
-font-family: arial;
-max-height: 100vh;
+
+
+   
+/* Home Stuff */
+.img_gal {
+   text-align: center;
 }
-#RuthHeader {
-  background-color: rgb(241, 214, 214);
-border-bottom: 5px solid yellow;
-padding: 5px;
-width: 600%;
-height: 55px;
-position: absolute;
-top: 0;
+.img_gal img {
+   border: 5px solid rgba(0, 0, 255, 0.61);
+   border-radius: 10px;
 }
-#TheStoryOfRuth {
-  position: fixed;
+.img_gal img:hover {
+border: 5px solid blue;
 }
-#Ruthall {
-  margin-top: 75px;
-background-color: white;
-border: 5px solid purple;
-padding: 20px;
-font-family: arial;
-font-size: 20px;
-height: 70%;
-width: 600%
+.home header {
+   background-image: url('https://the-sunshining.github.io/sunshining-photography/img/fall_leaves_trees_10.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 500px;
+   text-align: center;
+   position: relative;
 }
-#RuthChapters {
-  column-count: 10;
-  column-rule-style: solid;
-  height: 100%;
-  width: 5000px;
+.home header h1 {
+   font-size: 50px;
+   color: black;
+   mix-blend-mode: screen;
+   background-color: white;
+   padding: 20px;
+   width: auto;
+   margin: auto;
+   margin-top: 200px;
 }
-#Estherall {
-background-color: white;
-border: 5px solid purple;
-margin-left: 5%;
-margin-right: 5%;
-padding: 20px;
-font-family: arial;
-font-size: 20px;
+
+
+/* Books */
+#all h1 {
+   background-color: white;
 }
-#RuthFooter {
-  position: fixed;
-  bottom: 0;
+.Chapter h1 {
+position: sticky;
+top: 0px;
 }
-#RuthNav {
-  background-color: lightgreen;
-  padding: 10px;
+.Chapter {
+   background-color: rgba(255, 255, 255, 0.777);
+   margin: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 20px;
+   font-size: 20px;
+}
+.Chapter:hover {
+   background-color: white;
+}
+nav {
+   position: fixed;
+   top: 0px;
+   bottom: 0px;
+   background-color: rgba(255, 0, 0, 0.777);
+   overflow-y: scroll;
+   padding-left: 50px;
+   display: none;
+   z-index: 1;
+}
+
+
+
+.NavLink {
+   position: fixed;
+   right: 50px;
+   z-index: 2;
 }
