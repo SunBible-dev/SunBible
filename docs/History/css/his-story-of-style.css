@@ -28,7 +28,6 @@ border-right: 5px solid purple;
 margin: 10px;
 padding: 20px;
 font-size: 20px;
-overflow: hidden;
 }
 footer {
    border-top: 5px solid yellow;
@@ -93,7 +92,7 @@ border: 5px solid blue;
 
 
 /* Books */
-#all h1 {
+#all h1, .all h1 {
    background-color: white;
 }
 .Chapter h1 {
