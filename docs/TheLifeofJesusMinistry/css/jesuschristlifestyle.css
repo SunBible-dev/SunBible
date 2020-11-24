@@ -1,10 +1,11 @@
 
 body {
+	background: url(https://the-sunshining.github.io/sunshining-photography/img/sun_12.jpg) no-repeat center center fixed; 
+background-size: cover;
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	background-color: blue;
 }
 
 #lifeheader {
