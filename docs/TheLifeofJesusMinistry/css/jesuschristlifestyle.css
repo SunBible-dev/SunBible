@@ -10,7 +10,7 @@ background-size: cover;
 
 #lifeheader {
 	max-width: 100%;
- background-color: gray;
+ background-color: rgba(255, 230, 0, 0.700);
  padding: 5px; 
  text-align: center;
  margin: 0px;
@@ -20,7 +20,7 @@ padding: 10px;
 padding-left: 50px;
 padding-right: 5px;
 background: yellow;
-margin-left: 10px;
+left: 0px;
 position: fixed;
 }
 /*
@@ -48,7 +48,7 @@ padding: 20px;
 
  footer {
 font-size: 20px; 
-background-color: rgb(250, 229, 114);
+background-color: rgba(250, 230, 114, 0.777);
  padding: 20px; 
  margin: 10px;
   font-family: arial;
