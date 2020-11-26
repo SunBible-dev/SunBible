@@ -53,14 +53,23 @@ nav p {
     background-color: black;
 }
 
+
+
 button {
     margin: 5px;
+    font-size: 20px;
     border-radius: 12px;
+    color: blue;
     border: 5px solid red;
+     background-color: white;
 }
 button:hover {
-    background-color: white;
+    background-color: black;
+    border: 5px solid blue;
+    color: white;
 }
+
+
 
 .Shadow {
     text-shadow: 5px 10px 2px #93968f,
@@ -121,23 +130,15 @@ top: 20px;
 #TestYourMemoryBox, .TestYourMemoryBox {
     float: right;
     width: 150px;
-    background-color: hsla(64, 100%, 49%, 0.548);
+    background-color: rgba(233, 250, 0, 0.555);
     padding: 20px;
     margin: 20px;
     margin-right: 0px;
-    border: 5px solid rgba(0, 0, 0, 0.568);
-}
-#TestYourMemoryBox:hover, .TestYourMemoryBox:hover {
-    background-color: #e9fa00;
-    border: 5px solid black;
+    border: 5px solid rgba(0, 0, 0, 0.555);
 }
 
-.TestYourMemoryInputDiv {
-    background-color: white;
-    border-radius: 25px;
-    border: 5px dotted red;
-    padding: 20px;
-}
+
+
 .Black {
     background-color: Black;
 }
