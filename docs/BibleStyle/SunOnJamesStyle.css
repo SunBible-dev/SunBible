@@ -13,6 +13,7 @@ header {
     font-size: 35px;
     margin-left: 200px;
 }
+/*
 .BibleMemorizationGuideJames {
     background-color: #f7c497;
     border: 2px solid rgb(0, 255, 0);
@@ -21,6 +22,7 @@ header {
     position: absolute;
     right: 10px;
 }
+*/
 nav {
     position: fixed;
     left: 0px;
@@ -90,12 +92,30 @@ button:hover {
 }
 
 
-#SunOnJamesPic{
+
+
+
+#SunOnJamesPic {
 width: 200px;
 position: absolute;
 z-index: 1;
 left: 20px;
+top: 20px;
 }
+#SunOnJamesPic:hover {
+    animation-name: SunPicR;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes SunPicR {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-20deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(20deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
 
 
 #TestYourMemoryBox, .TestYourMemoryBox {
@@ -121,6 +141,9 @@ left: 20px;
 .Black {
     background-color: Black;
 }
+
+
+
 
 footer {
     text-align: center;
