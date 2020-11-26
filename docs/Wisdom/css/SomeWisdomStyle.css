@@ -1,37 +1,44 @@
 body {
-    background-image: url("https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dscf4423.jpg");
-	width: 99%;
-max-width: 100%;
-height: 100vh;
+   background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dscf4423.jpg) no-repeat center center fixed;
+background-size: cover;
 font-size: 20px;
-font-family: arial;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px;
+margin: 0px;
 }
-img{
-	max-width: 100%;
+.P_body {
+  background: url(https://the-sunshining.github.io/sunshining-photography/img/Spider_web_02.jpg) no-repeat center center fixed; 
+background-size: cover;
 }
-nav {
-    right: 5%;
-    top: 0px;
-    width: 500px;
-background-color: rgb(241, 157, 157);
-border-left: 5px solid yellow;
-padding: 20px;
-margin: 10px;
+.E_body {
+  background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/4080857.jpg) no-repeat center center fixed; 
+background-size: cover;
 }
+.S_body {
+  background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dscf4118_orig.jpg) no-repeat center center fixed; 
+background-size: cover;
+}
+
+
+
+
 #all {
-background-color: rgba(255, 255, 255, 0.685);
+background-color: rgba(255, 255, 255, 0.555);
 border-left: 5px solid green;
 border-right: 5px solid green;
-margin-left: 5%;
-margin-right: 5%;
+margin-left: 20px;
+margin-right: 20px;
 margin-top: 0px;
 padding: 20px;
 }
 .Chapter {
-   background-color: white; 
+   background-color: rgba(255, 255, 255, 0.555); 
    font-size: 30px;
    padding: 20px;
    overflow: hidden;
+}
+.Chapter:hover {
+  background-color: rgb(255, 255, 255);
 }
 .ChapterNumber {
     background-color: rgb(254, 255, 184);
@@ -39,32 +46,58 @@ padding: 20px;
     position: sticky;
     top: 0px;
 }
+
+
+
 footer {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-top: 5px solid black;
-background-color: grey;
+   border-top: 5px solid yellow;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+background-color: rgba(255, 130, 130, 0.777);
 text-align: center;
-font-family: arial;
 font-size: 20px;
 padding: 20px;
 }
+
+footer a, a {
+   text-decoration: none;
+	 color: red;
+	 background-color: yellow;
+	 padding: 5px;
+	 border-radius: 10px;
+} 
+
  a {
-text-decoration: none;
-font-family: 'Oswald', sans-serif;
-background-color: white;
-border: 1px solid blue;
-padding: 1px;
- }
- a:hover {
-	background-color: rgb(245, 236, 109);
-}
+   text-decoration: none;
+   font-family: 'Oswald', sans-serif;
+    }
+a:hover {
+   color: blue;
+   }
  .SunBibleShareBox {
 	padding: 50px;
    background-color: yellow;
    margin: 20px;
    border: 5px solid black;
    }
+
+
+
+
+img{
+	max-width: 100%;
+}
+   .one_3 {
+float: left;
+width: 30%;
+}
+.one_two {
+   float: left;
+   width: 45%;
+   text-align: left;
+}
 
 
 
@@ -159,26 +192,6 @@ background-color: yellow;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Notes */
 
 .NCRnoteBox {
@@ -189,7 +202,7 @@ background-color: yellow;
   text-align: center;
   font-weight: 900;
   color: #fff;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
  bottom: 50px;
   float: right;
@@ -225,43 +238,3 @@ margin: 20px;
   from {width: 20%}
   to {width: 50%}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Scrollbar */
-:root {
-    --shadow: #860404;
-    --scrollbarBG: rgb(245, 241, 10);
-    --thumbBG: #fb0202;
-  }
-  ::-webkit-scrollbar {
-    width: 16px;
-  }
-  ::-webkit-scrollbar-track {
-    background: var(--scrollbarBG);
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--thumbBG);
-    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
-  }
-  /* Scrollbar */

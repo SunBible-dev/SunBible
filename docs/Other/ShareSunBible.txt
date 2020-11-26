@@ -7,15 +7,19 @@ Please share The SunShining Study Bible and NCR Study Bible with your friends:<b
 
 New:
 
-   <h3>If you like SunBible please share it with your friends!</h3>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f36a38bce401e07"></script>
+<div class="SunBibleShareBox">
+    Please share The SunShining Study Bible and NCR Study Bible with your friends:<br />
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_inline_share_toolbox"></div>
 
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
-            <p>
-               <b>Tips for sharing:</b><br/>
-               1. Use #SunBible<br/>
-               2. Mention @TheSunShining on facebook and twitter. And @TheSunShiningNCR on instagram.<br/>
-               3. Share a verse that you like!!!
-            </p>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c83314c915d5275"></script>
+
+    <p>
+        <b>Tips for sharing:</b><br />
+        1. Use #SunBible<br />
+        2. Mention @TheSunShining on facebook and twitter. And @TheSunShiningNCR on instagram.<br />
+        3. Share a verse that you like!!!
+    </p>
+<!-- End Share Box -->
+</div>

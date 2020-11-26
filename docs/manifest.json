@@ -4,11 +4,11 @@
   "description": "A beautiful way to read, study, and memorize the Bible",
   "short_name":"SunBible",
   "manifest_version": 2,
-  "version": "3.2.1",
+  "version": "3.2.2",
   "author": "The SunShining",
   "browser_action": {
      "default_icon": "Photos/SNBible.png",
-     "default_popup": "shortcut.html"
+     "default_popup": "Other/shortcut.html"
   }
 
 }
