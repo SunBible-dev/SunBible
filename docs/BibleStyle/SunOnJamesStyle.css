@@ -11,6 +11,7 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-size: 35px;
+    margin-left: 200px;
 }
 .BibleMemorizationGuideJames {
     background-color: #f7c497;
@@ -21,17 +22,24 @@ header {
     right: 10px;
 }
 nav {
-    width: 20%;
-    background-color: yellow;
-    border-left: 5px solid black;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.777);
     padding: 20px;
     line-height: 2;
+    display: none;
 }
-nav:hover {
-    background-color: wheat;
+nav p {
+    background-color: white;
+    padding: 5px;
 }
 
-#pagelink {
+
+#pagelink, nav a {
     color: red;
     text-decoration: none;
     background-color: yellow;
@@ -39,7 +47,7 @@ nav:hover {
     border-radius: 20px;
     overflow: hidden;
 }
-#pagelink:hover {
+#pagelink:hover, nav a:hover {
     background-color: black;
 }
 
@@ -83,8 +91,10 @@ button:hover {
 
 
 #SunOnJamesPic{
-    width: 200px;
-float: left;
+width: 200px;
+position: absolute;
+z-index: 1;
+left: 20px;
 }
 
 
