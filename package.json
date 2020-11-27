@@ -16,10 +16,9 @@
         }
       ]
     }
-   
   },
   "name": "sunbible",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
@@ -38,7 +37,7 @@
     "url": "https://github.com/the-sunshining/SunBible.git"
   },
   "devDependencies": {
-    "electron": "^11.0.0-beta.13",
+    "electron": "^12.0.0-beta.4",
     "electron-builder": "^22.9.1"
   },
   "scripts": {

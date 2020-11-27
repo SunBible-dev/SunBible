@@ -2,11 +2,15 @@
 
 const { app, BrowserWindow, Menu, session } = require('electron')
 
+
+
 //Auto update ??? I hope this works
 const { autoUpdater } = require("electron-updater")
 app.on('ready', function()  {
   autoUpdater.checkForUpdatesAndNotify();
 });
+
+
 
 // Main SunBible App Activity: 
 app.on('ready', async () => {
@@ -49,6 +53,13 @@ const template = [
           await shell.openExternal('https://the-sunshining.github.io/SunBible/')
         }
       },
+      {
+        label: 'Open SunBible Wallpaper online',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html')
+        }
+      },
       { type: 'separator' },
       isMac ? { role: 'close' } : { role: 'quit' }
     ]
@@ -59,19 +70,22 @@ Menu.setApplicationMenu(menu)
 
 
 
+
 // Right Click Menu using - "electron-context-menu": "^2.3.0"
 const contextMenu = require('electron-context-menu');
 contextMenu({
-	menu: (actions, props, browserWindow) => [
-    {
-      label: 'SunBible',
-      submenu: [
-      { label: 'Copy Bible Verses', role: 'copy' },
-        { type: 'separator' }
-      ]
-    }
-		
-	]
+  menu: (actions, props, browserWindow) => [
+
+    { role: 'copy' },
+    { role: 'selectAll' },
+    { type: 'separator' },
+    actions.copyImage(),
+    actions.saveImageAs(),
+    { type: 'separator' },
+    { role: 'togglefullscreen' },
+    { role: 'close' }
+
+  ]
 });
 
 
