@@ -15,6 +15,8 @@ background-size: cover;
  text-align: center;
  margin: 0px;
 }
+
+/*
 #headername {
 padding: 10px;
 padding-left: 50px;
@@ -23,6 +25,7 @@ background: yellow;
 left: 0px;
 position: fixed;
 }
+*/
 /*
 #all { 
 background: black;
@@ -209,9 +212,10 @@ text-decoration: none;
  }
 	 /* Nav */
 .Nav_C {
-	position: absolute;
+	position: fixed;
 		right: 50px;
-		top: 50px;
+		top: 0px;
+		z-index: 1;
 }
 .Nav_b:hover {
 	width: 40px;
@@ -288,12 +292,12 @@ text-decoration: none;
  }
 */
 
-  #ChapterNumber {
- font-size: 40px;
+  #ChapterNumber, .ChapterNumber {
+ background-color: white;
+ position: sticky;
+ top: 0px;
  }
- .ChapterNumber {
-	font-size: 40px;
-	}
+
 
 
 	/* Ncr notes -I am pic div boxes*/
@@ -401,7 +405,7 @@ img {
 	#Chapter26, #Chapter27, #Chapter28, #Chapter29, #Chapter30 {
  font-size: 20px;
  padding: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.777);
   margin: 30px;
   border-radius: 20px;
 	}
