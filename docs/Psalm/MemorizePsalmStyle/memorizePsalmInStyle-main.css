@@ -19,6 +19,9 @@ header {
  line-height: 0.9;
  width: 50%;
 }
+.headerBOX {
+  font-size: 20px;
+}
 .headerIMG {
   width: 30%;
   float: right;
@@ -31,13 +34,6 @@ header {
     animation-name: PSALMheaderIMG;
     animation-iteration-count: infinite;
     animation-duration: 10s;
-}
-.Psalm11911{
-  float: right;
-    font-size: 20px;
-    width: 45%;
-    margin-right: 20px;
-    margin-top: 100px;
 }
 .IntroHowTo {
     width: 90%;
@@ -116,14 +112,14 @@ button:hover {
 /* Waves */
 .wave-top {
     margin: 20px 0;
-    background-image: url("../https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-top.png");
+    background-image: url("https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-top.png");
     height: 166px;
     display: block;
     background-position: center;
   }
   .wave-bottom {
     margin: 20px 0;
-    background-image: url("../https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-bottom.png");
+    background-image: url("https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-bottom.png");
     height: 189px;
     display: block;
     background-position: center;
