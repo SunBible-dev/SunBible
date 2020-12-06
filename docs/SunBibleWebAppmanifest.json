@@ -8,12 +8,12 @@
 
   "icons": [
     {
-      "src": "Photos/SunBibleLogoCollection/128x128.png",
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/128x128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "Photos/SunBibleLogoCollection/512x512_1.png",
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/512x512_1.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -38,44 +38,44 @@
       "short_name": "Psalm",
       "description": "Read, study, and memorize the Psalms",
       "url": "Psalm/MemorizePsalm-index.html",
-      "icons": [{ "src": "Photos/Psalm/Psalm_Logo_Y.png", "sizes": "192x192" }]
+      "icons": [{ "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png", "sizes": "192x192" }]
     }
   ],
   "screenshots" : [
     {
-      "src": "Photos/screenshots/1.png",
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/1.png",
       "sizes": "1280x720",
       "type": "image/png"
     },
     {
-      "src": "Photos/screenshots/2.png",
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/2.png",
       "sizes": "1280x720",
       "type": "image/png"
     },
     {
-      "src": "Photos/screenshots/3.png",
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/3.png",
       "sizes": "1280x720",
       "type": "image/png"
     }
   ,
   {
-    "src": "Photos/screenshots/4.png",
+    "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/4.png",
     "sizes": "1280x720",
     "type": "image/png"
   }
 ,
 {
-  "src": "Photos/screenshots/5.png",
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/5.png",
   "sizes": "1280x720",
   "type": "image/png"
 },
 {
-  "src": "Photos/screenshots/6.png",
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/6.png",
   "sizes": "1280x720",
   "type": "image/png"
 },
 {
-  "src": "Photos/screenshots/7.png",
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/7.png",
   "sizes": "1280x720",
   "type": "image/png"
 }

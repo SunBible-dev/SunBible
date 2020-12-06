@@ -12,7 +12,7 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/SunBible/',
-        '/SunBible/Photos/SunBibleLogoCollection/Long.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/Long.png',
 ])
           .then(() => self.skipWaiting());
     })
