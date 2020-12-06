@@ -116,14 +116,14 @@ button:hover {
 /* Waves */
 .wave-top {
     margin: 20px 0;
-    background-image: url("../../Photos/wave-top.png");
+    background-image: url("../https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-top.png");
     height: 166px;
     display: block;
     background-position: center;
   }
   .wave-bottom {
     margin: 20px 0;
-    background-image: url("../../Photos/wave-bottom.png");
+    background-image: url("../https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/wave-bottom.png");
     height: 189px;
     display: block;
     background-position: center;

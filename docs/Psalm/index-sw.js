@@ -11,8 +11,8 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         'MemorizePsalm-index.html',
-        '../Photos/Psalm/Psalm_Logo_White.png',
-        '../Photos/Psalm/Psalm_Logo_Y.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_White.png',
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png',
         'MemorizePsalmStyle/memorizePsalmInStyle-main.css',
         'MemorizePsalmScript/MemorizePsalmScript-main.js'
 ])
