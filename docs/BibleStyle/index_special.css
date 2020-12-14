@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+   }
+
+/* 
+Speacial home stuff um as of 2020 all this css is for home!
+*/
+#QtoRead {
+	padding: 10px;
+	 border-radius: 25px;
+	border: 5px dotted green;
+	background-color: lightgreen;
+	float: right;
+	width: 30%;
+}
+.LinkToMemoryPage {
+	width: 20%;
+	background-color: lightgreen;
+	border: 5px dotted blue;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+  }
+  
+#sunadd {
+  width: 20%;
+  background-color: lightyellow;
+  border: 5px dotted green;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  }
+
+ #OnMountPlan {
+	width: 20%;
+	background-color: rgb(4, 247, 247);
+	color: black;
+	padding: 20px;
+	border: 5px solid black;
+	float: left;
+	margin: 10px;
+}
+#LongestPlan {
+	width: 20%;
+	background-color: rgb(229, 255, 0);
+	color: black;
+	padding: 20px;
+	border: 5px solid black;
+	float: left;
+	margin: 10px;
+}
+/* Speacial home stuff */
