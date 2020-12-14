@@ -11,12 +11,22 @@ border-bottom: 5px solid yellow;
 padding: 20px;
 margin-bottom: 10px;
 border-radius: 20px;
+line-height: 2;
 }
 
  /* Link Stuff and navigation */
  a {
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
+ }
+ header a {
+  background-color: rgb(255, 224, 224);
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid yellow;
+ }
+ header a:hover {
+   background-color: red;
  }
   /* Link Stuff and navigation */
 
@@ -203,6 +213,12 @@ font-family: 'Roboto', sans-serif;
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Acme', sans-serif;
 }
+
+.PaulBookChapter h1 {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  }
 
 .Paul_img_gal {
   text-align: center;
