@@ -8,10 +8,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
 /*
 font-family: 'Abril Fatface', cursive;
 font-family: 'Open Sans', sans-serif;
+font-family: 'Langar', cursive;
 */
 
 
@@ -25,8 +27,8 @@ body {
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-h1 {
-  font-family: 'Abril Fatface', cursive;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Langar', cursive;
 }
 p {
   font-family: 'Open Sans', sans-serif;
