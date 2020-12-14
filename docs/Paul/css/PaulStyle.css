@@ -11,7 +11,7 @@ border-bottom: 5px solid yellow;
 padding: 20px;
 margin-bottom: 10px;
 border-radius: 20px;
-line-height: 2;
+line-height: 3;
 }
 
  /* Link Stuff and navigation */
@@ -24,6 +24,7 @@ font-family: 'Oswald', sans-serif;
   padding: 10px;
   border-radius: 10px;
   border: 3px solid yellow;
+  white-space: nowrap;
  }
  header a:hover {
    background-color: red;
