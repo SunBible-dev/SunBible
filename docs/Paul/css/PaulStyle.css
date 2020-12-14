@@ -19,14 +19,14 @@ line-height: 3;
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
  }
- header a {
+ header a, footer a {
   background-color: rgb(255, 224, 224);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   border: 3px solid yellow;
   white-space: nowrap;
  }
- header a:hover {
+ header a:hover, footer a:hover {
    background-color: red;
  }
   /* Link Stuff and navigation */
@@ -61,6 +61,10 @@ font-family: 'Roboto', sans-serif;
 font-size: 20px;
 padding: 20px;
 border-radius: 20px;
+line-height: 2;
+}
+footer:hover {
+  background-color: rgba(255, 230, 0, 0.801);
 }
 img{
 	max-width: 100%;
@@ -190,6 +194,16 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0px;
   }
+
+  #all p {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: auto;
+  }
+
+
+
 
 .Paul_img_gal {
   text-align: center;
