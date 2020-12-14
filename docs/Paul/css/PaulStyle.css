@@ -98,18 +98,8 @@ float: left;
 width: 200px;
 text-align: left;
 }
-	#BibleMemorizationGuideINTRO{
-	 background-color: lightgreen;
-	border: 5px dotted green;
-	padding: 20px;
-	margin: 10px;
-   float: right;
-   width: 40%;
-   text-align: left;
-   }
-   .NCRnoteLOGO{
-	   width: 100px;
-   }
+
+ 
    #NCRpNote{
     float: left;
      width: 300px;
@@ -119,18 +109,11 @@ text-align: left;
  }
 
 
- .SunBibleShareBox {
-	padding: 50px;
-   background-color: yellow;
-   margin: 20px;
-   border: 5px solid black;
-   }
+
  .red {
 	 color: red;
  }
-  .ChapterSelection {
-	display: none;  
-  }
+
 
 
 
@@ -214,4 +197,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .Paul_img_gal img:hover {
   border: 3px solid blue;
+}
+
+
+
+
+/* .Philipians_Audio_div */
+
+.Philipians_Audio_div {
+  background-color: white;
+  float: right;
+  width: 30%;
 }
