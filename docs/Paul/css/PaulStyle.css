@@ -69,13 +69,7 @@ img{
 
 
 
-   .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
+
   
 
 
@@ -136,31 +130,7 @@ text-align: left;
 
 
 
-  /* This is the Table Style from here to here */
-table {
-  font-family: 'Roboto', sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: lightyellow;
-}
-tr:nth-child(odd) {
-  background-color: rgb(255, 224, 224);
-}
-td:hover {
-  background-color: red;
-}
-th {
-  background-color: yellow;
-  color: black;
-}
-/* This is the Table Style from here to here */
+
 
 
 
@@ -215,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Acme', sans-serif;
 }
 
-.PaulBookChapter h1 {
+.PaulBookChapter h1, .sticky_h {
   background-color: white;
   position: sticky;
   top: 0px;

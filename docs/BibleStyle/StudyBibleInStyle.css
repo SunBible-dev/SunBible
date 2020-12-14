@@ -9,43 +9,8 @@ Speacial home stuff
 	float: right;
 	width: 30%;
 }
-#WholeBibleCollection {
-	background-color: gray;
-	padding: 10px;
-	overflow: hidden;
-}
-#WholeOldCollection, #WholeNewCollection {
-	overflow: hidden;
-	padding: 10px;
-	margin: 10px;
-	background-color: yellow;
-	 border-radius: 25px;
-	border: 5px solid black;
-	width: 40%;
-	float: left;
-}
-
-#ShowOldTestament:hover, #ShowNewTestament:hover {
-background-color: rgb(181, 245, 172);
-}
-
-#OldLinkCollection, #NewLinkCollection {
-	display: none;
-	background-color: white;
-	overflow: hidden;
-}
 
 
- .HomeBookLinkBox {
- padding: 50px;
- background-color: yellow;
- float: left;
- margin: 20px;
- border: 5px solid black;
- }
-.HomeBookLinkBox:hover {
-	background-color: rgb(248, 248, 178);
-}
 
  #OnMountPlan {
 	width: 20%;
@@ -173,9 +138,7 @@ text-align: left;
 	padding: 10px;
 	margin: 10px;
 	}
-  #PsalmLogo {
- width: 100px;
- }
+
    #verses {
  padding: 20px;
  background-color: lightyellow;
@@ -206,126 +169,7 @@ text-align: left;
 
 
 
-  .ChapterSelection {
-	display: none;  
-  }
- #GenesisChapterSelection {
-	 display: none;
- }
-  #ExodusChapterSelection {
-	 display: none;
- }
- #LeviticusChapterSelection  {
-	 display: none;
- }
-   #NumbersChapterSelection {
-	 display: none;
- }
- #DeuteronomyChapterSelection  {
-	 display: none;
- }
-  #JoshuaChapterSelection {
-	 display: none;
- }
-  #JudgesChapterSelection {
-	 display: none;
- }
- #RuthChapterSelection  {
-	 display: none;
- }
-   #FSamuelChapterSelection {
-	 display: none;
- }
- #SSamuelChapterSelection  {
-	 display: none;
- }
-  #FKingsChapterSelection {
-	 display: none;
- }
-  #SKingsChapterSelection {
-	 display: none;
- }
- #FChroniclesChapterSelection  {
-	 display: none;
- }
-   #SChroniclesChapterSelection {
-	 display: none;
- }
- #EzraChapterSelection  {
-	 display: none;
- }
-  #NehemiahChapterSelection {
-	 display: none;
- }
-  #EstherChapterSelection {
-	 display: none;
- }
- #JobChapterSelection  {
-	 display: none;
- }
-   #ProverbsChapterSelection {
-	 display: none;
- }
- #EcclesiastiesChapterSelection  {
-	 display: none;
- }
- #SongofSolomonChapterSelection {
-	display: none;
-}
- #IsaiahChapterSelection {
-	display: none;
-}
-#JeremiahChapterSelection  {
-	display: none;
-}
-  #LamentationsChapterSelection {
-	display: none;
-}
-#EzekielChapterSelection  {
-	display: none;
-}
- #DanielChapterSelection {
-	display: none;
-}
- #HoseaChapterSelection {
-	display: none;
-}
-#JoelChapterSelection  {
-	display: none;
-}
-  #AmosChapterSelection {
-	display: none;
-}
-#ObadiahChapterSelection  {
-	display: none;
-}
- #JonahChapterSelection {
-	display: none;
-}
- #MicahChapterSelection {
-	display: none;
-}
-#NahumChapterSelection  {
-	display: none;
-}
-  #HabakkukChapterSelection {
-	display: none;
-}
-#ZephaniahChapterSelection  {
-	display: none;
-}
- #HaggaiChapterSelection {
-	display: none;
-}
- #ZechariahChapterSelection {
-	display: none;
-}
-#MalachiChapterSelection  {
-	display: none;
-}
-
-
-
+ 
 
 
  /* Scrollbar */
