@@ -69,4 +69,5 @@ contextMenu({
 
  
  // Removed from package json:
- // "electron-tabs": "^0.15.0"
+ // "electron-tabs": "^0.15.0",
+ // "electron-updater": "^4.3.5"

@@ -51,11 +51,9 @@
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
     "nsis-web": "electron-builder --win nsis-web",
-    "dmg": "electron-builder --mac dmg",
-    "ebPublish": "electron-builder --publish onTagOrDraft"
+    "dmg": "electron-builder --mac dmg"
   },
   "dependencies": {
-    "electron-context-menu": "^2.3.0",
-    "electron-updater": "^4.3.5"
+    "electron-context-menu": "^2.3.0"
   }
 }
