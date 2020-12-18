@@ -22,6 +22,8 @@ font-family: 'Langar', cursive;
 /* Main */
 body {
     font-size: 20px;
+    margin: 0px;
+    padding: 0px;
     background-color: var(--mainColor4);
     animation-name: bodyback;
     animation-duration: 10s;
