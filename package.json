@@ -18,7 +18,7 @@
     }
   },
   "name": "sunbible",
-  "version": "0.1.1-beta",
+  "version": "0.1.2-beta",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
@@ -45,6 +45,7 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "deb": "electron-builder --linux deb",
+    "rpm": "electron-builder --linux rpm",
     "AppImage": "electron-builder --linux AppImage",
     "snap": "electron-builder --linux snap",
     "apk": "electron-builder --linux apk",

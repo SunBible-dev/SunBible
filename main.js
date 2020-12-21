@@ -8,16 +8,18 @@ app.on('ready', async () => {
 
 
     const mainWindow = new BrowserWindow({
+        alwaysOnTop: true,
         minimizable: true,
         width: 1000,
         height: 600,
+        frame: false,
         webPreferences: {
             nodeIntegration: true,
             webviewTag: true
         }
     })
 
-    mainWindow.loadFile('docs/index.html')
+    mainWindow.loadFile('app_frame/app-iframe.html')
     mainWindow.removeMenu()
 
 
@@ -40,7 +42,6 @@ contextMenu({
     actions.copyImage(),
     actions.saveImageAs(),
     { type: 'separator' },
-    { type: 'separator' },
     {
       label: 'View SunBible Online',
       click: async () => {
@@ -56,6 +57,7 @@ contextMenu({
       }
     },
     { type: 'separator' },
+    { role: 'minimize'},
     { role: 'togglefullscreen' },
     { role: 'close' }
 
