@@ -12,7 +12,6 @@ app.on('ready', async () => {
         minimizable: true,
         width: 1000,
         height: 600,
-        frame: false,
         webPreferences: {
             nodeIntegration: true,
             webviewTag: true
