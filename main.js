@@ -8,7 +8,6 @@ app.on('ready', async () => {
 
 
     const mainWindow = new BrowserWindow({
-        alwaysOnTop: true,
         minimizable: true,
         width: 1000,
         height: 600,
