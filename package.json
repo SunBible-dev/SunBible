@@ -1,24 +1,10 @@
 {
   "build": {
     "appId": "app.the-sunshining.sunbible",
-    "productName": "SunBible",
-    "win": {
-      "publish": [
-        "github"
-      ],
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        }
-      ]
-    }
+    "productName": "SunBible"
   },
   "name": "sunbible",
-  "version": "0.1.2-beta",
+  "version": "0.1.3-beta",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
