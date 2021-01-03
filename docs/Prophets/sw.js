@@ -11,8 +11,8 @@ self.addEventListener('install', e => {
     caches.open(cacheName).then(cache => {
       return cache.addAll([
         '/SunBible/Prophets/Prophets.html',
-        'https://the-sunshining.github.io/sunshining-photography/img/sun_25.jpg',
-        'https://the-sunshining.github.io/sunshining-photography/img/fall_leaves_trees_10.jpg',
+        'https://the-sunshining.github.io/sunshining-photography/docs/img/2020/img/sun_25.jpg',
+        'https://the-sunshining.github.io/sunshining-photography/docs/img/2020/img/fall_leaves_trees_10.jpg',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Isaiah.png',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Jeremiah.png',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Lamentations.png',
