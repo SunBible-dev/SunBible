@@ -1,6 +1,6 @@
 body {
 margin: 0px;
-background: url(https://the-sunshining.github.io/sunshining-photography/docs/img/2020/img/sun_25.jpg) no-repeat center center fixed; 
+background: url(https://the-sunshining.github.io/sunshining-photography/docs/img/2020/sun_25.jpg) no-repeat center center fixed; 
 background-size: cover;
 font-family: 'Roboto', sans-serif;
 font-size: 20px;
@@ -91,7 +91,7 @@ footer a, nav p a {
 border: 5px solid blue;
 }
 .home header {
-   background-image: url('https://the-sunshining.github.io/sunshining-photography/docs/img/2020/img/fall_leaves_trees_10.jpg');
+   background-image: url('https://the-sunshining.github.io/sunshining-photography/docs/img/2020/fall_leaves_trees_10.jpg');
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
