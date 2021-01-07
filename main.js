@@ -54,6 +54,7 @@ const template = [
       { role: 'hideothers' },
       { role: 'unhide' },
       { type: 'separator' },
+      { role: 'about' },
       { role: 'quit' }
     ]
   }] : []),
