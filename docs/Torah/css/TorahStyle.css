@@ -4,6 +4,7 @@ background: url(https://the-sunshining.github.io/sunshining-photography/docs/img
 background-size: cover;
 font-family: Arial, Helvetica, sans-serif;
 padding-top: 80px;
+position: relative;
 }
 
 header {
@@ -18,22 +19,31 @@ header img {
 img{
 	max-width: 100%;
 }
+
 #all {
-  
-background-color: rgba(255, 255, 255, 0.500);
-border-left: 5px solid purple;
-border-right: 5px solid purple;
-margin: 10px;
-padding: 20px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-}
+  background-color: rgba(255, 255, 255, 0.500);
+  margin: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  }
+ #all h1 {
+   text-align: center;
+ }
 .Chapter {
     border-radius: 10px;
   padding: 10px;
 }
 .Chapter:hover {
   background-color: white;
+}
+.Chapter h1 {
+  text-align: center;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
 }
 footer {
 max-width: 100%;
@@ -63,30 +73,7 @@ text-align: left;
 
 
 
- /* Book Link Style */
-  .BookLinkBox {
-      max-width: 100%;
-float: left;
- padding: 50px;
- background-color: yellow;
- margin: 20px;
- border: 5px solid black;
- }
- #GenesisChapterSelection {
-	 display: none;
- }
-  #ExodusChapterSelection {
-	 display: none;
- }
- #LeviticusChapterSelection  {
-	 display: none;
- }
-   #NumbersChapterSelection {
-	 display: none;
- }
- #DeuteronomyChapterSelection  {
-	 display: none;
- }
+ 
 
 
 
@@ -124,4 +111,14 @@ float: left;
   }
   .Torah_img_gal img:hover {
     border: 3px solid blue;
+  }
+
+
+  /* Up arrow style  */
+  #up_arrow img {
+margin-left: 95%;
+position: sticky;
+top: 10px;
+z-index: 2;
+width: 20px;
   }
