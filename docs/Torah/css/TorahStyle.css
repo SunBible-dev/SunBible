@@ -114,11 +114,11 @@ float: left;
   }
 
 
-  /* Up arrow style  */
+  /* Up arrow style or scroll to top */
   #up_arrow img {
-margin-left: 95%;
-position: sticky;
+position: fixed;
 top: 10px;
+right: 10px;
 z-index: 2;
 width: 20px;
   }
