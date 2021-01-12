@@ -4,17 +4,14 @@
  * 
  */
 
-const version = "0.0.1";
+const version = "0.0.2";
 const cacheName = 'PsalmMemory-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        'MemorizePsalm-index.html',
         'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_White.png',
-        'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png',
-        'MemorizePsalmStyle/memorizePsalmInStyle-main.css',
-        'MemorizePsalmScript/MemorizePsalmScript-main.js'
+        'https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png'
 ])
           .then(() => self.skipWaiting());
     })

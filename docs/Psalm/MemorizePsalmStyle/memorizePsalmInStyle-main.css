@@ -29,11 +29,11 @@ footer {
     background-color: #97971e;
     padding-bottom: 20px;
     font-size: 30px;
-    min-height: 700px;
+    text-align: center;
 }
 .footerDIV {
   float: left;
-  width: 20%;
+  width: 25%;
   padding: 50px;
    }
 .indexMain {
