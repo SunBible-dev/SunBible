@@ -8,6 +8,7 @@ body {
     background-image: linear-gradient(yellow, white 200px);
 }
 
+/* Header  */
 .index_header, .Psalm_header, header {
   text-align: center;
   margin-top: 0px;
@@ -17,6 +18,10 @@ body {
 
 .index_SiteName img, .Psalm_SiteName img {
   width: 20%;
+}
+
+header .headerIMG {
+display: none;
 }
 
 
