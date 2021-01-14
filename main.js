@@ -49,6 +49,20 @@ const template = [
           await shell.openExternal('https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html')
         }
       },
+      {
+        label: 'Join the SunBible discord server',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://discord.gg/t8VryNcGgc')
+        }
+      },
+      {
+        label: 'Read SunBible updates and more on medium',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://medium.com/sunbible')
+        }
+      },
       { type: 'separator' },
       { role: 'hide' },
       { role: 'hideothers' },
@@ -102,6 +116,20 @@ contextMenu({
       click: async () => {
         const { shell } = require('electron')
         await shell.openExternal('https://the-sunshining.github.io/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html')
+      }
+    },
+    {
+      label: 'Join the SunBible discord server',
+      click: async () => {
+        const { shell } = require('electron')
+        await shell.openExternal('https://discord.gg/t8VryNcGgc')
+      }
+    },
+    {
+      label: 'Read SunBible updates and more on medium',
+      click: async () => {
+        const { shell } = require('electron')
+        await shell.openExternal('https://medium.com/sunbible')
       }
     },
     { type: 'separator' },
