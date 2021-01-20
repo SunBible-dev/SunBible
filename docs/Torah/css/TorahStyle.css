@@ -117,7 +117,7 @@ float: left;
   /* Up arrow style or scroll to top */
   #up_arrow img {
 position: fixed;
-top: 10px;
+bottom: 10px;
 right: 10px;
 z-index: 2;
 width: 20px;
