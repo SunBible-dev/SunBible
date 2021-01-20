@@ -43,6 +43,16 @@ font-size: 20px;
 .Chapter:nth-child(odd):hover {
       background-color: rgb(0, 0, 0);
 }
+.Chapter h1 {
+background-color: white;
+position: sticky;
+top: 0px;
+}
+.Chapter:nth-child(odd) h1 {
+  background-color: black;
+  position: sticky;
+  top: 0px;
+}
 
 
 footer {
