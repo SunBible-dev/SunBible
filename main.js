@@ -17,7 +17,7 @@ app.on('ready', async () => {
         }
     })
 
-    mainWindow.loadFile('app_frame/app-iframe.html')
+    mainWindow.loadFile('docs/app-iframe.html')
     mainWindow.removeMenu()
 
 
