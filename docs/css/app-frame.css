@@ -14,7 +14,7 @@ iframe {
 
 
 
-nav {
+header {
     background-color: white;
     position: fixed;
     top: 0px;
@@ -22,11 +22,50 @@ nav {
     right: 0px;
     padding: 2px;
 }
-nav a img {
+header a img {
     width: 20px;
     border: 3px solid rgba(0, 0, 255, 0.555);
     margin-left: 20px;
 }
-nav a img:hover {
+header a img:hover {
     border: 3px solid blue;   
+}
+
+
+
+/* nav  */
+
+.NavLink {
+    position: fixed;
+    top: 1px;
+    right: 10px;
+    z-index: 2;
+}
+
+nav {
+display: none;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+position: fixed;
+top: 0px;
+right: 0px;
+bottom: 0px;
+background-color: rgba(255, 0, 0, 0.777);
+width: 500px;
+overflow: auto;
+}
+
+/* What to read */
+nav a {
+ text-decoration: none;
+}
+#whatread_two a div {
+	background-color: rgb(253, 253, 177);
+	border: 3px solid yellow;
+	float: left;
+}
+#whatread_two a div:hover {
+	border: 3px solid blue;
+	background-color: yellow;
 }
