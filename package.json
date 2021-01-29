@@ -39,7 +39,7 @@
     "nsis": "electron-builder --win nsis",
     "nsis-web": "electron-builder --win nsis-web",
     "dmg": "electron-builder --mac dmg",
-    "dmg:arm64": "electron-builder --mac dmg:arm64" 
+    "dmg:arm64": "electron-builder --mac dmg:arm64"
   },
   "dependencies": {
     "electron-context-menu": "^2.3.0"

@@ -3,3 +3,12 @@ dist/
 yarn-error.log
 
 .DS_Store
+
+
+.yarn/*
+!.yarn/cache/*
+!.yarn/releases/*
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
