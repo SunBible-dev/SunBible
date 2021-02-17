@@ -23,8 +23,8 @@
     "url": "https://github.com/the-sunshining/SunBible.git"
   },
   "devDependencies": {
-    "electron": "^11.2.1",
-    "electron-builder": "^22.9.1"
+    "electron": "^11.2.3",
+    "electron-builder": "^22.10.4"
   },
   "scripts": {
     "start": "electron .",
