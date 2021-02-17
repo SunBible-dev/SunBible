@@ -9,6 +9,9 @@
             @import url(../BibleStyle/nav3bar.css);
             @import url(../BibleStyle/DivStyle.css);
         </style>
+
+      <base target="Psalm-app_iframe">
+
     </head>
     <body>
 
@@ -55,13 +58,13 @@
                 <hr class="rounded"/>
                 <h1>Book 1 - Psalm 1-41</h1>
                 <p>Did you know that the book of Psalms is divided into 5 books?</p>
-                <a href="Psalm1.html">
+                <a href="Psalm1.html" target="Psalm-app_iframe">
                     <div class="PsalmPageLink">
                     Psalm 1
                     </div>
                     </a>
                     
-                    <a href="Psalm2.html">
+                    <a href="Psalm2.html" target="Psalm-app_iframe">
                         <div class="PsalmPageLink">
                         Psalm 2
                         </div>
@@ -984,11 +987,20 @@
         <script src="../BibleScript/jquery-1.8.3.min.js"></script>
         <script src="../BibleScript/Nav3Bar.js"></script>
         <script>
-            $(".nav-a").click(function(){
+            $("nav a").click(function(){
             $("nav").toggle();
             $(".NavLink").toggleClass("change");
         });
         </script>
+
+<!-- Don't need the folloing script because I use...  -->
+<!-- <base target="Psalm-app_iframe"> -->
+<!-- Instead -->
+<!-- <script>
+    $(function() {
+        $('a[href]').attr('target', 'Psalm-app_iframe');
+    });
+</script> -->
 
 
     </body>
