@@ -14,6 +14,7 @@ iframe {
 
 
 
+/* header */
 header {
     background-color: white;
     position: fixed;
@@ -68,4 +69,34 @@ nav a {
 #whatread_two a div:hover {
 	border: 3px solid blue;
 	background-color: yellow;
+}
+
+nav img {
+    width: 100px;
+    border: 3px solid rgba(0, 0, 255, 0.555);
+}
+nav img:hover {
+    border: 3px solid blue;
+}
+
+
+
+/* <!-- SunBible Audio Iframe !!! --> */
+#SB-Audio-Iframe {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(255, 255, 0, 0.77);
+    /* z-index: 1; */
+    display: none;
+}
+
+#SB-Audio-Link-img {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    /* z-index: 5; */
 }

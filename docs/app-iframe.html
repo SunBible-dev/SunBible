@@ -13,6 +13,10 @@
     <body>
 
 
+
+
+
+
         <iframe src="index.html" name="SunBible_iframe" title="SunBible iframe">
         </iframe>
 
@@ -22,7 +26,21 @@
             <a href="TheLifeofJesusMinistry/index.html" title="Life of Jesus" target="SunBible_iframe"><img src="TheLifeofJesusMinistry/img/LifeActsLogo.png"/></a>
             <a href="HowToGetToHeaven/index.html" title="How to get to Heaven" target="SunBible_iframe"><img src="HowToGetToHeaven/Htgth.png"/></a>
             <a href="Psalm/MemorizePsalm-index.html" title="Psalm" target="SunBible_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png"/></a>
+
+            <!-- href="SunBible-audio-simple.html" title="SunBibe Audio" target="Audio-iframe" -->
+            <a id="SB-Audio-Link"><img id="SB-Audio-Link-img" src="https://the-sunshining.github.io/SunBible_IMG_Library/2021-new-logos/SB_audio_2.jpg"/></a>
         </header>
+
+
+
+
+
+
+
+        <!-- Audio Iframe !!! -->
+        <iframe id="SB-Audio-Iframe" src="SunBible-audio-simple.html" name="Audio-iframe">
+        </iframe>
+
 
 
 
@@ -126,6 +144,12 @@
              <h3>And finaly the book of...</h3>
              <a href="Revelation/Revelation.html" class="nav-a" target="SunBible_iframe"><div>Revelation</div></a>
              </div>
+
+             <hr class="rounded">
+            <a class="nav-a" href="index.html" title="App Home" target="SunBible_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SNBible.png" alt="App Home"/></a>
+            <a class="nav-a" href="TheLifeofJesusMinistry/index.html" title="Life of Jesus" target="SunBible_iframe"><img src="TheLifeofJesusMinistry/img/LifeActsLogo.png"/></a>
+            <a class="nav-a" href="HowToGetToHeaven/index.html" title="How to get to Heaven" target="SunBible_iframe"><img src="HowToGetToHeaven/Htgth.png"/></a>
+            <a class="nav-a" href="Psalm/MemorizePsalm-index.html" title="Psalm" target="SunBible_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png"/></a>
              </section>
         </nav>
 
@@ -148,6 +172,11 @@
             $(".nav-a").click(function(){
             $("nav").toggle();
             $(".NavLink").toggleClass("change");
+        });
+        </script>
+        <script>
+            $("#SB-Audio-Link").click(function(){
+            $("#SB-Audio-Iframe").toggle();
         });
         </script>
 
