@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     /* background: linear-gradient(to right, #1c87c9, #ffcc00); */
+    background-color: rgba(255, 255, 0, 0.77);
     font-family: 'Ropa Sans', sans-serif;
   }
 

@@ -89,7 +89,7 @@ nav img:hover {
     bottom: 0px;
     width: 50%;
     height: 100vh;
-    background-color: rgba(255, 255, 0, 0.77);
+    /* background-color: rgba(255, 255, 0, 0.77); */
     /* z-index: 1; */
     display: none;
 }
