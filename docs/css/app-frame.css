@@ -92,6 +92,7 @@ nav img:hover {
     /* background-color: rgba(255, 255, 0, 0.77); */
     /* z-index: 1; */
     display: none;
+    /* overflow: auto; */
 }
 
 #SB-Audio-Link-img {

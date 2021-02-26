@@ -4,7 +4,7 @@
     "productName": "SunBible"
   },
   "name": "sunbible",
-  "version": "0.1.5-beta",
+  "version": "0.1.6-beta-test-1",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://the-sunshining.github.io/SunBible/",
@@ -23,8 +23,8 @@
     "url": "https://github.com/the-sunshining/SunBible.git"
   },
   "devDependencies": {
-    "electron": "^11.2.3",
-    "electron-builder": "^22.10.4"
+    "electron": "^11.3.0",
+    "electron-builder": "^22.10.5"
   },
   "scripts": {
     "start": "electron .",
@@ -42,6 +42,6 @@
     "dmg:arm64": "electron-builder --mac dmg:arm64"
   },
   "dependencies": {
-    "electron-context-menu": "^2.4.0"
+    "electron-context-menu": "^2.5.0"
   }
 }

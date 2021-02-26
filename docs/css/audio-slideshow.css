@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
   }
-  html,
+  /* html,
   body {
     height: 100%;
-    overflow: hidden;
-  }
+    overflow: auto;
+  } */
   body {
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
     /* background: linear-gradient(to right, #1c87c9, #ffcc00); */
     background-color: rgba(255, 255, 0, 0.77);
     font-family: 'Ropa Sans', sans-serif;
+    padding: 20px;
   }
 
 
@@ -48,6 +49,7 @@
     flex-shrink: 0;
     width: 100%;
     height: auto;
+    /* max-height: 50vh; */
     padding: 20px;
     margin-right: 50px;
     border-radius: 10px;
@@ -61,6 +63,7 @@
     align-items: center;
     font-size: 20px;
     /* z-index: 1; why? */
+    /* overflow: scroll; */
   }
 
   
