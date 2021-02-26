@@ -96,8 +96,14 @@ nav img:hover {
 }
 
 #SB-Audio-Link-img {
+    width: 20px;
+    border: 3px solid rgba(0, 0, 255, 0.555);
     position: fixed;
-    left: 50%;
-    right: 50%;
-    /* z-index: 5; */
+    top: 5px;
+    left: 49%;
+    right: 49%;
+    z-index: 5;
+}
+#SB-Audio-Link-img:hover {
+    border: 3px solid blue;   
 }
