@@ -35,7 +35,7 @@
 
 
         <!-- href="SunBible-audio-simple.html" title="SunBibe Audio" target="Audio-iframe" -->
-        <a id="SB-Audio-Link"><img id="SB-Audio-Link-img" src="https://the-sunshining.github.io/SunBible_IMG_Library/2021-new-logos/SB_audio_2.jpg"/></a>
+        <a class="SB-Audio-Link"><img id="SB-Audio-Link-img" src="https://the-sunshining.github.io/SunBible_IMG_Library/2021-new-logos/SB_audio_2.jpg"/></a>
         <!-- Audio Iframe !!! -->
         <iframe id="SB-Audio-Iframe" src="SunBible-audio-simple.html" name="Audio-iframe">
         </iframe>
@@ -149,6 +149,7 @@
             <a class="nav-a" href="TheLifeofJesusMinistry/index.html" title="Life of Jesus" target="SunBible_iframe"><img src="TheLifeofJesusMinistry/img/LifeActsLogo.png"/></a>
             <a class="nav-a" href="HowToGetToHeaven/index.html" title="How to get to Heaven" target="SunBible_iframe"><img src="HowToGetToHeaven/Htgth.png"/></a>
             <a class="nav-a" href="Psalm/MemorizePsalm-index.html" title="Psalm" target="SunBible_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png"/></a>
+            <a class="SB-Audio-Link nav-a"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/2021-new-logos/SB_audio_2.jpg"/></a>
              </section>
         </nav>
 
@@ -174,7 +175,7 @@
         });
         </script>
         <script>
-            $("#SB-Audio-Link").click(function(){
+            $(".SB-Audio-Link").click(function(){
             $("#SB-Audio-Iframe").toggle();
         });
         </script>

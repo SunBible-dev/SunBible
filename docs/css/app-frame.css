@@ -40,7 +40,7 @@ header a img:hover {
     position: fixed;
     top: 1px;
     right: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 
 nav {
@@ -55,6 +55,7 @@ bottom: 0px;
 background-color: rgba(255, 0, 0, 0.777);
 width: 500px;
 overflow: auto;
+z-index: 2;
 }
 
 /* What to read */
@@ -102,7 +103,7 @@ nav img:hover {
     top: 5px;
     left: 49%;
     right: 49%;
-    z-index: 5;
+    z-index: 1;
 }
 #SB-Audio-Link-img:hover {
     border: 3px solid blue;   
