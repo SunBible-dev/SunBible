@@ -64,6 +64,13 @@ const template = [
         }
       },
       {
+        label: 'SunBible YouTube',
+        click: async () => {
+          const { shell } = require('electron')
+          await shell.openExternal('https://www.youtube.com/channel/UCDdtoZ13q99-ant3ln-cvTg')
+        }
+      },
+      {
         label: 'Check for updates',
         click: async () => {
           const { shell } = require('electron')
@@ -137,6 +144,13 @@ contextMenu({
       click: async () => {
         const { shell } = require('electron')
         await shell.openExternal('https://medium.com/sunbible')
+      }
+    },
+    {
+      label: 'SunBible YouTube',
+      click: async () => {
+        const { shell } = require('electron')
+        await shell.openExternal('https://www.youtube.com/channel/UCDdtoZ13q99-ant3ln-cvTg')
       }
     },
     {
