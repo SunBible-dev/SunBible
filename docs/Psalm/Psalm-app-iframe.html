@@ -23,8 +23,8 @@
 
         <header>
             <a href="MemorizePsalm-index.html" title="Psalm" target="Psalm-app_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm_Logo_Y.png"/></a>
-            <a href="https://psalmsimplyread.weebly.com/" title="Simply Read" target="Psalm-app_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm-s-r.jpg"/></a>
             <a href="https://psalmwallpaper.weebly.com/" title="Psalm Wallpaper" target="Psalm-app_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm-wallpaper.jpg"/></a>
+
 
             <!-- <a href="" title="" target="Psalm-app_iframe"><img src=""/></a> -->
             <!-- <a href="" title="" target="Psalm-app_iframe"><img src=""/></a> -->
@@ -34,7 +34,11 @@
        
 
 
-
+        <!-- Psalm audio Sidebar -->
+        <a class="SB-Audio-Link"><img id="SB-Audio-Link-img" src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm-s-r.jpg"/></a>
+        <!-- Audio Iframe !!! -->
+        <iframe id="SB-Audio-Iframe" src="Psalm-audio-simple.html" name="Audio-iframe">
+        </iframe>
 
 
 
@@ -968,6 +972,9 @@
                     </div>
                 </a>
                 <hr class="rounded"/>
+            <a href="MemorizePsalm-index.html" title="Psalm" target="Psalm-app_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm_Logo_Y.png"/></a>
+            <a href="https://psalmwallpaper.weebly.com/" title="Psalm Wallpaper" target="Psalm-app_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm-wallpaper.jpg"/></a>
+            <a class="SB-Audio-Link"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Psalm-app/Psalm-s-r.jpg"/></a>
              </section>
         </nav>
 
@@ -992,6 +999,12 @@
             $(".NavLink").toggleClass("change");
         });
         </script>
+
+<script>
+    $(".SB-Audio-Link").click(function(){
+    $("#SB-Audio-Iframe").toggle();
+});
+</script>
 
 <!-- Don't need the folloing script because I use...  -->
 <!-- <base target="Psalm-app_iframe"> -->
