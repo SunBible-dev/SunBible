@@ -96,6 +96,16 @@ const template = [
       { type: 'separator' },
       { role: 'togglefullscreen' }
     ]
+  }] : []),
+
+
+  // { role: 'editMenu' }
+  ...(isMac ? [{
+    label: 'Edit',
+    submenu: [
+      { role: 'copy' },
+      { role: 'selectAll' }
+    ]
   }] : [])
  
   
@@ -113,7 +123,7 @@ contextMenu({
   menu: (actions, props, browserWindow) => [
 
     { role: 'copy' },
-    { role: 'selectAll' },
+      { role: 'selectAll' },
     { type: 'separator' },
     actions.copyImage(),
     actions.saveImageAs(),
