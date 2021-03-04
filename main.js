@@ -94,6 +94,7 @@ const template = [
     submenu: [
       { role: 'reload' },
       { type: 'separator' },
+      { role: 'toggleDevTools' },
       { role: 'togglefullscreen' }
     ]
   }] : []),
