@@ -16,39 +16,25 @@ background-size: cover;
  margin: 0px;
 }
 
-/*
-#headername {
-padding: 10px;
-padding-left: 50px;
-padding-right: 5px;
-background: yellow;
-left: 0px;
-position: fixed;
-}
-*/
-/*
-#all { 
-background: black;
- padding: 10px; 
- background-size: 100%;
-  padding-bottom: 200px;
-}
-#most { 
-background-color: white; 
-border: 5px solid red; 
-padding: 20px;
-}
-*/
-/*
-#mostgospel {
-max-width: 100%; 
-background-color: yellow; 
-border: 5px solid red; 
-padding: 20px;
-}
 
-*/
+    p {
+	font-family: arial;
+	font-size: 20px;
+	}
+	 h1 {
+	font-family: arial;
+	}
+	div {
+	font-family: arial;
+	 font-size: 20px;
+	}
 
+
+
+
+
+
+/* footer */
  footer {
 font-size: 20px; 
 background-color: rgba(250, 230, 114, 0.777);
@@ -58,14 +44,14 @@ background-color: rgba(250, 230, 114, 0.777);
   border-radius: 25px;
   overflow: hidden;
  }
- footer a, .IAMquicklinksbox a, .Quick_Links a {
+ footer a {
 	 text-decoration: none;
 	 color: red;
 	 background-color: yellow;
 	 padding: 10px;
 	 border-radius: 10px;
  }
- footer a:hover, .IAMquicklinksbox a:hover, .Quick_Links a:hover {
+ footer a:hover {
 	 color: blue;
 	 background-color: crimson;
  }
@@ -76,221 +62,10 @@ background-color: rgba(250, 230, 114, 0.777);
 
 
 
- p {
- font-family: arial;
- font-size: 20px;
- }
-  h1 {
- font-family: arial;
- }
- div {
- font-family: arial;
-  font-size: 20px;
- }
 
 
- 	/* PhotoGoespelLink  no longer used so commented this out Oct. 16, 2020!!
- .GoespelPhotoLinkContainer {
-	 max-width: 100%;
-	 background-color: black;
-	 margin: 1px;
-	 max-height: 100%;
-	 display: none;
- }
- .GoespelPhotoLink {
-	 width: 20%;
-	 float: left;
-	 margin: 10px;
-	 border: 5px solid black;
-	}
-	 .GoespelPhotoLink:hover { 
- border: 5px solid blue;
-	 }
-	 PhotoGoespelLink*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.spacer {
-	height: 20px;
-	width: 100%;
-}
-
-
-	/* Nav */
- #GospelLink {
- font-family: arial;
- font-size: 50px;
- color: black; 
- text-decoration: none;
- border: 2px solid black;
- margin: 20px;
- padding: 5px;
-  border-radius: 25px;
-  background-color: white;
- }
-  #GospelLink:hover {
-	  background-color: rgb(142, 142, 241);
-  }
-   .GospelLinkInLineNav {
-	   float: left;
- font-family: arial;
- font-size: 50px;
- color: black;  
- border: 2px solid black;
- padding: 10px;
-  margin: 5px;
-  border-radius: 25px;
-background-color: rgb(241, 142, 142);
-text-decoration: none;
- }
-
-  .GospelLinkInLineNav:hover {
-	  background-color: rgb(248, 56, 56);
-  }
-  #LifeNav {
-	  border-left: 5px solid black;
-  text-align: center;
- width: 20%;
- height: 100%;
- position: fixed; 
- background-color: rgba(255, 217, 0, 0.589); 
- bottom: 0px;
- top: 0px;
- right: 0px;
- padding: 10px;
- padding-bottom: 40px;
- z-index: 1;
- display: none;
-
- }
-	 /* Nav */
-.Nav_C {
-	position: fixed;
-		right: 50px;
-		top: 0px;
-		z-index: 1;
-}
-.Nav_b:hover {
-	width: 40px;
-	height: 7px;
-}
-	 .Nav_b {
-		width: 35px;
-		height: 5px;
-		background-color: black;
-		margin: 6px 0;
-	  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	  /*
-
- #lifeofjesusshare {
-	 max-width: 100%;
- background-color: lightgreen;
- padding: 15px;
- border: 5px solid black;
- }
-*/
 
   #ChapterNumber, .ChapterNumber {
  background-color: white;
@@ -320,16 +95,9 @@ float: left;
 width: 200px;
 text-align: left;
 }
-/*
-.MemJes {
-	  background-color: lightgreen;
- border: 5px dotted green;
- padding: 20px;
- margin: 10px;
-max-width: 99%;
-text-align: left;
-}
-*/
+
+
+
 .button {
     margin: 5px;
     border-radius: 12px;
@@ -361,30 +129,8 @@ width: 450px;
 img {
 	max-width: 100%;
 }
-/*-I am pic div boxes */
 
 
- .IAMquicklinksbox {
-	 width: 250px;
-	 float: right;
-	 background-color: chocolate;
-	 padding: 20px;
-	 margin: 20px;
-	 border-radius: 10px;
- }
- 
- 
- .ChapterLinksBOX {
-  background-color: lightyellow;
-  padding: 5px;
-  width: 150px;
-  float: left;
-  margin: 20px;
-  border-radius: 20px;
- }
- .ChapterLinksBOX a:hover {
-	 position: absolute;
- }
 
 
 /* For Jesus' words!!!! */

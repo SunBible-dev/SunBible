@@ -22,3 +22,59 @@ a div:hover, a img:hover {
 a img {
     width: 100px;
 }
+
+
+
+
+/* For actual webpages:  */
+
+
+
+/* nav */
+
+
+.NavLink {
+	position: fixed;
+		right: 50px;
+		top: 0px;
+		z-index: 2;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	display: none;
+	width: 30%;
+	background-color: rgba(128, 255, 0, 0.777);
+    padding: 20px;
+	z-index: 1;
+    overflow: scroll;
+}
+
+
+
+/* Other Link Stufff */
+
+
+.IAMquicklinksbox {
+    background-color: chocolate;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* .ChapterLinksBOX {
+ background-color: lightyellow;
+ padding: 5px;
+ width: 150px;
+ float: left;
+ margin: 20px;
+ border-radius: 20px;
+}
+.ChapterLinksBOX a:hover {
+    position: absolute;
+} */
