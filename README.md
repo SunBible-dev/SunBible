@@ -1,5 +1,9 @@
 # SunBible
+
+![image](https://user-images.githubusercontent.com/51297196/111014011-5f611480-8367-11eb-96cf-18541574b20f.png)
+
 The Code For My Open-Source KJV BIBLE Project (Also known as The SunShining Study Bible)
+
 [![sunbible](https://snapcraft.io//sunbible/badge.svg)](https://snapcraft.io/sunbible)
 
 # Is That it?
