@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    clear: both;
+}
+
+a div, a img {
+    background-color: rgb(231, 177, 139);
+    float: left;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+a div:hover, a img:hover {
+    background-color: chocolate;
+    border: 3px solid blue;
+}
+
+a img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+
+
+
+/* For actual webpages:  */
+
+
+
+/* nav */
+
+
+.NavLink {
+	position: fixed;
+		right: 50px;
+		top: 0px;
+		z-index: 2;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	display: none;
+	width: 30%;
+	background-color: rgba(128, 255, 0, 0.777);
+    padding: 20px;
+	z-index: 1;
+    overflow: scroll;
+}
+
+
+
+/* Other Link Stufff */
+
+
+.IAMquicklinksbox {
+    background-color: chocolate;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* .ChapterLinksBOX {
+ background-color: lightyellow;
+ padding: 5px;
+ width: 150px;
+ float: left;
+ margin: 20px;
+ border-radius: 20px;
+}
+.ChapterLinksBOX a:hover {
+    position: absolute;
+} */
