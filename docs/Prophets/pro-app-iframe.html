@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Prophets nav</title>
+        <title>Books-of-the-Prophets</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SNBible.png" />
+        <link rel="manifest" href="SunBibleWebAppmanifest.json">
         <style>
-            @import url('../BibleStyle/nav3bar.css');
+            @import url(../css/app-frame.css);
+            @import url(../BibleStyle/nav3bar.css);
+            @import url(../BibleStyle/DivStyle.css);
             @import url('css/pro-nav.css');
-            @import url('../BibleStyle/DivStyle.css');
         </style>
     </head>
     <body>
+
+
+
+
+
+
+        <iframe src="Prophets.html" name="pro_iframe" title="Pro iframe">
+        </iframe>
+
+
+        <header>
+            <a href="Prophets.html" title="App Home" target="pro_iframe"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/SunBible-logos/Books-of-the-Prophets.png" alt="App Home"/></a>
+        </header>
+
+
+
+
+
+
+
+
+
+
 
         <div class="NavLink">
             <div class="bar1"></div>
@@ -19,8 +45,8 @@
         <nav>
 
 
-        <h2>What Book from what Prophet do you want to read today?</h2>
-        <section class="img_gal">
+            <h2>What Book from what Prophet do you want to read today?</h2>
+    <section class="img_gal">
         <a href="Isaiah.html"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Isaiah.png"/></a>
         <a href="Jeremiah.html"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Jeremiah.png"/></a>
         <a href="Lamentations.html"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Head_IMG/Prophets/Lamentations.png"/></a>
@@ -425,16 +451,25 @@
                 <a href="Prophets.html"><div>Prophets Home</div></a>
         </nav>
 
-        <!-- <footer></footer> -->
 
+
+
+
+
+
+
+
+        <!-- <footer></footer> -->
         <!-- <script></script> -->
         <!-- <script></script> -->
-        <!-- Jquery v1.8.3 needed-->
-        <script type="text/javascript" src="../BibleScript/jquery-3.4.1.js"></script>
-        <script type="text/javascript" src="../BibleScript/jquery-1.8.3.min.js"></script>
+        <script src="../BibleScript/jquery-3.4.1.js"></script>
+        <script src="../BibleScript/jquery-1.8.3.min.js"></script>
+
         <!-- Nav  -->
         <script src="../BibleScript/Nav3Bar.js"></script>
-
+        <script>
+            $("nav a").attr("target","pro_iframe");
+        </script>
 
 
     </body>
