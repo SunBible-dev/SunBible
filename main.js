@@ -10,11 +10,7 @@ app.on('ready', async () => {
     const mainWindow = new BrowserWindow({
         minimizable: true,
         width: 1000,
-        height: 600,
-        webPreferences: {
-            nodeIntegration: true,
-            webviewTag: true
-        }
+        height: 600
     })
 
     mainWindow.loadFile('docs/app-iframe.html')
