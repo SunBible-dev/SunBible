@@ -307,9 +307,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"app-builder-lib@npm:22.14.7":
-  version: 22.14.7
-  resolution: "app-builder-lib@npm:22.14.7"
+"app-builder-lib@npm:22.14.8":
+  version: 22.14.8
+  resolution: "app-builder-lib@npm:22.14.8"
   dependencies:
     7zip-bin: ~5.1.1
     "@develar/schema-utils": ~2.6.5
@@ -336,7 +336,7 @@ __metadata:
     sanitize-filename: ^1.6.3
     semver: ^7.3.5
     temp-file: ^3.4.0
-  checksum: b0ebffc4bfedf4c86fcb3a9be7a02cb6538395a3d9f7a63923c3785265f9384d1b12884163d51bb305f5b3ad9b6dd1a47d422415a243ed9b8e5aebbd9f10038f
+  checksum: f4c6ac64df9efe658a5a5f7ce1c2fabee0e26031177b9e68962c749edac29f56ae48d37b6996a8b8c08e595c43a6dc2f6a972e7362b0aa093aa4cb00e1a12aec
   languageName: node
   linkType: hard
 
@@ -1003,11 +1003,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dmg-builder@npm:22.14.7":
-  version: 22.14.7
-  resolution: "dmg-builder@npm:22.14.7"
+"dmg-builder@npm:22.14.8":
+  version: 22.14.8
+  resolution: "dmg-builder@npm:22.14.8"
   dependencies:
-    app-builder-lib: 22.14.7
+    app-builder-lib: 22.14.8
     builder-util: 22.14.7
     builder-util-runtime: 8.9.2
     dmg-license: ^1.0.9
@@ -1017,7 +1017,7 @@ __metadata:
   dependenciesMeta:
     dmg-license:
       optional: true
-  checksum: 2a661ff4daff86f35c14687c4283f335ed01c2f13da52dd34213523c655bc26bc96ada1f3e161135e67bbfe3eb991554177ef005a37f4c03d77fa2e575d81b77
+  checksum: 9f4f22d5a997187c5b705203ee7254d3424c19605017513f2cbdf7f56a3875bc83955dfaeae4fbb7b98d94fd61baf97fac7930790cc5095f885800cfc912f168
   languageName: node
   linkType: hard
 
@@ -1091,16 +1091,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-builder@npm:^22.13.1":
-  version: 22.14.7
-  resolution: "electron-builder@npm:22.14.7"
+"electron-builder@npm:^22.14.8":
+  version: 22.14.8
+  resolution: "electron-builder@npm:22.14.8"
   dependencies:
     "@types/yargs": ^17.0.1
-    app-builder-lib: 22.14.7
+    app-builder-lib: 22.14.8
     builder-util: 22.14.7
     builder-util-runtime: 8.9.2
     chalk: ^4.1.1
-    dmg-builder: 22.14.7
+    dmg-builder: 22.14.8
     fs-extra: ^10.0.0
     is-ci: ^3.0.0
     lazy-val: ^1.0.5
@@ -1110,7 +1110,7 @@ __metadata:
   bin:
     electron-builder: cli.js
     install-app-deps: install-app-deps.js
-  checksum: 5f8347b4ed0a2295769abc0bd91abd3bdd6ba366f9b697bef7e6df792a6c4235b9d9b533e0de5d7f65213e65b83507991bc864a744293e789b6625ec59de3ce6
+  checksum: d3e37fafae7940437b1aaa47f6a37f050151dc8a3d0030333edb2d2b289d99ddc7adc5ec422c0905ba151ca89b58408fbe8ea4ee31bfe1ef4799e866f852034b
   languageName: node
   linkType: hard
 
@@ -1175,16 +1175,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^15.3.1":
-  version: 15.3.1
-  resolution: "electron@npm:15.3.1"
+"electron@npm:^16.0.2":
+  version: 16.0.2
+  resolution: "electron@npm:16.0.2"
   dependencies:
     "@electron/get": ^1.13.0
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: ce3ebb9c8dad1973aaad83c5b7b01a6d697f08ee31a8c54a56ac2d8e6a5f77562953aabeba01bfd82d03a62eed07e6204c40410d4a3599a6b7058eadf89e3c2e
+  checksum: 107df389745ed23920f9ce1ffb91d350b73085236dab2cdd9bdc30b4673a16a494f960bfc9022f00f9841c94178a75e458189fdd5d712ea22833075e48ca82eb
   languageName: node
   linkType: hard
 
@@ -2870,8 +2870,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sunbible@workspace:."
   dependencies:
-    electron: ^15.3.1
-    electron-builder: ^22.13.1
+    electron: ^16.0.2
+    electron-builder: ^22.14.8
     electron-context-menu: ^3.1.1
   languageName: unknown
   linkType: soft
