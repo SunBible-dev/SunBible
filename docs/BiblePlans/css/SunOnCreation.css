@@ -1,0 +1,116 @@
+body {
+    background: url(https://the-sunshining.github.io/sunshining-photography/docs/img/SunShining_Photography_2015-2018/green-garden-trees-grass/dscf8055_orig.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+header {
+    padding: 25px;
+    background-color: rgba(77, 255, 0, 0.777);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.GenesisTextBox {
+    background-color: rgba(77, 255, 0, 0.555);
+    padding: 25px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.GenesisTextBox:hover {
+  background-color: rgba(77, 255, 0, 0.777);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+    background-color: rgb(255, 255, 0);
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 2.0;
+}
+footer:hover {
+    background-color: rgb(255, 255, 200);
+}
+.ByFa {
+  background-color: rgb(163, 163, 0);
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 2px;
+}
+.ByFa:hover {
+ background-color: rgb(255, 255, 0);
+ border: 1px solid blue;
+}
+
+
+
+
+
+
+ /* Scrollbar */
+ :root {
+    /*--shadow: #860404;*/
+    --scrollbarBG: rgb(245, 241, 10);
+    --thumbBG: #fb0202;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 20px;
+    /* box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);*/
+  }
+ /* Scrollbar */
+
+
+
+ /* #SunOn-Pic  in header  */
+ #SunOn-Pic {
+  width: 200px;
+  float: left;
+  }
+
+
+  /* Only when I have a nav or somthing to show:  */
+  /* #SunOn-Pic:hover {
+      animation-name: SunPicR;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes SunPicR {
+      0% {transform: rotate(0deg);}
+      25% {transform: rotate(-20deg);}
+      50% {transform: rotate(0deg);}
+      75% {transform: rotate(20deg);}
+      100% {transform: rotate(0deg);}
+  } */

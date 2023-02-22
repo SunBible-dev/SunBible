@@ -1,0 +1,152 @@
+/* Theme */
+:root {
+    --mainColor1: #ffff00;
+    --mainColor2:  lightgreen;
+    --mainColor3: #ffffff;
+    --mainColor4: red;
+    --mainColor5: rgb(59, 59, 255);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Langar', cursive;
+*/
+
+
+
+
+/* Main */
+body {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--mainColor4);
+    animation-name: bodyback;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Langar', cursive;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+
+header {
+  margin-top: 0px;
+    min-height: 80vh;
+    text-align: center;
+    background-color: rgb(255, 77, 77);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header_h1 {
+position: absolute;
+top: 20%;
+left:25%;
+right: 25%;
+padding: 30px;
+animation: headerAN;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+
+
+button {
+font-size: 20px;
+padding: 10px;
+border-radius: 20px;
+}
+button:hover {
+  animation-name: buttonAN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+/* Main Layout */
+section {
+  position: relative;
+    min-height: 100px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: var(--mainColor3);
+    border: 5px solid black;
+}
+div {
+  padding: 20px;
+}
+.left_half {
+    float: left;
+    width: 45%;
+  }
+  .right_half {
+    float: right;
+    width: 45%;
+  }
+
+
+  
+footer {
+  background-color: rgba(255, 255, 255, 0.555);
+  position: relative;
+    min-height: 100px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 5px solid black;
+    text-align: left;
+}
+footer div {
+  background-color: rgba(255, 255, 255, 0.777);
+}
+
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes bodyback {
+    0% {background-color: var(--mainColor1);}
+    25% {background-color: var(--mainColor4);}
+    50% {background-color: var(--mainColor3)}
+    75% {background-color: var(--mainColor4);}
+    100% {background-color: var(--mainColor1);}
+    }
+    @keyframes headerAN {
+        0% {border: 5px solid var(--mainColor2); color: var(--mainColor1);}
+        25% {border: 5px solid greenyellow; color: brown;}
+        50% {border: 5px solid green; color: orange;}
+        75% {border: 5px solid red; color: purple;}
+        100% {border: 5px solid var(--mainColor2); color: var(--mainColor1);}
+      }
+
+      @keyframes buttonAN {
+        0% {background-color: var(--mainColor1);}
+        25% {background-color: var(--mainColor4);}
+        50% {background-color: var(--mainColor1);}
+        75% {background-color: var(--mainColor4);}
+        100% {background-color: var(--mainColor1);}
+        }
+        

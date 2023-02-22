@@ -1,0 +1,501 @@
+
+body {
+	background: url(https://the-sunshining.github.io/sunshining-photography/docs/img/2020/sun_12.jpg) no-repeat center center fixed; 
+background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#lifeheader {
+	max-width: 100%;
+ background-color: rgba(255, 230, 0, 0.700);
+ padding: 5px; 
+ text-align: center;
+ margin: 0px;
+}
+
+/*
+#headername {
+padding: 10px;
+padding-left: 50px;
+padding-right: 5px;
+background: yellow;
+left: 0px;
+position: fixed;
+}
+*/
+/*
+#all { 
+background: black;
+ padding: 10px; 
+ background-size: 100%;
+  padding-bottom: 200px;
+}
+#most { 
+background-color: white; 
+border: 5px solid red; 
+padding: 20px;
+}
+*/
+/*
+#mostgospel {
+max-width: 100%; 
+background-color: yellow; 
+border: 5px solid red; 
+padding: 20px;
+}
+
+*/
+
+ footer {
+font-size: 20px; 
+background-color: rgba(250, 230, 114, 0.777);
+ padding: 20px; 
+ margin: 10px;
+  font-family: arial;
+  border-radius: 25px;
+  overflow: hidden;
+ }
+ footer a, .IAMquicklinksbox a, .Quick_Links a {
+	 text-decoration: none;
+	 color: red;
+	 background-color: yellow;
+	 padding: 10px;
+	 border-radius: 10px;
+ }
+ footer a:hover, .IAMquicklinksbox a:hover, .Quick_Links a:hover {
+	 color: blue;
+	 background-color: crimson;
+ }
+
+
+
+
+
+
+
+ p {
+ font-family: arial;
+ font-size: 20px;
+ }
+  h1 {
+ font-family: arial;
+ }
+ div {
+ font-family: arial;
+  font-size: 20px;
+ }
+
+
+ 	/* PhotoGoespelLink  no longer used so commented this out Oct. 16, 2020!!
+ .GoespelPhotoLinkContainer {
+	 max-width: 100%;
+	 background-color: black;
+	 margin: 1px;
+	 max-height: 100%;
+	 display: none;
+ }
+ .GoespelPhotoLink {
+	 width: 20%;
+	 float: left;
+	 margin: 10px;
+	 border: 5px solid black;
+	}
+	 .GoespelPhotoLink:hover { 
+ border: 5px solid blue;
+	 }
+	 PhotoGoespelLink*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer {
+	height: 20px;
+	width: 100%;
+}
+
+
+	/* Nav */
+ #GospelLink {
+ font-family: arial;
+ font-size: 50px;
+ color: black; 
+ text-decoration: none;
+ border: 2px solid black;
+ margin: 20px;
+ padding: 5px;
+  border-radius: 25px;
+  background-color: white;
+ }
+  #GospelLink:hover {
+	  background-color: rgb(142, 142, 241);
+  }
+   .GospelLinkInLineNav {
+	   float: left;
+ font-family: arial;
+ font-size: 50px;
+ color: black;  
+ border: 2px solid black;
+ padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+background-color: rgb(241, 142, 142);
+text-decoration: none;
+ }
+
+  .GospelLinkInLineNav:hover {
+	  background-color: rgb(248, 56, 56);
+  }
+  #LifeNav {
+	  border-left: 5px solid black;
+  text-align: center;
+ width: 20%;
+ height: 100%;
+ position: fixed; 
+ background-color: rgba(255, 217, 0, 0.589); 
+ bottom: 0px;
+ top: 0px;
+ right: 0px;
+ padding: 10px;
+ padding-bottom: 40px;
+ z-index: 1;
+ display: none;
+
+ }
+	 /* Nav */
+.Nav_C {
+	position: fixed;
+		right: 50px;
+		top: 0px;
+		z-index: 1;
+}
+.Nav_b:hover {
+	width: 40px;
+	height: 7px;
+}
+	 .Nav_b {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 6px 0;
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  /*
+
+ #lifeofjesusshare {
+	 max-width: 100%;
+ background-color: lightgreen;
+ padding: 15px;
+ border: 5px solid black;
+ }
+*/
+
+  #ChapterNumber, .ChapterNumber {
+ background-color: white;
+ position: sticky;
+ top: 0px;
+ }
+
+
+
+	/* Ncr notes -I am pic div boxes*/
+    #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+clear: both;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+/*
+.MemJes {
+	  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+max-width: 99%;
+text-align: left;
+}
+*/
+.button {
+    margin: 5px;
+    border-radius: 12px;
+    border: 5px solid red;
+}
+.button:hover {
+    background-color: white;
+}
+.IAMphoto {
+ border: 5px solid black;
+ margin: 10px;
+float: left;
+width: 450px;
+}
+.LifeOfJesusPic {
+ border-top: 5px solid rgb(255, 0, 0);
+  border-left: 5px solid rgb(255, 0, 0);
+ margin-left: 10px;
+float: right;
+width: 450px;
+}
+.IAMphoto4 {
+ border: 5px solid black;
+ margin: 10px;
+float: left;
+clear: left;
+width: 450px;
+}
+img {
+	max-width: 100%;
+}
+/*-I am pic div boxes */
+
+
+ .IAMquicklinksbox {
+	 width: 250px;
+	 float: right;
+	 background-color: chocolate;
+	 padding: 20px;
+	 margin: 20px;
+	 border-radius: 10px;
+ }
+ 
+ 
+ .ChapterLinksBOX {
+  background-color: lightyellow;
+  padding: 5px;
+  width: 150px;
+  float: left;
+  margin: 20px;
+  border-radius: 20px;
+ }
+ .ChapterLinksBOX a:hover {
+	 position: absolute;
+ }
+
+
+/* For Jesus' words!!!! */
+ .red{
+	 color: red;
+ }
+ .red:hover {
+	 background-color: black;
+ }
+ 
+ 
+
+	#Chapter, #Chapter1, #Chapter2, #Chapter3, #Chapter4, #Chapter5,
+	#Chapter6, #Chapter7, #Chapter8, #Chapter9, #Chapter10,
+	#Chapter11, #Chapter12, #Chapter13, #Chapter14, #Chapter15,
+	#Chapter16, #Chapter17, #Chapter18, #Chapter19, #Chapter20,
+	#Chapter21, #Chapter22, #Chapter23, #Chapter24, #Chapter25,
+	#Chapter26, #Chapter27, #Chapter28, #Chapter29, #Chapter30 {
+ font-size: 20px;
+ padding: 20px;
+  background-color: rgba(255, 255, 255, 0.777);
+  margin: 30px;
+  border-radius: 20px;
+	}
+
+	#Acts, #Acts1, #Acts2, #Acts3, #Acts4, #Acts5,
+	#Acts6, #Acts7, #Acts8, #Acts9, #Acts10,
+	#Acts11, #Acts12, #Acts13, #Acts14, #Acts15,
+	#Acts16, #Acts17, #Acts18, #Acts19, #Acts20,
+	#Acts21, #Acts22, #Acts23, #Acts24, #Acts25,
+	#Acts26, #Acts27, #Acts28, #Acts29, #Acts30 {
+ font-size: 20px;
+ padding: 20px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+	}
+	  
+
+
+
+
+
+
+
+	 /* Scrollbar */
+:root {
+    --shadow: #860404;
+    --scrollbarBG: rgb(245, 241, 10);
+    --thumbBG: #fb0202;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
+  }
+ /* Scrollbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Added Oct. 2020 */
+ /* Main Layout */
+section {
+	position: relative;
+	  padding: 20px;
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  margin: 20px;
+	  overflow: hidden;
+	  border-radius: 25px;
+	  background-color: white;
+	  border: 5px solid black;
+  }
+  .left_half, #left_half {
+    float: left;
+	max-width: 50%;
+	width: 45%;
+  }
+  .right_half {
+    float: right;
+	max-width: 50%;
+	width: 45%;
+  }
+  .one_third {
+	  float: left;
+	  width: 30%;
+  }
+  .text_center {
+	  text-align: center;
+  }
+  /* VL = L as in loaf or line*/
+  .vl {
+	  border-left: 6px solid black;
+	  min-height: 500px;
+	  float: right;
+	  margin-right: 10px;
+  }

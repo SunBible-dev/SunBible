@@ -1,0 +1,87 @@
+body {
+background-image: linear-gradient(rgb(242, 160, 245), rgb(83, 241, 104));
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+img{
+	max-width: 100%;
+}
+header {
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+   #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+   .NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+#NCRnoteINTRO {
+	background-color: lightgray;
+	border: 5px solid gold;
+	padding: 20px;
+	margin: 10px;
+   float: left;
+   width: 40%;
+   text-align: left;
+	}
+	#BibleMemorizationGuideINTRO{
+	 background-color: lightgreen;
+	border: 5px dotted green;
+	padding: 20px;
+	margin: 10px;
+   float: right;
+   width: 40%;
+   text-align: left;
+   }
+   .NCRnoteLOGO{
+	   width: 100px;
+   }
+
+
+
+ .SunBibleShareBox {
+	padding: 50px;
+   background-color: yellow;
+   margin: 20px;
+   border: 5px solid black;
+   }
+
+
+
+
+
+   #Job1, #Job2, #Job3, #Job4, #Job5, #Job6, #Job7, #Job8, #Job9, #Job10,
+   #Job11, #Job12, #Job13, #Job14, #Job15, #Job16, #Job17, #Job18, #Job19, #Job20,
+   #Job21, #Job22, #Job23, #Job24, #Job25, #Job26, #Job27, #Job28, #Job29, #Job30,
+   #Job31, #Job32, #Job33, #Job34, #Job35, #Job36, #Job37, #Job38, #Job39, #Job40,
+   #Job41, #Job42 {
+       background-color: rgba(255, 255, 255, 0.777);
+       padding: 20px;
+       margin: 20px;
+       border-radius: 20px;
+   }

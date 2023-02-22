@@ -1,0 +1,26 @@
+body {
+    background-color: tomato;
+    font-size: 30px;
+}
+header {
+    text-align: center;
+}
+header h1 a {
+    text-decoration: none;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+section h3 {
+    text-align: right;
+}
+section a {
+    font-size: 12px;
+    text-decoration: none;
+}
+.red {
+    color: red;
+}

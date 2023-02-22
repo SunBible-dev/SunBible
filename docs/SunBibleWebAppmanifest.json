@@ -1,0 +1,90 @@
+{
+  "name":"The SunShining Study Bible",
+  "description": "A beautiful way to read, study, and memorize the Bible",
+  "categories": ["Bible", "SunShining", "Christ"],
+  "short_name":"SunBible",
+  "manifest_version": 2,
+  "author": "The SunShining",
+
+  "icons": [
+    {
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/512x512_1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "The Life of Jesus",
+      "short_name": "Life of Jesus",
+      "description": "Jesus may have just lived 33 years on this earth, and He may have live over 2000 years ago. But His life still has a big impact on ours. Find out all about his life by reading through the Gosples: Matthew, Mark, Luke, and John.",
+      "url": "TheLifeofJesusMinistry/index.html",
+      "icons": [{ "src": "TheLifeofJesusMinistry/img/LifeActsLogo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How To Get To Heaven",
+      "short_name": "Heaven",
+      "description": "A collection of verses and more that tell how to get to heaven.",
+      "url": "HowToGetToHeaven/index.html",
+      "icons": [{ "src": "HowToGetToHeaven/Htgth.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Memorize Psalm",
+      "short_name": "Psalm",
+      "description": "Read, study, and memorize the Psalms",
+      "url": "Psalm/MemorizePsalm-index.html",
+      "icons": [{ "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/3.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ,
+  {
+    "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/4.png",
+    "sizes": "1280x720",
+    "type": "image/png"
+  }
+,
+{
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/5.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+},
+{
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/6.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+},
+{
+  "src": "https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/screenshots/7.png",
+  "sizes": "1280x720",
+  "type": "image/png"
+}
+  ],
+
+  "start_url": "/SunBible/index.html",
+  "background_color": "#ff4d4d",
+  "display": "standalone",
+  "scope": "/SunBible/",
+  "theme_color": "#ff4d4d"
+
+}

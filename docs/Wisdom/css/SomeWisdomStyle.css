@@ -1,0 +1,240 @@
+body {
+   background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dscf4423.jpg) no-repeat center center fixed;
+background-size: cover;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px;
+margin: 0px;
+}
+.P_body {
+  background: url(https://the-sunshining.github.io/sunshining-photography/docs/img/2020/Spider_web_02.jpg) no-repeat center center fixed; 
+background-size: cover;
+}
+.E_body {
+  background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/4080857.jpg) no-repeat center center fixed; 
+background-size: cover;
+}
+.S_body {
+  background: url(https://sunshiningphotography.weebly.com/uploads/3/9/5/8/39587203/dscf4118_orig.jpg) no-repeat center center fixed; 
+background-size: cover;
+}
+
+
+
+
+#all {
+background-color: rgba(255, 255, 255, 0.555);
+border-left: 5px solid green;
+border-right: 5px solid green;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 0px;
+padding: 20px;
+}
+.Chapter {
+   background-color: rgba(255, 255, 255, 0.555); 
+   font-size: 30px;
+   padding: 20px;
+   overflow: hidden;
+}
+.Chapter:hover {
+  background-color: rgb(255, 255, 255);
+}
+.ChapterNumber {
+    background-color: rgb(254, 255, 184);
+    border-bottom: 1px solid yellow;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+footer {
+   border-top: 5px solid yellow;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+background-color: rgba(255, 130, 130, 0.777);
+text-align: center;
+font-size: 20px;
+padding: 20px;
+}
+
+footer a, a {
+   text-decoration: none;
+	 color: red;
+	 background-color: yellow;
+	 padding: 5px;
+	 border-radius: 10px;
+} 
+
+ a {
+   text-decoration: none;
+   font-family: 'Oswald', sans-serif;
+    }
+a:hover {
+   color: blue;
+   }
+ .SunBibleShareBox {
+	padding: 50px;
+   background-color: yellow;
+   margin: 20px;
+   border: 5px solid black;
+   }
+
+
+
+
+img{
+	max-width: 100%;
+}
+   .one_3 {
+float: left;
+width: 30%;
+}
+.one_two {
+   float: left;
+   width: 45%;
+   text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Anton|Bangers|Bowlby+One+SC|Caveat|Patua+One|Playfair+Display|Righteous|Slabo+27px|Source+Code+Pro&display=swap');
+
+
+
+
+
+   /* Special text: -Text that can be used
+font-family: 'Oswald', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Slabo 27px', serif;
+   */
+   
+.TheFearOfTheLord{
+font-family: 'Patua One', cursive;
+}
+.MySon {
+font-family: 'Bangers', cursive;
+}
+.Wisdom {
+font-family: 'Oswald', sans-serif; 
+ text-transform: uppercase;
+}
+.SUN {
+font-family: 'Bowlby One SC', cursive;
+}
+.love {
+font-family: 'Caveat', cursive; 
+font-size: 40px;
+font-weight: bold;
+}
+.bet-ter {
+  font-family: 'Slabo 27px', serif;  
+  font-size: 40px;
+font-weight: bold;
+}
+.path, .way, .li-fe {
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+}
+.TheFearOfTheLord:hover, .MySon:hover, .Wisdom:hover, .SUN:hover, .love:hover, .bet-ter:hover, .path:hover, .way:hover, .li-fe:hover {
+background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Notes */
+
+.NCRnoteBox {
+    width: 300px;
+  margin: 50px auto;
+  background: #a3a3a1;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+ bottom: 50px;
+  float: right;
+}
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+
+}
+
+
+/*Fear verses*/
+.fear_verse {
+  float: right;
+  width: 20%;
+margin: 20px;
+}
+.fear_verse:hover {
+  animation-name: fearVerses;
+  animation-duration: 2.5s;
+  width: 50%;
+}
+
+@keyframes fearVerses{
+  from {width: 20%}
+  to {width: 50%}
+}

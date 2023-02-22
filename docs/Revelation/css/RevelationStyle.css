@@ -1,0 +1,115 @@
+body {
+  background: url(https://i.imgur.com/dHuJYIZ.jpg) no-repeat center center fixed; 
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px;
+margin: 0px;
+}
+img{
+	max-width: 100%;
+}
+header {
+background-color: rgba(255, 0, 0, 0.466);
+border-bottom: 5px solid yellow;
+padding: 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+#all {
+background-color: rgba(255, 255, 255, 0.623);
+border: 5px solid rgb(255, 174, 0);
+margin-left: 10px;
+margin-right: 10px;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+
+.Chapter {
+    background-color: rgba(255, 255, 255, 0.777);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Chapter:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+}
+
+.Chapter:hover {
+  background-color: rgb(255, 255, 255);
+}
+.Chapter:nth-child(odd):hover {
+      background-color: rgb(0, 0, 0);
+}
+.Chapter h1 {
+background-color: white;
+position: sticky;
+top: 0px;
+}
+.Chapter:nth-child(odd) h1 {
+  background-color: black;
+  position: sticky;
+  top: 0px;
+}
+
+
+footer {
+background-color: rgba(128, 128, 128, 0.705);
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+padding: 20px;
+margin-top: 50px;
+margin-left: 0px;
+margin-right: 0px;
+}
+ a {
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+ }
+
+   #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+
+ .SunBibleShareBox {
+	padding: 50px;
+   background-color: yellow;
+   margin: 20px;
+   border: 5px solid black;
+   }
+ .red {
+	 color: red;
+ }
+ .OvercomePicBox {
+   display: none;
+   background-color: rgba(255, 230, 0, 0.5);
+padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+position: fixed;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+ }
+ .OveromerP {
+   background-color: yellow;
+ }

@@ -1,0 +1,211 @@
+body {
+   background: url(https://i.imgur.com/p8EtNGk.jpg) no-repeat center center fixed; 
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+  font-family: 'Acme', sans-serif;
+background-color: rgba(255, 0, 0, 0.644);
+border-bottom: 5px solid yellow;
+padding: 20px;
+margin-bottom: 10px;
+border-radius: 20px;
+line-height: 3;
+}
+
+ /* Link Stuff and navigation */
+ a {
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+ }
+ header a, footer a {
+  background-color: rgb(255, 224, 224);
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid yellow;
+  white-space: nowrap;
+ }
+ header a:hover, footer a:hover {
+   background-color: red;
+ }
+  /* Link Stuff and navigation */
+
+
+#all {
+background: rgba(255, 255, 255, 0.5);
+margin-left: 10px;
+margin-right: 10px;
+padding: 20px;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+border-radius: 20px;
+}
+.PaulBookChapter {
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.PaulBookChapter:hover {
+  background-color: rgb(255, 255, 255);
+}
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+background-color: rgba(255, 230, 0, 0.63);
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+padding: 20px;
+border-radius: 20px;
+line-height: 2;
+}
+footer:hover {
+  background-color: rgba(255, 230, 0, 0.801);
+}
+img{
+	max-width: 100%;
+}
+
+
+
+
+
+  
+
+
+
+ /* NCR notes and memory stuuf */
+
+   #NCRnote {
+ background-color: lightgray;
+ border: 5px solid gold;
+ padding: 20px;
+ margin: 10px;
+float: right;
+width: 200px;
+text-align: left;
+ }
+ #BibleMemorizationGuide{
+  background-color: lightgreen;
+ border: 5px dotted green;
+ padding: 20px;
+ margin: 10px;
+float: left;
+width: 200px;
+text-align: left;
+}
+
+ 
+   #NCRpNote{
+    float: left;
+     width: 300px;
+     margin: 20px;
+     padding: 20px;
+     background-color: coral;
+ }
+
+
+
+ .red {
+	 color: red;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Scrollbar */
+ :root {
+  --shadow: #860404;
+  --scrollbarBG: rgb(245, 241, 10);
+  --thumbBG: #fb0202;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
+}
+/* Scrollbar */
+
+
+
+
+/* Fruit of the Spirit! */
+
+.fruit:hover {
+  background-color: #f19999;
+}
+.b_fruit:hover {
+  background-color: #645656;
+}
+
+
+/* Fonts:
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&display=swap');
+</style>
+
+font-family: 'Acme', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Acme', sans-serif;
+}
+
+.PaulBookChapter h1, .sticky_h {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  }
+
+  #all p {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: auto;
+  }
+
+
+
+
+.Paul_img_gal {
+  text-align: center;
+}
+.Paul_img_gal img {
+  border: 3px solid rgba(0, 0, 255, 0.555);
+  border-radius: 15px;
+}
+.Paul_img_gal img:hover {
+  border: 3px solid blue;
+}
+
+
+
+
+/* .Philipians_Audio_div */
+
+.Philipians_Audio_div {
+  background-color: white;
+  float: right;
+  width: 30%;
+}

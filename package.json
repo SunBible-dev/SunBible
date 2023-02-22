@@ -1,0 +1,47 @@
+{
+  "build": {
+    "appId": "app.the-sunshining.sunbible",
+    "productName": "SunBible"
+  },
+  "name": "sunbible",
+  "version": "0.1.5-beta-test-2",
+  "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
+  "main": "main.js",
+  "homepage": "https://the-sunshining.github.io/SunBible/",
+  "license": "MIT",
+  "maintainers": [
+    "NCR",
+    "The SunShining"
+  ],
+  "author": "The SunShining <thesunshining@gmail.com> (www.thesunshining.weebly.com)",
+  "keywords": [
+    "Bible",
+    "SunBible"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-sunshining/SunBible.git"
+  },
+  "devDependencies": {
+    "electron": "^12.0.0-beta.4",
+    "electron-builder": "^22.9.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "deb": "electron-builder --linux deb",
+    "rpm": "electron-builder --linux rpm",
+    "AppImage": "electron-builder --linux AppImage",
+    "snap": "electron-builder --linux snap",
+    "apk": "electron-builder --linux apk",
+    "appx": "electron-builder --windows appx",
+    "nsis": "electron-builder --win nsis",
+    "nsis-web": "electron-builder --win nsis-web",
+    "dmg": "electron-builder --mac dmg",
+    "dmg:arm64": "electron-builder --mac dmg:arm64" 
+  },
+  "dependencies": {
+    "electron-context-menu": "^2.3.0"
+  }
+}
