@@ -13,3 +13,62 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Other Fonts
 See Font Guide */
+
+
+
+
+
+/* Wisdom Books */
+
+/*Google Fonts*/
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Anton|Bangers|Bowlby+One+SC|Caveat|Patua+One|Playfair+Display|Righteous|Slabo+27px|Source+Code+Pro&display=swap'); */
+
+
+
+
+
+   /* Special text: -Text that can be used
+font-family: 'Oswald', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Slabo 27px', serif;
+   */
+   
+.TheFearOfTheLord{
+font-family: 'Patua One', cursive;
+}
+.MySon {
+font-family: 'Bangers', cursive;
+}
+.Wisdom {
+font-family: 'Oswald', sans-serif; 
+ text-transform: uppercase;
+}
+.SUN {
+font-family: 'Bowlby One SC', cursive;
+}
+.love {
+font-family: 'Caveat', cursive; 
+font-size: 40px;
+font-weight: bold;
+}
+.bet-ter {
+  font-family: 'Slabo 27px', serif;  
+  font-size: 40px;
+font-weight: bold;
+}
+.path, .way, .li-fe {
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+}
+.TheFearOfTheLord:hover, .MySon:hover, .Wisdom:hover, .SUN:hover, .love:hover, .bet-ter:hover, .path:hover, .way:hover, .li-fe:hover {
+background-color: yellow;
+}
