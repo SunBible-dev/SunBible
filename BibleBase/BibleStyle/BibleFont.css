@@ -14,7 +14,15 @@ h1, h2, h3, h4, h5, h6 {
 /* Other Fonts
 See Font Guide */
 
+/* Fonts List */
+/* @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Roboto&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap'); */
 
+/* Special text: -Text that can be used
+font-family: 'Oswald', sans-serif; 
+font-family: 'Amaranth', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
 
 
 
