@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-Mark
-</title>
-<meta name="description" content="Jesus may have just lived 33 years on this earth, and He may have live over 2000 years ago. But His life still has a big impact on ours. Find out all about his life by reading through the Gosples: Matthew, Mark, Luke, and John.">
-  <meta name="keywords" content="Gospel, Jesus, Bible, Matthew, Mark, Luke, John">
-  <meta name="author" content="God">
-  
- <link rel="shortcut icon" href="img/LifeActsLogo.png" />
- <style>
-  @import url('css/jesuschristlifestyle.css');
+<title>Mark</title>
+
+<style>
+  @import url('../BibleStyle/ScrollBarStyleONE.css');
   @import url('../BibleStyle/DivStyle.css');
-   </style>
+  @import url('../BibleStyle/BibleFont.css');
+  @import url('../BibleStyle/JesusStyle.css');
+
+
+  /* Other */
+</style>
+
   </head>
   
   <body>
   
-    <div class="Nav_C">
-  <div class="Nav_b"></div>
-  <div class="Nav_b"></div>
-  <div class="Nav_b"></div>
-    </div>
-  
-    <nav id="LifeNav">
-      <div class="Nav_C_Hide">
-        <div class="Nav_b"></div>
-        <div class="Nav_b"></div>
-        <div class="Nav_b"></div>
-          </div>
-  <a href="index.html" id="GospelLink">Home</a>
-  <br/> <div class="spacer"></div>
-  <a href="Matthew.html" id="GospelLink">Matthew</a>
-  <br/> <div class="spacer"></div>
-  <a href="Mark.html" id="GospelLink">Mark</a>
-  <br/> <div class="spacer"></div>
-  <a href="Luke.html" id="GospelLink">Luke</a>
-  <br/> <div class="spacer"></div>
-  <a href="John.html" id="GospelLink">John</a>
-  <br/> <div class="spacer"></div>
-<a href="Acts.html" id="GospelLink">Acts</a>
-    </nav>
 
 
- <header id="lifeheader">
-<img src="img/MarkHead.png" style="width: 50%;"/>
-</header>
+    <section id="JesusSettings">
+      <div class="MemJes right_half">
+        <h1>Jesus's words</h1>
+       <p>
+        Jesus' word are amazing words. So I have done some things to make them stand out on this page.
+        If you want to read only Jesus' words, guess what you can!!
+        <br/>
+        (it also looks cool if you try to switch directly from white them to black theme or vice versa, to reset click normal theme or reload!)
+        </p>
+        <!-- This needs readJesus.js -->
+       <button id="JW_light" class="button">Jesus' words only (white theme)</button>
+       <button id="JW_dark" class="button">Jesus' words only (black theme)</button>
+       <button id="AllWords" class="button">All the words (normal theme)</button>
+       <!-- 
+      Here is what the above buttons do:
+      They turn everything white/black so you see jesus words only!
+      Also I make the other text smaller.
+      and hid all img/header/footer!
+      see script file for more
+       -->
+      
+       <p>
+         Another thing you may notice is that when you hover over the words of Jesus they get highlighted black.
+         If you click on the words they are highlighted black. If you click them again they are highlighted red. 
+         And you click them one more time they are back to normal with no highlight!
+         Also you can click the button to:
+         <!-- This needs mem/Jesus.js -->
+      <button id="Undo" class="button">Un-highlight all Jesus' words!</button><br/>
+      </p>
+      <p>
+        Also what size do you want to Jesus' words?
+        <!-- This needs JESUS_word_size.js -->
+        <button id="20px" class="button">20px</button>
+        <button id="25px" class="button">25px</button>
+        <button id="30px" class="button">30px</button>
+        <button id="35px" class="button">35px</button>
+        <button id="40px" class="button">40px</button>
+        <button id="45px" class="button">45px</button>
+        <button id="50px" class="button">50px</button>
+        <button id="60px" class="button">60px</button>
+        <button id="70px" class="button">70px</button>
+        <button id="80px" class="button">80px</button>
+        <button id="90px" class="button">90px</button>
+        <button id="100px" class="button">100px</button>
+        <button id="200px" class="button">200px</button>
+      </p>
+      </div>
+      
+      
+      </section>
 
 <div id="all">
+
+  <h1>Mark</h1>
+
 <div id="mostgospel">
 
 <div id="Chapter1">
@@ -85,9 +111,6 @@ The beginning of the gospel of Jesus Christ, the Son of God;
 16 Now as he walked by the sea of Galilee, he saw Simon and Andrew his brother casting a net into the sea: for they were fishers.
 <br/>
 17 And Jesus said unto them,<span class="red"> Come ye after me, and I will make you to become fishers of men.</span>
-<div class="LifeOfJesusPic">
-  <img src="LifeOfJesisPics/4.png" />
-</div>
 <br/>
 18 And straightway they forsook their nets, and followed him.
 <br/>
@@ -146,73 +169,6 @@ The beginning of the gospel of Jesus Christ, the Son of God;
 45 But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.
 </div>
 
-
- 
-
-
-<section>
-  <div class="MemJes right_half">
-    <h1>Jesus's words</h1>
-   <p>
-    Jesus' word are amazing words. So I have done some things to make them stand out on this page.
-    If you want to read only Jesus' words, guess what you can!!
-    <br/>
-    (it also looks cool if you try to switch directly from white them to black theme or vice versa, to reset click normal theme or reload!)
-    </p>
-    <!-- This needs readJesus.js -->
-   <button id="JW_light" class="button">Jesus' words only (white theme)</button>
-   <button id="JW_dark" class="button">Jesus' words only (black theme)</button>
-   <button id="AllWords" class="button">All the words (normal theme)</button>
-   <!-- 
-  Here is what the above buttons do:
-  They turn everything white/black so you see jesus words only!
-  Also I make the other text smaller.
-  and hid all img/header/footer!
-  see script file for more
-   -->
-  
-   <p>
-     Another thing you may notice is that when you hover over the words of Jesus they get highlighted black.
-     If you click on the words they are highlighted black. If you click them again they are highlighted red. 
-     And you click them one more time they are back to normal with no highlight!
-     Also you can click the button to:
-     <!-- This needs mem/Jesus.js -->
-  <button id="Undo" class="button">Un-highlight all Jesus' words!</button><br/>
-  </p>
-  <p>
-    Also what size do you want to Jesus' words?
-    <!-- This needs JESUS_word_size.js -->
-    <button id="20px" class="button">20px</button>
-    <button id="25px" class="button">25px</button>
-    <button id="30px" class="button">30px</button>
-    <button id="35px" class="button">35px</button>
-    <button id="40px" class="button">40px</button>
-    <button id="45px" class="button">45px</button>
-    <button id="50px" class="button">50px</button>
-    <button id="60px" class="button">60px</button>
-    <button id="70px" class="button">70px</button>
-    <button id="80px" class="button">80px</button>
-    <button id="90px" class="button">90px</button>
-    <button id="100px" class="button">100px</button>
-    <button id="200px" class="button">200px</button>
-  </p>
-  </div>
-  <!-- Vl test --> <div class="vl"></div>
-  <div id="lifeofjesusshare left_half">
-      <h1>Please share the Good News with your friends:</h1>
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <div class="addthis_inline_share_toolbox"></div>
-      <p>Tips for sharing:</p>
-      <p>
-        1. Share a verse or phrase that hit you!
-        <br/>
-        2. Please tag @TheSunShiningNCR on instagram and @TheSunShining on twitter and facebook.
-      </p>
-     </div>
-  
-  
-  
-  </section>
 
  
 
@@ -1565,33 +1521,7 @@ And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and
 
 
 
-<footer>
-
-  <div class="one_third">
-  <h3>The Life of Jesus</h3>
-  <p><a href="index.html">Life of Jesus Home</a></p>
-  <p> <a href="Matthew.html">Matthew</a> <a href="Mark.html">Mark</a> </p>
-  <p> <a href="Luke.html">Luke</a> <a href="John.html">John</a> </p>
-  </div>
-  <div class="one_third">
-    <h3>The Acts of The Apostles</h3>
-    <a href="Acts.html">Acts</a>
-  </div>
-  <div class="one_third">
-  <h3>SunBible</h3>
- <p> <a href="../index.html">SunBible Home</a> </p>
- <p><a href="../HowToGetToHeaven/index.html">How to get to Heaven</a></p>
- <p><a href="../Psalm/MemorizePsalm-index.html">Psalm</a></p>
-
-  </div>
-
-  <hr class="rounded"/>
-  <p>
-    Copyright&copy: 2019-2021 by: <a href="https://thesunshining.weebly.com">The SunShining</a>
-  </p>
-
-
-</footer>
+<!-- <footer></footer> -->
 
 
 
@@ -1599,18 +1529,15 @@ And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and
 
 
 <!-- Jquery v1.8.3 needed-->
-<script type="text/javascript" src="../BibleScript/jquery-3.4.1.js"></script>
-<script type="text/javascript" src="../BibleScript/jquery-migrate-3.3.1.min.js"></script>
-<script type="text/javascript" src="../BibleScript/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../BibleScript/jquery/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="../BibleScript/jquery/jquery-migrate-3.3.1.min.js"></script>
+<script type="text/javascript" src="../BibleScript/jquery/jquery-1.8.3.min.js"></script>
 <!-- My Script -->
-<script type="text/javascript" src="js/nav.js"></script>
-<script type="text/javascript" src="MemorizeJesus/MemJes.js"></script>
+<script type="text/javascript" src="../BibleScript/Jesus-Script/MemJes.js"></script>
 <!--Read Jesus Words -->
-<script type="text/javascript" src="js/readJESUS.js"></script>
+<script type="text/javascript" src="../BibleScript/Jesus-Script/readJESUS.js"></script>
 <!-- Jesus word size!!! -->
-<script type="text/javascript" src="js/JESUS_word_size.js"></script>
+<script type="text/javascript" src="../BibleScript/Jesus-Script/JESUS_word_size.js"></script>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools --> 
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bf5f9f3996a6ab9"></script>
 </body>
 </html>
