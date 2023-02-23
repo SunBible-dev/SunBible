@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: tomato;
+    background-color: rgb(255, 200, 200);
 }
 
 #divFORiframe {
@@ -35,6 +35,7 @@ header {
 header h1 {
     font-size: 100%;
     font-family: "Arial Rounded MT Bold", sans-serif;
+    color: tomato;
 }
 
 
