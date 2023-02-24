@@ -2,14 +2,15 @@
 <html>
 <head>
 <title>Memorize Psalm</title>
-<!--  manifest - needs to be changed when packageing for chrome or opera -->
-<link rel="manifest" href="../SunBibleWebAppmanifest.json">
-<!-- shortcut icon or favicon? -->
-<link rel="shortcut icon" type="image/x-icon" href="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/TheSunLogo.png" />
 
 <style>
+    @import url('../../BibleStyle/ScrollBarStyleONE.css');
+    @import url('../../BibleStyle/DivStyle.css');
+    @import url('../../BibleStyle/BibleFont.css');
+    @import url('../../BibleStyle/BibleBookStyle.css');
+
     @import url('MemorizePsalmStyle/memorizePsalmInStyle-main.css');
-    @import url('../BibleStyle/DivStyle.css');
+
     @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 </style>
@@ -18,50 +19,10 @@
 <body>
 
 
-<header class="index_header">
-
-    <a href="MemorizePsalm-index.html">
-<div class="index_SiteName"><img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_Y.png"/></div>
-    </a>
-
-<section class="wave-bottom">&nbsp;</section>
-</header>
 
 
 <!-- Start of<div class="indexMain"></div> -->
 <div class="indexMain">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -994,148 +955,10 @@ Psalm 20
 
 
 
+<!-- <footer></footer> -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr class="rounded"/>
-<h1>Psalm Study Questions:</h1>
-<p>
-    1. What did/can I learn about God from this psalm?
-</p>
-<p>
-    2. Can you think of any more study questions?
-</p>
-
-<hr class="rounded">
-<div class="IntroHowTo">
-    <h1>Use this site to help you memorize Psalm:</h1>
-    1. Pick a Psalm to memorize.<br/>
-    2. Click on the link to that Psalm.<br/>
-    3. Each page is especialy made to help you memorize the Psalm!<br/>
-    4. Review it a lot! (Memorizing is hard work, keeping somthing memorized is even harder.)
-</div>
-
-<hr class="rounded"/>
-<h1>Special Psalm Pages and Devotionals:</h1>
-<a href="../BiblePlans/Longest.html"><div class="PsalmPageLink">Longest</div></a>
-<a href="Iwill.html"><div class="PsalmPageLink">I will verses</div></a>
-<a href="https://psalmsimplyread.weebly.com/"><div class="PsalmPageLink">Psalm - simply read</div></a>
-<a href="https://psalmwallpaper.weebly.com/"><div class="PsalmPageLink">Psalm wallpaper</div></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr class="rounded"/>
-<!-- end of<div class="indexMain"></div> -->
-</div>
-
-<footer>
-    <section class="wave-top">&nbsp;</section>
-
-    <div>
-    Memorize Psalm  Copyright&copy: 2020-2021 by SunBible with The SunShining
-    </div>
-
-    <hr class="solid" style="width: 95%;"/>
-
-    <div class="footerDIV"><a href="MemorizePsalm-index.html">
-        <img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/Psalm/Psalm_Logo_White.png" style="width: 100%;"/>
-    </a></div>
-
-    <div class="footerDIV"><a href="https://thesunshining.weebly.com">
-        <img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/TheSunLogo.png" style="width: 100%;"/>
-    </a></div>
-
-    <div class="footerDIV"><a href="../index.html">
-        <img src="https://the-sunshining.github.io/SunBible_IMG_Library/Main_IMG/SunBibleLogoCollection/logo.png" style="width: 100%;"/>
-    </a></div>
-
-    <hr class="solid" style="width: 95%;"/>
-</footer>
-
-<!-- Service worker for web app -->
-<script>
-    if('serviceWorker' in navigator) {
-     navigator.serviceWorker
-              .register('index-sw.js', { scope: '/SunBible/Psalm/' })
-              .then(function() { console.log("Service Worker Registered"); });
-   }
-      </script>
 
 </body>
 </html>
