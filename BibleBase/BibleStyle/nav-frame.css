@@ -1,0 +1,31 @@
+/* nav  */
+
+/* .NavLink {
+    position: fixed;
+    top: 1px;
+    right: 10px;
+    z-index: 2;
+} */
+
+nav {
+/* display: none; */
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+background-color: rgba(255, 0, 0, 0.777);
+/* overflow: auto; */
+}
+
+/* What to read */
+nav a {
+ text-decoration: none;
+}
+#whatread_two a div {
+	background-color: rgb(253, 253, 177);
+	border: 3px solid yellow;
+	float: left;
+}
+#whatread_two a div:hover {
+	border: 3px solid blue;
+	background-color: yellow;
+}
