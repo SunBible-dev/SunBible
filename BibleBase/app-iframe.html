@@ -3,7 +3,8 @@
     <head>
         <title>SunBible</title>
         <link rel="shortcut icon" type="image/x-icon" href="Bibleimg/SunBible.png" />
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <style>
             @import url(BibleStyle/app-frame.css);
         </style>
@@ -11,10 +12,13 @@
     <body>
 
 
-        <header><h1>SunBible</h1></header>
+        <header>
+            <!-- <h1>SunBible</h1> -->
+            <p id="BOOKpage">SunBibe <span>What do you want to read today?</span></p>
+        </header>
 
         <div id="divFORiframe">
-            <iframe id="SB-iframe" src="BibleBooksHTML/Book-id=1-Genesis.html" name="SunBible_iframe" title="SunBible iframe"></iframe>
+            <iframe id="SBiframe" src="BibleBooksHTML/Book-id=1-Genesis.html" name="SunBible_iframe" title="SunBible iframe"></iframe>
         </div>
 
 
@@ -35,7 +39,10 @@
         <!-- <script></script> -->
         <script src="BibleScript/jquery/jquery-3.4.1.js"></script>
         <script src="BibleScript/jquery/jquery-1.8.3.min.js"></script>
+        <script src="BibleScript/BOOKnav.js"></script>
         
+
+
 
 
     </body>
