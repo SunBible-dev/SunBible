@@ -2,26 +2,45 @@
 
 
 
-nav {
-/* display: none; */
-padding: 20px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-/* background-color: rgba(255, 0, 0, 0.777); */
-/* overflow: auto; */
+/* Style the dropdown button */
+.dropbtn {
+  background-color: tomato;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
 }
 
-/* What to read */
-nav a {
- text-decoration: none;
+/* Style the container element */
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
 }
-nav a {
-	background-color: rgb(253, 253, 177);
-	border: 3px solid yellow;
-	padding: 2px;
-	/* float: left; */
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
 }
-nav a:hover {
-	border: 3px solid blue;
-	background-color: yellow;
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  float: left;
 }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(255, 0, 0);}
