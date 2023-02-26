@@ -12,29 +12,6 @@ body {
 
 
 
-.indexMain {
-    margin: 50px;
-    padding: 20px;
-}
-.PsalmPageLink {
-    background-color: rgb(255, 255, 210);
-    padding: 10px;
-  float: left;
-  margin: 5px;
-  border-radius: 10px;
-  font-size: 25px;
-  border: 2px solid red;
-}
-.PsalmPageLink:hover {
-  border: 2px solid blue;
-  background-color: rgb(255, 255, 173);
-}
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-
 
 
 
