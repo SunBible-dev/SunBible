@@ -9,23 +9,29 @@
   padding: 16px;
   font-size: 16px;
   border: none;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  width: 100%;
 }
 
 /* Style the container element */
 .dropdown {
   /* position: relative; */
-  display: inline-block;
+  display: flexbox;
+  background-color: aquamarine;
+  /* width: 100%; */
 }
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
-  left: 10px;
-  right: 10px;
+  /* position: absolute; */
+  /* top: 20px; */
+  /* left: 10px; */
+  /* right: 10px; */
   background-color: #f1f1f1;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  text-align: center;
+  padding: 20px;
 }
 
 /* Style the links inside the dropdown */
@@ -33,7 +39,10 @@
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  float: left;
+  /* float: left; */
+  /* border: 3px solid black; */
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 /* Change color of dropdown links on hover */
@@ -44,3 +53,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgb(255, 0, 0);}
+
+.dropdown:hover {
+  background-color: blue;
+}
