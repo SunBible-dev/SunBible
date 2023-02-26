@@ -104,12 +104,23 @@ background-color: yellow;
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&display=swap'); 
 */
 
+/* Fruit of the Spirit! */
+
+.fruit, .b_fruit {
+    font-family: 'Amatic SC', cursive;
+}
+.fruit:hover {
+    background-color: #f19999;
+  }
+  .b_fruit:hover {
+    background-color: #645656;
+  }
+
 
 /* Revelation */
 
 .overcome {
-    font-family: 'Amatic SC', cursive;
-
+    font-family: 'Righteous', cursive;
 }
 .overcome:hover {
     background-color: yellow;
