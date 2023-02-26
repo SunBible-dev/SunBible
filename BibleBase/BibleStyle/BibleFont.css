@@ -103,3 +103,14 @@ background-color: yellow;
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&display=swap'); 
 */
+
+
+/* Revelation */
+
+.overcome {
+    font-family: 'Amatic SC', cursive;
+
+}
+.overcome:hover {
+    background-color: yellow;
+}
