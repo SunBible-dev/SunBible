@@ -13,3 +13,8 @@ Size: 20px
 
 His words are red.
 Class: .red
+
+
+### More fonts and colors:
+
+You can find in the Font.css file.
