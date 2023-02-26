@@ -4,10 +4,10 @@
     "productName": "SunBible"
   },
   "name": "sunbible",
-  "version": "0.1.5-beta-test-2",
+  "version": "2.0.001-beta-test-1",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
-  "homepage": "https://the-sunshining.github.io/SunBible/",
+  "homepage": "https://github.com/SunBible-dev/SunBible.git",
   "license": "MIT",
   "maintainers": [
     "NCR",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-sunshining/SunBible.git"
+    "url": "https://github.com/SunBible-dev/SunBible.git"
   },
   "devDependencies": {
     "electron": "^12.0.0-beta.4",
