@@ -22,8 +22,6 @@ $(document).ready(function () {
         $(".life_add").css("display", "none");
         $("#Ressurection").css("display", "none");
         $("#birthofjesus").css("display", "none");
-        $(".NCRnote").css("display", "none");
-        $("#NCRnote").css("display", "none");
 
         // Chapters
         $("#Chapter").css("color", "white");
@@ -112,7 +110,6 @@ $(document).ready(function () {
         $(".life_add").css("display", "none");
         $("#Ressurection").css("display", "none");
         $("#birthofjesus").css("display", "none");
-        $(".NCRnote").css("display", "none");
 
         // Chapters
         $("#Chapter").css("background-color", "black");
