@@ -4,7 +4,7 @@
     "productName": "SunBible"
   },
   "name": "sunbible",
-  "version": "2.0.001-beta-test-1",
+  "version": "2.0.001-beta",
   "description": "SunBible: A beautiful way to read, study, and memorize the Bible. KJV",
   "main": "main.js",
   "homepage": "https://github.com/SunBible-dev/SunBible.git",
