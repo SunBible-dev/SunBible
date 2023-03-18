@@ -1,0 +1,27 @@
+{
+    "name": "SunBible",
+    "id": "app.thesunshining.sunbible",
+    "short_name": "SunBible",
+    "description": "A simply beautiful place to read, study, and memorize the Bible.",
+    "icons": [
+      {
+        "src": "Bibleimg/SunBible.png",
+        "sizes": "1080x1080",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "Bibleimg/SunBible.png",
+        "sizes": "1080x1080",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#ffc8c8",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "dir": "auto",
+    "lang": "en",
+    "orientation": "portrait"
+  }
