@@ -64,6 +64,9 @@ Menu.setApplicationMenu(menu)
 
 
 
+
+
+
 // Right Click Menu using - "electron-context-menu": "^2.3.0"
 const contextMenu = require('electron-context-menu');
 contextMenu({
@@ -87,7 +90,3 @@ contextMenu({
 
 
 
- 
- // Removed from package json:
- // "electron-tabs": "^0.15.0",
- // "electron-updater": "^4.3.5"
