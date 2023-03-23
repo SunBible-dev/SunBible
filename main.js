@@ -10,11 +10,7 @@ app.on('ready', async () => {
     const mainWindow = new BrowserWindow({
         minimizable: true,
         width: 1000,
-        height: 600,
-        webPreferences: {
-            nodeIntegration: true,
-            webviewTag: true
-        }
+        height: 600
     })
 
     mainWindow.loadFile('BibleBase/app-iframe.html')
@@ -50,6 +46,8 @@ const template = [
     label: 'View',
     submenu: [
       { role: 'copy' },
+      { role: 'selectAll' },
+      { type: 'separator' },
       { role: 'reload' },
       { type: 'separator' },
       { role: 'togglefullscreen' }
