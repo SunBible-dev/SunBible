@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Arial Rounded MT Bold", sans-serif;
 }
 
+h1 {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 
 /* Other Fonts
 See Font Guide */

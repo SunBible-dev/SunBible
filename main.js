@@ -49,9 +49,11 @@ const template = [
   ...(isMac ? [{
     label: 'View',
     submenu: [
+      { role: 'copy' },
       { role: 'reload' },
       { type: 'separator' },
       { role: 'togglefullscreen' }
+
     ]
   }] : [])
  
