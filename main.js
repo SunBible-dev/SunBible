@@ -1,33 +1,24 @@
-//I have no idea what most of this does!!! - NCR
+const { app, Menu, BrowserWindow } = require('electron');
 
-const { app, BrowserWindow, Menu } = require('electron')
+let mainWindow;
 
+function createWindow() {
+  mainWindow = new BrowserWindow({
+    width: 1000,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true
+    }
+  });
 
-// Main App Activity: 
-app.on('ready', async () => {
-
-
-    const mainWindow = new BrowserWindow({
-        minimizable: true,
-        width: 1000,
-        height: 600
-    })
-
-    mainWindow.loadFile('BibleBase/app-iframe.html')
-    mainWindow.removeMenu()
-
-
-
-
-})
-
-
-
-//App menu mac os
+  //App menu mac os
 const isMac = process.platform === 'darwin'
 
-const template = [
-  // { role: 'appMenu' }
+
+  const template = [
+
+
+     // { role: 'appMenu' }
   ...(isMac ? [{
     label: app.name,
     submenu: [
@@ -39,54 +30,48 @@ const template = [
       { role: 'quit' }
     ]
   }] : []),
- 
-  
-  // { role: 'viewMenu' }
-  ...(isMac ? [{
-    label: 'View',
-    submenu: [
-      { role: 'copy' },
-      { role: 'selectAll' },
-      { type: 'separator' },
-      { role: 'reload' },
-      { type: 'separator' },
-      { role: 'togglefullscreen' }
-
-    ]
-  }] : [])
- 
-  
-]
-
-const menu = Menu.buildFromTemplate(template)
-Menu.setApplicationMenu(menu)
 
 
 
+    {
+      label: 'View',
+      submenu: [
+        { role: 'copy' },
+        { role: 'selectAll' },
+        { type: 'separator' },
+        { role: 'reload' },
+        { type: 'separator' },
+        { role: 'togglefullscreen' },
+        { type: 'separator' },
+        {
+          label: 'Always On Top',
+          click() {
+            mainWindow.setAlwaysOnTop(true);
+          }
+        }
+      ]
+    }
 
+  ];
 
+  const menu = Menu.buildFromTemplate(template);
+  Menu.setApplicationMenu(menu);
 
+  mainWindow.loadFile('BibleBase/app-iframe.html');
+}
 
-// Right Click Menu using - "electron-context-menu": "^2.3.0"
-const contextMenu = require('electron-context-menu');
-contextMenu({
-  menu: (actions, props, browserWindow) => [
-
-    { role: 'copy' },
-    { role: 'selectAll' },
-    { type: 'separator' },
-    actions.copyImage(),
-    actions.saveImageAs(),
-    { type: 'separator' },
-    { role: 'minimize'},
-    { role: 'togglefullscreen' },
-    { role: 'close' }
-
-  ]
+app.whenReady().then(() => {
+  createWindow();
 });
 
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
+});
 
-
-
-
-
+app.on('activate', () => {
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createWindow();
+  }
+});
