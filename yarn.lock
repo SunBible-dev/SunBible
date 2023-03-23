@@ -132,14 +132,14 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "18.14.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.2.tgz#c076ed1d7b6095078ad3cf21dfeea951842778b1"
-  integrity sha512-1uEQxww3DaghA0RxqHx0O0ppVlo43pJhepY51OxuQIKHpjbnYLA7vcdwioNPzIqmC2u3I/dmylcqjlh0e7AyUA==
+  version "18.15.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.5.tgz#3af577099a99c61479149b716183e70b5239324a"
+  integrity sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==
 
 "@types/node@^16.11.26":
-  version "16.18.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.13.tgz#c572f8837094c6e3b73918a68674c784f6877fc0"
-  integrity sha512-l0/3XZ153UTlNOnZK8xSNoJlQda9/WnYgiTdcKKPJSZjdjI9MU+A9oMXOesAWLSnqAaaJhj3qfQsU07Dr8OUwg==
+  version "16.18.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.18.tgz#06cb0eeb5a0175d26d99b7acf4db613ca30cb07f"
+  integrity sha512-fwGw1uvQAzabxL1pyoknPlJIF2t7+K90uTqynleKRx24n3lYcxWa3+KByLhgkF8GEAK2c7hC8Ki0RkNM5H15jQ==
 
 "@types/plist@^3.0.1":
   version "3.0.2"
@@ -710,9 +710,9 @@ electron-publish@23.6.0:
     mime "^2.5.2"
 
 electron@^23.1.1:
-  version "23.1.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-23.1.1.tgz#20b603e69919b263ef9e4a51b72a9615ce86dc5b"
-  integrity sha512-junV1NzPx5T8Mx9+o8fMWK1Q5WOtG5vggiM09PGYg/6zTcGDL3DjGVHeUa/97gx7ErXL37DrFnxNg6+ePWprDg==
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-23.2.0.tgz#1c60fec08206e24830f3a8dca2772454c8bc25ba"
+  integrity sha512-De9e21cri0QYct/w6tTNOnKyCt9RVKUw5F8PEN4FPzGR9tr6IT53uyt42uH754uJWrZeLMCAdoXy6/0GmMmYZA==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^16.11.26"
@@ -934,9 +934,9 @@ got@^11.8.5:
     responselike "^2.0.0"
 
 graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.10"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
-  integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
+  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
