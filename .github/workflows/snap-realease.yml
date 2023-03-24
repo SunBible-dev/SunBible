@@ -1,9 +1,7 @@
-name: Release Workflow
+name: Snap Release Workflow
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   build:
