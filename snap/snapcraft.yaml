@@ -18,5 +18,4 @@ parts:
     source: https://github.com/SunBible-dev/SunBible.git
         
     build:
-      - yarn install
-      - yarn snap
+      - yarn install && yarn snap
