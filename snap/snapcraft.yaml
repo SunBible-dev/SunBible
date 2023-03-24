@@ -1,6 +1,4 @@
 name: sunbible
-base: core20 
-version: '2.0.001-beta-4'
 summary: A simply beautiful place to read, study, and memorize the Bible.
 description: |
   A simply beautiful place to read, study, and memorize the Bible. Feauturing the beautiful language of the KJV.
@@ -8,10 +6,14 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
+apps:
+  sunbible:
+    command: desktop-launch $SNAP/sunbible/SunBible
+
 parts:
   sunbible:
     plugin: nodejs
-    node-engine: 19.8.1
+    node-engine: 18.15.0
     source-type: git
     source: https://github.com/SunBible-dev/SunBible.git
         
