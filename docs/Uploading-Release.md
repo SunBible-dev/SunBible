@@ -5,7 +5,11 @@
 
 # snapcraft
 
+```sh
+snapcraft login
 
+snapcraft upload --release=beta
+```
 
 # android
 
