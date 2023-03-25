@@ -6,6 +6,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
+    minWidth: 300,
+    minHeight: 300,
     webPreferences: {
       nodeIntegration: true
     }
@@ -46,7 +48,7 @@ const isMac = process.platform === 'darwin'
         {
           label: 'Always On Top',
           click() {
-            mainWindow.setAlwaysOnTop(true);
+            mainWindow.setAlwaysOnTop(!mainWindow.isAlwaysOnTop());
           }
         }
       ]
