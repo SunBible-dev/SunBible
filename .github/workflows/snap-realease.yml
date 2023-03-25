@@ -8,8 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Install dependencies
         run: yarn install
       - name: Build app for Snap
         run: yarn snap
+      - name: Upload Dist
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist/
