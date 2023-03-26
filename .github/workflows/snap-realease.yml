@@ -13,6 +13,8 @@ jobs:
         run: yarn install
       - name: Build app for Snap
         run: yarn snap
+      - name: Build app for Snap Arm
+        run: yarn snaparm
       - name: Upload Dist
         uses: actions/upload-artifact@v3
         with:

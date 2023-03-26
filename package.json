@@ -34,6 +34,7 @@
     "rpm": "electron-builder --linux rpm",
     "AppImage": "electron-builder --linux AppImage",
     "snap": "electron-builder --linux snap",
+    "snaparm": "electron-builder build --linux snap --arm64 --armv7l",
     "apk": "electron-builder --linux apk",
     "appx": "electron-builder --windows appx",
     "nsis": "electron-builder --win nsis",
