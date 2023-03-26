@@ -13,6 +13,8 @@ jobs:
         run: yarn install
       - name: Build app for Snap
         run: yarn snap
+      - name: Install snapcraft
+        run: sudo snap install snapcraft --classic
       - name: Build app for Snap Arm
         run: yarn snaparm
       - name: Upload Dist
