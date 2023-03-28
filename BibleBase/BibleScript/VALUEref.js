@@ -9,10 +9,10 @@ var currentURL = new URL(window.location.href);
 var params = new URLSearchParams(currentURL.search);
 
 // Define a list of allowed URLs
-var allowedURLs = ["https://sunbible-dev.github.io/"];
+var allowedURLs = ["https://sunbible-dev.github.io"];
 
 // Get the iframe element by id
-var iframe = document.getElementById("myframe");
+var iframe = document.getElementById("SBiframe");
 
 // Check if the ref parameter exists
 if (params.has("ref")) {
