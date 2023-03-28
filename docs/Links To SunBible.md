@@ -9,7 +9,10 @@ Here is the documentation on how I fix that.
 
 ## Script for appiframe
 
-Booknav.js to load referrer links in iframe.
+Bookref.js to load referrer links in iframe.
+
+
+*Valueref*
 
 http://example.com?ref=abc123
 
