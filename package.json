@@ -23,7 +23,7 @@
     "url": "https://github.com/SunBible-dev/SunBible.git"
   },
   "devDependencies": {
-    "electron": "^23.1.1",
+    "electron": "^23.3.13",
     "electron-builder": "^23.6.0"
   },
   "scripts": {
