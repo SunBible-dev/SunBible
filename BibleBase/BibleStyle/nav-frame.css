@@ -34,7 +34,7 @@ body {
   /* top: 20px; */
   /* left: 10px; */
   /* right: 10px; */
-  background-color: #f1f1f1;
+  background-color: #FFFDD0;
   /* border-radius: 20px; */
   text-align: left;
   padding: 20px;
@@ -52,13 +52,13 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #FFDE59;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgb(255, 0, 0);}
+.dropdown:hover .dropbtn {background-color: #ff0000;}
 
 .dropdown:hover {
   background-color: blue;
