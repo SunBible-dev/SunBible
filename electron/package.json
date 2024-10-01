@@ -3,7 +3,11 @@
     "appId": "app.the-sunshining.sunbible",
     "productName": "SunBible",
     "files": [
-      "../BibleBase/**/*",
+      {
+        "from": "../BibleBase",
+        "to": "BibleBase",
+        "filter": ["**/*"]
+      },
       "main.js",
       "package.json"
     ]
