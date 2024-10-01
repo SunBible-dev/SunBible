@@ -1,10 +1,15 @@
 {
   "build": {
     "appId": "app.the-sunshining.sunbible",
-    "productName": "SunBible"
+    "productName": "SunBible",
+    "files": [
+      "BibleBase/**/*",
+      "main.js",
+      "package.json"
+    ]
   },
   "name": "sunbible",
-  "version": "2.0.001-beta-5",
+  "version": "2.0.001-beta-6",
   "description": "A simply beautiful place to read, study, and memorize the Bible.",
   "main": "main.js",
   "homepage": "https://github.com/SunBible-dev/SunBible.git",
