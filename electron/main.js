@@ -1,4 +1,6 @@
 const { app, Menu, BrowserWindow } = require('electron');
+const path = require('path');
+const fs = require('fs');
 
 let mainWindow;
 
@@ -13,28 +15,28 @@ function createWindow() {
     }
   });
 
-  //App menu mac os
-const isMac = process.platform === 'darwin'
+  // Log to check if the file exists
+  const filePath = path.join(__dirname, '../BibleBase/app-iframe.html');
+  console.log(`Loading file from: ${filePath}`);
+  console.log(`File exists: ${fs.existsSync(filePath)}`);
 
+  mainWindow.loadFile(filePath);
+
+  // App menu for macOS
+  const isMac = process.platform === 'darwin';
 
   const template = [
-
-
-     // { role: 'appMenu' }
-  ...(isMac ? [{
-    label: app.name,
-    submenu: [
-      { role: 'hide' },
-      { role: 'hideothers' },
-      { role: 'unhide' },
-      { type: 'separator' },
-      { role: 'about' },
-      { role: 'quit' }
-    ]
-  }] : []),
-
-
-
+    ...(isMac ? [{
+      label: app.name,
+      submenu: [
+        { role: 'hide' },
+        { role: 'hideothers' },
+        { role: 'unhide' },
+        { type: 'separator' },
+        { role: 'about' },
+        { role: 'quit' }
+      ]
+    }] : []),
     {
       label: 'View',
       submenu: [
@@ -53,13 +55,10 @@ const isMac = process.platform === 'darwin'
         }
       ]
     }
-
   ];
 
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
-
-  mainWindow.loadFile('../BibleBase/app-iframe.html');
 }
 
 app.whenReady().then(() => {
