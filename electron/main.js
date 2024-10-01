@@ -59,7 +59,7 @@ const isMac = process.platform === 'darwin'
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
 
-  mainWindow.loadFile('BibleBase/app-iframe.html');
+  mainWindow.loadFile('../BibleBase/app-iframe.html');
 }
 
 app.whenReady().then(() => {
