@@ -6,7 +6,9 @@
       {
         "from": "../BibleBase",
         "to": "BibleBase",
-        "filter": ["**/*"]
+        "filter": [
+          "**/*"
+        ]
       },
       "main.js",
       "package.json"
