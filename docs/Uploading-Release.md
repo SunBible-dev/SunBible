@@ -13,5 +13,5 @@ snapcraft upload --release=beta
 
 # android
 
-I use PWA Builder.
+~~I use PWA Builder.~~
 
