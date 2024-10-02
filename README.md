@@ -22,3 +22,8 @@ My new standard is to create HTML files for every book of the Bible that can be 
 # Contributing
 If you are interested in contributing to SunBible, please contact me!
 [thesunshiningmin@gmail.com](thesunshiningmin@gmail.com)
+
+
+# Connect
+A simply beautiful place to read, study, and memorize the Bible together.
+[Instagram](https://www.instagram.com/sunbible.thesunshining)
