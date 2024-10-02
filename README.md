@@ -1,12 +1,7 @@
 # SunBible
+A simply beautiful place to read, study, and memorize the Bible
 
-The Code For My Open-Source KJV BIBLE Project
-
-# Is That it?
-Sure the code for my open source KJV Bible project can be found here, but isn't there more to SunBible than that?
-I started SunBible about 2 years ago in the winter of 2018, I started it to put into practice the development skills I was learning.
-Took over a year break.
-Restarted it in 2023.
+![Screnshot](docs/screenshots/main-screenshot.png)
 
 ## File Stucture of this repository
 
@@ -25,5 +20,4 @@ If you are interested in contributing to SunBible, please contact me!
 
 
 # Connect
-A simply beautiful place to read, study, and memorize the Bible together.
-[Instagram](https://www.instagram.com/sunbible.thesunshining)
+- [Instagram](https://www.instagram.com/sunbible.thesunshining)
