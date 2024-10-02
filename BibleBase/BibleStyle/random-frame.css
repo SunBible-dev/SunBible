@@ -18,9 +18,10 @@ align-items: center;
 
 #READNOWlink {
     background-color: tomato;
-    padding: 10%;
-    border-radius: 50%;
+    padding: 20px;
     text-align: center;
+    width: 80%;
+    border-radius: 20px;
 }
 
 #READNOWlink:hover {
