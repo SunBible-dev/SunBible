@@ -8,4 +8,9 @@ https://gitlab.com/sunbible-dev/sunbible-v2/sunbible-desktop-app-2.0.git
 
 ```
 git remote
+
+git push github
+
+git push gitlab
+
 ```
