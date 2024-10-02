@@ -9,16 +9,14 @@ I started SunBible about 2 years ago in the winter of 2018, I started it to put 
 Took over a year break.
 Restarted it in 2023.
 
-SunBible is more than a desktop app.
-But that is what this repository is.
-
 ## File Stucture of this repository
 
-- The appx and build folders contain files to build my app for desktop.
 - The BibleBase folder contains all the HTML, CSS, and JS that makes the SunBible app.
+- The docs folder contain docs and info, I need to write more!
+- The electron folder contains the package.json and main.js file to run this as a desktop app.
 
 ## The SunBible HTML standard
-When I first stated this project this project, I had diffeerent background for every page, and lots of pictures.
+When I first stated this project, I had different background for every page, and lots of pictures.
 My new standard is to create HTML files for every book of the Bible that can be taken and used by anyone.
 
 # Contributing
