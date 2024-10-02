@@ -1,0 +1,51 @@
+document.getElementById('READNOWlink').addEventListener('click', function() {
+    var urls = [
+        'BibleBooksHTML/Book-id=1-Genesis.html',
+        
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus1',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus2',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus3',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus4',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus5',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus6',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus7',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus8',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus9',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus10',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus11',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus12',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus13',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus14',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus15',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus16',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus17',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus18',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus19',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus20',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus21',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus22',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus23',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus24',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus25',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus26',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus27',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus28',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus29',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus30',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus31',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus32',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus33',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus34',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus35',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus36',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus37',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus38',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus39',
+        'BibleBooksHTML/Book-id=2-Exodus.html#Exodus40'
+    ];
+    var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+    document.getElementById('SBiframe').src = randomUrl;
+    document.querySelector('header').style.display = 'block';
+    document.getElementById('divFORiframe').style.display = 'block';
+    document.getElementById('READNOW').style.display = 'none';
+});
