@@ -1,1 +1,1 @@
-rsync -av --delete ../BibleBase ../android/app/src/main/assets/BibleBase
+rsync -av --delete ../BibleBase ../android/app/src/main/assets/

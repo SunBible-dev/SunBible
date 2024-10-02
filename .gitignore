@@ -8,3 +8,7 @@ node_modules
 dist
 yarn-error.log
 *.tgz
+
+
+# Android Folder
+android/app/src/main/assets/BibleBase
