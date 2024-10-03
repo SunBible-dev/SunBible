@@ -17,7 +17,7 @@ justify-content: center;
 align-items: center;
 }
 
-#READNOWlink {
+#androidHome {
     background-color: tomato;
     padding: 20px;
     text-align: center;
@@ -25,6 +25,7 @@ align-items: center;
     border-radius: 20px;
 }
 
-#READNOWlink:hover {
+
+/* #androidHome:hover {
     background: rgb(255, 0, 0);
-}
+} */
