@@ -12,3 +12,4 @@ yarn-error.log
 
 # Android Folder
 android/app/src/main/assets/BibleBase
+android/app/release
