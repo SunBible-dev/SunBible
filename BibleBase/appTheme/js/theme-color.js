@@ -1,4 +1,3 @@
-
 const redSlider = document.getElementById("RGB_Red");
 const greenSlider = document.getElementById("RGB_Green");
 const blueSlider = document.getElementById("RGB_Blue");
@@ -6,7 +5,10 @@ const redText = document.getElementById("RGB_Red_Text");
 const greenText = document.getElementById("RGB_Green_Text");
 const blueText = document.getElementById("RGB_Blue_Text");
 const hexText = document.getElementById("RGB_Hex_Text");
-const rgbBox = document.querySelector(".RGB-Slider-Box");
+
+const defaultTheme = document.getElementById("defaultTheme");
+const lightTheme = document.getElementById("lightTheme");
+const darkTheme = document.getElementById("darkTheme");
 
 function updateColor() {
     const redValue = redSlider.value;
@@ -20,7 +22,7 @@ function updateColor() {
     const hexColor = `#${(1 << 24 | redValue << 16 | greenValue << 8 | blueValue).toString(16).slice(1)}`;
     hexText.value = hexColor;
 
-    rgbBox.style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+    document.body.style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
 }
 
 function updateSlidersFromHex() {
@@ -44,6 +46,15 @@ function hexToRgb(hex) {
         }
         : null;
 }
+
+function setThemeColor(hexColor) {
+    hexText.value = hexColor;
+    updateSlidersFromHex();
+}
+
+defaultTheme.addEventListener("click", () => setThemeColor("#ffc8c8"));
+lightTheme.addEventListener("click", () => setThemeColor("#ffffff"));
+darkTheme.addEventListener("click", () => setThemeColor("#000000"));
 
 redSlider.addEventListener("input", updateColor);
 greenSlider.addEventListener("input", updateColor);
