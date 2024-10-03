@@ -9,28 +9,46 @@
         <style>
             @import url(css/theme-frame.css);
             @import url(css/theme-settings.css);
+            @import url(css/rgb-custom.css);
+
+            @import url(css/theme-div.css);
         </style>
     </head>
-    <body>
+    <body class="RGB-Slider-Box">
 
 
         <header>
             <!-- <h1>SunBible</h1> -->
             <p id="BOOKpage">
                 SunBibe
-                <a href="theme-nav.html" target="SunBible_iframe">MENU</a>
+                <a class="BIBLEloader" href="#">READ</a>
+                <a class="NAVloader" href="theme-nav.html" target="SunBible_iframe">MENU</a>
+                <a class="THEMEloader" href="#">THEME</a>
             </p>
         </header>
 
-        <div id="divFORiframe">
-            <iframe id="SBiframe" src="../BibleBooksHTML/Book-id=1-Genesis.html" name="SunBible_iframe" title="SunBible iframe"></iframe>
+
+        <div class="HOMEdiv">
+            <h1>WELCOME!</h1>
+
+            <p>
+                "In the beginning God created the heaven and the earth."
+            </p>
+
         </div>
+
+
+        <div id="divFORiframe">
+            <iframe id="SBiframe" src="" name="SunBible_iframe" title="SunBible iframe"></iframe>
+        </div>
+
 
 
 
         
         <div id="themeSettings">
 
+            <h1>OPTIONS</h1>
             <div class="themeOption">
                 <div class="default"></div>
                 <p>default</p>
@@ -46,6 +64,32 @@
                 <p>dark</p>
             </div>
 
+            <p>(mix-blend-mode: difference)</p>
+
+            <h1>CUSTOM</h1>
+            <section class="RGB-Slider-Box"></section>
+                <p>
+                <input id="RGB_Red" type="range" min="0" max="255" value="255" class="slider">
+                <br/>
+                <input id="RGB_Green" type="range" min="0" max="255" value="200" class="slider">
+                <br/>
+                <input id="RGB_Blue" type="range" min="0" max="255" value="200" class="slider">
+                <br/>
+                <span class="difference">R</span>
+                <input id="RGB_Red_Text" type="text" value="255" class="RGB-n-input difference">
+                <span class="difference">G</span>
+                <input id="RGB_Green_Text" type="text" value="200" class="RGB-n-input difference">
+                <span class="difference">B</span>
+                <input id="RGB_Blue_Text" type="text" value="200" class="RGB-n-input difference">
+                <span class="difference">Hex</span>
+                <input id="RGB_Hex_Text" type="text" value="#D2F5D6" class="RGB-n-input RGB-hex-input difference">
+                </p>
+            </section>
+
+            <p>And the light shineth in darkness; and the darkness comprehended it not.</p>
+
+            <button class="CLOSE">CLOSE</button>
+
         </div>
 
 
@@ -60,9 +104,11 @@
         <!-- <script></script> -->
         <!-- <script></script> -->
 
-        <!-- <script src="BibleScript/jquery/jquery-3.4.1.js"></script> -->
+        <script src="../BibleScript/jquery/jquery-3.4.1.js"></script>
         <!-- <script src="BibleScript/jquery/jquery-1.8.3.min.js"></script> -->
-         
+        
+        <script src="js/theme-color.js"></script>
+        <script src="js/theme-div.js"></script>
 
 
         <script data-goatcounter="https://sunbible.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
