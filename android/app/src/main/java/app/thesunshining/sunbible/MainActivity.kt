@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         val webView: WebView = findViewById(R.id.webView)
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("file:///android_asset/BibleBase/random-iframe.html")
+        webView.loadUrl("file:///android_asset/BibleBase/android-iframe.html")
     }
 }
