@@ -134,6 +134,6 @@ background-color: yellow;
 
 /* Bible memory for James and Paslm */
 
-.W:hover {
+.W:hover, .WW:hover, .WWW:hover, .WWWW:hover, .WWWWW:hover {
     background-color: rgb(0, 0, 0);
   }
