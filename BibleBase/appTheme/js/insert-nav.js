@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bible Nav</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../Bibleimg/SunBible.png" />
-        
-        <style>
-            @import url(css/theme-nav-frame.css);
-            @import url(../BibleStyle/BibleFont.css);
-            
-        </style>
-
-<!-- <base target="_self"> -->
-
-
-    </head>
-    <body>
-
-
-
-
-        <nav>
+document.getElementById("divFORnav").innerHTML = `
+  <nav>
                 <h1>What do you want to read <u>today</u>?</h1>
 
              <h3>The Torah</h3>
@@ -1754,26 +1734,4 @@
 
 
         </nav>
-
-
-
-
-
-
-
-        <!-- <footer></footer> -->
-        <!-- <script></script> -->
-        <!-- <script></script> -->
-
-        <!-- <script src="../BibleScript/jquery/jquery-3.4.1.js"></script> -->
-
-        <script data-goatcounter="https://sunbible.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-
-
-
-
-    </body>
-    </html>
-
-
+  `;

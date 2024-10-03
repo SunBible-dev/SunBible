@@ -12,6 +12,7 @@
             @import url(css/rgb-custom.css);
 
             @import url(css/theme-div.css);
+            @import url(css/theme-nav-frame.css);
         </style>
     </head>
     <body class="RGB-Slider-Box">
@@ -21,9 +22,9 @@
             <!-- <h1>SunBible</h1> -->
             <p id="BOOKpage">
                 SunBibe
-                <a class="BIBLEloader" href="#">READ</a>
-                <a class="NAVloader" href="theme-nav.html" target="SunBible_iframe">MENU</a>
-                <a class="THEMEloader" href="#">THEME</a>
+                <a class="BIBLEloader">READ</a>
+                <a class="NAVloader">MENU</a>
+                <a class="THEMEloader">THEME</a>
             </p>
         </header>
 
@@ -40,6 +41,10 @@
 
         <div id="divFORiframe">
             <iframe id="SBiframe" src="" name="SunBible_iframe" title="SunBible iframe"></iframe>
+        </div>
+
+        <div id="divFORnav">
+            <!-- Links here! -->
         </div>
 
 
@@ -109,6 +114,7 @@
         
         <script src="js/theme-color.js"></script>
         <script src="js/theme-div.js"></script>
+        <script src="js/insert-nav.js"></script>
 
 
         <script data-goatcounter="https://sunbible.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
