@@ -1,0 +1,49 @@
+#themeSettings {
+    background-color: #ffffff;
+    z-index: 2;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    bottom: 70px;
+    left: 10px;
+    right: 10px;
+    border-radius: 20px;
+    /* mix-blend-mode: difference; */
+    text-align: center;
+    display: none;
+}
+#divFORiframe {
+    /* display: none; */
+}
+
+
+
+#themeSettings .themeOption {
+    border: 3px solid rgb(0, 0, 0);
+    display: inline-block;
+    mix-blend-mode: normal;
+}
+
+.themeOption .default {
+    background-color: #ffc8c8;
+    width: 100px;
+    height: 100px;
+    border-bottom: 3px solid black;
+    /* mix-blend-mode: normal; */
+}
+
+.themeOption .light {
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-bottom: 3px solid black;
+    /* mix-blend-mode: normal; */
+}
+
+.themeOption .dark {
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    border-bottom: 3px solid black;
+    /* mix-blend-mode: normal; */
+}
