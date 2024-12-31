@@ -16,7 +16,7 @@ function createWindow() {
   });
 
   // Log to check if the file exists
-  const filePath = path.join(__dirname, '../BibleBase/app-iframe.html');
+  const filePath = path.join(__dirname, '../BibleBase/appTheme/theme-iframe.html');
   console.log(`Loading file from: ${filePath}`);
   console.log(`File exists: ${fs.existsSync(filePath)}`);
 
