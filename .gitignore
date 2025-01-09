@@ -8,6 +8,8 @@ node_modules
 dist
 yarn-error.log
 *.tgz
+electron/pnpm-lock.yaml
+electron/yarn.lock
 
 
 # Android Folder
