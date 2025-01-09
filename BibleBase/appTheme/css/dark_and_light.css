@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    mix-blend-mode: difference;
+    background-color: #222222;
+}
+
+
+
+header {
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    padding: 2px;
+    max-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    /* mix-blend-mode: difference; */
+    /* border: solid 3px black; */
+}
+header h1 {
+    font-size: 100%;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    mix-blend-mode: difference;
+}
+
+header p {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+
+header a {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.777);
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+    mix-blend-mode: difference;
+}
+header a:hover {
+    background: #ffffff;
+
+}
