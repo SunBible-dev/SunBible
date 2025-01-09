@@ -1,0 +1,24 @@
+/* LIGHT THEME */
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #CCCCCC;
+        color: #333333;
+    }
+
+}
+
+
+
+
+/* DARK THEME */
+
+@media (prefers-color-scheme: light) {
+
+    body {
+        background-color: #333333;
+        color: #CCCCCC;
+    }
+
+}
