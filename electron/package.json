@@ -14,7 +14,7 @@
     ]
   },
   "name": "sunbible",
-  "version": "2.0.001-beta-7",
+  "version": "2.0.02",
   "description": "A simply beautiful place to read, study, and memorize the Bible.",
   "main": "main.js",
   "homepage": "https://github.com/SunBible-dev/SunBible.git",
