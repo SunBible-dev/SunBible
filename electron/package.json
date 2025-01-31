@@ -50,10 +50,22 @@
     "nsis": "electron-builder --win nsis",
     "nsis-web": "electron-builder --win nsis-web",
     "dmg": "electron-builder --mac dmg",
-    "dmg:arm64": "electron-builder --mac dmg:arm64"
+    "dmg:arm64": "electron-builder --mac dmg:arm64",
+    "ipfs": "ipfs-car pack ../BibleBase --output ipfs/sunbible.car",
+    "web4": "web4-deploy ipfs/sunbible.car sunbible.near",
+    "web4base": "web4-deploy ../BibleBase sunbible.near"
   },
   "dependencies": {
-    "electron-context-menu": "^2.5.2"
+    "electron-context-menu": "^2.5.2",
+    "ipfs-car": "^2.0.0",
+    "web4-deploy": "^0.7.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/car.mjs",
+      "require": "./dist/car.cjs"
+    },
+    "./dist/*": "./dist/*"
   },
   "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
