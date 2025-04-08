@@ -21,4 +21,8 @@ python3 scripts/john_word_ids.py
 # 1Corinthians
 python3 scripts/1_Corinthians_extract_red_letters.py
 python3 scripts/1_Corinthians_word_ids.py
+
+# Revelation
+python3 scripts/revelation_extract_red_letters.py
+python3 scripts/revelation_word_ids.py
 ```
