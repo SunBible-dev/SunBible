@@ -17,35 +17,36 @@ def process_matthew():
         content = f.read()
     
     soup = BeautifulSoup(content, 'html.parser')
-    chapters = soup.find_all('div', id=re.compile(r'^Chapter\d+$'))
+    chapters = soup.find_all('div', class_='PaulBookChapter')
     
     output = {"1Corinthians": []}
     
     for chapter in chapters:
-        chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
+        chapter_num = chapter.find('h1').text.split()[1]
         chapter_data = {"chapter": chapter_num, "verses": []}
         
         # Split chapter content into verses
-        verses = []
+        verse_elements = []
         current_verse = []
         for element in chapter.children:
             if isinstance(element, str):
                 current_verse.append((element, False))
             elif element.name == 'br':
-                verses.append(current_verse)
+                if current_verse:
+                    verse_elements.append(current_verse)
                 current_verse = []
             elif element.name == 'span' and 'red' in element.get('class', []):
                 current_verse.append((element.text, True))
         if current_verse:
-            verses.append(current_verse)
+            verse_elements.append(current_verse)
         
         # Process each verse
-        for verse_elements in verses:
-            if not verse_elements:
+        for verse_content in verse_elements:
+            if not verse_content:
                 continue
-                
+            
             # Get verse number
-            verse_text = ''.join(text for text, _ in verse_elements)
+            verse_text = ''.join(text for text, _ in verse_content)
             verse_match = re.match(r'\s*(\d+)\s', verse_text)
             if not verse_match:
                 continue
@@ -53,13 +54,12 @@ def process_matthew():
             
             # Count words and identify red letter ranges
             word_count = 0
-            # Skip the verse number in word count
-            first_text = verse_elements[0][0].strip()
-            verse_words = first_text.split()
-            if verse_words and verse_words[0].isdigit():
-                word_count -= 1  # Subtract verse number from count
+            # Skip verse number in word count
+            first_text = verse_content[0][0].strip()
+            if first_text.split()[0].isdigit():
+                word_count -= 1
             
-            for text, is_red in verse_elements:
+            for text, is_red in verse_content:
                 words = text.strip().split()
                 if is_red:
                     word_ids = get_word_ids(text, word_count + 1)
@@ -69,7 +69,8 @@ def process_matthew():
                     })
                 word_count += len(words)
         
-        output["1Corinthians"].append(chapter_data)
+        if chapter_data["verses"]:
+            output["1Corinthians"].append(chapter_data)
     
     # Save the output
     output_file = os.path.join(project_root, 'json', '1Corinthians-red-letter-ids.json')

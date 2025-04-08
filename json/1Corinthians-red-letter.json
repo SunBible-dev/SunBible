@@ -1,3 +1,17 @@
 {
-  "1Corinthians": []
+  "1Corinthians": [
+    {
+      "chapter": "Corinthians",
+      "verses": [
+        {
+          "verse": "24",
+          "red_words": "Take, eat: this is my body, which is broken for you: this do in remembrance of me."
+        },
+        {
+          "verse": "25",
+          "red_words": "this cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me."
+        }
+      ]
+    }
+  ]
 }

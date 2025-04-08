@@ -7,58 +7,57 @@ def extract_red_letters(html_file):
         content = f.read()
     
     soup = BeautifulSoup(content, 'html.parser')
-    chapters = soup.find_all('div', id=re.compile(r'^Chapter\d+$'))
+    chapters = soup.find_all('div', class_='PaulBookChapter')
     print(f"Found {len(chapters)} chapters")
     
     words_output = {"1Corinthians": []}
     
     for chapter in chapters:
-        chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
+        chapter_num = chapter.find('h1').text.split()[1]
         print(f"Processing chapter {chapter_num}")
         
         chapter_words = {"chapter": chapter_num, "verses": []}
         
-        # Get all red spans in the chapter
-        red_spans = chapter.find_all('span', class_='red')
+        # Split chapter content into verses
+        verse_elements = []
+        current_verse = []
+        for element in chapter.children:
+            if isinstance(element, str):
+                current_verse.append((element, False))
+            elif element.name == 'br':
+                if current_verse:
+                    verse_elements.append(current_verse)
+                current_verse = []
+            elif element.name == 'span' and 'red' in element.get('class', []):
+                current_verse.append((element.text, True))
+        if current_verse:
+            verse_elements.append(current_verse)
         
-        # Group spans by verse
-        current_verse = None
-        verse_words = []
-        
-        for span in red_spans:
-            # Find the verse number by looking at previous text
-            text = ''
-            node = span.previous_sibling
-            while node:
-                if isinstance(node, str):
-                    text = node.strip() + ' ' + text
-                node = node.previous_sibling
+        # Process each verse
+        for verse_content in verse_elements:
+            if not verse_content:
+                continue
             
-            # Look for verse number in the text
-            verse_match = re.search(r'(\d+)\s*[^\d]*$', text)
-            if verse_match:
-                # If we found a new verse number, save the previous verse data
-                if current_verse and verse_words:
-                    chapter_words["verses"].append({
-                        "verse": current_verse,
-                        "red_words": " ".join(verse_words)
-                    })
-                
-                # Start new verse
-                current_verse = verse_match.group(1)
-                verse_words = []
+            # Get verse number and text
+            verse_text = ''.join(text for text, _ in verse_content)
+            verse_match = re.match(r'\s*(\d+)\s', verse_text)
+            if not verse_match:
+                continue
+            verse_num = verse_match.group(1)
             
-            # Add this span's text
-            word = span.get_text().strip()
-            if word:
-                verse_words.append(word)
-        
-        # Add the last verse of the chapter
-        if current_verse and verse_words:
-            chapter_words["verses"].append({
-                "verse": current_verse,
-                "red_words": " ".join(verse_words)
-            })
+            # Extract red letter words
+            red_words = []
+            for text, is_red in verse_content:
+                if is_red:
+                    words = text.strip()
+                    if words:
+                        red_words.append(words)
+            
+            if red_words:
+                chapter_words["verses"].append({
+                    "verse": verse_num,
+                    "red_words": " ".join(red_words)
+                })
         
         if chapter_words["verses"]:
             words_output["1Corinthians"].append(chapter_words)
