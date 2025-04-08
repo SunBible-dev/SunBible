@@ -1,3 +1,2698 @@
 {
-  "Matthew": []
+  "Matthew": [
+    {
+      "chapter": "3",
+      "verses": [
+        {
+          "verse": "15",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "4",
+      "verses": [
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "5",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        },
+        {
+          "verse": "47",
+          "word_ids": ""
+        },
+        {
+          "verse": "48",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "6",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "7",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "8",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "9",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "10",
+      "verses": [
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "11",
+      "verses": [
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "12",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "48",
+          "word_ids": ""
+        },
+        {
+          "verse": "49",
+          "word_ids": ""
+        },
+        {
+          "verse": "50",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "13",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        },
+        {
+          "verse": "47",
+          "word_ids": ""
+        },
+        {
+          "verse": "48",
+          "word_ids": ""
+        },
+        {
+          "verse": "49",
+          "word_ids": ""
+        },
+        {
+          "verse": "50",
+          "word_ids": ""
+        },
+        {
+          "verse": "51",
+          "word_ids": ""
+        },
+        {
+          "verse": "52",
+          "word_ids": ""
+        },
+        {
+          "verse": "57",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "14",
+      "verses": [
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "15",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "16",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "17",
+      "verses": [
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "18",
+      "verses": [
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "19",
+      "verses": [
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "20",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "21",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "22",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "23",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "24",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        },
+        {
+          "verse": "47",
+          "word_ids": ""
+        },
+        {
+          "verse": "48",
+          "word_ids": ""
+        },
+        {
+          "verse": "49",
+          "word_ids": ""
+        },
+        {
+          "verse": "50",
+          "word_ids": ""
+        },
+        {
+          "verse": "51",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "25",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "3",
+          "word_ids": ""
+        },
+        {
+          "verse": "4",
+          "word_ids": ""
+        },
+        {
+          "verse": "5",
+          "word_ids": ""
+        },
+        {
+          "verse": "6",
+          "word_ids": ""
+        },
+        {
+          "verse": "7",
+          "word_ids": ""
+        },
+        {
+          "verse": "8",
+          "word_ids": ""
+        },
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "14",
+          "word_ids": ""
+        },
+        {
+          "verse": "15",
+          "word_ids": ""
+        },
+        {
+          "verse": "16",
+          "word_ids": ""
+        },
+        {
+          "verse": "17",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "22",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "30",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "33",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "35",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "37",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "43",
+          "word_ids": ""
+        },
+        {
+          "verse": "44",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "26",
+      "verses": [
+        {
+          "verse": "2",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "12",
+          "word_ids": ""
+        },
+        {
+          "verse": "13",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "21",
+          "word_ids": ""
+        },
+        {
+          "verse": "23",
+          "word_ids": ""
+        },
+        {
+          "verse": "24",
+          "word_ids": ""
+        },
+        {
+          "verse": "25",
+          "word_ids": ""
+        },
+        {
+          "verse": "26",
+          "word_ids": ""
+        },
+        {
+          "verse": "27",
+          "word_ids": ""
+        },
+        {
+          "verse": "28",
+          "word_ids": ""
+        },
+        {
+          "verse": "29",
+          "word_ids": ""
+        },
+        {
+          "verse": "31",
+          "word_ids": ""
+        },
+        {
+          "verse": "32",
+          "word_ids": ""
+        },
+        {
+          "verse": "34",
+          "word_ids": ""
+        },
+        {
+          "verse": "36",
+          "word_ids": ""
+        },
+        {
+          "verse": "38",
+          "word_ids": ""
+        },
+        {
+          "verse": "39",
+          "word_ids": ""
+        },
+        {
+          "verse": "40",
+          "word_ids": ""
+        },
+        {
+          "verse": "41",
+          "word_ids": ""
+        },
+        {
+          "verse": "42",
+          "word_ids": ""
+        },
+        {
+          "verse": "45",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        },
+        {
+          "verse": "50",
+          "word_ids": ""
+        },
+        {
+          "verse": "52",
+          "word_ids": ""
+        },
+        {
+          "verse": "53",
+          "word_ids": ""
+        },
+        {
+          "verse": "54",
+          "word_ids": ""
+        },
+        {
+          "verse": "55",
+          "word_ids": ""
+        },
+        {
+          "verse": "56",
+          "word_ids": ""
+        },
+        {
+          "verse": "64",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "27",
+      "verses": [
+        {
+          "verse": "11",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        },
+        {
+          "verse": "46",
+          "word_ids": ""
+        }
+      ]
+    },
+    {
+      "chapter": "28",
+      "verses": [
+        {
+          "verse": "9",
+          "word_ids": ""
+        },
+        {
+          "verse": "10",
+          "word_ids": ""
+        },
+        {
+          "verse": "18",
+          "word_ids": ""
+        },
+        {
+          "verse": "19",
+          "word_ids": ""
+        },
+        {
+          "verse": "20",
+          "word_ids": ""
+        }
+      ]
+    }
+  ]
 }

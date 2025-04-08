@@ -1,3 +1,2698 @@
 {
-  "Matthew": []
+  "Matthew": [
+    {
+      "chapter": "3",
+      "verses": [
+        {
+          "verse": "15",
+          "red_words": "Suffer it to be so now: for thus it becometh us to fulfil all righteousness."
+        }
+      ]
+    },
+    {
+      "chapter": "4",
+      "verses": [
+        {
+          "verse": "4",
+          "red_words": "It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."
+        },
+        {
+          "verse": "7",
+          "red_words": "It is written again, Thou shalt not tempt the Lord thy God."
+        },
+        {
+          "verse": "10",
+          "red_words": "Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve."
+        },
+        {
+          "verse": "17",
+          "red_words": "Repent: for the kingdom of heaven is at hand."
+        },
+        {
+          "verse": "19",
+          "red_words": "Follow me, and I will make you fishers of men."
+        }
+      ]
+    },
+    {
+      "chapter": "5",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "Blessed are the poor in spirit: for theirs is the kingdom of heaven."
+        },
+        {
+          "verse": "4",
+          "red_words": "Blessed are they that mourn: for they shall be comforted."
+        },
+        {
+          "verse": "5",
+          "red_words": "Blessed are the meek: for they shall inherit the earth."
+        },
+        {
+          "verse": "6",
+          "red_words": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled."
+        },
+        {
+          "verse": "7",
+          "red_words": "Blessed are the merciful: for they shall obtain mercy."
+        },
+        {
+          "verse": "8",
+          "red_words": "Blessed are the pure in heart: for they shall see God."
+        },
+        {
+          "verse": "9",
+          "red_words": "Blessed are the peacemakers: for they shall be called the children of God."
+        },
+        {
+          "verse": "10",
+          "red_words": "Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven."
+        },
+        {
+          "verse": "11",
+          "red_words": "Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake."
+        },
+        {
+          "verse": "12",
+          "red_words": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you."
+        },
+        {
+          "verse": "13",
+          "red_words": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men."
+        },
+        {
+          "verse": "14",
+          "red_words": "Ye are the light of the world. A city that is set on an hill cannot be hid."
+        },
+        {
+          "verse": "15",
+          "red_words": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house."
+        },
+        {
+          "verse": "16",
+          "red_words": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+        },
+        {
+          "verse": "17",
+          "red_words": "Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil."
+        },
+        {
+          "verse": "18",
+          "red_words": "For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled."
+        },
+        {
+          "verse": "19",
+          "red_words": "Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven."
+        },
+        {
+          "verse": "20",
+          "red_words": "For I say unto you, That except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven."
+        },
+        {
+          "verse": "21",
+          "red_words": "Ye have heard that it was said of them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment:"
+        },
+        {
+          "verse": "22",
+          "red_words": "But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire."
+        },
+        {
+          "verse": "23",
+          "red_words": "Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;"
+        },
+        {
+          "verse": "24",
+          "red_words": "Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift."
+        },
+        {
+          "verse": "25",
+          "red_words": "Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison."
+        },
+        {
+          "verse": "26",
+          "red_words": "Verily I say unto thee, Thou shalt by no means come out thence, till thou hast paid the uttermost farthing."
+        },
+        {
+          "verse": "27",
+          "red_words": "Ye have heard that it was said by them of old time, Thou shalt not commit adultery:"
+        },
+        {
+          "verse": "28",
+          "red_words": "But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart."
+        },
+        {
+          "verse": "29",
+          "red_words": "And if thy right eye offend thee, pluck it out, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell."
+        },
+        {
+          "verse": "30",
+          "red_words": "And if thy right hand offend thee, cut it off, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell."
+        },
+        {
+          "verse": "31",
+          "red_words": "It hath been said, Whosoever shall put away his wife, let him give her a writing of divorcement:"
+        },
+        {
+          "verse": "32",
+          "red_words": "But I say unto you, That whosoever shall put away his wife, saving for the cause of fornication, causeth her to commit adultery: and whosoever shall marry her that is divorced committeth adultery."
+        },
+        {
+          "verse": "33",
+          "red_words": "Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:"
+        },
+        {
+          "verse": "34",
+          "red_words": "But I say unto you, Swear not at all; neither by heaven; for it is God's throne:"
+        },
+        {
+          "verse": "35",
+          "red_words": "Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King."
+        },
+        {
+          "verse": "36",
+          "red_words": "Neither shalt thou swear by thy head, because thou canst not make one hair white or black."
+        },
+        {
+          "verse": "37",
+          "red_words": "But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil."
+        },
+        {
+          "verse": "38",
+          "red_words": "Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth:"
+        },
+        {
+          "verse": "39",
+          "red_words": "But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also."
+        },
+        {
+          "verse": "40",
+          "red_words": "And if any man will sue thee at the law, and take away thy coat, let him have thy cloak also."
+        },
+        {
+          "verse": "41",
+          "red_words": "And whosoever shall compel thee to go a mile, go with him twain."
+        },
+        {
+          "verse": "42",
+          "red_words": "Give to him that asketh thee, and from him that would borrow of thee turn not thou away."
+        },
+        {
+          "verse": "43",
+          "red_words": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy."
+        },
+        {
+          "verse": "44",
+          "red_words": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"
+        },
+        {
+          "verse": "45",
+          "red_words": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+        },
+        {
+          "verse": "46",
+          "red_words": "For if ye love them which love you, what reward have ye? do not even the publicans the same?"
+        },
+        {
+          "verse": "47",
+          "red_words": "And if ye salute your brethren only, what do ye more than others? do not even the publicans so?"
+        },
+        {
+          "verse": "48",
+          "red_words": "Be ye therefore perfect, even as your Father which is in heaven is perfect."
+        }
+      ]
+    },
+    {
+      "chapter": "6",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "Therefore when thou doest thine alms, do not sound a trumpet before thee, as the hypocrites do in the synagogues and in the streets, that they may have glory of men. Verily I say unto you, They have their reward."
+        },
+        {
+          "verse": "3",
+          "red_words": "But when thou doest alms, let not thy left hand know what thy right hand doeth:"
+        },
+        {
+          "verse": "4",
+          "red_words": "That thine alms may be in secret: and thy Father which seeth in secret himself shall reward thee openly."
+        },
+        {
+          "verse": "5",
+          "red_words": "And when thou prayest, thou shalt not be as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men. Verily I say unto you, They have their reward."
+        },
+        {
+          "verse": "6",
+          "red_words": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly."
+        },
+        {
+          "verse": "7",
+          "red_words": "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking."
+        },
+        {
+          "verse": "8",
+          "red_words": "Be not ye therefore like unto them: for your Father knoweth what things ye have need of, before ye ask him."
+        },
+        {
+          "verse": "9",
+          "red_words": "After this manner therefore pray ye"
+        },
+        {
+          "verse": "9",
+          "red_words": "Our Father which art in heaven, Hallowed be thy name."
+        },
+        {
+          "verse": "10",
+          "red_words": "Thy kingdom come, Thy will be done in earth, as it is in heaven."
+        },
+        {
+          "verse": "11",
+          "red_words": "Give us this day our daily bread."
+        },
+        {
+          "verse": "12",
+          "red_words": "And forgive us our debts, as we forgive our debtors."
+        },
+        {
+          "verse": "13",
+          "red_words": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."
+        },
+        {
+          "verse": "14",
+          "red_words": "For if ye forgive men their trespasses, your heavenly Father will also forgive you:"
+        },
+        {
+          "verse": "15",
+          "red_words": "But if ye forgive not men their trespasses, neither will your Father forgive your trespasses."
+        },
+        {
+          "verse": "16",
+          "red_words": "Moreover when ye fast, be not, as the hypocrites, of a sad countenance: for they disfigure their faces, that they may appear unto men to fast. Verily I say unto you, They have their reward."
+        },
+        {
+          "verse": "17",
+          "red_words": "But thou, when thou fastest, anoint thine head, and wash thy face;"
+        },
+        {
+          "verse": "18",
+          "red_words": "That thou appear not unto men to fast, but unto thy Father which is in secret: and thy Father, which seeth in secret, shall reward thee openly."
+        },
+        {
+          "verse": "19",
+          "red_words": "Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal:"
+        },
+        {
+          "verse": "20",
+          "red_words": "But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal:"
+        },
+        {
+          "verse": "21",
+          "red_words": "For where your treasure is, there will your heart be also."
+        },
+        {
+          "verse": "22",
+          "red_words": "The light of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light."
+        },
+        {
+          "verse": "23",
+          "red_words": "But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in thee be darkness, how great is that darkness!"
+        },
+        {
+          "verse": "24",
+          "red_words": "No man can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon."
+        },
+        {
+          "verse": "25",
+          "red_words": "Therefore I say unto you, Take no thought for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. Is not the life more than meat, and the body than raiment?"
+        },
+        {
+          "verse": "26",
+          "red_words": "Behold the fowls of the air: for they sow not, neither do they reap, nor gather into barns; yet your heavenly Father feedeth them. Are ye not much better than they?"
+        },
+        {
+          "verse": "27",
+          "red_words": "Which of you by taking thought can add one cubit unto his stature?"
+        },
+        {
+          "verse": "28",
+          "red_words": "And why take ye thought for raiment? Consider the lilies of the field, how they grow; they toil not, neither do they spin:"
+        },
+        {
+          "verse": "29",
+          "red_words": "And yet I say unto you, That even Solomon in all his glory was not arrayed like one of these."
+        },
+        {
+          "verse": "30",
+          "red_words": "Wherefore, if God so clothe the grass of the field, which to day is, and to morrow is cast into the oven, shall he not much more clothe you, O ye of little faith?"
+        },
+        {
+          "verse": "31",
+          "red_words": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed?"
+        },
+        {
+          "verse": "32",
+          "red_words": "(For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things."
+        },
+        {
+          "verse": "33",
+          "red_words": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you."
+        },
+        {
+          "verse": "34",
+          "red_words": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof."
+        }
+      ]
+    },
+    {
+      "chapter": "7",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again."
+        },
+        {
+          "verse": "3",
+          "red_words": "And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?"
+        },
+        {
+          "verse": "4",
+          "red_words": "Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?"
+        },
+        {
+          "verse": "5",
+          "red_words": "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye."
+        },
+        {
+          "verse": "6",
+          "red_words": "Give not that which is holy unto the dogs, neither cast ye your pearls before swine, lest they trample them under their feet, and turn again and rend you."
+        },
+        {
+          "verse": "7",
+          "red_words": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:"
+        },
+        {
+          "verse": "8",
+          "red_words": "For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened."
+        },
+        {
+          "verse": "9",
+          "red_words": "Or what man is there of you, whom if his son ask bread, will he give him a stone?"
+        },
+        {
+          "verse": "10",
+          "red_words": "Or if he ask a fish, will he give him a serpent?"
+        },
+        {
+          "verse": "11",
+          "red_words": "If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?"
+        },
+        {
+          "verse": "12",
+          "red_words": "Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets."
+        },
+        {
+          "verse": "13",
+          "red_words": "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat:"
+        },
+        {
+          "verse": "14",
+          "red_words": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it."
+        },
+        {
+          "verse": "15",
+          "red_words": "Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves."
+        },
+        {
+          "verse": "16",
+          "red_words": "Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles?"
+        },
+        {
+          "verse": "17",
+          "red_words": "Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit."
+        },
+        {
+          "verse": "18",
+          "red_words": "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit."
+        },
+        {
+          "verse": "19",
+          "red_words": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire."
+        },
+        {
+          "verse": "20",
+          "red_words": "Wherefore by their fruits ye shall know them."
+        },
+        {
+          "verse": "21",
+          "red_words": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven."
+        },
+        {
+          "verse": "22",
+          "red_words": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?"
+        },
+        {
+          "verse": "23",
+          "red_words": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."
+        },
+        {
+          "verse": "24",
+          "red_words": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock:"
+        },
+        {
+          "verse": "25",
+          "red_words": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock."
+        },
+        {
+          "verse": "26",
+          "red_words": "And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand:"
+        },
+        {
+          "verse": "27",
+          "red_words": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it."
+        }
+      ]
+    },
+    {
+      "chapter": "8",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "I will; be thou clean."
+        },
+        {
+          "verse": "4",
+          "red_words": "See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them."
+        },
+        {
+          "verse": "7",
+          "red_words": "I will come and heal him."
+        },
+        {
+          "verse": "10",
+          "red_words": "Verily I say unto you, I have not found so great faith, no, not in Israel."
+        },
+        {
+          "verse": "11",
+          "red_words": "And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven."
+        },
+        {
+          "verse": "12",
+          "red_words": "But the children of the kingdom shall be cast out into outer darkness: there shall be weeping and gnashing of teeth."
+        },
+        {
+          "verse": "13",
+          "red_words": "Go thy way; and as thou hast believed, so be it done unto thee."
+        },
+        {
+          "verse": "20",
+          "red_words": "The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head."
+        },
+        {
+          "verse": "22",
+          "red_words": "Follow me; and let the dead bury their dead."
+        },
+        {
+          "verse": "26",
+          "red_words": "Why are ye fearful, O ye of little faith?"
+        },
+        {
+          "verse": "32",
+          "red_words": "Go"
+        }
+      ]
+    },
+    {
+      "chapter": "9",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "Son, be of good cheer; thy sins be forgiven thee"
+        },
+        {
+          "verse": "4",
+          "red_words": "Wherefore think ye evil in your hearts"
+        },
+        {
+          "verse": "5",
+          "red_words": "For whether is easier, to say, Thy sins be forgiven thee; or to say, Arise, and walk?"
+        },
+        {
+          "verse": "6",
+          "red_words": "But that ye may know that the Son of man hath power on earth to forgive sins"
+        },
+        {
+          "verse": "6",
+          "red_words": "Arise, take up thy bed, and go unto thine house."
+        },
+        {
+          "verse": "9",
+          "red_words": "Follow me"
+        },
+        {
+          "verse": "12",
+          "red_words": "They that be whole need not a physician, but they that are sick."
+        },
+        {
+          "verse": "13",
+          "red_words": "But go ye and learn what that meaneth, I will have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to repentance."
+        },
+        {
+          "verse": "15",
+          "red_words": "Can the children of the bridechamber mourn, as long as the bridegroom is with them? but the days will come, when the bridegroom shall be taken from them, and then shall they fast."
+        },
+        {
+          "verse": "16",
+          "red_words": "No man putteth a piece of new cloth unto an old garment, for that which is put in to fill it up taketh from the garment, and the rent is made worse."
+        },
+        {
+          "verse": "17",
+          "red_words": "Neither do men put new wine into old bottles: else the bottles break, and the wine runneth out, and the bottles perish: but they put new wine into new bottles, and both are preserved."
+        },
+        {
+          "verse": "22",
+          "red_words": "Daughter, be of good comfort; thy faith hath made thee whole"
+        },
+        {
+          "verse": "24",
+          "red_words": "Give place: for the maid is not dead, but sleepeth"
+        },
+        {
+          "verse": "28",
+          "red_words": "Believe ye that I am able to do this?"
+        },
+        {
+          "verse": "29",
+          "red_words": "According to your faith be it unto you."
+        },
+        {
+          "verse": "30",
+          "red_words": "See that no man know it."
+        },
+        {
+          "verse": "37",
+          "red_words": "The harvest truly is plenteous, but the labourers are few;"
+        },
+        {
+          "verse": "38",
+          "red_words": "Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest."
+        }
+      ]
+    },
+    {
+      "chapter": "10",
+      "verses": [
+        {
+          "verse": "5",
+          "red_words": "Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not:"
+        },
+        {
+          "verse": "6",
+          "red_words": "But go rather to the lost sheep of the house of Israel."
+        },
+        {
+          "verse": "7",
+          "red_words": "And as ye go, preach, saying, The kingdom of heaven is at hand."
+        },
+        {
+          "verse": "8",
+          "red_words": "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."
+        },
+        {
+          "verse": "9",
+          "red_words": "Provide neither gold, nor silver, nor brass in your purses,"
+        },
+        {
+          "verse": "10",
+          "red_words": "Nor scrip for your journey, neither two coats, neither shoes, nor yet staves: for the workman is worthy of his meat."
+        },
+        {
+          "verse": "11",
+          "red_words": "And into whatsoever city or town ye shall enter, enquire who in it is worthy; and there abide till ye go thence."
+        },
+        {
+          "verse": "12",
+          "red_words": "And when ye come into an house, salute it."
+        },
+        {
+          "verse": "13",
+          "red_words": "And if the house be worthy, let your peace come upon it: but if it be not worthy, let your peace return to you."
+        },
+        {
+          "verse": "14",
+          "red_words": "And whosoever shall not receive you, nor hear your words, when ye depart out of that house or city, shake off the dust of your feet."
+        },
+        {
+          "verse": "15",
+          "red_words": "Verily I say unto you, It shall be more tolerable for the land of Sodom and Gomorrha in the day of judgment, than for that city."
+        },
+        {
+          "verse": "16",
+          "red_words": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves."
+        },
+        {
+          "verse": "17",
+          "red_words": "But beware of men: for they will deliver you up to the councils, and they will scourge you in their synagogues;"
+        },
+        {
+          "verse": "18",
+          "red_words": "And ye shall be brought before governors and kings for my sake, for a testimony against them and the Gentiles."
+        },
+        {
+          "verse": "19",
+          "red_words": "But when they deliver you up, take no thought how or what ye shall speak: for it shall be given you in that same hour what ye shall speak."
+        },
+        {
+          "verse": "20",
+          "red_words": "For it is not ye that speak, but the Spirit of your Father which speaketh in you."
+        },
+        {
+          "verse": "21",
+          "red_words": "And the brother shall deliver up the brother to death, and the father the child: and the children shall rise up against their parents, and cause them to be put to death."
+        },
+        {
+          "verse": "22",
+          "red_words": "And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved."
+        },
+        {
+          "verse": "23",
+          "red_words": "But when they persecute you in this city, flee ye into another: for verily I say unto you, Ye shall not have gone over the cities of Israel, till the Son of man be come."
+        },
+        {
+          "verse": "24",
+          "red_words": "The disciple is not above his master, nor the servant above his lord."
+        },
+        {
+          "verse": "25",
+          "red_words": "It is enough for the disciple that he be as his master, and the servant as his lord. If they have called the master of the house Beelzebub, how much more shall they call them of his household?"
+        },
+        {
+          "verse": "26",
+          "red_words": "Fear them not therefore: for there is nothing covered, that shall not be revealed; and hid, that shall not be known."
+        },
+        {
+          "verse": "27",
+          "red_words": "What I tell you in darkness, that speak ye in light: and what ye hear in the ear, that preach ye upon the housetops."
+        },
+        {
+          "verse": "28",
+          "red_words": "And fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell."
+        },
+        {
+          "verse": "29",
+          "red_words": "Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father."
+        },
+        {
+          "verse": "30",
+          "red_words": "But the very hairs of your head are all numbered."
+        },
+        {
+          "verse": "31",
+          "red_words": "Fear ye not therefore, ye are of more value than many sparrows."
+        },
+        {
+          "verse": "32",
+          "red_words": "Whosoever therefore shall confess me before men, him will I confess also before my Father which is in heaven."
+        },
+        {
+          "verse": "33",
+          "red_words": "But whosoever shall deny me before men, him will I also deny before my Father which is in heaven."
+        },
+        {
+          "verse": "34",
+          "red_words": "Think not that I am come to send peace on earth: I came not to send peace, but a sword."
+        },
+        {
+          "verse": "35",
+          "red_words": "For I am come to set a man at variance against his father, and the daughter against her mother, and the daughter in law against her mother in law."
+        },
+        {
+          "verse": "36",
+          "red_words": "And a man's foes shall be they of his own household."
+        },
+        {
+          "verse": "37",
+          "red_words": "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me."
+        },
+        {
+          "verse": "38",
+          "red_words": "And he that taketh not his cross, and followeth after me, is not worthy of me."
+        },
+        {
+          "verse": "39",
+          "red_words": "He that findeth his life shall lose it: and he that loseth his life for my sake shall find it."
+        },
+        {
+          "verse": "40",
+          "red_words": "He that receiveth you receiveth me, and he that receiveth me receiveth him that sent me."
+        },
+        {
+          "verse": "41",
+          "red_words": "He that receiveth a prophet in the name of a prophet shall receive a prophet's reward; and he that receiveth a righteous man in the name of a righteous man shall receive a righteous man's reward."
+        },
+        {
+          "verse": "42",
+          "red_words": "And whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward."
+        }
+      ]
+    },
+    {
+      "chapter": "11",
+      "verses": [
+        {
+          "verse": "4",
+          "red_words": "Go and shew John again those things which ye do hear and see:"
+        },
+        {
+          "verse": "5",
+          "red_words": "The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them."
+        },
+        {
+          "verse": "6",
+          "red_words": "And blessed is he, whosoever shall not be offended in me."
+        },
+        {
+          "verse": "7",
+          "red_words": "What went ye out into the wilderness to see? A reed shaken with the wind?"
+        },
+        {
+          "verse": "8",
+          "red_words": "But what went ye out for to see? A man clothed in soft raiment? behold, they that wear soft clothing are in kings' houses."
+        },
+        {
+          "verse": "9",
+          "red_words": "But what went ye out for to see? A prophet? yea, I say unto you, and more than a prophet."
+        },
+        {
+          "verse": "10",
+          "red_words": "For this is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee."
+        },
+        {
+          "verse": "11",
+          "red_words": "Verily I say unto you, Among them that are born of women there hath not risen a greater than John the Baptist: notwithstanding he that is least in the kingdom of heaven is greater than he."
+        },
+        {
+          "verse": "12",
+          "red_words": "And from the days of John the Baptist until now the kingdom of heaven suffereth violence, and the violent take it by force."
+        },
+        {
+          "verse": "13",
+          "red_words": "For all the prophets and the law prophesied until John."
+        },
+        {
+          "verse": "14",
+          "red_words": "And if ye will receive it, this is Elias, which was for to come."
+        },
+        {
+          "verse": "15",
+          "red_words": "He that hath ears to hear, let him hear."
+        },
+        {
+          "verse": "16",
+          "red_words": "But whereunto shall I liken this generation? It is like unto children sitting in the markets, and calling unto their fellows,"
+        },
+        {
+          "verse": "17",
+          "red_words": "And saying, We have piped unto you, and ye have not danced; we have mourned unto you, and ye have not lamented."
+        },
+        {
+          "verse": "18",
+          "red_words": "For John came neither eating nor drinking, and they say, He hath a devil."
+        },
+        {
+          "verse": "19",
+          "red_words": "The Son of man came eating and drinking, and they say, Behold a man gluttonous, and a winebibber, a friend of publicans and sinners. But wisdom is justified of her children."
+        },
+        {
+          "verse": "21",
+          "red_words": "Woe unto thee, Chorazin! woe unto thee, Bethsaida! for if the mighty works, which were done in you, had been done in Tyre and Sidon, they would have repented long ago in sackcloth and ashes."
+        },
+        {
+          "verse": "22",
+          "red_words": "But I say unto you, It shall be more tolerable for Tyre and Sidon at the day of judgment, than for you."
+        },
+        {
+          "verse": "23",
+          "red_words": "And thou, Capernaum, which art exalted unto heaven, shalt be brought down to hell: for if the mighty works, which have been done in thee, had been done in Sodom, it would have remained until this day."
+        },
+        {
+          "verse": "24",
+          "red_words": "But I say unto you, That it shall be more tolerable for the land of Sodom in the day of judgment, than for thee."
+        },
+        {
+          "verse": "25",
+          "red_words": "At that time Jesus answered and said, I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes."
+        },
+        {
+          "verse": "26",
+          "red_words": "Even so, Father: for so it seemed good in thy sight."
+        },
+        {
+          "verse": "27",
+          "red_words": "All things are delivered unto me of my Father: and no man knoweth the Son, but the Father; neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him."
+        },
+        {
+          "verse": "28",
+          "red_words": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+        },
+        {
+          "verse": "29",
+          "red_words": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."
+        },
+        {
+          "verse": "30",
+          "red_words": "For my yoke is easy, and my burden is light."
+        }
+      ]
+    },
+    {
+      "chapter": "12",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "Have ye not read what David did, when he was an hungred, and they that were with him;"
+        },
+        {
+          "verse": "4",
+          "red_words": "How he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat, neither for them which were with him, but only for the priests?"
+        },
+        {
+          "verse": "5",
+          "red_words": "Or have ye not read in the law, how that on the sabbath days the priests in the temple profane the sabbath, and are blameless?"
+        },
+        {
+          "verse": "6",
+          "red_words": "But I say unto you, That in this place is one greater than the temple."
+        },
+        {
+          "verse": "7",
+          "red_words": "But if ye had known what this meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless."
+        },
+        {
+          "verse": "8",
+          "red_words": "For the Son of man is Lord even of the sabbath day."
+        },
+        {
+          "verse": "11",
+          "red_words": "What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?"
+        },
+        {
+          "verse": "12",
+          "red_words": "How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days."
+        },
+        {
+          "verse": "13",
+          "red_words": "Stretch forth thine hand"
+        },
+        {
+          "verse": "25",
+          "red_words": "Every kingdom divided against itself is brought to desolation; and every city or house divided against itself shall not stand:"
+        },
+        {
+          "verse": "26",
+          "red_words": "And if Satan cast out Satan, he is divided against himself; how shall then his kingdom stand?"
+        },
+        {
+          "verse": "27",
+          "red_words": "And if I by Beelzebub cast out devils, by whom do your children cast them out? therefore they shall be your judges."
+        },
+        {
+          "verse": "28",
+          "red_words": "But if I cast out devils by the Spirit of God, then the kingdom of God is come unto you."
+        },
+        {
+          "verse": "29",
+          "red_words": "Or else how can one enter into a strong man's house, and spoil his goods, except he first bind the strong man? and then he will spoil his house."
+        },
+        {
+          "verse": "30",
+          "red_words": "He that is not with me is against me; and he that gathereth not with me scattereth abroad."
+        },
+        {
+          "verse": "31",
+          "red_words": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men."
+        },
+        {
+          "verse": "32",
+          "red_words": "And whosoever speaketh a word against the Son of man, it shall be forgiven him: but whosoever speaketh against the Holy Ghost, it shall not be forgiven him, neither in this world, neither in the world to come."
+        },
+        {
+          "verse": "33",
+          "red_words": "Either make the tree good, and his fruit good; or else make the tree corrupt, and his fruit corrupt: for the tree is known by his fruit."
+        },
+        {
+          "verse": "34",
+          "red_words": "O generation of vipers, how can ye, being evil, speak good things? for out of the abundance of the heart the mouth speaketh."
+        },
+        {
+          "verse": "35",
+          "red_words": "A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things."
+        },
+        {
+          "verse": "36",
+          "red_words": "But I say unto you, That every idle word that men shall speak, they shall give account thereof in the day of judgment."
+        },
+        {
+          "verse": "37",
+          "red_words": "For by thy words thou shalt be justified, and by thy words thou shalt be condemned."
+        },
+        {
+          "verse": "39",
+          "red_words": "An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas:"
+        },
+        {
+          "verse": "40",
+          "red_words": "For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth."
+        },
+        {
+          "verse": "41",
+          "red_words": "The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here."
+        },
+        {
+          "verse": "42",
+          "red_words": "The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here."
+        },
+        {
+          "verse": "43",
+          "red_words": "When the unclean spirit is gone out of a man, he walketh through dry places, seeking rest, and findeth none."
+        },
+        {
+          "verse": "44",
+          "red_words": "Then he saith, I will return into my house from whence I came out; and when he is come, he findeth it empty, swept, and garnished."
+        },
+        {
+          "verse": "45",
+          "red_words": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation."
+        },
+        {
+          "verse": "48",
+          "red_words": "Who is my mother? and who are my brethren?"
+        },
+        {
+          "verse": "49",
+          "red_words": "Behold my mother and my brethren!"
+        },
+        {
+          "verse": "50",
+          "red_words": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother."
+        }
+      ]
+    },
+    {
+      "chapter": "13",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "Behold, a sower went forth to sow;"
+        },
+        {
+          "verse": "4",
+          "red_words": "And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up:"
+        },
+        {
+          "verse": "5",
+          "red_words": "Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth:"
+        },
+        {
+          "verse": "6",
+          "red_words": "And when the sun was up, they were scorched; and because they had no root, they withered away."
+        },
+        {
+          "verse": "7",
+          "red_words": "And some fell among thorns; and the thorns sprung up, and choked them:"
+        },
+        {
+          "verse": "8",
+          "red_words": "But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold."
+        },
+        {
+          "verse": "9",
+          "red_words": "Who hath ears to hear, let him hear."
+        },
+        {
+          "verse": "11",
+          "red_words": "Because it is given unto you to know the mysteries of the kingdom of heaven, but to them it is not given."
+        },
+        {
+          "verse": "12",
+          "red_words": "For whosoever hath, to him shall be given, and he shall have more abundance: but whosoever hath not, from him shall be taken away even that he hath."
+        },
+        {
+          "verse": "13",
+          "red_words": "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand."
+        },
+        {
+          "verse": "14",
+          "red_words": "And in them is fulfilled the prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive:"
+        },
+        {
+          "verse": "15",
+          "red_words": "For this people's heart is waxed gross, and their ears are dull of hearing, and their eyes they have closed; lest at any time they should see with their eyes and hear with their ears, and should understand with their heart, and should be converted, and I should heal them."
+        },
+        {
+          "verse": "16",
+          "red_words": "But blessed are your eyes, for they see: and your ears, for they hear."
+        },
+        {
+          "verse": "17",
+          "red_words": "For verily I say unto you, That many prophets and righteous men have desired to see those things which ye see, and have not seen them; and to hear those things which ye hear, and have not heard them."
+        },
+        {
+          "verse": "18",
+          "red_words": "Hear ye therefore the parable of the sower."
+        },
+        {
+          "verse": "19",
+          "red_words": "When any one heareth the word of the kingdom, and understandeth it not, then cometh the wicked one, and catcheth away that which was sown in his heart. This is he which received seed by the way side."
+        },
+        {
+          "verse": "20",
+          "red_words": "But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it;"
+        },
+        {
+          "verse": "21",
+          "red_words": "Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended."
+        },
+        {
+          "verse": "22",
+          "red_words": "He also that received seed among the thorns is he that heareth the word; and the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful."
+        },
+        {
+          "verse": "23",
+          "red_words": "But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty."
+        },
+        {
+          "verse": "24",
+          "red_words": "The kingdom of heaven is likened unto a man which sowed good seed in his field:"
+        },
+        {
+          "verse": "25",
+          "red_words": "But while men slept, his enemy came and sowed tares among the wheat, and went his way."
+        },
+        {
+          "verse": "26",
+          "red_words": "But when the blade was sprung up, and brought forth fruit, then appeared the tares also."
+        },
+        {
+          "verse": "27",
+          "red_words": "So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? from whence then hath it tares?"
+        },
+        {
+          "verse": "28",
+          "red_words": "He said unto them, An enemy hath done this. The servants said unto him, Wilt thou then that we go and gather them up?"
+        },
+        {
+          "verse": "29",
+          "red_words": "But he said, Nay; lest while ye gather up the tares, ye root up also the wheat with them."
+        },
+        {
+          "verse": "30",
+          "red_words": "Let both grow together until the harvest: and in the time of harvest I will say to the reapers, Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn."
+        },
+        {
+          "verse": "31",
+          "red_words": "The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field:"
+        },
+        {
+          "verse": "32",
+          "red_words": "Which indeed is the least of all seeds: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof."
+        },
+        {
+          "verse": "33",
+          "red_words": "The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened."
+        },
+        {
+          "verse": "37",
+          "red_words": "He that soweth the good seed is the Son of man;"
+        },
+        {
+          "verse": "38",
+          "red_words": "The field is the world; the good seed are the children of the kingdom; but the tares are the children of the wicked one;"
+        },
+        {
+          "verse": "39",
+          "red_words": "The enemy that sowed them is the devil; the harvest is the end of the world; and the reapers are the angels."
+        },
+        {
+          "verse": "40",
+          "red_words": "As therefore the tares are gathered and burned in the fire; so shall it be in the end of this world."
+        },
+        {
+          "verse": "41",
+          "red_words": "The Son of man shall send forth his angels, and they shall gather out of his kingdom all things that offend, and them which do iniquity;"
+        },
+        {
+          "verse": "42",
+          "red_words": "And shall cast them into a furnace of fire: there shall be wailing and gnashing of teeth."
+        },
+        {
+          "verse": "43",
+          "red_words": "Then shall the righteous shine forth as the sun in the kingdom of their Father. Who hath ears to hear, let him hear."
+        },
+        {
+          "verse": "44",
+          "red_words": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field."
+        },
+        {
+          "verse": "45",
+          "red_words": "Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:"
+        },
+        {
+          "verse": "46",
+          "red_words": "Who, when he had found one pearl of great price, went and sold all that he had, and bought it."
+        },
+        {
+          "verse": "47",
+          "red_words": "Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:"
+        },
+        {
+          "verse": "48",
+          "red_words": "Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the bad away."
+        },
+        {
+          "verse": "49",
+          "red_words": "So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just,"
+        },
+        {
+          "verse": "50",
+          "red_words": "And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth."
+        },
+        {
+          "verse": "51",
+          "red_words": "Have ye understood all these things?"
+        },
+        {
+          "verse": "52",
+          "red_words": "Therefore every scribe which is instructed unto the kingdom of heaven is like unto a man that is an householder, which bringeth forth out of his treasure things new and old."
+        },
+        {
+          "verse": "57",
+          "red_words": "A prophet is not without honour, save in his own country, and in his own house."
+        }
+      ]
+    },
+    {
+      "chapter": "14",
+      "verses": [
+        {
+          "verse": "16",
+          "red_words": "They need not depart; give ye them to eat."
+        },
+        {
+          "verse": "18",
+          "red_words": "Bring them hither to me."
+        },
+        {
+          "verse": "27",
+          "red_words": "Be of good cheer; it is I; be not afraid."
+        },
+        {
+          "verse": "29",
+          "red_words": "Come"
+        },
+        {
+          "verse": "31",
+          "red_words": "O thou of little faith, wherefore didst thou doubt?"
+        }
+      ]
+    },
+    {
+      "chapter": "15",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "Why do ye also transgress the commandment of God by your tradition?"
+        },
+        {
+          "verse": "4",
+          "red_words": "For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death."
+        },
+        {
+          "verse": "5",
+          "red_words": "But ye say, Whosoever shall say to his father or his mother, It is a gift, by whatsoever thou mightest be profited by me;"
+        },
+        {
+          "verse": "6",
+          "red_words": "And honour not his father or his mother, he shall be free. Thus have ye made the commandment of God of none effect by your tradition."
+        },
+        {
+          "verse": "7",
+          "red_words": "Ye hypocrites, well did Esaias prophesy of you, saying,"
+        },
+        {
+          "verse": "8",
+          "red_words": "This people draweth nigh unto me with their mouth, and honoureth me with their lips; but their heart is far from me."
+        },
+        {
+          "verse": "9",
+          "red_words": "But in vain they do worship me, teaching for doctrines the commandments of men."
+        },
+        {
+          "verse": "10",
+          "red_words": "Hear, and understand:"
+        },
+        {
+          "verse": "11",
+          "red_words": "Not that which goeth into the mouth defileth a man; but that which cometh out of the mouth, this defileth a man."
+        },
+        {
+          "verse": "13",
+          "red_words": "Every plant, which my heavenly Father hath not planted, shall be rooted up."
+        },
+        {
+          "verse": "14",
+          "red_words": "Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch."
+        },
+        {
+          "verse": "16",
+          "red_words": "Are ye also yet without understanding?"
+        },
+        {
+          "verse": "17",
+          "red_words": "Do not ye yet understand, that whatsoever entereth in at the mouth goeth into the belly, and is cast out into the draught?"
+        },
+        {
+          "verse": "18",
+          "red_words": "But those things which proceed out of the mouth come forth from the heart; and they defile the man."
+        },
+        {
+          "verse": "19",
+          "red_words": "For out of the heart proceed evil thoughts, murders, adulteries, fornications, thefts, false witness, blasphemies:"
+        },
+        {
+          "verse": "20",
+          "red_words": "These are the things which defile a man: but to eat with unwashen hands defileth not a man."
+        },
+        {
+          "verse": "24",
+          "red_words": "I am not sent but unto the lost sheep of the house of Israel."
+        },
+        {
+          "verse": "26",
+          "red_words": "It is not meet to take the children's bread, and to cast it to dogs."
+        },
+        {
+          "verse": "28",
+          "red_words": "O woman, great is thy faith: be it unto thee even as thou wilt."
+        },
+        {
+          "verse": "32",
+          "red_words": "I have compassion on the multitude, because they continue with me now three days, and have nothing to eat: and I will not send them away fasting, lest they faint in the way."
+        },
+        {
+          "verse": "34",
+          "red_words": "How many loaves have ye?"
+        }
+      ]
+    },
+    {
+      "chapter": "16",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "When it is evening, ye say, It will be fair weather: for the sky is red."
+        },
+        {
+          "verse": "3",
+          "red_words": "And in the morning, It will be foul weather to day: for the sky is red and lowering. O ye hypocrites, ye can discern the face of the sky; but can ye not discern the signs of the times?"
+        },
+        {
+          "verse": "4",
+          "red_words": "A wicked and adulterous generation seeketh after a sign; and there shall no sign be given unto it, but the sign of the prophet Jonas. And he left them, and departed."
+        },
+        {
+          "verse": "6",
+          "red_words": "Take heed and beware of the leaven of the Pharisees and of the Sadducees."
+        },
+        {
+          "verse": "8",
+          "red_words": "O ye of little faith, why reason ye among yourselves, because ye have brought no bread?"
+        },
+        {
+          "verse": "9",
+          "red_words": "Do ye not yet understand, neither remember the five loaves of the five thousand, and how many baskets ye took up?"
+        },
+        {
+          "verse": "10",
+          "red_words": "Neither the seven loaves of the four thousand, and how many baskets ye took up?"
+        },
+        {
+          "verse": "11",
+          "red_words": "How is it that ye do not understand that I spake it not to you concerning bread, that ye should beware of the leaven of the Pharisees and of the Sadducees?"
+        },
+        {
+          "verse": "13",
+          "red_words": "Whom do men say that I the Son of man am?"
+        },
+        {
+          "verse": "15",
+          "red_words": "But whom say ye that I am?"
+        },
+        {
+          "verse": "17",
+          "red_words": "Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven."
+        },
+        {
+          "verse": "18",
+          "red_words": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+        },
+        {
+          "verse": "19",
+          "red_words": "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven."
+        },
+        {
+          "verse": "23",
+          "red_words": "Get thee behind me, Satan: thou art an offence unto me: for thou savourest not the things that be of God, but those that be of men."
+        },
+        {
+          "verse": "24",
+          "red_words": "If any man will come after me, let him deny himself, and take up his cross, and follow me."
+        },
+        {
+          "verse": "25",
+          "red_words": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it."
+        },
+        {
+          "verse": "26",
+          "red_words": "For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?"
+        },
+        {
+          "verse": "27",
+          "red_words": "For the Son of man shall come in the glory of his Father with his angels; and then he shall reward every man according to his works."
+        },
+        {
+          "verse": "28",
+          "red_words": "Verily I say unto you, There be some standing here, which shall not taste of death, till they see the Son of man coming in his kingdom."
+        }
+      ]
+    },
+    {
+      "chapter": "17",
+      "verses": [
+        {
+          "verse": "7",
+          "red_words": "Arise, and be not afraid."
+        },
+        {
+          "verse": "9",
+          "red_words": "Tell the vision to no man, until the Son of man be risen again from the dead."
+        },
+        {
+          "verse": "11",
+          "red_words": "Elias truly shall first come, and restore all things."
+        },
+        {
+          "verse": "12",
+          "red_words": "But I say unto you, That Elias is come already, and they knew him not, but have done unto him whatsoever they listed. Likewise shall also the Son of man suffer of them."
+        },
+        {
+          "verse": "17",
+          "red_words": "O faithless and perverse generation, how long shall I be with you? how long shall I suffer you? bring him hither to me."
+        },
+        {
+          "verse": "20",
+          "red_words": "Because of your unbelief: for verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you."
+        },
+        {
+          "verse": "21",
+          "red_words": "Howbeit this kind goeth not out but by prayer and fasting."
+        },
+        {
+          "verse": "22",
+          "red_words": "The Son of man shall be betrayed into the hands of men:"
+        },
+        {
+          "verse": "23",
+          "red_words": "And they shall kill him, and the third day he shall be raised again"
+        },
+        {
+          "verse": "25",
+          "red_words": "What thinkest thou, Simon? of whom do the kings of the earth take custom or tribute? of their own children, or of strangers?"
+        },
+        {
+          "verse": "26",
+          "red_words": "Then are the children free."
+        },
+        {
+          "verse": "27",
+          "red_words": "Notwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his mouth, thou shalt find a piece of money: that take, and give unto them for me and thee."
+        }
+      ]
+    },
+    {
+      "chapter": "18",
+      "verses": [
+        {
+          "verse": "3",
+          "red_words": "Verily I say unto you, Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven."
+        },
+        {
+          "verse": "4",
+          "red_words": "Whosoever therefore shall humble himself as this little child, the same is greatest in the kingdom of heaven."
+        },
+        {
+          "verse": "5",
+          "red_words": "And whoso shall receive one such little child in my name receiveth me."
+        },
+        {
+          "verse": "6",
+          "red_words": "But whoso shall offend one of these little ones which believe in me, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea."
+        },
+        {
+          "verse": "7",
+          "red_words": "Woe unto the world because of offences! for it must needs be that offences come; but woe to that man by whom the offence cometh!"
+        },
+        {
+          "verse": "8",
+          "red_words": "Wherefore if thy hand or thy foot offend thee, cut them off, and cast them from thee: it is better for thee to enter into life halt or maimed, rather than having two hands or two feet to be cast into everlasting fire."
+        },
+        {
+          "verse": "9",
+          "red_words": "And if thine eye offend thee, pluck it out, and cast it from thee: it is better for thee to enter into life with one eye, rather than having two eyes to be cast into hell fire."
+        },
+        {
+          "verse": "10",
+          "red_words": "Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face of my Father which is in heaven."
+        },
+        {
+          "verse": "11",
+          "red_words": "For the Son of man is come to save that which was lost."
+        },
+        {
+          "verse": "12",
+          "red_words": "How think ye? if a man have an hundred sheep, and one of them be gone astray, doth he not leave the ninety and nine, and goeth into the mountains, and seeketh that which is gone astray?"
+        },
+        {
+          "verse": "13",
+          "red_words": "And if so be that he find it, verily I say unto you, he rejoiceth more of that sheep, than of the ninety and nine which went not astray."
+        },
+        {
+          "verse": "14",
+          "red_words": "Even so it is not the will of your Father which is in heaven, that one of these little ones should perish."
+        },
+        {
+          "verse": "15",
+          "red_words": "Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother."
+        },
+        {
+          "verse": "16",
+          "red_words": "But if he will not hear thee, then take with thee one or two more, that in the mouth of two or three witnesses every word may be established."
+        },
+        {
+          "verse": "17",
+          "red_words": "And if he shall neglect to hear them, tell it unto the church: but if he neglect to hear the church, let him be unto thee as an heathen man and a publican."
+        },
+        {
+          "verse": "18",
+          "red_words": "Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heaven: and whatsoever ye shall loose on earth shall be loosed in heaven."
+        },
+        {
+          "verse": "19",
+          "red_words": "Again I say unto you, That if two of you shall agree on earth as touching any thing that they shall ask, it shall be done for them of my Father which is in heaven."
+        },
+        {
+          "verse": "20",
+          "red_words": "For where two or three are gathered together in my name, there am I in the midst of them."
+        },
+        {
+          "verse": "22",
+          "red_words": "I say not unto thee, Until seven times: but, Until seventy times seven."
+        },
+        {
+          "verse": "23",
+          "red_words": "Therefore is the kingdom of heaven likened unto a certain king, which would take account of his servants."
+        },
+        {
+          "verse": "24",
+          "red_words": "And when he had begun to reckon, one was brought unto him, which owed him ten thousand talents."
+        },
+        {
+          "verse": "25",
+          "red_words": "But forasmuch as he had not to pay, his lord commanded him to be sold, and his wife, and children, and all that he had, and payment to be made."
+        },
+        {
+          "verse": "26",
+          "red_words": "The servant therefore fell down, and worshipped him, saying, Lord, have patience with me, and I will pay thee all."
+        },
+        {
+          "verse": "27",
+          "red_words": "Then the lord of that servant was moved with compassion, and loosed him, and forgave him the debt."
+        },
+        {
+          "verse": "28",
+          "red_words": "But the same servant went out, and found one of his fellowservants, which owed him an hundred pence: and he laid hands on him, and took him by the throat, saying, Pay me that thou owest."
+        },
+        {
+          "verse": "29",
+          "red_words": "And his fellowservant fell down at his feet, and besought him, saying, Have patience with me, and I will pay thee all."
+        },
+        {
+          "verse": "30",
+          "red_words": "And he would not: but went and cast him into prison, till he should pay the debt."
+        },
+        {
+          "verse": "31",
+          "red_words": "So when his fellowservants saw what was done, they were very sorry, and came and told unto their lord all that was done."
+        },
+        {
+          "verse": "32",
+          "red_words": "Then his lord, after that he had called him, said unto him, O thou wicked servant, I forgave thee all that debt, because thou desiredst me:"
+        },
+        {
+          "verse": "33",
+          "red_words": "Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?"
+        },
+        {
+          "verse": "34",
+          "red_words": "And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him."
+        },
+        {
+          "verse": "35",
+          "red_words": "So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses."
+        }
+      ]
+    },
+    {
+      "chapter": "19",
+      "verses": [
+        {
+          "verse": "4",
+          "red_words": "Have ye not read, that he which made them at the beginning made them male and female,"
+        },
+        {
+          "verse": "5",
+          "red_words": "And said, For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh?"
+        },
+        {
+          "verse": "6",
+          "red_words": "Wherefore they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder."
+        },
+        {
+          "verse": "8",
+          "red_words": "Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so."
+        },
+        {
+          "verse": "9",
+          "red_words": "And I say unto you, Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery: and whoso marrieth her which is put away doth commit adultery."
+        },
+        {
+          "verse": "11",
+          "red_words": "All men cannot receive this saying, save they to whom it is given."
+        },
+        {
+          "verse": "12",
+          "red_words": "For there are some eunuchs, which were so born from their mother's womb: and there are some eunuchs, which were made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven's sake. He that is able to receive it, let him receive it."
+        },
+        {
+          "verse": "14",
+          "red_words": "Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven."
+        },
+        {
+          "verse": "17",
+          "red_words": "Why callest thou me good? there is none good but one, that is, God: but if thou wilt enter into life, keep the commandments."
+        },
+        {
+          "verse": "18",
+          "red_words": "Thou shalt do no murder, Thou shalt not commit adultery, Thou shalt not steal, Thou shalt not bear false witness,"
+        },
+        {
+          "verse": "21",
+          "red_words": "If thou wilt be perfect, go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven: and come and follow me."
+        },
+        {
+          "verse": "23",
+          "red_words": "Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven."
+        },
+        {
+          "verse": "24",
+          "red_words": "And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God."
+        },
+        {
+          "verse": "26",
+          "red_words": "With men this is impossible; but with God all things are possible."
+        },
+        {
+          "verse": "28",
+          "red_words": "Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel."
+        },
+        {
+          "verse": "29",
+          "red_words": "And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life."
+        },
+        {
+          "verse": "30",
+          "red_words": "But many that are first shall be last; and the last shall be first."
+        }
+      ]
+    },
+    {
+      "chapter": "20",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "And when he had agreed with the labourers for a penny a day, he sent them into his vineyard."
+        },
+        {
+          "verse": "3",
+          "red_words": "And he went out about the third hour, and saw others standing idle in the marketplace,"
+        },
+        {
+          "verse": "4",
+          "red_words": "And said unto them; Go ye also into the vineyard, and whatsoever is right I will give you. And they went their way."
+        },
+        {
+          "verse": "5",
+          "red_words": "Again he went out about the sixth and ninth hour, and did likewise."
+        },
+        {
+          "verse": "6",
+          "red_words": "And about the eleventh hour he went out, and found others standing idle, and saith unto them, Why stand ye here all the day idle?"
+        },
+        {
+          "verse": "7",
+          "red_words": "They say unto him, Because no man hath hired us. He saith unto them, Go ye also into the vineyard; and whatsoever is right, that shall ye receive."
+        },
+        {
+          "verse": "8",
+          "red_words": "So when even was come, the lord of the vineyard saith unto his steward, Call the labourers, and give them their hire, beginning from the last unto the first."
+        },
+        {
+          "verse": "9",
+          "red_words": "And when they came that were hired about the eleventh hour, they received every man a penny."
+        },
+        {
+          "verse": "10",
+          "red_words": "But when the first came, they supposed that they should have received more; and they likewise received every man a penny."
+        },
+        {
+          "verse": "11",
+          "red_words": "And when they had received it, they murmured against the goodman of the house,"
+        },
+        {
+          "verse": "12",
+          "red_words": "Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day."
+        },
+        {
+          "verse": "13",
+          "red_words": "But he answered one of them, and said, Friend, I do thee no wrong: didst not thou agree with me for a penny?"
+        },
+        {
+          "verse": "14",
+          "red_words": "Take that thine is, and go thy way: I will give unto this last, even as unto thee."
+        },
+        {
+          "verse": "15",
+          "red_words": "Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?"
+        },
+        {
+          "verse": "16",
+          "red_words": "So the last shall be first, and the first last: for many be called, but few chosen."
+        },
+        {
+          "verse": "21",
+          "red_words": "What wilt thou?"
+        },
+        {
+          "verse": "22",
+          "red_words": "Ye know not what ye ask. Are ye able to drink of the cup that I shall drink of, and to be baptized with the baptism that I am baptized with?"
+        },
+        {
+          "verse": "23",
+          "red_words": "Ye shall drink indeed of my cup, and be baptized with the baptism that I am baptized with: but to sit on my right hand, and on my left, is not mine to give, but it shall be given to them for whom it is prepared of my Father."
+        },
+        {
+          "verse": "25",
+          "red_words": "Ye know that the princes of the Gentiles exercise dominion over them, and they that are great exercise authority upon them."
+        },
+        {
+          "verse": "26",
+          "red_words": "But it shall not be so among you: but whosoever will be great among you, let him be your minister;"
+        },
+        {
+          "verse": "27",
+          "red_words": "And whosoever will be chief among you, let him be your servant:"
+        },
+        {
+          "verse": "28",
+          "red_words": "Even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."
+        },
+        {
+          "verse": "32",
+          "red_words": "What will ye that I shall do unto you?"
+        }
+      ]
+    },
+    {
+      "chapter": "21",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me."
+        },
+        {
+          "verse": "3",
+          "red_words": "And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them."
+        },
+        {
+          "verse": "13",
+          "red_words": "It is written, My house shall be called the house of prayer; but ye have made it a den of thieves."
+        },
+        {
+          "verse": "16",
+          "red_words": "Yea; have ye never read, Out of the mouth of babes and sucklings thou hast perfected praise?"
+        },
+        {
+          "verse": "19",
+          "red_words": "Let no fruit grow on thee henceforward for ever."
+        },
+        {
+          "verse": "21",
+          "red_words": "Verily I say unto you, If ye have faith, and doubt not, ye shall not only do this which is done to the fig tree, but also if ye shall say unto this mountain, Be thou removed, and be thou cast into the sea; it shall be done."
+        },
+        {
+          "verse": "22",
+          "red_words": "And all things, whatsoever ye shall ask in prayer, believing, ye shall receive."
+        },
+        {
+          "verse": "24",
+          "red_words": "I also will ask you one thing, which if ye tell me, I in like wise will tell you by what authority I do these things."
+        },
+        {
+          "verse": "25",
+          "red_words": "The baptism of John, whence was it? from heaven, or of men?"
+        },
+        {
+          "verse": "27",
+          "red_words": "Neither tell I you by what authority I do these things."
+        },
+        {
+          "verse": "28",
+          "red_words": "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard."
+        },
+        {
+          "verse": "29",
+          "red_words": "He answered and said, I will not: but afterward he repented, and went."
+        },
+        {
+          "verse": "30",
+          "red_words": "And he came to the second, and said likewise. And he answered and said, I go, sir: and went not."
+        },
+        {
+          "verse": "31",
+          "red_words": "Whether of them twain did the will of his father?"
+        },
+        {
+          "verse": "31",
+          "red_words": "Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you."
+        },
+        {
+          "verse": "32",
+          "red_words": "For John came unto you in the way of righteousness, and ye believed him not: but the publicans and the harlots believed him: and ye, when ye had seen it, repented not afterward, that ye might believe him."
+        },
+        {
+          "verse": "33",
+          "red_words": "Hear another parable: There was a certain householder, which planted a vineyard, and hedged it round about, and digged a winepress in it, and built a tower, and let it out to husbandmen, and went into a far country:"
+        },
+        {
+          "verse": "34",
+          "red_words": "And when the time of the fruit drew near, he sent his servants to the husbandmen, that they might receive the fruits of it."
+        },
+        {
+          "verse": "35",
+          "red_words": "And the husbandmen took his servants, and beat one, and killed another, and stoned another."
+        },
+        {
+          "verse": "36",
+          "red_words": "Again, he sent other servants more than the first: and they did unto them likewise."
+        },
+        {
+          "verse": "37",
+          "red_words": "But last of all he sent unto them his son, saying, They will reverence my son."
+        },
+        {
+          "verse": "38",
+          "red_words": "But when the husbandmen saw the son, they said among themselves, This is the heir; come, let us kill him, and let us seize on his inheritance."
+        },
+        {
+          "verse": "39",
+          "red_words": "And they caught him, and cast him out of the vineyard, and slew him."
+        },
+        {
+          "verse": "40",
+          "red_words": "When the lord therefore of the vineyard cometh, what will he do unto those husbandmen?"
+        },
+        {
+          "verse": "42",
+          "red_words": "Did ye never read in the scriptures, The stone which the builders rejected, the same is become the head of the corner: this is the Lord's doing, and it is marvellous in our eyes?"
+        },
+        {
+          "verse": "43",
+          "red_words": "Therefore say I unto you, The kingdom of God shall be taken from you, and given to a nation bringing forth the fruits thereof."
+        },
+        {
+          "verse": "44",
+          "red_words": "And whosoever shall fall on this stone shall be broken: but on whomsoever it shall fall, it will grind him to powder."
+        }
+      ]
+    },
+    {
+      "chapter": "22",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "The kingdom of heaven is like unto a certain king, which made a marriage for his son,"
+        },
+        {
+          "verse": "3",
+          "red_words": "And sent forth his servants to call them that were bidden to the wedding: and they would not come."
+        },
+        {
+          "verse": "4",
+          "red_words": "Again, he sent forth other servants, saying, Tell them which are bidden, Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the marriage."
+        },
+        {
+          "verse": "5",
+          "red_words": "But they made light of it, and went their ways, one to his farm, another to his merchandise:"
+        },
+        {
+          "verse": "6",
+          "red_words": "And the remnant took his servants, and entreated them spitefully, and slew them."
+        },
+        {
+          "verse": "7",
+          "red_words": "But when the king heard thereof, he was wroth: and he sent forth his armies, and destroyed those murderers, and burned up their city."
+        },
+        {
+          "verse": "8",
+          "red_words": "Then saith he to his servants, The wedding is ready, but they which were bidden were not worthy."
+        },
+        {
+          "verse": "9",
+          "red_words": "Go ye therefore into the highways, and as many as ye shall find, bid to the marriage."
+        },
+        {
+          "verse": "10",
+          "red_words": "So those servants went out into the highways, and gathered together all as many as they found, both bad and good: and the wedding was furnished with guests."
+        },
+        {
+          "verse": "11",
+          "red_words": "And when the king came in to see the guests, he saw there a man which had not on a wedding garment:"
+        },
+        {
+          "verse": "12",
+          "red_words": "And he saith unto him, Friend, how camest thou in hither not having a wedding garment? And he was speechless."
+        },
+        {
+          "verse": "13",
+          "red_words": "Then said the king to the servants, Bind him hand and foot, and take him away, and cast him into outer darkness, there shall be weeping and gnashing of teeth."
+        },
+        {
+          "verse": "14",
+          "red_words": "For many are called, but few are chosen."
+        },
+        {
+          "verse": "18",
+          "red_words": "Why tempt ye me, ye hypocrites?"
+        },
+        {
+          "verse": "19",
+          "red_words": "Shew me the tribute money."
+        },
+        {
+          "verse": "20",
+          "red_words": "Whose is this image and superscription?"
+        },
+        {
+          "verse": "21",
+          "red_words": "Render therefore unto Caesar the things which are Caesar's; and unto God the things that are God's."
+        },
+        {
+          "verse": "29",
+          "red_words": "Ye do err, not knowing the scriptures, nor the power of God."
+        },
+        {
+          "verse": "30",
+          "red_words": "For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven."
+        },
+        {
+          "verse": "31",
+          "red_words": "But as touching the resurrection of the dead, have ye not read that which was spoken unto you by God, saying,"
+        },
+        {
+          "verse": "32",
+          "red_words": "I am the God of Abraham, and the God of Isaac, and the God of Jacob? God is not the God of the dead, but of the living."
+        },
+        {
+          "verse": "37",
+          "red_words": "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind."
+        },
+        {
+          "verse": "38",
+          "red_words": "This is the first and great commandment."
+        },
+        {
+          "verse": "39",
+          "red_words": "And the second is like unto it, Thou shalt love thy neighbour as thyself."
+        },
+        {
+          "verse": "40",
+          "red_words": "On these two commandments hang all the law and the prophets."
+        },
+        {
+          "verse": "42",
+          "red_words": "What think ye of Christ? whose son is he?"
+        },
+        {
+          "verse": "43",
+          "red_words": "How then doth David in spirit call him Lord, saying,"
+        },
+        {
+          "verse": "44",
+          "red_words": "The Lord said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?"
+        },
+        {
+          "verse": "45",
+          "red_words": "If David then call him Lord, how is he his son?"
+        }
+      ]
+    },
+    {
+      "chapter": "23",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "The scribes and the Pharisees sit in Moses' seat:"
+        },
+        {
+          "verse": "3",
+          "red_words": "All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not."
+        },
+        {
+          "verse": "4",
+          "red_words": "For they bind heavy burdens and grievous to be borne, and lay them on men's shoulders; but they themselves will not move them with one of their fingers."
+        },
+        {
+          "verse": "5",
+          "red_words": "But all their works they do for to be seen of men: they make broad their phylacteries, and enlarge the borders of their garments,"
+        },
+        {
+          "verse": "6",
+          "red_words": "And love the uppermost rooms at feasts, and the chief seats in the synagogues,"
+        },
+        {
+          "verse": "7",
+          "red_words": "And greetings in the markets, and to be called of men, Rabbi, Rabbi."
+        },
+        {
+          "verse": "8",
+          "red_words": "But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren."
+        },
+        {
+          "verse": "9",
+          "red_words": "And call no man your father upon the earth: for one is your Father, which is in heaven."
+        },
+        {
+          "verse": "10",
+          "red_words": "Neither be ye called masters: for one is your Master, even Christ."
+        },
+        {
+          "verse": "11",
+          "red_words": "But he that is greatest among you shall be your servant."
+        },
+        {
+          "verse": "12",
+          "red_words": "And whosoever shall exalt himself shall be abased; and he that shall humble himself shall be exalted."
+        },
+        {
+          "verse": "13",
+          "red_words": "But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men: for ye neither go in yourselves, neither suffer ye them that are entering to go in."
+        },
+        {
+          "verse": "14",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! for ye devour widows' houses, and for a pretence make long prayer: therefore ye shall receive the greater damnation."
+        },
+        {
+          "verse": "15",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves."
+        },
+        {
+          "verse": "16",
+          "red_words": "Woe unto you, ye blind guides, which say, Whosoever shall swear by the temple, it is nothing; but whosoever shall swear by the gold of the temple, he is a debtor!"
+        },
+        {
+          "verse": "17",
+          "red_words": "Ye fools and blind: for whether is greater, the gold, or the temple that sanctifieth the gold?"
+        },
+        {
+          "verse": "18",
+          "red_words": "And, Whosoever shall swear by the altar, it is nothing; but whosoever sweareth by the gift that is upon it, he is guilty."
+        },
+        {
+          "verse": "19",
+          "red_words": "Ye fools and blind: for whether is greater, the gift, or the altar that sanctifieth the gift?"
+        },
+        {
+          "verse": "20",
+          "red_words": "Whoso therefore shall swear by the altar, sweareth by it, and by all things thereon."
+        },
+        {
+          "verse": "21",
+          "red_words": "And whoso shall swear by the temple, sweareth by it, and by him that dwelleth therein."
+        },
+        {
+          "verse": "22",
+          "red_words": "And he that shall swear by heaven, sweareth by the throne of God, and by him that sitteth thereon."
+        },
+        {
+          "verse": "23",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have omitted the weightier matters of the law, judgment, mercy, and faith: these ought ye to have done, and not to leave the other undone."
+        },
+        {
+          "verse": "24",
+          "red_words": "Ye blind guides, which strain at a gnat, and swallow a camel."
+        },
+        {
+          "verse": "25",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess."
+        },
+        {
+          "verse": "26",
+          "red_words": "Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also."
+        },
+        {
+          "verse": "27",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness."
+        },
+        {
+          "verse": "28",
+          "red_words": "Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity."
+        },
+        {
+          "verse": "29",
+          "red_words": "Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous,"
+        },
+        {
+          "verse": "30",
+          "red_words": "And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets."
+        },
+        {
+          "verse": "31",
+          "red_words": "Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets."
+        },
+        {
+          "verse": "32",
+          "red_words": "Fill ye up then the measure of your fathers."
+        },
+        {
+          "verse": "33",
+          "red_words": "Ye serpents, ye generation of vipers, how can ye escape the damnation of hell?"
+        },
+        {
+          "verse": "34",
+          "red_words": "Wherefore, behold, I send unto you prophets, and wise men, and scribes: and some of them ye shall kill and crucify; and some of them shall ye scourge in your synagogues, and persecute them from city to city:"
+        },
+        {
+          "verse": "35",
+          "red_words": "That upon you may come all the righteous blood shed upon the earth, from the blood of righteous Abel unto the blood of Zacharias son of Barachias, whom ye slew between the temple and the altar."
+        },
+        {
+          "verse": "36",
+          "red_words": "Verily I say unto you, All these things shall come upon this generation."
+        },
+        {
+          "verse": "37",
+          "red_words": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!"
+        },
+        {
+          "verse": "38",
+          "red_words": "Behold, your house is left unto you desolate."
+        },
+        {
+          "verse": "39",
+          "red_words": "For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the Lord."
+        }
+      ]
+    },
+    {
+      "chapter": "24",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "See ye not all these things? verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down."
+        },
+        {
+          "verse": "4",
+          "red_words": "Take heed that no man deceive you."
+        },
+        {
+          "verse": "5",
+          "red_words": "For many shall come in my name, saying, I am Christ; and shall deceive many."
+        },
+        {
+          "verse": "6",
+          "red_words": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet."
+        },
+        {
+          "verse": "7",
+          "red_words": "For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places."
+        },
+        {
+          "verse": "8",
+          "red_words": "All these are the beginning of sorrows."
+        },
+        {
+          "verse": "9",
+          "red_words": "Then shall they deliver you up to be afflicted, and shall kill you: and ye shall be hated of all nations for my name's sake."
+        },
+        {
+          "verse": "10",
+          "red_words": "And then shall many be offended, and shall betray one another, and shall hate one another."
+        },
+        {
+          "verse": "11",
+          "red_words": "And many false prophets shall rise, and shall deceive many."
+        },
+        {
+          "verse": "12",
+          "red_words": "And because iniquity shall abound, the love of many shall wax cold."
+        },
+        {
+          "verse": "13",
+          "red_words": "But he that shall endure unto the end, the same shall be saved."
+        },
+        {
+          "verse": "14",
+          "red_words": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come."
+        },
+        {
+          "verse": "15",
+          "red_words": "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place,"
+        },
+        {
+          "verse": "16",
+          "red_words": "Then let them which be in Judaea flee into the mountains:"
+        },
+        {
+          "verse": "17",
+          "red_words": "Let him which is on the housetop not come down to take any thing out of his house:"
+        },
+        {
+          "verse": "18",
+          "red_words": "Neither let him which is in the field return back to take his clothes."
+        },
+        {
+          "verse": "19",
+          "red_words": "And woe unto them that are with child, and to them that give suck in those days!"
+        },
+        {
+          "verse": "20",
+          "red_words": "But pray ye that your flight be not in the winter, neither on the sabbath day:"
+        },
+        {
+          "verse": "21",
+          "red_words": "For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be."
+        },
+        {
+          "verse": "22",
+          "red_words": "And except those days should be shortened, there should no flesh be saved: but for the elect's sake those days shall be shortened."
+        },
+        {
+          "verse": "23",
+          "red_words": "Then if any man shall say unto you, Lo, here is Christ, or there; believe it not."
+        },
+        {
+          "verse": "24",
+          "red_words": "For there shall arise false Christs, and false prophets, and shall shew great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect."
+        },
+        {
+          "verse": "25",
+          "red_words": "Behold, I have told you before."
+        },
+        {
+          "verse": "26",
+          "red_words": "Wherefore if they shall say unto you, Behold, he is in the desert; go not forth: behold, he is in the secret chambers; believe it not."
+        },
+        {
+          "verse": "27",
+          "red_words": "For as the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be."
+        },
+        {
+          "verse": "28",
+          "red_words": "For wheresoever the carcase is, there will the eagles be gathered together."
+        },
+        {
+          "verse": "29",
+          "red_words": "Immediately after the tribulation of those days shall the sun be darkened, and the moon shall not give her light, and the stars shall fall from heaven, and the powers of the heavens shall be shaken:"
+        },
+        {
+          "verse": "30",
+          "red_words": "And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory."
+        },
+        {
+          "verse": "31",
+          "red_words": "And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other."
+        },
+        {
+          "verse": "32",
+          "red_words": "Now learn a parable of the fig tree; When his branch is yet tender, and putteth forth leaves, ye know that summer is nigh:"
+        },
+        {
+          "verse": "33",
+          "red_words": "So likewise ye, when ye shall see all these things, know that it is near, even at the doors."
+        },
+        {
+          "verse": "34",
+          "red_words": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled."
+        },
+        {
+          "verse": "35",
+          "red_words": "Heaven and earth shall pass away, but my words shall not pass away."
+        },
+        {
+          "verse": "36",
+          "red_words": "But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only."
+        },
+        {
+          "verse": "37",
+          "red_words": "But as the days of Noah were, so shall also the coming of the Son of man be."
+        },
+        {
+          "verse": "38",
+          "red_words": "For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark,"
+        },
+        {
+          "verse": "39",
+          "red_words": "And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be."
+        },
+        {
+          "verse": "40",
+          "red_words": "Then shall two be in the field; the one shall be taken, and the other left."
+        },
+        {
+          "verse": "41",
+          "red_words": "Two women shall be grinding at the mill; the one shall be taken, and the other left."
+        },
+        {
+          "verse": "42",
+          "red_words": "Watch therefore: for ye know not what hour your Lord doth come."
+        },
+        {
+          "verse": "43",
+          "red_words": "But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up."
+        },
+        {
+          "verse": "44",
+          "red_words": "Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh."
+        },
+        {
+          "verse": "45",
+          "red_words": "Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season?"
+        },
+        {
+          "verse": "46",
+          "red_words": "Blessed is that servant, whom his lord when he cometh shall find so doing."
+        },
+        {
+          "verse": "47",
+          "red_words": "Verily I say unto you, That he shall make him ruler over all his goods."
+        },
+        {
+          "verse": "48",
+          "red_words": "But and if that evil servant shall say in his heart, My lord delayeth his coming;"
+        },
+        {
+          "verse": "49",
+          "red_words": "And shall begin to smite his fellowservants, and to eat and drink with the drunken;"
+        },
+        {
+          "verse": "50",
+          "red_words": "The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of,"
+        },
+        {
+          "verse": "51",
+          "red_words": "And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth."
+        }
+      ]
+    },
+    {
+      "chapter": "25",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "And five of them were wise, and five were foolish."
+        },
+        {
+          "verse": "3",
+          "red_words": "They that were foolish took their lamps, and took no oil with them:"
+        },
+        {
+          "verse": "4",
+          "red_words": "But the wise took oil in their vessels with their lamps."
+        },
+        {
+          "verse": "5",
+          "red_words": "While the bridegroom tarried, they all slumbered and slept."
+        },
+        {
+          "verse": "6",
+          "red_words": "And at midnight there was a cry made, Behold, the bridegroom cometh; go ye out to meet him."
+        },
+        {
+          "verse": "7",
+          "red_words": "Then all those virgins arose, and trimmed their lamps."
+        },
+        {
+          "verse": "8",
+          "red_words": "And the foolish said unto the wise, Give us of your oil; for our lamps are gone out."
+        },
+        {
+          "verse": "9",
+          "red_words": "But the wise answered, saying, Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves."
+        },
+        {
+          "verse": "10",
+          "red_words": "And while they went to buy, the bridegroom came; and they that were ready went in with him to the marriage: and the door was shut."
+        },
+        {
+          "verse": "11",
+          "red_words": "Afterward came also the other virgins, saying, Lord, Lord, open to us."
+        },
+        {
+          "verse": "12",
+          "red_words": "But he answered and said, Verily I say unto you, I know you not."
+        },
+        {
+          "verse": "13",
+          "red_words": "Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh."
+        },
+        {
+          "verse": "14",
+          "red_words": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods."
+        },
+        {
+          "verse": "15",
+          "red_words": "And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey."
+        },
+        {
+          "verse": "16",
+          "red_words": "Then he that had received the five talents went and traded with the same, and made them other five talents."
+        },
+        {
+          "verse": "17",
+          "red_words": "And likewise he that had received two, he also gained other two."
+        },
+        {
+          "verse": "18",
+          "red_words": "But he that had received one went and digged in the earth, and hid his lord's money."
+        },
+        {
+          "verse": "19",
+          "red_words": "After a long time the lord of those servants cometh, and reckoneth with them."
+        },
+        {
+          "verse": "20",
+          "red_words": "And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more."
+        },
+        {
+          "verse": "21",
+          "red_words": "His lord said unto him, Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord."
+        },
+        {
+          "verse": "22",
+          "red_words": "He also that had received two talents came and said, Lord, thou deliveredst unto me two talents: behold, I have gained two other talents beside them."
+        },
+        {
+          "verse": "23",
+          "red_words": "His lord said unto him, Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord."
+        },
+        {
+          "verse": "24",
+          "red_words": "Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed:"
+        },
+        {
+          "verse": "25",
+          "red_words": "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine."
+        },
+        {
+          "verse": "26",
+          "red_words": "His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed:"
+        },
+        {
+          "verse": "27",
+          "red_words": "Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury."
+        },
+        {
+          "verse": "28",
+          "red_words": "Take therefore the talent from him, and give it unto him which hath ten talents."
+        },
+        {
+          "verse": "29",
+          "red_words": "For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath."
+        },
+        {
+          "verse": "30",
+          "red_words": "And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth."
+        },
+        {
+          "verse": "31",
+          "red_words": "When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory:"
+        },
+        {
+          "verse": "32",
+          "red_words": "And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats:"
+        },
+        {
+          "verse": "33",
+          "red_words": "And he shall set the sheep on his right hand, but the goats on the left."
+        },
+        {
+          "verse": "34",
+          "red_words": "Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world:"
+        },
+        {
+          "verse": "35",
+          "red_words": "For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in:"
+        },
+        {
+          "verse": "36",
+          "red_words": "Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."
+        },
+        {
+          "verse": "37",
+          "red_words": "Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink?"
+        },
+        {
+          "verse": "38",
+          "red_words": "When saw we thee a stranger, and took thee in? or naked, and clothed thee?"
+        },
+        {
+          "verse": "39",
+          "red_words": "Or when saw we thee sick, or in prison, and came unto thee?"
+        },
+        {
+          "verse": "40",
+          "red_words": "And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."
+        },
+        {
+          "verse": "41",
+          "red_words": "Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels:"
+        },
+        {
+          "verse": "42",
+          "red_words": "For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink:"
+        },
+        {
+          "verse": "43",
+          "red_words": "I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not."
+        },
+        {
+          "verse": "44",
+          "red_words": "Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?"
+        },
+        {
+          "verse": "45",
+          "red_words": "Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me."
+        },
+        {
+          "verse": "46",
+          "red_words": "And these shall go away into everlasting punishment: but the righteous into life eternal."
+        }
+      ]
+    },
+    {
+      "chapter": "26",
+      "verses": [
+        {
+          "verse": "2",
+          "red_words": "Ye know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified."
+        },
+        {
+          "verse": "10",
+          "red_words": "Why trouble ye the woman? for she hath wrought a good work upon me."
+        },
+        {
+          "verse": "11",
+          "red_words": "For ye have the poor always with you; but me ye have not always."
+        },
+        {
+          "verse": "12",
+          "red_words": "For in that she hath poured this ointment on my body, she did it for my burial."
+        },
+        {
+          "verse": "13",
+          "red_words": "Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her."
+        },
+        {
+          "verse": "18",
+          "red_words": "Go into the city to such a man, and say unto him, The Master saith, My time is at hand; I will keep the passover at thy house with my disciples."
+        },
+        {
+          "verse": "21",
+          "red_words": "Verily I say unto you, that one of you shall betray me."
+        },
+        {
+          "verse": "23",
+          "red_words": "He that dippeth his hand with me in the dish, the same shall betray me."
+        },
+        {
+          "verse": "24",
+          "red_words": "The Son of man goeth as it is written of him: but woe unto that man by whom the Son of man is betrayed! it had been good for that man if he had not been born."
+        },
+        {
+          "verse": "25",
+          "red_words": "Thou hast said."
+        },
+        {
+          "verse": "26",
+          "red_words": "Take, eat; this is my body."
+        },
+        {
+          "verse": "27",
+          "red_words": "Drink ye all of it;"
+        },
+        {
+          "verse": "28",
+          "red_words": "For this is my blood of the new testament, which is shed for many for the remission of sins."
+        },
+        {
+          "verse": "29",
+          "red_words": "But I say unto you, I will not drink henceforth of this fruit of the vine, until that day when I drink it new with you in my Father's kingdom."
+        },
+        {
+          "verse": "31",
+          "red_words": "All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad."
+        },
+        {
+          "verse": "32",
+          "red_words": "But after I am risen again, I will go before you into Galilee."
+        },
+        {
+          "verse": "34",
+          "red_words": "Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice."
+        },
+        {
+          "verse": "36",
+          "red_words": "Sit ye here, while I go and pray yonder."
+        },
+        {
+          "verse": "38",
+          "red_words": "My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me."
+        },
+        {
+          "verse": "39",
+          "red_words": "O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt."
+        },
+        {
+          "verse": "40",
+          "red_words": "What, could ye not watch with me one hour?"
+        },
+        {
+          "verse": "41",
+          "red_words": "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak."
+        },
+        {
+          "verse": "42",
+          "red_words": "O my Father, if this cup may not pass away from me, except I drink it, thy will be done."
+        },
+        {
+          "verse": "45",
+          "red_words": "Sleep on now, and take your rest: behold, the hour is at hand, and the Son of man is betrayed into the hands of sinners."
+        },
+        {
+          "verse": "46",
+          "red_words": "Rise, let us be going: behold, he is at hand that doth betray me."
+        },
+        {
+          "verse": "50",
+          "red_words": "Friend, wherefore art thou come?"
+        },
+        {
+          "verse": "52",
+          "red_words": "Put up again thy sword into his place: for all they that take the sword shall perish with the sword."
+        },
+        {
+          "verse": "53",
+          "red_words": "Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels?"
+        },
+        {
+          "verse": "54",
+          "red_words": "But how then shall the scriptures be fulfilled, that thus it must be?"
+        },
+        {
+          "verse": "55",
+          "red_words": "Are ye come out as against a thief with swords and staves for to take me? I sat daily with you teaching in the temple, and ye laid no hold on me."
+        },
+        {
+          "verse": "56",
+          "red_words": "But all this was done, that the scriptures of the prophets might be fulfilled."
+        },
+        {
+          "verse": "64",
+          "red_words": "Thou hast said: nevertheless I say unto you, Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven."
+        }
+      ]
+    },
+    {
+      "chapter": "27",
+      "verses": [
+        {
+          "verse": "11",
+          "red_words": "Thou sayest."
+        },
+        {
+          "verse": "46",
+          "red_words": "Eli, Eli, lama sabachthani?"
+        },
+        {
+          "verse": "46",
+          "red_words": "My God, my God, why hast thou forsaken me?"
+        }
+      ]
+    },
+    {
+      "chapter": "28",
+      "verses": [
+        {
+          "verse": "9",
+          "red_words": "All hail"
+        },
+        {
+          "verse": "10",
+          "red_words": "Be not afraid: go tell my brethren that they go into Galilee, and there shall they see me."
+        },
+        {
+          "verse": "18",
+          "red_words": "All power is given unto me in heaven and in earth."
+        },
+        {
+          "verse": "19",
+          "red_words": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:"
+        },
+        {
+          "verse": "20",
+          "red_words": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world."
+        }
+      ]
+    }
+  ]
 }
