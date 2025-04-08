@@ -37,49 +37,77 @@ def get_word_id_ranges(word_ids):
     
     return ", ".join(ranges)
 
+def process_verse_content(verse_num, content, words_dict, ids_dict):
+    red_spans = []
+    for element in content:
+        if isinstance(element, str):
+            continue
+        red_spans.extend(element.find_all('span', class_='red'))
+    
+    if not red_spans:
+        return
+    
+    print(f"Found {len(red_spans)} red spans in verse {verse_num}")
+    verse_words = []
+    verse_ids = []
+    
+    for span in red_spans:
+        word = span.get_text().strip()
+        if word and 'id' in span.attrs:
+            word_id = span['id'].split('W')[1]
+            verse_words.append(word)
+            verse_ids.append(word_id)
+    
+    if verse_words:
+        words_dict[verse_num].extend(verse_words)
+        ids_dict[verse_num].extend(verse_ids)
+
 def extract_red_letters(html_file):
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     soup = BeautifulSoup(content, 'html.parser')
-    chapters = soup.find_all('div', id=re.compile('^Chapter\d+$'))
+    chapters = soup.find_all('div', id=re.compile(r'^Chapter\d+$'))
+    print(f"Found {len(chapters)} chapters")
     
     # Initialize nested structure for chapters and verses
     words_by_chapter = defaultdict(lambda: defaultdict(list))
     ids_by_chapter = defaultdict(lambda: defaultdict(list))
     
     for chapter in chapters:
+        print(f"Processing chapter {chapter.get('id', 'unknown')}")
+        if not chapter.find('h1', id='ChapterNumber'):
+            print(f"Warning: No chapter number found in {chapter.get('id', 'unknown')}")
+            continue
         chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
         
-        # Find all verse spans in this chapter
-        verse_spans = chapter.find_all(lambda tag: tag.name == 'span' and 
-                                     tag.get('id', '').startswith(f'C{chapter_num}V'))
+        # Process all text nodes and elements in the chapter
+        current_verse = None
+        verse_content = []
         
-        for verse_span in verse_spans:
-            # Extract verse number
-            verse_num = verse_span['id'].split('V')[1]
-            
-            # Find all red spans within this verse
-            red_spans = verse_span.find_all('span', class_='red')
-            
-            # Skip if no red words in this verse
-            if not red_spans:
+        for node in chapter.children:
+            # Skip non-content nodes
+            if not (isinstance(node, str) or isinstance(node, BeautifulSoup)):
+                continue
+                
+            # Check for verse numbers at the start of lines
+            if isinstance(node, str):
+                text = node.strip()
+                if text.isdigit():
+                    # Process previous verse if exists
+                    if current_verse and verse_content:
+                        process_verse_content(current_verse, verse_content, words_by_chapter[chapter_num], ids_by_chapter[chapter_num])
+                    current_verse = text
+                    verse_content = []
                 continue
             
-            # Process each red span
-            verse_words = []
-            verse_ids = []
-            
-            for span in red_spans:
-                word = span.get_text().strip()
-                if word and 'id' in span.attrs:
-                    word_id = span['id'].split('W')[1]
-                    verse_words.append(word)
-                    verse_ids.append(word_id)
-            
-            if verse_words:
-                words_by_chapter[chapter_num][verse_num].extend(verse_words)
-                ids_by_chapter[chapter_num][verse_num].extend(verse_ids)
+            # Add content to current verse
+            if current_verse:
+                verse_content.append(node)
+        
+        # Process the last verse of the chapter
+        if current_verse and verse_content:
+            process_verse_content(current_verse, verse_content, words_by_chapter[chapter_num], ids_by_chapter[chapter_num])
     
     # Convert defaultdict to regular dict for JSON serialization
     words_output = {"Matthew": []}
@@ -115,6 +143,7 @@ def extract_red_letters(html_file):
 
 def main():
     import os
+    print("Starting red letter extraction...")
     
     # Get the project root directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
