@@ -12,7 +12,7 @@ def process_matthew():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=41-Luke.html')
+    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=42-Luke.html')
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
     

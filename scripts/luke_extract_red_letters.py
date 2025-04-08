@@ -72,7 +72,7 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=41-Luke.html')
+    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=42-Luke.html')
     words_output_file = os.path.join(project_root, 'json', 'luke-red-letter.json')
     
     words_output = extract_red_letters(html_file)
