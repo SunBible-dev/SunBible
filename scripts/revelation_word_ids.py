@@ -29,7 +29,6 @@ def generate_word_ids():
         contents = chapter.contents
         current_verse = ''
         verse_num = ''
-        word_count = 0
         
         for content in contents:
             if content.name == 'br':
@@ -40,34 +39,17 @@ def generate_word_ids():
                         verse_num = match.group(1)
                         soup_verse = BeautifulSoup(current_verse, 'html.parser')
                         
-                        # Count words before red text
-                        text_before_red = ''
-                        for elem in soup_verse:
-                            if isinstance(elem, str) or (hasattr(elem, 'class_') and 'red' not in elem.get('class', [])):
-                                text_before_red += elem.get_text() if hasattr(elem, 'get_text') else str(elem)
-                        
-                        # Count words up to red text
-                        word_count += len(text_before_red.split())
-                        
                         # Find red text spans and record word IDs
                         red_spans = soup_verse.find_all('span', class_='red')
                         for span in red_spans:
                             red_text = span.get_text().strip()
                             if red_text:
-                                start_id = word_count + 1
-                                word_count += len(red_text.split())
-                                end_id = word_count
-                                
+                                words = red_text.split()
                                 word_id_data[chapter_num].append({
                                     'verse': verse_num,
-                                    'start': start_id,
-                                    'end': end_id
+                                    'start': 1,
+                                    'end': len(words)
                                 })
-                            
-                            # Count any non-red text between red spans
-                            next_sibling = span.next_sibling
-                            if next_sibling and isinstance(next_sibling, str):
-                                word_count += len(next_sibling.strip().split())
                                 
                 current_verse = ''
             else:
