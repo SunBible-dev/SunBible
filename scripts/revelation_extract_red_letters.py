@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def extract_red_letters():
     # Read the HTML file
-    html_path = os.path.join('..', 'BibleBase', 'BibleBooksHTML', 'Book-id=66-Revelation.html')
+    html_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'BibleBase', 'BibleBooksHTML', 'Book-id=66-Revelation.html')
     with open(html_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
@@ -52,7 +52,7 @@ def extract_red_letters():
                 current_verse += str(content)
     
     # Write to JSON file
-    output_path = os.path.join('..', 'json', 'revelation-red-letter.json')
+    output_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'json', 'revelation-red-letter.json')
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(red_letter_data, f, indent=2)
 
