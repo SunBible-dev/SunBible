@@ -53,6 +53,12 @@ def process_matthew():
             
             # Count words and identify red letter ranges
             word_count = 0
+            # Skip the verse number in word count
+            first_text = verse_elements[0][0].strip()
+            verse_words = first_text.split()
+            if verse_words and verse_words[0].isdigit():
+                word_count -= 1  # Subtract verse number from count
+            
             for text, is_red in verse_elements:
                 words = text.strip().split()
                 if is_red:
