@@ -8,7 +8,11 @@ def get_word_ids(text, start_pos):
     return f"{start_pos}-{start_pos + len(words) - 1}"
 
 def process_matthew():
-    html_file = '/Volumes/DEV/DEV_VOLUME/SunBible/BibleBase/BibleBooksHTML/Book-id=40-Matthew.html'
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    
+    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=40-Matthew.html')
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -62,7 +66,8 @@ def process_matthew():
         output["Matthew"].append(chapter_data)
     
     # Save the output
-    with open('/Volumes/DEV/DEV_VOLUME/SunBible/json/matthew-red-letter-ids.json', 'w', encoding='utf-8') as f:
+    output_file = os.path.join(project_root, 'json', 'matthew-red-letter-ids.json')
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2)
 
 if __name__ == '__main__':
