@@ -13,7 +13,7 @@
       "verses": [
         {
           "verse": "15",
-          "word_ids": "8-22"
+          "word_ids": "7-21"
         }
       ]
     },
@@ -22,23 +22,23 @@
       "verses": [
         {
           "verse": "4",
-          "word_ids": "7-28"
+          "word_ids": "6-27"
         },
         {
           "verse": "7",
-          "word_ids": "6-17"
+          "word_ids": "5-16"
         },
         {
           "verse": "10",
-          "word_ids": "7-27"
+          "word_ids": "6-26"
         },
         {
           "verse": "17",
-          "word_ids": "12-20"
+          "word_ids": "11-19"
         },
         {
           "verse": "19",
-          "word_ids": "7-16"
+          "word_ids": "6-15"
         }
       ]
     },
@@ -47,187 +47,187 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "4",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "5",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "6",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "7",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "8",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "9",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "10",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "11",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "12",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "13",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "14",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "15",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "16",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "17",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "18",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "19",
-          "word_ids": "2-44"
+          "word_ids": "1-43"
         },
         {
           "verse": "20",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "21",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "22",
-          "word_ids": "2-51"
+          "word_ids": "1-50"
         },
         {
           "verse": "23",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "24",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "25",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "26",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "27",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "28",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "29",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "30",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "31",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "32",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "33",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "34",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "35",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "36",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "37",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "38",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "39",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "40",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "41",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "42",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "43",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "44",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "45",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "46",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "47",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "48",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         }
       ]
     },
@@ -236,139 +236,139 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-41"
+          "word_ids": "1-40"
         },
         {
           "verse": "3",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "4",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "5",
-          "word_ids": "2-45"
+          "word_ids": "1-44"
         },
         {
           "verse": "6",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "7",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "8",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "9",
-          "word_ids": "2-7"
+          "word_ids": "1-6"
         },
         {
           "verse": "9",
-          "word_ids": "9-18"
+          "word_ids": "8-17"
         },
         {
           "verse": "10",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "11",
-          "word_ids": "2-8"
+          "word_ids": "1-7"
         },
         {
           "verse": "12",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "13",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "14",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "15",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "16",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "17",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "18",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "19",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "20",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "21",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "22",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "23",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "24",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "25",
-          "word_ids": "2-43"
+          "word_ids": "1-42"
         },
         {
           "verse": "26",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "27",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "28",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "29",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "30",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "31",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "32",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "33",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "34",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         }
       ]
     },
@@ -377,107 +377,107 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "3",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "4",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "5",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "6",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "7",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "8",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "9",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "10",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "11",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "12",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "13",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "14",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "15",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "16",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "17",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "18",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "19",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "20",
-          "word_ids": "2-9"
+          "word_ids": "1-8"
         },
         {
           "verse": "21",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "22",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "23",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "24",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "25",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "26",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "27",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         }
       ]
     },
@@ -486,47 +486,47 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "12-16"
+          "word_ids": "11-15"
         },
         {
           "verse": "4",
-          "word_ids": "7-32"
+          "word_ids": "6-31"
         },
         {
           "verse": "7",
-          "word_ids": "7-12"
+          "word_ids": "6-11"
         },
         {
           "verse": "10",
-          "word_ids": "14-29"
+          "word_ids": "13-28"
         },
         {
           "verse": "11",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "12",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "13",
-          "word_ids": "8-21"
+          "word_ids": "7-20"
         },
         {
           "verse": "20",
-          "word_ids": "7-30"
+          "word_ids": "6-29"
         },
         {
           "verse": "22",
-          "word_ids": "7-15"
+          "word_ids": "6-14"
         },
         {
           "verse": "26",
-          "word_ids": "7-15"
+          "word_ids": "6-14"
         },
         {
           "verse": "32",
-          "word_ids": "7-7"
+          "word_ids": "6-6"
         }
       ]
     },
@@ -535,75 +535,75 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "30-39"
-        },
-        {
-          "verse": "4",
-          "word_ids": "8-14"
-        },
-        {
-          "verse": "5",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "6",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "6",
           "word_ids": "29-38"
         },
         {
+          "verse": "4",
+          "word_ids": "7-13"
+        },
+        {
+          "verse": "5",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "6",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "6",
+          "word_ids": "28-37"
+        },
+        {
           "verse": "9",
-          "word_ids": "26-27"
+          "word_ids": "25-26"
         },
         {
           "verse": "12",
-          "word_ids": "11-23"
+          "word_ids": "10-22"
         },
         {
           "verse": "13",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "15",
-          "word_ids": "7-39"
+          "word_ids": "6-38"
         },
         {
           "verse": "16",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "17",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "22",
-          "word_ids": "14-24"
+          "word_ids": "13-23"
         },
         {
           "verse": "24",
-          "word_ids": "6-15"
+          "word_ids": "5-14"
         },
         {
           "verse": "28",
-          "word_ids": "21-29"
+          "word_ids": "20-28"
         },
         {
           "verse": "29",
-          "word_ids": "8-15"
+          "word_ids": "7-14"
         },
         {
           "verse": "30",
-          "word_ids": "13-18"
+          "word_ids": "12-17"
         },
         {
           "verse": "37",
-          "word_ids": "8-17"
+          "word_ids": "7-16"
         },
         {
           "verse": "38",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         }
       ]
     },
@@ -612,155 +612,155 @@
       "verses": [
         {
           "verse": "5",
-          "word_ids": "11-28"
+          "word_ids": "10-27"
         },
         {
           "verse": "6",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "7",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "8",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "9",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "10",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "11",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "12",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "13",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "14",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "15",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "16",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "17",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "18",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "19",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "20",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "21",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "22",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "23",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "24",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "25",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "26",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "27",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "28",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "29",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "30",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "31",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "32",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "33",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "34",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "35",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "36",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "37",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "38",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "39",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "40",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "41",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "42",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         }
       ]
     },
@@ -769,107 +769,107 @@
       "verses": [
         {
           "verse": "4",
-          "word_ids": "8-20"
+          "word_ids": "7-19"
         },
         {
           "verse": "5",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "6",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "7",
-          "word_ids": "15-29"
+          "word_ids": "14-28"
         },
         {
           "verse": "8",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "9",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "10",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "11",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "12",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "13",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "14",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "15",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "16",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "17",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "18",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "19",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "21",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "22",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "23",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "24",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "25",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "26",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "27",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "28",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "29",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "30",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         }
       ]
     },
@@ -878,131 +878,131 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "7-24"
+          "word_ids": "6-23"
         },
         {
           "verse": "4",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "5",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "6",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "7",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "8",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "11",
-          "word_ids": "7-40"
+          "word_ids": "6-39"
         },
         {
           "verse": "12",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "13",
-          "word_ids": "8-11"
+          "word_ids": "7-10"
         },
         {
           "verse": "25",
-          "word_ids": "11-30"
+          "word_ids": "10-29"
         },
         {
           "verse": "26",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "27",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "28",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "29",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "30",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "31",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "32",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "33",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "34",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "35",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "36",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "37",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "39",
-          "word_ids": "9-33"
+          "word_ids": "8-32"
         },
         {
           "verse": "40",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "41",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "42",
-          "word_ids": "2-43"
+          "word_ids": "1-42"
         },
         {
           "verse": "43",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "44",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "45",
-          "word_ids": "2-44"
+          "word_ids": "1-43"
         },
         {
           "verse": "48",
-          "word_ids": "12-20"
+          "word_ids": "11-19"
         },
         {
           "verse": "49",
-          "word_ids": "13-18"
+          "word_ids": "12-17"
         },
         {
           "verse": "50",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         }
       ]
     },
@@ -1011,191 +1011,191 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "12-18"
+          "word_ids": "11-17"
         },
         {
           "verse": "4",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "5",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "6",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "7",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "8",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "9",
-          "word_ids": "2-9"
+          "word_ids": "1-8"
         },
         {
           "verse": "11",
-          "word_ids": "8-29"
+          "word_ids": "7-28"
         },
         {
           "verse": "12",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "13",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "14",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "15",
-          "word_ids": "2-51"
+          "word_ids": "1-50"
         },
         {
           "verse": "16",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "17",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "18",
-          "word_ids": "2-9"
+          "word_ids": "1-8"
         },
         {
           "verse": "19",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "20",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "21",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "22",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "23",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "24",
-          "word_ids": "10-25"
+          "word_ids": "9-24"
         },
         {
           "verse": "25",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "26",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "27",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "28",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "29",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "30",
-          "word_ids": "2-41"
+          "word_ids": "1-40"
         },
         {
           "verse": "31",
-          "word_ids": "10-30"
+          "word_ids": "9-29"
         },
         {
           "verse": "32",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "33",
-          "word_ids": "8-31"
+          "word_ids": "7-30"
         },
         {
           "verse": "37",
-          "word_ids": "8-18"
+          "word_ids": "7-17"
         },
         {
           "verse": "38",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "39",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "40",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "41",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "42",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "43",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "44",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "45",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "46",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "47",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "48",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "49",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "50",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "51",
-          "word_ids": "6-11"
+          "word_ids": "5-10"
         },
         {
           "verse": "52",
-          "word_ids": "7-37"
+          "word_ids": "6-36"
         },
         {
           "verse": "57",
-          "word_ids": "13-28"
+          "word_ids": "12-27"
         }
       ]
     },
@@ -1204,23 +1204,23 @@
       "verses": [
         {
           "verse": "16",
-          "word_ids": "7-15"
+          "word_ids": "6-14"
         },
         {
           "verse": "18",
-          "word_ids": "4-8"
+          "word_ids": "3-7"
         },
         {
           "verse": "27",
-          "word_ids": "9-18"
+          "word_ids": "8-17"
         },
         {
           "verse": "29",
-          "word_ids": "5-5"
+          "word_ids": "4-4"
         },
         {
           "verse": "31",
-          "word_ids": "16-24"
+          "word_ids": "15-23"
         }
       ]
     },
@@ -1229,87 +1229,87 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "9-20"
+          "word_ids": "8-19"
         },
         {
           "verse": "4",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "5",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "6",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "7",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "8",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "9",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "10",
-          "word_ids": "11-13"
+          "word_ids": "10-12"
         },
         {
           "verse": "11",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "13",
-          "word_ids": "7-19"
+          "word_ids": "6-18"
         },
         {
           "verse": "14",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "16",
-          "word_ids": "5-10"
+          "word_ids": "4-9"
         },
         {
           "verse": "17",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "18",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "19",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "20",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "24",
-          "word_ids": "7-20"
+          "word_ids": "6-19"
         },
         {
           "verse": "26",
-          "word_ids": "7-21"
+          "word_ids": "6-20"
         },
         {
           "verse": "28",
-          "word_ids": "9-22"
+          "word_ids": "8-21"
         },
         {
           "verse": "32",
-          "word_ids": "11-43"
+          "word_ids": "10-42"
         },
         {
           "verse": "34",
-          "word_ids": "7-11"
+          "word_ids": "6-10"
         }
       ]
     },
@@ -1318,79 +1318,79 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "8-23"
+          "word_ids": "7-22"
         },
         {
           "verse": "3",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "4",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "6",
-          "word_ids": "7-20"
+          "word_ids": "6-19"
         },
         {
           "verse": "8",
-          "word_ids": "10-25"
+          "word_ids": "9-24"
         },
         {
           "verse": "9",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "10",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "11",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "13",
-          "word_ids": "16-26"
+          "word_ids": "15-25"
         },
         {
           "verse": "15",
-          "word_ids": "6-12"
+          "word_ids": "5-11"
         },
         {
           "verse": "17",
-          "word_ids": "9-30"
+          "word_ids": "8-29"
         },
         {
           "verse": "18",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "19",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "23",
-          "word_ids": "9-35"
+          "word_ids": "8-34"
         },
         {
           "verse": "24",
-          "word_ids": "8-26"
+          "word_ids": "7-25"
         },
         {
           "verse": "25",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "26",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "27",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "28",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         }
       ]
     },
@@ -1399,51 +1399,51 @@
       "verses": [
         {
           "verse": "7",
-          "word_ids": "10-14"
+          "word_ids": "9-13"
         },
         {
           "verse": "9",
-          "word_ids": "14-30"
+          "word_ids": "13-29"
         },
         {
           "verse": "11",
-          "word_ids": "9-17"
+          "word_ids": "8-16"
         },
         {
           "verse": "12",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "17",
-          "word_ids": "7-29"
+          "word_ids": "6-28"
         },
         {
           "verse": "20",
-          "word_ids": "7-48"
+          "word_ids": "6-47"
         },
         {
           "verse": "21",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "22",
-          "word_ids": "12-23"
+          "word_ids": "11-22"
         },
         {
           "verse": "23",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "25",
-          "word_ids": "17-39"
+          "word_ids": "16-38"
         },
         {
           "verse": "26",
-          "word_ids": "12-16"
+          "word_ids": "11-15"
         },
         {
           "verse": "27",
-          "word_ids": "2-49"
+          "word_ids": "1-48"
         }
       ]
     },
@@ -1452,131 +1452,131 @@
       "verses": [
         {
           "verse": "3",
-          "word_ids": "4-26"
+          "word_ids": "3-25"
         },
         {
           "verse": "4",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "5",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "6",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "7",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "8",
-          "word_ids": "2-44"
+          "word_ids": "1-43"
         },
         {
           "verse": "9",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "10",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "11",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "12",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "13",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "14",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "15",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "16",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "17",
-          "word_ids": "2-34"
+          "word_ids": "1-33"
         },
         {
           "verse": "18",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "19",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "20",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "22",
-          "word_ids": "6-18"
+          "word_ids": "5-17"
         },
         {
           "verse": "23",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "24",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "25",
-          "word_ids": "2-31"
+          "word_ids": "1-30"
         },
         {
           "verse": "26",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "27",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "28",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "29",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "30",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "31",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "32",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "33",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "34",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "35",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         }
       ]
     },
@@ -1585,71 +1585,71 @@
       "verses": [
         {
           "verse": "4",
-          "word_ids": "9-25"
-        },
-        {
-          "verse": "5",
-          "word_ids": "2-26"
-        },
-        {
-          "verse": "6",
-          "word_ids": "2-21"
-        },
-        {
-          "verse": "8",
-          "word_ids": "6-28"
-        },
-        {
-          "verse": "9",
-          "word_ids": "2-34"
-        },
-        {
-          "verse": "11",
-          "word_ids": "7-19"
-        },
-        {
-          "verse": "12",
-          "word_ids": "2-51"
-        },
-        {
-          "verse": "14",
-          "word_ids": "5-23"
-        },
-        {
-          "verse": "17",
-          "word_ids": "7-30"
-        },
-        {
-          "verse": "18",
-          "word_ids": "9-28"
-        },
-        {
-          "verse": "21",
-          "word_ids": "6-33"
-        },
-        {
-          "verse": "23",
           "word_ids": "8-24"
         },
         {
+          "verse": "5",
+          "word_ids": "1-25"
+        },
+        {
+          "verse": "6",
+          "word_ids": "1-20"
+        },
+        {
+          "verse": "8",
+          "word_ids": "5-27"
+        },
+        {
+          "verse": "9",
+          "word_ids": "1-33"
+        },
+        {
+          "verse": "11",
+          "word_ids": "6-18"
+        },
+        {
+          "verse": "12",
+          "word_ids": "1-50"
+        },
+        {
+          "verse": "14",
+          "word_ids": "4-22"
+        },
+        {
+          "verse": "17",
+          "word_ids": "6-29"
+        },
+        {
+          "verse": "18",
+          "word_ids": "8-27"
+        },
+        {
+          "verse": "21",
+          "word_ids": "5-32"
+        },
+        {
+          "verse": "23",
+          "word_ids": "7-23"
+        },
+        {
           "verse": "24",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "26",
-          "word_ids": "10-21"
+          "word_ids": "9-20"
         },
         {
           "verse": "28",
-          "word_ids": "7-46"
+          "word_ids": "6-45"
         },
         {
           "verse": "29",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "30",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         }
       ]
     },
@@ -1658,91 +1658,91 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "3",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "4",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "5",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "6",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "7",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "8",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "9",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "10",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "11",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "12",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "13",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "14",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "16",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "21",
-          "word_ids": "7-9"
+          "word_ids": "6-8"
         },
         {
           "verse": "22",
-          "word_ids": "7-37"
+          "word_ids": "6-36"
         },
         {
           "verse": "23",
-          "word_ids": "7-55"
+          "word_ids": "6-54"
         },
         {
           "verse": "25",
-          "word_ids": "10-30"
+          "word_ids": "9-29"
         },
         {
           "verse": "26",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "27",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "28",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "32",
-          "word_ids": "11-19"
+          "word_ids": "10-18"
         }
       ]
     },
@@ -1751,111 +1751,111 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "5-31"
+          "word_ids": "4-30"
         },
         {
           "verse": "3",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "13",
-          "word_ids": "6-26"
+          "word_ids": "5-25"
         },
         {
           "verse": "16",
-          "word_ids": "16-32"
+          "word_ids": "15-31"
         },
         {
           "verse": "19",
-          "word_ids": "27-35"
+          "word_ids": "26-34"
         },
         {
           "verse": "21",
-          "word_ids": "8-55"
+          "word_ids": "7-54"
         },
         {
           "verse": "22",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "24",
-          "word_ids": "9-34"
+          "word_ids": "8-33"
         },
         {
           "verse": "25",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "27",
-          "word_ids": "16-26"
+          "word_ids": "15-25"
         },
         {
           "verse": "28",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "29",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "30",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "31",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "31",
-          "word_ids": "22-40"
+          "word_ids": "21-39"
         },
         {
           "verse": "32",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "33",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "34",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "35",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "36",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "37",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "38",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "39",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "40",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "42",
-          "word_ids": "6-39"
+          "word_ids": "5-38"
         },
         {
           "verse": "43",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "44",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         }
       ]
     },
@@ -1864,119 +1864,119 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "3",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "4",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "5",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "6",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "7",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "8",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "9",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "10",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "11",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "12",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "13",
-          "word_ids": "2-31"
+          "word_ids": "1-30"
         },
         {
           "verse": "14",
-          "word_ids": "2-9"
+          "word_ids": "1-8"
         },
         {
           "verse": "18",
-          "word_ids": "9-14"
+          "word_ids": "8-13"
         },
         {
           "verse": "19",
-          "word_ids": "2-6"
+          "word_ids": "1-5"
         },
         {
           "verse": "20",
-          "word_ids": "7-12"
+          "word_ids": "6-11"
         },
         {
           "verse": "21",
-          "word_ids": "12-28"
+          "word_ids": "11-27"
         },
         {
           "verse": "29",
-          "word_ids": "8-19"
+          "word_ids": "7-18"
         },
         {
           "verse": "30",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "31",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "32",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "37",
-          "word_ids": "6-26"
+          "word_ids": "5-25"
         },
         {
           "verse": "38",
-          "word_ids": "2-8"
+          "word_ids": "1-7"
         },
         {
           "verse": "39",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "40",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "42",
-          "word_ids": "3-11"
+          "word_ids": "2-10"
         },
         {
           "verse": "43",
-          "word_ids": "6-15"
+          "word_ids": "5-14"
         },
         {
           "verse": "44",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "45",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         }
       ]
     },
@@ -1985,155 +1985,155 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "3-11"
-        },
-        {
-          "verse": "3",
-          "word_ids": "2-25"
-        },
-        {
-          "verse": "4",
-          "word_ids": "2-29"
-        },
-        {
-          "verse": "5",
-          "word_ids": "2-25"
-        },
-        {
-          "verse": "6",
-          "word_ids": "2-15"
-        },
-        {
-          "verse": "7",
-          "word_ids": "2-14"
-        },
-        {
-          "verse": "8",
-          "word_ids": "2-19"
-        },
-        {
-          "verse": "9",
-          "word_ids": "2-19"
-        },
-        {
-          "verse": "10",
-          "word_ids": "2-13"
-        },
-        {
-          "verse": "11",
-          "word_ids": "2-12"
-        },
-        {
-          "verse": "12",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "13",
-          "word_ids": "2-35"
-        },
-        {
-          "verse": "14",
-          "word_ids": "2-27"
-        },
-        {
-          "verse": "15",
-          "word_ids": "2-34"
-        },
-        {
-          "verse": "16",
-          "word_ids": "2-32"
-        },
-        {
-          "verse": "17",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "18",
-          "word_ids": "2-24"
-        },
-        {
-          "verse": "19",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "20",
-          "word_ids": "2-16"
-        },
-        {
-          "verse": "21",
-          "word_ids": "2-17"
-        },
-        {
-          "verse": "22",
-          "word_ids": "2-20"
-        },
-        {
-          "verse": "23",
-          "word_ids": "2-44"
-        },
-        {
-          "verse": "24",
-          "word_ids": "2-13"
-        },
-        {
-          "verse": "25",
-          "word_ids": "2-30"
-        },
-        {
-          "verse": "26",
-          "word_ids": "2-23"
-        },
-        {
-          "verse": "27",
-          "word_ids": "2-32"
-        },
-        {
-          "verse": "28",
-          "word_ids": "2-19"
-        },
-        {
-          "verse": "29",
-          "word_ids": "2-23"
-        },
-        {
-          "verse": "30",
-          "word_ids": "2-27"
-        },
-        {
-          "verse": "31",
-          "word_ids": "2-18"
-        },
-        {
-          "verse": "32",
           "word_ids": "2-10"
         },
         {
+          "verse": "3",
+          "word_ids": "1-24"
+        },
+        {
+          "verse": "4",
+          "word_ids": "1-28"
+        },
+        {
+          "verse": "5",
+          "word_ids": "1-24"
+        },
+        {
+          "verse": "6",
+          "word_ids": "1-14"
+        },
+        {
+          "verse": "7",
+          "word_ids": "1-13"
+        },
+        {
+          "verse": "8",
+          "word_ids": "1-18"
+        },
+        {
+          "verse": "9",
+          "word_ids": "1-18"
+        },
+        {
+          "verse": "10",
+          "word_ids": "1-12"
+        },
+        {
+          "verse": "11",
+          "word_ids": "1-11"
+        },
+        {
+          "verse": "12",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "13",
+          "word_ids": "1-34"
+        },
+        {
+          "verse": "14",
+          "word_ids": "1-26"
+        },
+        {
+          "verse": "15",
+          "word_ids": "1-33"
+        },
+        {
+          "verse": "16",
+          "word_ids": "1-31"
+        },
+        {
+          "verse": "17",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "18",
+          "word_ids": "1-23"
+        },
+        {
+          "verse": "19",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "20",
+          "word_ids": "1-15"
+        },
+        {
+          "verse": "21",
+          "word_ids": "1-16"
+        },
+        {
+          "verse": "22",
+          "word_ids": "1-19"
+        },
+        {
+          "verse": "23",
+          "word_ids": "1-43"
+        },
+        {
+          "verse": "24",
+          "word_ids": "1-12"
+        },
+        {
+          "verse": "25",
+          "word_ids": "1-29"
+        },
+        {
+          "verse": "26",
+          "word_ids": "1-22"
+        },
+        {
+          "verse": "27",
+          "word_ids": "1-31"
+        },
+        {
+          "verse": "28",
+          "word_ids": "1-18"
+        },
+        {
+          "verse": "29",
+          "word_ids": "1-22"
+        },
+        {
+          "verse": "30",
+          "word_ids": "1-26"
+        },
+        {
+          "verse": "31",
+          "word_ids": "1-17"
+        },
+        {
+          "verse": "32",
+          "word_ids": "1-9"
+        },
+        {
           "verse": "33",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "34",
-          "word_ids": "2-39"
+          "word_ids": "1-38"
         },
         {
           "verse": "35",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "36",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "37",
-          "word_ids": "2-40"
+          "word_ids": "1-39"
         },
         {
           "verse": "38",
-          "word_ids": "2-9"
+          "word_ids": "1-8"
         },
         {
           "verse": "39",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         }
       ]
     },
@@ -2142,199 +2142,199 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "7-33"
+          "word_ids": "6-32"
         },
         {
           "verse": "4",
-          "word_ids": "9-15"
+          "word_ids": "8-14"
         },
         {
           "verse": "5",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "6",
-          "word_ids": "2-31"
+          "word_ids": "1-30"
         },
         {
           "verse": "7",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "8",
-          "word_ids": "2-8"
+          "word_ids": "1-7"
         },
         {
           "verse": "9",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "10",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "11",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "12",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "13",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "14",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "15",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "16",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "17",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "18",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "19",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "20",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "21",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "22",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "23",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "24",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "25",
-          "word_ids": "2-7"
+          "word_ids": "1-6"
         },
         {
           "verse": "26",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "27",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "28",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "29",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "30",
-          "word_ids": "2-43"
+          "word_ids": "1-42"
         },
         {
           "verse": "31",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "32",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "33",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "34",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "35",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "36",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "37",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "38",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "39",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "40",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "41",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "42",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "43",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "44",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "45",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "46",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "47",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "48",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "49",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "50",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "51",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         }
       ]
     },
@@ -2343,183 +2343,183 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-11"
+          "word_ids": "1-10"
         },
         {
           "verse": "3",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "4",
-          "word_ids": "2-12"
+          "word_ids": "1-11"
         },
         {
           "verse": "5",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "6",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "7",
-          "word_ids": "2-10"
+          "word_ids": "1-9"
         },
         {
           "verse": "8",
-          "word_ids": "2-19"
+          "word_ids": "1-18"
         },
         {
           "verse": "9",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "10",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "11",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "12",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "13",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "14",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "15",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "16",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "17",
-          "word_ids": "2-13"
+          "word_ids": "1-12"
         },
         {
           "verse": "18",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "19",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "20",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "21",
-          "word_ids": "2-37"
+          "word_ids": "1-36"
         },
         {
           "verse": "22",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "23",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "24",
-          "word_ids": "2-35"
+          "word_ids": "1-34"
         },
         {
           "verse": "25",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "26",
-          "word_ids": "2-29"
+          "word_ids": "1-28"
         },
         {
           "verse": "27",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "28",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "29",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "30",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "31",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "32",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "33",
-          "word_ids": "2-17"
+          "word_ids": "1-16"
         },
         {
           "verse": "34",
-          "word_ids": "2-30"
+          "word_ids": "1-29"
         },
         {
           "verse": "35",
-          "word_ids": "2-28"
+          "word_ids": "1-27"
         },
         {
           "verse": "36",
-          "word_ids": "2-22"
+          "word_ids": "1-21"
         },
         {
           "verse": "37",
-          "word_ids": "2-24"
+          "word_ids": "1-23"
         },
         {
           "verse": "38",
-          "word_ids": "2-16"
+          "word_ids": "1-15"
         },
         {
           "verse": "39",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "40",
-          "word_ids": "2-36"
+          "word_ids": "1-35"
         },
         {
           "verse": "41",
-          "word_ids": "2-27"
+          "word_ids": "1-26"
         },
         {
           "verse": "42",
-          "word_ids": "2-21"
+          "word_ids": "1-20"
         },
         {
           "verse": "43",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         },
         {
           "verse": "44",
-          "word_ids": "2-33"
+          "word_ids": "1-32"
         },
         {
           "verse": "45",
-          "word_ids": "2-31"
+          "word_ids": "1-30"
         },
         {
           "verse": "46",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         }
       ]
     },
@@ -2528,131 +2528,131 @@
       "verses": [
         {
           "verse": "2",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "10",
-          "word_ids": "10-23"
+          "word_ids": "9-22"
         },
         {
           "verse": "11",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "12",
-          "word_ids": "2-18"
+          "word_ids": "1-17"
         },
         {
           "verse": "13",
-          "word_ids": "2-32"
+          "word_ids": "1-31"
         },
         {
           "verse": "18",
-          "word_ids": "5-35"
+          "word_ids": "4-34"
         },
         {
           "verse": "21",
-          "word_ids": "9-20"
+          "word_ids": "8-19"
         },
         {
           "verse": "23",
-          "word_ids": "7-21"
+          "word_ids": "6-20"
         },
         {
           "verse": "24",
-          "word_ids": "2-38"
+          "word_ids": "1-37"
         },
         {
           "verse": "25",
-          "word_ids": "18-20"
+          "word_ids": "17-19"
         },
         {
           "verse": "26",
-          "word_ids": "24-29"
+          "word_ids": "23-28"
         },
         {
           "verse": "27",
-          "word_ids": "16-20"
+          "word_ids": "15-19"
         },
         {
           "verse": "28",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "29",
-          "word_ids": "2-31"
+          "word_ids": "1-30"
         },
         {
           "verse": "31",
-          "word_ids": "7-35"
+          "word_ids": "6-34"
         },
         {
           "verse": "32",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "34",
-          "word_ids": "6-22"
+          "word_ids": "5-21"
         },
         {
           "verse": "36",
-          "word_ids": "17-25"
-        },
-        {
-          "verse": "38",
-          "word_ids": "7-21"
-        },
-        {
-          "verse": "39",
-          "word_ids": "16-37"
-        },
-        {
-          "verse": "40",
           "word_ids": "16-24"
         },
         {
+          "verse": "38",
+          "word_ids": "6-20"
+        },
+        {
+          "verse": "39",
+          "word_ids": "15-36"
+        },
+        {
+          "verse": "40",
+          "word_ids": "15-23"
+        },
+        {
           "verse": "41",
-          "word_ids": "2-20"
+          "word_ids": "1-19"
         },
         {
           "verse": "42",
-          "word_ids": "12-31"
+          "word_ids": "11-30"
         },
         {
           "verse": "45",
-          "word_ids": "12-36"
+          "word_ids": "11-35"
         },
         {
           "verse": "46",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "50",
-          "word_ids": "7-11"
+          "word_ids": "6-10"
         },
         {
           "verse": "52",
-          "word_ids": "7-26"
+          "word_ids": "6-25"
         },
         {
           "verse": "53",
-          "word_ids": "2-23"
+          "word_ids": "1-22"
         },
         {
           "verse": "54",
-          "word_ids": "2-14"
+          "word_ids": "1-13"
         },
         {
           "verse": "55",
-          "word_ids": "11-42"
+          "word_ids": "10-41"
         },
         {
           "verse": "56",
-          "word_ids": "2-15"
+          "word_ids": "1-14"
         },
         {
           "verse": "64",
-          "word_ids": "6-35"
+          "word_ids": "5-34"
         }
       ]
     },
@@ -2661,15 +2661,15 @@
       "verses": [
         {
           "verse": "11",
-          "word_ids": "26-27"
+          "word_ids": "25-26"
         },
         {
           "verse": "46",
-          "word_ids": "14-17"
+          "word_ids": "13-16"
         },
         {
           "verse": "46",
-          "word_ids": "22-30"
+          "word_ids": "21-29"
         }
       ]
     },
@@ -2678,23 +2678,23 @@
       "verses": [
         {
           "verse": "9",
-          "word_ids": "15-16"
+          "word_ids": "14-15"
         },
         {
           "verse": "10",
-          "word_ids": "7-24"
+          "word_ids": "6-23"
         },
         {
           "verse": "18",
-          "word_ids": "10-20"
+          "word_ids": "9-19"
         },
         {
           "verse": "19",
-          "word_ids": "2-25"
+          "word_ids": "1-24"
         },
         {
           "verse": "20",
-          "word_ids": "2-26"
+          "word_ids": "1-25"
         }
       ]
     }
