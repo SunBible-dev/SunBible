@@ -10,7 +10,7 @@ def extract_red_letters(html_file):
     chapters = soup.find_all('div', id=re.compile(r'^Chapter\d+$'))
     print(f"Found {len(chapters)} chapters")
     
-    words_output = {"Mark": []}
+    words_output = {"1Corinthians": []}
     
     for chapter in chapters:
         chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
@@ -61,7 +61,7 @@ def extract_red_letters(html_file):
             })
         
         if chapter_words["verses"]:
-            words_output["Mark"].append(chapter_words)
+            words_output["1Corinthians"].append(chapter_words)
     
     return words_output
 
@@ -72,8 +72,8 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=41-Mark.html')
-    words_output_file = os.path.join(project_root, 'json', 'mark-red-letter.json')
+    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=46-1Corinthians.html')
+    words_output_file = os.path.join(project_root, 'json', '1Corinthians-red-letter.json')
     
     words_output = extract_red_letters(html_file)
     

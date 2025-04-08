@@ -17,4 +17,8 @@ python3 scripts/luke_word_ids.py
 # john
 python3 scripts/john_extract_red_letters.py
 python3 scripts/john_word_ids.py
+
+# 1Corinthians
+python3 scripts/1_Corinthians_extract_red_letters.py
+python3 scripts/1_Corinthians_word_ids.py
 ```
