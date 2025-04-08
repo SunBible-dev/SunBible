@@ -47,8 +47,7 @@ def generate_word_ids():
                                 words = red_text.split()
                                 word_id_data[chapter_num].append({
                                     'verse': verse_num,
-                                    'start': 1,
-                                    'end': len(words)
+                                    'word_ids': f'1-{len(words)}'
                                 })
                                 
                 current_verse = ''
