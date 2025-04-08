@@ -11,14 +11,12 @@ def extract_red_letters(html_file):
     print(f"Found {len(chapters)} chapters")
     
     words_output = {"Matthew": []}
-    ids_output = {"Matthew": []}
     
     for chapter in chapters:
         chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
         print(f"Processing chapter {chapter_num}")
         
         chapter_words = {"chapter": chapter_num, "verses": []}
-        chapter_ids = {"chapter": chapter_num, "verses": []}
         
         # Get all red spans in the chapter
         red_spans = chapter.find_all('span', class_='red')
@@ -26,7 +24,6 @@ def extract_red_letters(html_file):
         # Group spans by verse
         current_verse = None
         verse_words = []
-        verse_ids = []
         
         for span in red_spans:
             # Find the verse number by looking at previous text
@@ -46,22 +43,15 @@ def extract_red_letters(html_file):
                         "verse": current_verse,
                         "red_words": " ".join(verse_words)
                     })
-                    chapter_ids["verses"].append({
-                        "verse": current_verse,
-                        "word_ids": ", ".join(verse_ids)
-                    })
                 
                 # Start new verse
                 current_verse = verse_match.group(1)
                 verse_words = []
-                verse_ids = []
             
-            # Add this span's text and ID
+            # Add this span's text
             word = span.get_text().strip()
             if word:
                 verse_words.append(word)
-                if 'id' in span.attrs:
-                    verse_ids.append(span['id'].split('W')[1])
         
         # Add the last verse of the chapter
         if current_verse and verse_words:
@@ -69,16 +59,11 @@ def extract_red_letters(html_file):
                 "verse": current_verse,
                 "red_words": " ".join(verse_words)
             })
-            chapter_ids["verses"].append({
-                "verse": current_verse,
-                "word_ids": ", ".join(verse_ids)
-            })
         
         if chapter_words["verses"]:
             words_output["Matthew"].append(chapter_words)
-            ids_output["Matthew"].append(chapter_ids)
     
-    return words_output, ids_output
+    return words_output
 
 def main():
     import os
@@ -89,15 +74,11 @@ def main():
     
     html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=40-Matthew.html')
     words_output_file = os.path.join(project_root, 'json', 'matthew-red-letter.json')
-    ids_output_file = os.path.join(project_root, 'json', 'matthew-red-letter-ids.json')
     
-    words_output, ids_output = extract_red_letters(html_file)
+    words_output = extract_red_letters(html_file)
     
     with open(words_output_file, 'w', encoding='utf-8') as f:
         json.dump(words_output, f, indent=2)
-    
-    with open(ids_output_file, 'w', encoding='utf-8') as f:
-        json.dump(ids_output, f, indent=2)
 
 if __name__ == '__main__':
     main()
