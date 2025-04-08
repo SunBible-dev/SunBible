@@ -12,14 +12,14 @@ def process_matthew():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=41-Mark.html')
+    html_file = os.path.join(project_root, 'BibleBase', 'BibleBooksHTML', 'Book-id=41-Luke.html')
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
     soup = BeautifulSoup(content, 'html.parser')
     chapters = soup.find_all('div', id=re.compile(r'^Chapter\d+$'))
     
-    output = {"Mark": []}
+    output = {"Luke": []}
     
     for chapter in chapters:
         chapter_num = chapter.find('h1', id='ChapterNumber').text.split()[1]
@@ -69,10 +69,10 @@ def process_matthew():
                     })
                 word_count += len(words)
         
-        output["Mark"].append(chapter_data)
+        output["Luke"].append(chapter_data)
     
     # Save the output
-    output_file = os.path.join(project_root, 'json', 'mark-red-letter-ids.json')
+    output_file = os.path.join(project_root, 'json', 'luke-red-letter-ids.json')
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2)
 
