@@ -84,7 +84,7 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
         }
 
         // Find the chapter data
-        const chapterData = redLetterData[book].find(ch => ch.chapter === String(chapterNum));
+        const chapterData = redLetterData[String(chapterNum)];
         if (!chapterData) return;
 
         // Process each verse with red letters
@@ -99,42 +99,37 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const verseText = verseElement.querySelector('.verse_text');
             if (!verseText) return;
 
-            // Split text while preserving punctuation
+            // Split text into words and punctuation while preserving spaces
             const text = verseText.textContent;
-            const words = text.match(/[\w']+|[.,!?;]|\s+/g) || [];
+            const words = text.split(/([\s.,!?;]|[\w']+)/).filter(Boolean);
             
-            // Handle individual word IDs
-            const wordIds = verseData.word_ids.split(',').map(id => {
-                const range = id.split('-').map(Number);
-                return range.length === 2 ? range : [range[0], range[0]];
+            // Parse word IDs and create ranges
+            const wordRanges = verseData.word_ids.split(',').map(id => {
+                const [start, end] = id.split('-').map(Number);
+                return end ? Array.from({length: end - start + 1}, (_, i) => start + i) : [start];
             }).flat();
-
-            // Create a map of word positions that should be red
-            const redPositions = new Set(wordIds);
+            const redPositions = new Set(wordRanges);
             
             // Build the new verse text with red letters
             let newText = '';
             let currentWord = 1;
             
             words.forEach(word => {
-                if (word.trim() === '') {
-                    newText += word; // Preserve whitespace
-                    return;
-                }
-                if (word.match(/[.,!?;]/)) {
-                    newText += word; // Preserve punctuation
-                    return;
-                }
-                
-                if (redPositions.has(currentWord)) {
-                    newText += `<span class="red-letters">${word}</span>`;
+                if (/[\s.,!?;]/.test(word)) {
+                    newText += word; // Preserve whitespace and punctuation
                 } else {
-                    newText += word;
+                    if (redPositions.has(currentWord)) {
+                        newText += `<span class="red-letters">${word}</span>`;
+                    } else {
+                        newText += word;
+                    }
+                    currentWord++;
                 }
-                currentWord++;
             });
 
+            // Update the verse text and trigger a custom event
             verseText.innerHTML = newText.trim();
+            verseElement.dispatchEvent(new CustomEvent('redLettersApplied'));
         });
     } catch (error) {
         console.error('Error applying red letters:', error);
