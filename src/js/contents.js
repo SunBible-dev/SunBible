@@ -4,30 +4,44 @@
 
 
 // Function to load and display contents
-function loadContents() {
-  const contentsData = localStorage.getItem('contents');
-  if (!contentsData) {
-    // Fetch the contents.json file
-    fetch('https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.w3s.link/contents.json')
-      .then(response => response.json())
-      .then(data => {
-        localStorage.setItem('contents', JSON.stringify(data));
-        displayContents(data);
-      })
-      .catch(error => {
-        console.error('Error fetching contents:', error);
-      });
-    return;
-  }
-
+async function loadContents() {
   try {
-    const data = JSON.parse(contentsData || localStorage.getItem('contents'));
-    const contentsSection = document.getElementById('SUNBIBLE_CONTENTS');
-    contentsSection.innerHTML = '<h1>CONTENTS</h1>'; // Clear existing contents
+    // Initialize IndexedDB connection
+    await initDB();
 
-    displayContents(data);
+    const transaction = db.transaction(['contents'], 'readonly');
+    const store = transaction.objectStore('contents');
+    const request = store.get('contentsData');
+
+    request.onsuccess = async (event) => {
+      let data = event.target.result;
+
+      if (!data) {
+        try {
+          // Fetch the contents.json file
+          const response = await fetch('https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.w3s.link/contents.json');
+          data = await response.json();
+
+          // Store in IndexedDB
+          const writeTransaction = db.transaction(['contents'], 'readwrite');
+          const writeStore = writeTransaction.objectStore('contents');
+          writeStore.put(data, 'contentsData');
+
+          console.log('Contents data stored in IndexedDB');
+        } catch (error) {
+          console.error('Error fetching contents:', error);
+          return;
+        }
+      }
+
+      displayContents(data);
+    };
+
+    request.onerror = (event) => {
+      console.error('Error loading contents from IndexedDB:', event.target.error);
+    };
   } catch (error) {
-    console.error('Error loading contents:', error);
+    console.error('Error accessing IndexedDB:', error);
   }
 }
 
