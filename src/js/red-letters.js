@@ -95,11 +95,7 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
 
         // Find the chapter data
         const chapterData = redLetterData[book]?.find(ch => ch.chapter === String(chapterNum));
-        if (!chapterData) {
-            console.log('No chapter data found for:', book, chapterNum);
-            return;
-        }
-        console.log('Found chapter data:', chapterData);
+        if (!chapterData) return;
 
         // Process each verse with red letters
         if (!Array.isArray(chapterData.verses)) {
@@ -107,17 +103,17 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             return;
         }
 
+        // Create a map of verse elements for faster lookup
+        const verseElementMap = new Map();
+        Array.from(chapterElement.getElementsByClassName('bible_book_chapter_verse')).forEach(el => {
+            const verseNumber = el.querySelector('.verse_number');
+            if (verseNumber) {
+                verseElementMap.set(verseNumber.textContent, el);
+            }
+        });
+
         chapterData.verses.forEach(verseData => {
-            console.log('Processing verse data:', verseData);
-            const verseElements = chapterElement.getElementsByClassName('bible_book_chapter_verse');
-            const verseElement = Array.from(verseElements).find(el => {
-                const verseNumber = el.querySelector('.verse_number');
-                const match = verseNumber && verseNumber.textContent === String(verseData.verse);
-                if (!match) {
-                    console.log('Verse number mismatch:', verseNumber?.textContent, 'vs', verseData.verse);
-                }
-                return match;
-            });
+            const verseElement = verseElementMap.get(String(verseData.verse));
             if (!verseElement) return;
 
             const verseText = verseElement.querySelector('.verse_text');
@@ -184,9 +180,7 @@ async function initializeRedLetters() {
 
 // Watch for Bible content changes and apply red letters
 function watchForBibleChanges() {
-    console.log('Setting up Bible content observer...');
     const observer = new MutationObserver(mutations => {
-        console.log('Detected DOM mutations:', mutations.length);
         mutations.forEach(mutation => {
             // Check both the target and added nodes for chapter elements
             const targets = [mutation.target, ...Array.from(mutation.addedNodes)];
