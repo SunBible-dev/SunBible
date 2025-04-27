@@ -92,7 +92,10 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const verseElement = chapterElement.querySelector(`[data-verse="${verseData.verse}"]`);
             if (!verseElement) return;
 
-            const words = verseElement.textContent.split(' ');
+            const verseText = verseElement.querySelector('.verse_text');
+            if (!verseText) return;
+
+            const words = verseText.textContent.split(' ');
             const wordIds = verseData.word_ids.split('-').map(Number);
             const [start, end] = wordIds;
 
@@ -101,7 +104,7 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const redWords = words.slice(start - 1, end).join(' ');
             const afterWords = words.slice(end).join(' ');
 
-            verseElement.innerHTML = `${beforeWords} <span class="red-letters">${redWords}</span> ${afterWords}`.trim();
+            verseText.innerHTML = `${beforeWords} <span class="red-letters">${redWords}</span> ${afterWords}`.trim();
         });
     } catch (error) {
         console.error('Error applying red letters:', error);
