@@ -28,7 +28,7 @@ bafybeia3cis7aa523o2alefwkdnolfzpkrxbpy3eizeylgpgflfwlkc6ge
 
 Project Progress
 - [x] basic bible app
-- [ ] red letters
+- [x] red letters
 - [ ] bible memory
 - [ ] highlight verses and the ability to save them
 - [ ] installable pwa
