@@ -4,7 +4,7 @@
 const RED_LETTERS_IPFS_URL = 'https://w3s.link/ipfs/bafybeia3cis7aa523o2alefwkdnolfzpkrxbpy3eizeylgpgflfwlkc6ge';
 
 // Books that have red letters
-const RED_LETTER_BOOKS = ['Matthew', 'Mark', 'Luke', 'John', '1Corinthians', 'Revelation'];
+const RED_LETTER_BOOKS = ['Matthew', 'Mark', 'Luke', 'John', 'Revelation'];
 
 // IndexedDB setup
 const RED_LETTERS_DB_NAME = 'sunbible_red_letters';
@@ -40,7 +40,7 @@ async function initRedLettersDb() {
 async function fetchRedLetterData(book) {
     console.log(`Fetching red letter data for ${book} from IPFS...`);
     try {
-        const url = `${RED_LETTERS_IPFS_URL}/${book === '1Corinthians' ? '1Corinthians' : book.toLowerCase()}-red-letter-ids.json`;
+        const url = `${RED_LETTERS_IPFS_URL}/${book.toLowerCase()}-red-letter-ids.json`;
         console.log('Fetching from URL:', url);
         const response = await fetch(url);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
