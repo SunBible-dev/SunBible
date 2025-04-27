@@ -34,7 +34,7 @@ async function initRedLettersDb() {
 // Fetch red letter data for a specific book
 async function fetchRedLetterData(book) {
     try {
-        const response = await fetch(`${RED_LETTERS_IPFS_URL}/${book.toLowerCase()}-red-letter-ids.json`);
+        const response = await fetch(`${RED_LETTERS_IPFS_URL}/${book === '1Corinthians' ? '1Corinthians' : book.toLowerCase()}-red-letter-ids.json`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
         await saveRedLetterData(book, data);
