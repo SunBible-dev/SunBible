@@ -1,7 +1,7 @@
 // Red Letters functionality for SUNBIBLE
 
 // IPFS Gateway URL for red letters data
-const RED_LETTERS_IPFS_URL = 'https://w3s.link/ipfs/bafybeicccsyr727druhqp2i3rseucgfpfa2qjcompafdwx54n4k37cthj4';
+const RED_LETTERS_IPFS_URL = 'https://w3s.link/ipfs/bafybeia3cis7aa523o2alefwkdnolfzpkrxbpy3eizeylgpgflfwlkc6ge';
 
 // Books that have red letters
 const RED_LETTER_BOOKS = ['Matthew', 'Mark', 'Luke', 'John', '1Corinthians', 'Revelation'];
