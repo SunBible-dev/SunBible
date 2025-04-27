@@ -178,16 +178,45 @@ async function initializeRedLetters() {
     }
 }
 
+// Debounce function to limit the frequency of function calls
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Set to keep track of processed chapters
+const processedChapters = new Set();
+
 // Watch for Bible content changes and apply red letters
 function watchForBibleChanges() {
+    // Debounced version of applyRedLetters
+    const debouncedApplyRedLetters = debounce((book, chapter, element) => {
+        const chapterKey = `${book}-${chapter}`;
+        if (!processedChapters.has(chapterKey)) {
+            console.log('Applying red letters to:', book, chapter);
+            applyRedLetters(book, chapter, element);
+            processedChapters.add(chapterKey);
+        }
+    }, 250); // Wait 250ms before processing
+
     const observer = new MutationObserver(mutations => {
-        mutations.forEach(mutation => {
+        for (const mutation of mutations) {
+            // Skip if this is a characterData mutation (text content change)
+            if (mutation.type === 'characterData') continue;
+            
             // Check both the target and added nodes for chapter elements
             const targets = [mutation.target, ...Array.from(mutation.addedNodes)];
-            targets.forEach(target => {
-                if (!(target instanceof Element)) return;
+            for (const target of targets) {
+                if (!(target instanceof Element)) continue;
                 
-                // Find the closest chapter element, either the target itself or its ancestor
+                // Find the closest chapter element
                 const chapterElement = target.classList?.contains('SUNBIBLE_bible_book_chapter') 
                     ? target 
                     : target.closest('.SUNBIBLE_bible_book_chapter');
@@ -196,38 +225,38 @@ function watchForBibleChanges() {
                     const book = chapterElement.getAttribute('data-book');
                     const chapter = chapterElement.getAttribute('data-chapter');
                     if (book && chapter && RED_LETTER_BOOKS.includes(book)) {
-                        console.log('Applying red letters to:', book, chapter);
-                        applyRedLetters(book, chapter, chapterElement);
+                        debouncedApplyRedLetters(book, chapter, chapterElement);
                     }
                 }
-            });
-        });
+            }
+        }
     });
 
     // Start observing the Bible content container
     const bibleContent = document.querySelector('#SUNBIBLE_bible_book');
     if (bibleContent) {
-        console.log('Found Bible content container, starting observation');
         // Check for any existing chapter content
         const existingChapters = bibleContent.getElementsByClassName('SUNBIBLE_bible_book_chapter');
         Array.from(existingChapters).forEach(chapterElement => {
             const book = chapterElement.getAttribute('data-book');
             const chapter = chapterElement.getAttribute('data-chapter');
             if (book && chapter && RED_LETTER_BOOKS.includes(book)) {
-                console.log('Applying red letters to existing chapter:', book, chapter);
-                applyRedLetters(book, chapter, chapterElement);
+                const chapterKey = `${book}-${chapter}`;
+                if (!processedChapters.has(chapterKey)) {
+                    applyRedLetters(book, chapter, chapterElement);
+                    processedChapters.add(chapterKey);
+                }
             }
         });
         
-        // Start observing for future changes
+        // Start observing for future changes with optimized configuration
         observer.observe(bibleContent, { 
             childList: true, 
-            subtree: true, 
-            characterData: true,
+            subtree: true,
             attributes: true,
-            attributeFilter: ['data-book', 'data-chapter']
+            attributeFilter: ['data-book', 'data-chapter'],
+            characterData: false // Disable character data observation
         });
-        console.log('Bible content observer successfully initialized');
     }
 }
 
