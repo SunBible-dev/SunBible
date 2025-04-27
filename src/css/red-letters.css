@@ -1,0 +1,4 @@
+.red-letters {
+    color: var(--red-letters-color);
+    mix-blend-mode: var(--red-blend-mode);
+}
