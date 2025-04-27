@@ -94,7 +94,7 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
         }
 
         // Find the chapter data
-        const chapterData = redLetterData[String(chapterNum)];
+        const chapterData = redLetterData[book]?.find(ch => ch.chapter === String(chapterNum));
         if (!chapterData) {
             console.log('No chapter data found for:', book, chapterNum);
             return;
@@ -123,34 +123,33 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const verseText = verseElement.querySelector('.verse_text');
             if (!verseText) return;
 
-            // Split text into words, keeping only actual words (no spaces/punctuation)
+            // Split text into words while preserving spaces and punctuation
             const text = verseText.textContent;
-            const words = text.match(/[\w']+/g) || [];
+            const textParts = text.split(/([\s\p{P}]+)/u);
+            const words = textParts.filter(part => part.match(/[\w']+/));
             
             // Parse word IDs range
             const [start, end] = verseData.word_ids.split('-').map(Number);
             const redRange = {start, end};
             
             // Build the new verse text with red letters
-            let newText = text;
-            let currentPos = 0;
+            let newText = '';
+            let wordCount = 0;
             
-            // Replace each word that falls within the red letter range
-            for (let i = 0; i < words.length; i++) {
-                const wordNum = i + 1; // Word numbers are 1-based
-                if (wordNum >= redRange.start && wordNum <= redRange.end) {
-                    const word = words[i];
-                    const wordIndex = newText.indexOf(word, currentPos);
-                    if (wordIndex !== -1) {
-                        const before = newText.substring(0, wordIndex);
-                        const after = newText.substring(wordIndex + word.length);
-                        newText = before + `<span class="red-letters">${word}</span>` + after;
-                        currentPos = wordIndex + word.length + 29; // 29 is the length of span tags
+            // Process each part of the text
+            textParts.forEach(part => {
+                if (part.match(/[\w']+/)) {
+                    wordCount++;
+                    if (wordCount >= redRange.start && wordCount <= redRange.end) {
+                        newText += `<span class="red-letters">${part}</span>`;
+                    } else {
+                        newText += part;
                     }
+                } else {
+                    newText += part; // Preserve spaces and punctuation
                 }
-            }
             });
-
+            
             // Update the verse text and trigger a custom event
             verseText.innerHTML = newText.trim();
             verseElement.dispatchEvent(new CustomEvent('redLettersApplied'));
