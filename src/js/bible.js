@@ -130,6 +130,8 @@ function loadBibleData(data) {
             if (chapter) {
                 const chapterDiv = document.createElement("div");
                 chapterDiv.classList.add("SUNBIBLE_bible_book_chapter");
+                chapterDiv.setAttribute('data-book', data.book);
+                chapterDiv.setAttribute('data-chapter', chapter.chapter);
                 chapterDiv.innerHTML = `<h1><span class="book_name">${data.book}</span> <span class="chapter_number">${chapter.chapter}</span></h1>` +
                     (chapter.verses ? chapter.verses.map(verse => 
                         `<p class="bible_book_chapter_verse"><span class="verse_number">${verse.verse}</span> <span class="verse_text">${verse.text}</span></p>`

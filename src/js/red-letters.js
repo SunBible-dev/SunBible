@@ -85,14 +85,28 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
 
         // Find the chapter data
         const chapterData = redLetterData[String(chapterNum)];
-        if (!chapterData) return;
+        if (!chapterData) {
+            console.log('No chapter data found for:', book, chapterNum);
+            return;
+        }
+        console.log('Found chapter data:', chapterData);
 
         // Process each verse with red letters
+        if (!Array.isArray(chapterData.verses)) {
+            console.log('Invalid verse data structure:', chapterData);
+            return;
+        }
+
         chapterData.verses.forEach(verseData => {
+            console.log('Processing verse data:', verseData);
             const verseElements = chapterElement.getElementsByClassName('bible_book_chapter_verse');
             const verseElement = Array.from(verseElements).find(el => {
                 const verseNumber = el.querySelector('.verse_number');
-                return verseNumber && verseNumber.textContent === verseData.verse;
+                const match = verseNumber && verseNumber.textContent === String(verseData.verse);
+                if (!match) {
+                    console.log('Verse number mismatch:', verseNumber?.textContent, 'vs', verseData.verse);
+                }
+                return match;
             });
             if (!verseElement) return;
 
@@ -156,11 +170,13 @@ function watchForBibleChanges() {
     const observer = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
             if (mutation.type === 'childList') {
-                const chapterElement = mutation.target.closest('[data-chapter]');
+                // Look for chapter elements with the SUNBIBLE_bible_book_chapter class
+                const chapterElement = mutation.target.closest('.SUNBIBLE_bible_book_chapter');
                 if (chapterElement) {
                     const book = chapterElement.getAttribute('data-book');
                     const chapter = chapterElement.getAttribute('data-chapter');
                     if (book && chapter && RED_LETTER_BOOKS.includes(book)) {
+                        console.log('Applying red letters to:', book, chapter);
                         applyRedLetters(book, chapter, chapterElement);
                     }
                 }
@@ -171,7 +187,8 @@ function watchForBibleChanges() {
     // Start observing the Bible content container
     const bibleContent = document.querySelector('#SUNBIBLE_bible_book');
     if (bibleContent) {
-        observer.observe(bibleContent, { childList: true, subtree: true });
+        console.log('Starting Bible content observation');
+        observer.observe(bibleContent, { childList: true, subtree: true, characterData: true });
     }
 }
 
