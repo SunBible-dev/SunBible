@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel",
     "clean": "rm -rf dist && rm -rf .parcel-cache",
-    "dev": "python -m http.server --directory src 7023",
+    "dev": "python -m http.server --directory src 7025",
     "web4_testnet": "web4-deploy src sunbible.testnet --nearfs --yes",
     "web4_mainnet": "web4-deploy src sunbible.near --nearfs"
   },

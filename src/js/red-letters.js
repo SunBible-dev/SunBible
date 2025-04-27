@@ -89,7 +89,11 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
 
         // Process each verse with red letters
         chapterData.verses.forEach(verseData => {
-            const verseElement = chapterElement.querySelector(`[data-verse="${verseData.verse}"]`);
+            const verseElements = chapterElement.getElementsByClassName('bible_book_chapter_verse');
+            const verseElement = Array.from(verseElements).find(el => {
+                const verseNumber = el.querySelector('.verse_number');
+                return verseNumber && verseNumber.textContent === verseData.verse;
+            });
             if (!verseElement) return;
 
             const verseText = verseElement.querySelector('.verse_text');
@@ -144,7 +148,7 @@ function watchForBibleChanges() {
     });
 
     // Start observing the Bible content container
-    const bibleContent = document.querySelector('#bible-content');
+    const bibleContent = document.querySelector('#SUNBIBLE_bible_book');
     if (bibleContent) {
         observer.observe(bibleContent, { childList: true, subtree: true });
     }
