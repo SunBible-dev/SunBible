@@ -99,16 +99,42 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const verseText = verseElement.querySelector('.verse_text');
             if (!verseText) return;
 
-            const words = verseText.textContent.split(' ');
-            const wordIds = verseData.word_ids.split('-').map(Number);
-            const [start, end] = wordIds;
+            // Split text while preserving punctuation
+            const text = verseText.textContent;
+            const words = text.match(/[\w']+|[.,!?;]|\s+/g) || [];
+            
+            // Handle individual word IDs
+            const wordIds = verseData.word_ids.split(',').map(id => {
+                const range = id.split('-').map(Number);
+                return range.length === 2 ? range : [range[0], range[0]];
+            }).flat();
 
-            // Wrap the red letter words in a span
-            const beforeWords = words.slice(0, start - 1).join(' ');
-            const redWords = words.slice(start - 1, end).join(' ');
-            const afterWords = words.slice(end).join(' ');
+            // Create a map of word positions that should be red
+            const redPositions = new Set(wordIds);
+            
+            // Build the new verse text with red letters
+            let newText = '';
+            let currentWord = 1;
+            
+            words.forEach(word => {
+                if (word.trim() === '') {
+                    newText += word; // Preserve whitespace
+                    return;
+                }
+                if (word.match(/[.,!?;]/)) {
+                    newText += word; // Preserve punctuation
+                    return;
+                }
+                
+                if (redPositions.has(currentWord)) {
+                    newText += `<span class="red-letters">${word}</span>`;
+                } else {
+                    newText += word;
+                }
+                currentWord++;
+            });
 
-            verseText.innerHTML = `${beforeWords} <span class="red-letters">${redWords}</span> ${afterWords}`.trim();
+            verseText.innerHTML = newText.trim();
         });
     } catch (error) {
         console.error('Error applying red letters:', error);
