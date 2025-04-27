@@ -11,7 +11,7 @@ const RED_LETTERS_DB_NAME = 'sunbible_red_letters';
 const RED_LETTERS_STORE_NAME = 'red_letter_ids';
 let redLettersDb;
 
-// Initialize IndexedDB
+// Initialize IndexedDB and start background data loading
 async function initRedLettersDb() {
     return new Promise((resolve, reject) => {
         const request = indexedDB.open(RED_LETTERS_DB_NAME, 1);
@@ -76,9 +76,6 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
     if (!RED_LETTER_BOOKS.includes(book)) return;
 
     try {
-        // Initialize DB if not already done
-        if (!redLettersDb) await initRedLettersDb();
-
         // Get or fetch red letter data
         let redLetterData = await getRedLetterData(book);
         if (!redLetterData) {
@@ -111,5 +108,47 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
     }
 }
 
-// Export the function to be used by other modules
-window.applyRedLetters = applyRedLetters;
+// Initialize database and start background downloads
+async function initializeRedLetters() {
+    try {
+        await initRedLettersDb();
+        // Start background downloads for all red letter books
+        RED_LETTER_BOOKS.forEach(book => {
+            getRedLetterData(book).then(data => {
+                if (!data) fetchRedLetterData(book);
+            });
+        });
+    } catch (error) {
+        console.error('Error initializing red letters:', error);
+    }
+}
+
+// Watch for Bible content changes and apply red letters
+function watchForBibleChanges() {
+    const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+            if (mutation.type === 'childList') {
+                const chapterElement = mutation.target.closest('[data-chapter]');
+                if (chapterElement) {
+                    const book = chapterElement.getAttribute('data-book');
+                    const chapter = chapterElement.getAttribute('data-chapter');
+                    if (book && chapter && RED_LETTER_BOOKS.includes(book)) {
+                        applyRedLetters(book, chapter, chapterElement);
+                    }
+                }
+            }
+        });
+    });
+
+    // Start observing the Bible content container
+    const bibleContent = document.querySelector('#bible-content');
+    if (bibleContent) {
+        observer.observe(bibleContent, { childList: true, subtree: true });
+    }
+}
+
+// Initialize everything when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    initializeRedLetters();
+    watchForBibleChanges();
+});
