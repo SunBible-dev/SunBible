@@ -39,19 +39,45 @@ async function initDB() {
     });
 }
 
-// Function to fetch Bible data from IPFS
+// Function to fetch Bible data from IPFS with retry mechanism
 async function fetchBibleData(cid) {
-    const url = `https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.link/${cid}`;
-    try {
-        console.log(`Fetching Bible data from IPFS: ${url}`);
-        const response = await fetch(url);
-        const data = await response.json();
-        console.log("Bible data fetched successfully:", data);
-        return data;
-    } catch (error) {
-        console.error("Error fetching Bible data:", error);
-        return null;
+    const maxRetries = 3;
+    const baseUrls = [
+        'https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.w3s.link',
+        'https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.dweb.link'
+    ];
+
+    for (let i = 0; i < maxRetries; i++) {
+        for (const baseUrl of baseUrls) {
+            const url = `${baseUrl}/${cid}`;
+            try {
+                console.log(`Attempt ${i + 1}: Fetching Bible data from IPFS: ${url}`);
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Cache-Control': 'no-cache'
+                    },
+                    mode: 'cors'
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log("Bible data fetched successfully:", data);
+                return data;
+            } catch (error) {
+                console.warn(`Attempt ${i + 1} failed for ${url}:`, error);
+                if (i === maxRetries - 1 && baseUrl === baseUrls[baseUrls.length - 1]) {
+                    console.error("All fetch attempts failed:", error);
+                    return null;
+                }
+            }
+        }
     }
+    return null;
 }
 
 // Function to update the download status
