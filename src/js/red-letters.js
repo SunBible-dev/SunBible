@@ -123,32 +123,32 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
             const verseText = verseElement.querySelector('.verse_text');
             if (!verseText) return;
 
-            // Split text into words and punctuation while preserving spaces
+            // Split text into words, keeping only actual words (no spaces/punctuation)
             const text = verseText.textContent;
-            const words = text.split(/([\s.,!?;]|[\w']+)/).filter(Boolean);
+            const words = text.match(/[\w']+/g) || [];
             
-            // Parse word IDs and create ranges
-            const wordRanges = verseData.word_ids.split(',').map(id => {
-                const [start, end] = id.split('-').map(Number);
-                return end ? Array.from({length: end - start + 1}, (_, i) => start + i) : [start];
-            }).flat();
-            const redPositions = new Set(wordRanges);
+            // Parse word IDs range
+            const [start, end] = verseData.word_ids.split('-').map(Number);
+            const redRange = {start, end};
             
             // Build the new verse text with red letters
-            let newText = '';
-            let currentWord = 1;
+            let newText = text;
+            let currentPos = 0;
             
-            words.forEach(word => {
-                if (/[\s.,!?;]/.test(word)) {
-                    newText += word; // Preserve whitespace and punctuation
-                } else {
-                    if (redPositions.has(currentWord)) {
-                        newText += `<span class="red-letters">${word}</span>`;
-                    } else {
-                        newText += word;
+            // Replace each word that falls within the red letter range
+            for (let i = 0; i < words.length; i++) {
+                const wordNum = i + 1; // Word numbers are 1-based
+                if (wordNum >= redRange.start && wordNum <= redRange.end) {
+                    const word = words[i];
+                    const wordIndex = newText.indexOf(word, currentPos);
+                    if (wordIndex !== -1) {
+                        const before = newText.substring(0, wordIndex);
+                        const after = newText.substring(wordIndex + word.length);
+                        newText = before + `<span class="red-letters">${word}</span>` + after;
+                        currentPos = wordIndex + word.length + 29; // 29 is the length of span tags
                     }
-                    currentWord++;
                 }
+            }
             });
 
             // Update the verse text and trigger a custom event
@@ -189,9 +189,16 @@ function watchForBibleChanges() {
     const observer = new MutationObserver(mutations => {
         console.log('Detected DOM mutations:', mutations.length);
         mutations.forEach(mutation => {
-            if (mutation.type === 'childList') {
-                // Look for chapter elements with the SUNBIBLE_bible_book_chapter class
-                const chapterElement = mutation.target.closest('.SUNBIBLE_bible_book_chapter');
+            // Check both the target and added nodes for chapter elements
+            const targets = [mutation.target, ...Array.from(mutation.addedNodes)];
+            targets.forEach(target => {
+                if (!(target instanceof Element)) return;
+                
+                // Find the closest chapter element, either the target itself or its ancestor
+                const chapterElement = target.classList?.contains('SUNBIBLE_bible_book_chapter') 
+                    ? target 
+                    : target.closest('.SUNBIBLE_bible_book_chapter');
+                
                 if (chapterElement) {
                     const book = chapterElement.getAttribute('data-book');
                     const chapter = chapterElement.getAttribute('data-chapter');
@@ -200,7 +207,7 @@ function watchForBibleChanges() {
                         applyRedLetters(book, chapter, chapterElement);
                     }
                 }
-            }
+            });
         });
     });
 
@@ -208,7 +215,25 @@ function watchForBibleChanges() {
     const bibleContent = document.querySelector('#SUNBIBLE_bible_book');
     if (bibleContent) {
         console.log('Found Bible content container, starting observation');
-        observer.observe(bibleContent, { childList: true, subtree: true, characterData: true });
+        // Check for any existing chapter content
+        const existingChapters = bibleContent.getElementsByClassName('SUNBIBLE_bible_book_chapter');
+        Array.from(existingChapters).forEach(chapterElement => {
+            const book = chapterElement.getAttribute('data-book');
+            const chapter = chapterElement.getAttribute('data-chapter');
+            if (book && chapter && RED_LETTER_BOOKS.includes(book)) {
+                console.log('Applying red letters to existing chapter:', book, chapter);
+                applyRedLetters(book, chapter, chapterElement);
+            }
+        });
+        
+        // Start observing for future changes
+        observer.observe(bibleContent, { 
+            childList: true, 
+            subtree: true, 
+            characterData: true,
+            attributes: true,
+            attributeFilter: ['data-book', 'data-chapter']
+        });
         console.log('Bible content observer successfully initialized');
     }
 }
