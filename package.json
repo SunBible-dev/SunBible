@@ -5,7 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "dev": "python -m http.server --directory src 7071",
+    "clean": "rm -rf dist && rm -rf .parcel-cache",
+    "dev": "python -m http.server --directory src 7079",
     "web4_testnet": "web4-deploy src sunbible.testnet --nearfs",
     "web4_mainnet": "web4-deploy src sunbible.near --nearfs"
   },
