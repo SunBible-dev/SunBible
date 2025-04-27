@@ -13,11 +13,16 @@ let redLettersDb;
 
 // Initialize IndexedDB and start background data loading
 async function initRedLettersDb() {
+    console.log('Initializing IndexedDB for red letters...');
     return new Promise((resolve, reject) => {
         const request = indexedDB.open(RED_LETTERS_DB_NAME, 1);
 
-        request.onerror = () => reject(request.error);
+        request.onerror = () => {
+            console.error('Failed to open IndexedDB:', request.error);
+            reject(request.error);
+        };
         request.onsuccess = () => {
+            console.log('Successfully opened IndexedDB');
             redLettersDb = request.result;
             resolve();
         };
@@ -33,11 +38,16 @@ async function initRedLettersDb() {
 
 // Fetch red letter data for a specific book
 async function fetchRedLetterData(book) {
+    console.log(`Fetching red letter data for ${book} from IPFS...`);
     try {
-        const response = await fetch(`${RED_LETTERS_IPFS_URL}/${book === '1Corinthians' ? '1Corinthians' : book.toLowerCase()}-red-letter-ids.json`);
+        const url = `${RED_LETTERS_IPFS_URL}/${book === '1Corinthians' ? '1Corinthians' : book.toLowerCase()}-red-letter-ids.json`;
+        console.log('Fetching from URL:', url);
+        const response = await fetch(url);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
+        console.log(`Successfully fetched data for ${book}, saving to IndexedDB...`);
         await saveRedLetterData(book, data);
+        console.log(`Data for ${book} saved successfully`);
         return data;
     } catch (error) {
         console.error(`Error fetching red letter data for ${book}:`, error);
@@ -152,12 +162,20 @@ async function applyRedLetters(book, chapterNum, chapterElement) {
 
 // Initialize database and start background downloads
 async function initializeRedLetters() {
+    console.log('Starting red letters initialization...');
     try {
         await initRedLettersDb();
+        console.log('Starting background downloads for red letter books:', RED_LETTER_BOOKS);
         // Start background downloads for all red letter books
         RED_LETTER_BOOKS.forEach(book => {
+            console.log(`Checking data for book: ${book}`);
             getRedLetterData(book).then(data => {
-                if (!data) fetchRedLetterData(book);
+                if (!data) {
+                    console.log(`No cached data found for ${book}, fetching from IPFS...`);
+                    fetchRedLetterData(book);
+                } else {
+                    console.log(`Found cached data for ${book}`);
+                }
             });
         });
     } catch (error) {
@@ -167,7 +185,9 @@ async function initializeRedLetters() {
 
 // Watch for Bible content changes and apply red letters
 function watchForBibleChanges() {
+    console.log('Setting up Bible content observer...');
     const observer = new MutationObserver(mutations => {
+        console.log('Detected DOM mutations:', mutations.length);
         mutations.forEach(mutation => {
             if (mutation.type === 'childList') {
                 // Look for chapter elements with the SUNBIBLE_bible_book_chapter class
@@ -187,13 +207,15 @@ function watchForBibleChanges() {
     // Start observing the Bible content container
     const bibleContent = document.querySelector('#SUNBIBLE_bible_book');
     if (bibleContent) {
-        console.log('Starting Bible content observation');
+        console.log('Found Bible content container, starting observation');
         observer.observe(bibleContent, { childList: true, subtree: true, characterData: true });
+        console.log('Bible content observer successfully initialized');
     }
 }
 
 // Initialize everything when the page loads
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM Content Loaded - Starting red letters system');
     initializeRedLetters();
     watchForBibleChanges();
 });
