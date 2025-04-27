@@ -20,6 +20,12 @@ ipfs gateway for bible json data
 - https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.dweb.link/
 - https://bafybeiddtdnmeha6kyusdxpabkjecaxfuiwke57hznv4o4vsrti5l5rqoa.ipfs.w3s.link/
 
+red-letters-kjv-json
+<br/>
+bafybeicccsyr727druhqp2i3rseucgfpfa2qjcompafdwx54n4k37cthj4
+https://w3s.link/ipfs/bafybeicccsyr727druhqp2i3rseucgfpfa2qjcompafdwx54n4k37cthj4
+
+
 Project Progress
 - [x] basic bible app
 - [ ] red letters
