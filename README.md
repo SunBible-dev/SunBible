@@ -29,6 +29,7 @@ bafybeia3cis7aa523o2alefwkdnolfzpkrxbpy3eizeylgpgflfwlkc6ge
 Project Progress
 - [x] basic bible app
 - [x] red letters
+- [ ] fix the red letter json
 - [ ] bible memory
 - [ ] highlight verses and the ability to save them
 - [ ] installable pwa
